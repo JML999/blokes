@@ -1,48 +1,70 @@
-
-import logo from './logo.png';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navigation from './Navbar';
+import Home from './Home.js';
+import Landing from './Landing.js';
+import Socials from './Socials.js';
+import About from './About.js';
+import Dashboard from "./Dashboard.js";
+import { Spinner } from 'react-bootstrap';
 import './App.css';
- 
+import { ethers } from 'ethers';
+import StanABI from '../contractsData/NFT.json';
+import StanAddress from '../contractsData/NFT-address.json';
+
+
 function App() {
+  const [loading, setLoading] = useState(true);
+  const [account, setAccount] = useState(null);
+  const [nft, setNFT] = useState({});
+
+  const web3Handler = async () => {
+    const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+    setAccount(accounts[0]);
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    const { chainId } = await provider.getNetwork();
+    window.ethereum.on('chainChanged', (chainId) => {
+      window.location.reload();
+    });
+    window.ethereum.on('accountsChanged', async function (accounts) {
+      setAccount(accounts[0]);
+      await web3Handler();
+    });
+    loadContracts(signer);
+  };
+
+  const loadContracts = async (signer) => {
+    const stanContract = new ethers.Contract(StanAddress.address, StanABI, signer )
+    setNFT(stanContract)
+    setLoading(false);
+  };
+  
+
   return (
-    <div>
-      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-        <a
-          className="navbar-brand col-sm-3 col-md-2 ms-3"
-          href="http://www.dappuniversity.com/bootcamp"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dapp University
-        </a>
-      </nav>
-      <div className="container-fluid mt-5">
-        <div className="row">
-          <main role="main" className="col-lg-12 d-flex text-center">
-            <div className="content mx-auto mt-5">
-              <a
-                href="http://www.dappuniversity.com/bootcamp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={logo} className="App-logo" alt="logo"/>
-              </a>
-              <h1 className= "mt-5">Dapp University Starter Kit</h1>
-              <p>
-                Edit <code>src/frontend/components/App.js</code> and save to reload.
-              </p>
-              <a
-                className="App-link"
-                href="http://www.dappuniversity.com/bootcamp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LEARN BLOCKCHAIN <u><b>NOW! </b></u>
-              </a>
+    <BrowserRouter>
+      <div className="App">
+        <>
+          <Navigation web3Handler={web3Handler} account={account} />
+        </>
+        <div>
+          {loading ? (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
+              <Spinner animation="border" style={{ display: 'flex' }} />
+              <p className='mx-3 my-0'>Awaiting Metamask Connection...</p>
             </div>
-          </main>
+          ) : (
+            <Routes>
+              <Route path="/" element={<Landing/>} />
+              <Route path="/Home" element={<Home />} />
+              <Route path="/About" element={<About />}/>
+              <Route path="/Socials" element={<Socials />}/>
+              <Route path="/dashboard" element={<Dashboard account={account} nftContract={nft} />} />
+            </Routes>
+          )}
         </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 

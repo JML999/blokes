@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('./Minecraftia.ttf') format('truetype');
+  }
+  
+  /* Apply the font to the highest bidder title and bid button */
+  .highest-bid-title, .btn-bid {
+    font-family: 'Minecraftia', sans-serif;
+  }
+  
+  /* Style for the highest bidder title */
+  .highest-bid-title {
+    color: #020202; /* Kelly green color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+  }
+  
+  /* Style for the bid button */
+  .btn-bid {
+    color: #FFFFFF; /* White text color */
+    background-color: #FF0000; /* Red background */
+    border: 2px solid #FF0000; /* Red border */
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Transition background, border, and text colors */
+  }
+  
+  .btn-bid:hover {
+    background-color: #CC0000; /* Lighter red background on hover */
+    border-color: #CC0000; /* Lighter red border on hover */
+    color: #FFFFFF; /* White text color on hover */
+  }
+  
+  .highlight {
+    color: rgb(8, 0, 255); /* Red color */
+    font-weight: bold; /* Bold font weight */
+  }
+  
+  .custom-button {
+    color: black; /* Set default text color */
+  }
+  
+  .custom-button:hover {
+    color: white; /* Change text color on hover */
+  }
+  
+  .input-field:focus {
+    outline: 1.5px solid grey;
+  }
+
+  .arrow-button {
+    font-family: 'Minecraftia';
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  .buy-button {
+    font-family: 'Minecraftia';
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+  }
+  
+  .buy-button:hover {
+    background-color: red;
+    color: white;
+  }
+
+  
+
+  
