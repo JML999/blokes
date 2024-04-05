@@ -24,6 +24,7 @@ function App() {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
     const { chainId } = await provider.getNetwork();
+    console.log(chainId)
     window.ethereum.on('chainChanged', (chainId) => {
       window.location.reload();
     });
