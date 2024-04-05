@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import smallStan from './SmallStan.png';
-import { ethers } from 'ethers';
 import { Spinner } from 'react-bootstrap';
 
 

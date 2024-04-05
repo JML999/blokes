@@ -1,12 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import steveImage from './SmallStan.png';
-import { convertUTCToEST } from './utils';
 import './fonts.css'; // Import the CSS file
-import skinTest from './stan_edit.png'; // Import the CSS file
-import capeTest from './cape.png'; // Import the CSS file
-
-import { SkinViewer, WalkingAnimation } from "skinview3d";
-import ReactSkinview3d from "react-skinview3d";
 
 
 const Buy = ({ auction, account }) => {
