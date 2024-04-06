@@ -14,7 +14,7 @@ import StanAddress from '../contractsData/NFT-address.json';
 
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [account, setAccount] = useState(null);
   const [nft, setNFT] = useState({});
 

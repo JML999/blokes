@@ -22,5 +22,5 @@ export const avatars = [
   { skin: Hyfox, cape: null, description: 'Hyfox Stan' },
   { skin: dirtblock, cape: null, description: '$dirt Stan' },
    { skin: vintage, cape: null, description: 'Vintage' },
-  { skin: kobe, cape: null, description: '24' },
+  { skin: kobe, cape: null, description: 'Kobe' },
 ];
