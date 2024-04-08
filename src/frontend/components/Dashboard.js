@@ -62,7 +62,7 @@ const Dashboard = ({ account, nftContract }) => {
     }, [account, nftContract]);
 
     return (
-        <div className="token-row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div className="token-row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingTop: '80px' }}>
             {isLoading ? (
                 <Spinner animation="border" style={{ display: 'flex' }} />
             ) : (

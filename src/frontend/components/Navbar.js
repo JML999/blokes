@@ -48,7 +48,7 @@ const Navigation = ({ web3Handler, account }) => {
                         {account ? (
                             <Link to="/Dashboard" className="button nav-button btn-sm mx-4">
                                 <Button variant="outline-dark" className="custom-button" style={{ fontSize: isMobile ? '0.8rem' : '1rem' }}>
-                                    {account.slice(0, 5) + '...' + account.slice(38, 42)}
+                                    {"Dashboard"}
                                 </Button>
                             </Link>
                         ) : (

@@ -16,10 +16,10 @@ const About = () => {
           style={{ marginRight: '0px' }} // Adds space between the icon and the text
         />
         <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-            The 1st NFT collection on HYCHAIN.
+            The 1st avatars on HYCHAIN.
         </p>
         <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-            500 default avatars built for HYTOPIA.
+            500 defaults built for HYTOPIA.
         </p>
         <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
             Edits creator community launching soon. 
