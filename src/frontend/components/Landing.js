@@ -35,6 +35,7 @@ const Landing = () => {
         key={firstAvatar.description} // Unique key for React list rendering
         skinUrl={firstAvatar.skin}
         capeUrl={firstAvatar.cape}
+        autoRotate={true}
         // No navigation control for the Landing page
       />
     </div>

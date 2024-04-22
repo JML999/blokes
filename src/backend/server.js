@@ -1,5 +1,26 @@
 /*
 const express = require('express');
+const app = express();
+
+// Middleware to set CORS headers
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');  // Allows all domains during development
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
+// Example endpoint
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+
+const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 

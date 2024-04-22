@@ -16,15 +16,21 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.4",
     "express": "^4.19.2",
+    "fabric": "^5.3.0",
+    "firebase": "^10.11.0",
     "hardhat": "^2.8.4",
     "ipfs-http-client": "^56.0.1",
+    "konva": "^8.4.3",
     "netlify-cli": "^17.21.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
+    "react-color": "^2.19.3",
     "react-dom": "^17.0.2",
+    "react-konva": "^17.0.2-6",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.0",
     "react-skinview3d": "^5.0.3",
+    "use-image": "^1.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -32,7 +38,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start-server": "node src/backend/server.js",
+    "dev": "concurrently \"npm run start\" \"npm run start-server\""
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +61,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.11"
+    "@babel/preset-env": "^7.16.11",
+    "concurrently": "^8.2.2"
   }
 }

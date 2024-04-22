@@ -1,0 +1,34 @@
+.mint-button {
+    margin-top: 10px; /* Adjust space from the top */
+    background-color: white; /* Default background */
+    color: black; /* Default text color */
+    font-family: 'Minecraftia', sans-serif; /* Font family */
+    font-size: 1.25em; /* Font size */
+    border: 1px solid black; /* Optional border */
+    padding: 5px 10px; /* Padding around the text */
+    cursor: pointer; /* Cursor pointer on hover */
+    outline: none; /* Remove default focus outline */
+}
+
+.mint-button:hover {
+    background-color: red; /* Red background on hover */
+    color: white; /* White text on hover */
+}
+
+.status-message {
+    color: red;                  /* Red color for errors or notifications */
+    font-family: 'Minecraftia';  /* Consistent font with the rest of the toolbar */
+    font-size: 0.75em;           /* Smaller text size for subtlety */
+    margin-top: 5px;             /* Space above the message */
+    display: block;              /* Block display to ensure it appears below the button */
+    text-align: center;          /* Center align the text */
+}
+
+.status-message.success {
+    color: green;  /* Green color for successful actions */
+}
+
+.status-message.error {
+    color: red;  /* Red color to maintain for errors, can adjust if needed */
+}
+
