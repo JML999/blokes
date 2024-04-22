@@ -14,31 +14,6 @@ const Viewer = ({ userAddress, nft }) => {
     const [hasVoted, setHasVoted] = useState(false);
     const [isStanOwner, setStanOwner] = useState(false);
 
-    useEffect(() => {
-        if (entry && entry.firebaseImageUrl) {
-            fetchImage(entry.firebaseImageUrl);
-        }
-        checkUserInteraction(entry?.id);
-    }, [entry]);
-
-    useEffect(() => {
-        if (userAddress && nft.balanceOf) {
-          const checkIfStanOwner = async () => {
-            try {
-              console.log("account")
-              console.log(userAddress)
-              const balance = await nft.balanceOf(userAddress);
-              console.log("balance")
-              console.log(balance)
-              setStanOwner(balance > 0);
-            } catch (error) {
-              console.error('Error checking balance:', error);
-            }
-          };
-          checkIfStanOwner();
-        }
-      }, [userAddress, nft]);
-
     const fetchImage = async (url) => {
         try {
             const response = await fetch(url);
@@ -50,6 +25,37 @@ const Viewer = ({ userAddress, nft }) => {
             setImageUrl('');
         }
     };
+
+    const checkUserInteraction = async (photoId) => {
+        if (!photoId) return;
+        const query = db.collection('interactions')
+            .where('photoId', '==', photoId)
+            .where('userAddress', '==', userAddress);
+        const snapshot = await query.get();
+        setHasVoted(!snapshot.empty);
+    };
+
+    useEffect(() => {
+        if (entry && entry.firebaseImageUrl) {
+            fetchImage(entry.firebaseImageUrl);
+        }
+        checkUserInteraction(entry?.id);
+    }, [entry, checkUserInteraction]);
+
+    useEffect(() => {
+        if (userAddress && nft.balanceOf) {
+          const checkIfStanOwner = async () => {
+            try {
+              const balance = await nft.balanceOf(userAddress);
+              setStanOwner(balance > 0);
+            } catch (error) {
+              console.error('Error checking balance:', error);
+            }
+          };
+          checkIfStanOwner();
+        }
+      }, [userAddress, nft]);
+
 
     useEffect(() => {
         return () => imageUrl && URL.revokeObjectURL(imageUrl);
@@ -103,14 +109,7 @@ const Viewer = ({ userAddress, nft }) => {
         }
     };
 
-    const checkUserInteraction = async (photoId) => {
-        if (!photoId) return;
-        const query = db.collection('interactions')
-            .where('photoId', '==', photoId)
-            .where('userAddress', '==', userAddress);
-        const snapshot = await query.get();
-        setHasVoted(!snapshot.empty);
-    };
+
 
     if (!entry) {
         return <div>No data available.</div>;

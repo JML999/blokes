@@ -20,7 +20,6 @@ const SkinEditor = ( { account, nft }) => {
     const scale = 8;
     const hiddenCanvasRef = useRef(null);
     const [isStanOwner, setStanOwner] = useState(false);
-    const [isLoading, setLoading] = useState(true);
     const [name, setName] = useState("");
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1024);
 
@@ -34,14 +33,9 @@ const SkinEditor = ( { account, nft }) => {
         if (account && nft.balanceOf) {
           const checkIfStanOwner = async () => {
             try {
-              console.log("account")
-              console.log(account)
               const balance = await nft.balanceOf(account);
-              console.log("balance")
-              console.log(balance)
               setStanOwner(balance > 0);
             } catch (error) {
-              console.error('Error checking balance:', error);
             }
           };
           checkIfStanOwner();
@@ -61,18 +55,6 @@ const SkinEditor = ( { account, nft }) => {
         }
     }, [originalImage]);
 
-    useEffect(() => {
-        if (hiddenCanvasRef.current && originalImage) {
-            updateCanvas();
-        }
-    }, [pixels, originalImage]);
-
-    useEffect(() => {
-        const initialImg = new Image();
-        initialImg.src = editStan;
-        initialImg.onload = () => setOriginalImage(initialImg);
-    }, []);
-
     const updateCanvas = () => {
         const ctx = hiddenCanvasRef.current.getContext('2d');
         ctx.clearRect(0, 0, hiddenCanvasRef.current.width, hiddenCanvasRef.current.height);
@@ -91,6 +73,18 @@ const SkinEditor = ( { account, nft }) => {
         setSkinUrl(hiddenCanvasRef.current.toDataURL());
     };
 
+    useEffect(() => {
+        if (hiddenCanvasRef.current && originalImage) {
+            updateCanvas();
+        }
+    }, [pixels, originalImage, updateCanvas]);
+
+    useEffect(() => {
+        const initialImg = new Image();
+        initialImg.src = editStan;
+        initialImg.onload = () => setOriginalImage(initialImg);
+    }, []);
+
     const handlePixelClick = (x, y) => {
         const key = `${x},${y}`;
         const newColor = isDeleteMode ? 'transparent' : color;
@@ -101,15 +95,37 @@ const SkinEditor = ( { account, nft }) => {
     };
 
     const handleFileChange = (file) => {
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                const newImg = new Image();
-                newImg.src = e.target.result;
-                newImg.onload = () => setOriginalImage(newImg);
-            };
-            reader.readAsDataURL(file);
+        if (!file) {
+            alert("No file selected.");
+            return;
         }
+    
+        // Check if the file type is PNG
+        if (file.type !== "image/png") {
+            alert("The file must be a PNG image.");
+            return;
+        }
+    
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            const newImg = new Image();
+            newImg.onload = () => {
+                // Check the dimensions of the image
+                if (newImg.width === 64 && newImg.height === 64) {
+                    setOriginalImage(newImg);
+                } else {
+                    alert("The image must be 64x64 pixels in size.");
+                }
+            };
+            newImg.onerror = () => {
+                alert("Invalid image. Please upload a valid PNG file.");
+            };
+            newImg.src = e.target.result;
+        };
+        reader.onerror = () => {
+            alert("Failed to read the file.");
+        };
+        reader.readAsDataURL(file);
     };
 
     // Handler to update name from ToolBar
