@@ -42,6 +42,8 @@ const Navigation = ({ web3Handler, account }) => {
                     <Nav className="me-auto" style={{ fontFamily: 'Minecraftia' }}>
                         <Nav.Link as={Link} to="/About" style={{ fontFamily: 'Minecraftia', color: '#808080', fontSize: isMobile ? '12px' : '14px' }}>about</Nav.Link>
                         <Nav.Link as={Link} to="/Socials" style={{ fontFamily: 'Minecraftia', color: '#808080', fontSize: isMobile ? '12px' : '14px' }}>social</Nav.Link>
+                        <Nav.Link as={Link} to="/Gallery" style={{ fontFamily: 'Minecraftia', color: 'white', fontSize: isMobile ? '12px' : '14px' }}>edits</Nav.Link>
+                        <Nav.Link as={Link} to="/Edit" style={{ fontFamily: 'Minecraftia', color: 'white', fontSize: isMobile ? '12px' : '14px' }}>editor</Nav.Link>
                     </Nav>
                     <Nav style={{ fontFamily: 'Minecraftia' }}>
                         {account ? (
