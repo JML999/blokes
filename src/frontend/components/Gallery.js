@@ -151,8 +151,8 @@ const Gallery = ({ userAddress, nft }) => {
 
             <div className="skins-grid">
                 {entries.map(entry => (
-                  <div key={entry.id} className="skin-card" onClick={() => navigateToViewer(entry)}>
-                    <HighQualityImage className="skin-image" imageUrl={entry.firebaseImageUrl} scale={4.5} />
+                  <div key={entry.id} className="skin-card">
+                    <HighQualityImage className="skin-image" imageUrl={entry.firebaseImageUrl} scale={4.5} onClick={() => navigateToViewer(entry)}  />
                     <div className="skin-details">
                       <strong>{entry.name}</strong> {/* Name of entry */}
                       <div className="like-dislike-interactions">

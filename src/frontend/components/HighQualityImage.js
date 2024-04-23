@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Stage, Layer, Image as KonvaImage } from 'react-konva';
 import useImage from 'use-image';
 
-const HighQualityImage = ({ imageUrl, scale = 8 }) => {
+const HighQualityImage = ({ imageUrl, scale = 8, onClick}) => {
     const [image] = useImage(imageUrl);
     const [canvasImage, setCanvasImage] = useState(null);
 
@@ -23,11 +23,13 @@ const HighQualityImage = ({ imageUrl, scale = 8 }) => {
     }
 
     return (
-        <Stage width={canvasImage.width} height={canvasImage.height}>
+        <div onClick={onClick ? onClick : undefined} style={{ cursor: onClick ? 'pointer' : 'default' }}>
+        <Stage  width={canvasImage.width} height={canvasImage.height}>
             <Layer>
                 <KonvaImage image={canvasImage} />
             </Layer>
         </Stage>
+        </div>
     );
 };
 
