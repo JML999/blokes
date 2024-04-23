@@ -13,6 +13,8 @@ const Gallery = ({ userAddress, nft }) => {
     const navigate = useNavigate();
     const [isStanOwner, setStanOwner] = useState(false);
 
+    const isMobile = window.innerWidth <= 768; 
+
     useEffect(() => {
         fetchEntries();
     }, [currentPage]);
@@ -151,8 +153,18 @@ const Gallery = ({ userAddress, nft }) => {
 
             <div className="skins-grid">
                 {entries.map(entry => (
-                  <div key={entry.id} className="skin-card">
-                    <HighQualityImage className="skin-image" imageUrl={entry.firebaseImageUrl} scale={4.5} onClick={() => navigateToViewer(entry)}  />
+                  <div key={entry.id} className="skin-card" onClick={() => navigateToViewer(entry)} >
+                      {isMobile ? (
+                        // Render standard image tag for mobile
+                        <img
+                          src={entry.firebaseImageUrl}
+                          alt={entry.name}
+                          className="skin-image"
+                        />
+                      ) : (
+                          // Render HighQualityImage component for desktop
+                          <HighQualityImage imageUrl={entry.firebaseImageUrl} scale={4.5} />
+                      )}
                     <div className="skin-details">
                       <strong>{entry.name}</strong> {/* Name of entry */}
                       <div className="like-dislike-interactions">
