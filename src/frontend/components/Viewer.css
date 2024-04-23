@@ -73,7 +73,7 @@
 
     .avatar-viewer,
     .entity-details {
-        width: 100%; /* Full width on smaller screens */
+        width: 90%; /* Full width on smaller screens */
     }
 
     .skin-interactions button {

@@ -55,7 +55,7 @@ const Gallery = ({ userAddress, nft }) => {
     };
 
     const handleInteraction = async (event, id, interactionType) => {
-        event.stopPropagation();
+        // event.stopPropagation();
         // Check if user is authenticated with web3 wallet
         if (!userAddress) {
           alert("Please connect your web3 wallet to interact with photos.");
