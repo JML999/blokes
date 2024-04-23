@@ -124,9 +124,9 @@
 @media (max-width: 768px) {
   /* Adjust the grid layout for smaller screens */
   .skins-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the min size for grid items */
-    gap: 10px; /* Reduce the gap between grid items */
-    padding: 10px; /* Reduce padding */
+    grid-template-columns: repeat(2, minmax(125px, 1fr)); /* Two items per row, each item at least 150px wide */
+    gap: 5px; /* Reduce the gap between grid items */
+    padding: 10px; 
   }
 
   /* Reduce the font sizes for mobile devices */
@@ -166,7 +166,7 @@
 @media (max-width: 480px) {
   /* Further adjust the styles for very small screens */
   .skins-grid {
-    grid-template-columns: 1fr; /* Single column layout for very small screens */
+    grid-template-columns: fr; /* Single column layout for very small screens */
   }
 
   /* And so on for other elements... */

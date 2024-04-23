@@ -68,14 +68,12 @@ const Gallery = ({ userAddress, nft }) => {
           alert("You must own a Stan to vote.");
           return;
         }
-
       
         const hasInteracted = await checkUserInteraction(id);
         if (hasInteracted) {
           alert("You have already voted for this post.");
           return;
         }
-      
         // Optimistically update the UI
         const updatedEntries = entries.map(entry => {
           if (entry.id === id) {
@@ -126,12 +124,6 @@ const Gallery = ({ userAddress, nft }) => {
         setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
     };
 
-    if (!isStanOwner) {
-      console.log("is not stan owner", isStanOwner)
-    } else {
-      console.log("is stan owner", isStanOwner)
-    }
-
     return (
         <div>
             <div className="text-center mb-4">
@@ -139,18 +131,11 @@ const Gallery = ({ userAddress, nft }) => {
                 Stan Edits
               </h2>
             </div>
-            {!userAddress ? (
-                <div className="wallet-connect-label" style={{ fontFamily: 'Minecraftia' }}>
-                    <p>Please connect your web3 wallet to interact with edits.</p>
-                </div>
-            ) : (
-              <div className="text-center mb-4">
+            <div className="text-center mb-4">
               <p className="gallery-description" style={{ fontFamily: 'Minecraftia', fontSize: '0.725rem', maxWidth: '600px' }}>
                 Click an edit to view its 3D render and details. Stan holders get a vote (like or dislike) for each edit. Community favorites will be minted in a new collection with proceeds to creators.
               </p>
             </div>
-            )}
-
             <div className="skins-grid">
                 {entries.map(entry => (
                   <div key={entry.id} className="skin-card" onClick={() => navigateToViewer(entry)} >
