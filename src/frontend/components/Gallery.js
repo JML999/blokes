@@ -60,7 +60,7 @@ const Gallery = ({ userAddress, nft }) => {
          event.stopPropagation();
         // Check if user is authenticated with web3 wallet
         if (!userAddress) {
-          alert("Please connect your web3 wallet to interact with photos.");
+          alert("Please connect your web3 wallet to interact with edits.");
           return;
         }
 
@@ -133,7 +133,10 @@ const Gallery = ({ userAddress, nft }) => {
             </div>
             <div className="text-center mb-4">
               <p className="gallery-description" style={{ fontFamily: 'Minecraftia', fontSize: '0.725rem', maxWidth: '600px' }}>
-                Click an edit to view its 3D render and details. Stan holders get a vote (like or dislike) for each edit. Community favorites will be minted in a new collection with proceeds to creators.
+                Click an edit to view its details.
+              </p>
+              <p className="gallery-description" style={{ fontFamily: 'Minecraftia', fontSize: '0.725rem', maxWidth: '600px' }}>
+                Stan holders get a vote (like or dislike) for each edit. Community favorites will be minted in a new collection with proceeds to creators.
               </p>
             </div>
             <div className="skins-grid">
