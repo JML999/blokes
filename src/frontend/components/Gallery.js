@@ -55,7 +55,7 @@ const Gallery = ({ userAddress, nft }) => {
     };
 
     const handleInteraction = async (event, id, interactionType) => {
-        // event.stopPropagation();
+         event.stopPropagation();
         // Check if user is authenticated with web3 wallet
         if (!userAddress) {
           alert("Please connect your web3 wallet to interact with photos.");
@@ -148,10 +148,11 @@ const Gallery = ({ userAddress, nft }) => {
               </p>
             </div>
             )}
+
             <div className="skins-grid">
                 {entries.map(entry => (
                   <div key={entry.id} className="skin-card" onClick={() => navigateToViewer(entry)}>
-                    <HighQualityImage imageUrl={entry.firebaseImageUrl} scale={4.5} />
+                    <HighQualityImage className="skin-image" imageUrl={entry.firebaseImageUrl} scale={4.5} />
                     <div className="skin-details">
                       <strong>{entry.name}</strong> {/* Name of entry */}
                       <div className="like-dislike-interactions">
