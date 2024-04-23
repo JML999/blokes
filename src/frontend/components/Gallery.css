@@ -14,13 +14,10 @@
   border: 1px solid #ccc;
   overflow: hidden;
   position: relative;  /* Ensure position is set for z-index to take effect */
-  z-index: 10;  
 }
 
 .skin-image {
   position: relative;
-  z-index: 1;
-  pointer-events: none; 
 }
 
 .skin-details {
