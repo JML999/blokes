@@ -27,20 +27,15 @@ const Viewer = ({ userAddress, nft }) => {
     };
 
     const checkUserInteraction = async (photoId) => {
-        if (!photoId) return;
+        console.log("we are checking")
         const query = db.collection('interactions')
-            .where('photoId', '==', photoId)
-            .where('userAddress', '==', userAddress);
-        const snapshot = await query.get();
-        setHasVoted(!snapshot.empty);
-    };
-
-    useEffect(() => {
-        if (entry && entry.firebaseImageUrl) {
-            fetchImage(entry.firebaseImageUrl);
-        }
-        checkUserInteraction(entry?.id);
-    }, [entry, checkUserInteraction]);
+          .where('photoId', '==', photoId)
+          .where('userAddress', '==', userAddress);
+          const snapshot = await query.get();
+          console.log(snapshot)
+          console.log(!snapshot.empty)
+          return !snapshot.empty;
+      };
 
     useEffect(() => {
         if (userAddress && nft.balanceOf) {
@@ -56,60 +51,69 @@ const Viewer = ({ userAddress, nft }) => {
         }
       }, [userAddress, nft]);
 
+      useEffect(() => {
+        if (entry && entry.firebaseImageUrl) {
+            fetchImage(entry.firebaseImageUrl);
+        }
+    }, [entry]);
+
 
     useEffect(() => {
         return () => imageUrl && URL.revokeObjectURL(imageUrl);
     }, [imageUrl]);
 
-    const handleInteraction = async (interactionType) => {
+
+    const handleInteraction = async (interactionType, id) => {
         if (!userAddress) {
             alert("Please connect your web3 wallet to interact.");
             return;
         }
-
+    
         if (!isStanOwner) {
             alert("You must own a Stan to vote.");
             return;
-          }
-
+        }
+    
         if (hasVoted) {
             alert("You have already voted for this post.");
             return;
         }
-
-        // Optimistically update the UI
-        if (interactionType === 'like') {
-            setLikes(likes + 1);
-        } else if (interactionType === 'dislike') {
-            setDislikes(dislikes + 1);
+    
+        // Check if the user has already interacted
+        const hasInteracted = await checkUserInteraction(id);
+        if (hasInteracted) {
+            alert("You have already voted for this post.");
+            setHasVoted(true); // Update state to reflect this to avoid future checks
+            return;
         }
-
-        // Update database with user interaction
-        await db.collection('interactions').add({
-            photoId: entry.id,
-            interactionType,
-            userAddress,
-        });
-
-        // Increment likes or dislikes in the database based on interaction type
-        const incrementAmount = increment(1);
-        const editDocRef = db.collection('edits').doc(entry.id);
+    
         try {
+            // Update database with user interaction
+            await db.collection('interactions').add({
+                photoId: id,
+                interactionType,
+                userAddress,
+            });
+    
+            // Increment likes or dislikes in the database based on interaction type
+            const incrementAmount = increment(interactionType === 'like' ? 1 : -1);
+            const editDocRef = db.collection('edits').doc(id);
+            const fieldToUpdate = interactionType === 'like' ? 'likes' : 'dislikes';
+    
+            await editDocRef.update({ [fieldToUpdate]: incrementAmount });
+    
+            // Optimistically update the UI only after successful database update
             if (interactionType === 'like') {
-                await editDocRef.update({ likes: incrementAmount });
-            } else if (interactionType === 'dislike') {
-                await editDocRef.update({ dislikes: incrementAmount });
+                setLikes(likes + 1);
+            } else {
+                setDislikes(dislikes + 1);
             }
             setHasVoted(true); // Prevent further votes
         } catch (error) {
             console.error('Failed to record interaction:', error);
-            // Rollback optimistic updates if error occurs
-            setLikes(likes);
-            setDislikes(dislikes);
+            // Optionally undo optimistic UI update here or handle error
         }
     };
-
-
 
     if (!entry) {
         return <div>No data available.</div>;
@@ -133,10 +137,10 @@ const Viewer = ({ userAddress, nft }) => {
                 <p><strong>Created At:</strong> {formattedDate}</p>
                 <p><strong>ipfs:</strong> {entry.ipfsMetadata}</p>
                 <div className= "viewer-interactions">
-                    <button onClick={() => handleInteraction('like')} style={{ backgroundColor: 'grey' }}>
+                    <button onClick={() => handleInteraction('like', entry.id)} style={{ backgroundColor: 'grey' }}>
                         👍 ({likes})
                     </button>
-                    <button onClick={() => handleInteraction('dislike')} style={{ backgroundColor: 'grey' }}>
+                    <button onClick={() => handleInteraction('dislike', entry.id)} style={{ backgroundColor: 'grey' }}>
                         👎 ({dislikes})
                     </button>
                 </div>

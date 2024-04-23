@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Stage, Layer, Rect, Image as KonvaImage } from 'react-konva';
 import ToolBar from './ToolBar.js';
 import AvatarViewer from './AvatarViewer';
@@ -55,11 +55,11 @@ const SkinEditor = ( { account, nft }) => {
         }
     }, [originalImage]);
 
-    const updateCanvas = () => {
+    const updateCanvas = useCallback(() => {
         const ctx = hiddenCanvasRef.current.getContext('2d');
         ctx.clearRect(0, 0, hiddenCanvasRef.current.width, hiddenCanvasRef.current.height);
         ctx.drawImage(originalImage, 0, 0);
-
+    
         Object.entries(pixels).forEach(([key, value]) => {
             const [x, y] = key.split(',').map(Number);
             if (value !== 'transparent') {
@@ -69,15 +69,15 @@ const SkinEditor = ( { account, nft }) => {
                 ctx.clearRect(x, y, 1, 1);
             }
         });
-
+    
         setSkinUrl(hiddenCanvasRef.current.toDataURL());
-    };
-
+    }, [originalImage, pixels]); // Dependencies based on what the function uses
+    
     useEffect(() => {
         if (hiddenCanvasRef.current && originalImage) {
             updateCanvas();
         }
-    }, [pixels, originalImage, updateCanvas]);
+    }, [hiddenCanvasRef, originalImage, updateCanvas]);
 
     useEffect(() => {
         const initialImg = new Image();

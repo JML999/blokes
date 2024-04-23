@@ -13,28 +13,9 @@ const Gallery = ({ userAddress, nft }) => {
     const navigate = useNavigate();
     const [isStanOwner, setStanOwner] = useState(false);
 
-    const fetchEntries = async () => {
-      let query = db.collection('edits')
-        .orderBy('createdAt') // Make sure you have an index on this field
-        .limit(pageSize);
-  
-      if (currentPage > 1 && lastDoc) {
-        query = query.startAfter(lastDoc);
-      }
-  
-      const snapshot = await query.get();
-      const docs = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-      setEntries(docs);
-      if (docs.length > 0) {
-        // Set the lastDoc for the next page query
-        setLastDoc(snapshot.docs[snapshot.docs.length - 1]);
-      }
-    };
-
-    
     useEffect(() => {
-      fetchEntries();
-    }, [currentPage, fetchEntries]);
+        fetchEntries();
+    }, [currentPage]);
 
     useEffect(() => {
       if (userAddress && nft.balanceOf) {
@@ -50,7 +31,24 @@ const Gallery = ({ userAddress, nft }) => {
       }
     }, [userAddress, nft]);
 
-
+    const fetchEntries = async () => {
+      console.log("fetch is being called")
+        let query = db.collection('edits')
+          .orderBy('createdAt') // Make sure you have an index on this field
+          .limit(pageSize);
+    
+        if (currentPage > 1 && lastDoc) {
+          query = query.startAfter(lastDoc);
+        }
+    
+        const snapshot = await query.get();
+        const docs = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+        setEntries(docs);
+        if (docs.length > 0) {
+          // Set the lastDoc for the next page query
+          setLastDoc(snapshot.docs[snapshot.docs.length - 1]);
+        }
+      };
 
       const navigateToViewer = (entry) => {
         navigate(`/viewer/${entry.id}`, { state: { entry } });
@@ -69,6 +67,7 @@ const Gallery = ({ userAddress, nft }) => {
           return;
         }
 
+      
         const hasInteracted = await checkUserInteraction(id);
         if (hasInteracted) {
           alert("You have already voted for this post.");
@@ -124,6 +123,12 @@ const Gallery = ({ userAddress, nft }) => {
     const prevPage = () => {
         setCurrentPage(prev => prev > 1 ? prev - 1 : prev);
     };
+
+    if (!isStanOwner) {
+      console.log("is not stan owner", isStanOwner)
+    } else {
+      console.log("is stan owner", isStanOwner)
+    }
 
     return (
         <div>
