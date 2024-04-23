@@ -139,7 +139,7 @@ const Gallery = ({ userAddress, nft }) => {
             </div>
             {!userAddress ? (
                 <div className="wallet-connect-label" style={{ fontFamily: 'Minecraftia' }}>
-                    <p>Please connect your web3 wallet to interact with photos.</p>
+                    <p>Please connect your web3 wallet to interact with edits.</p>
                 </div>
             ) : (
               <div className="text-center mb-4">

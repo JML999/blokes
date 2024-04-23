@@ -115,6 +115,14 @@ const Viewer = ({ userAddress, nft }) => {
         }
     };
 
+    const formatIPFSLink = (ipfsUrl) => {
+        if (!ipfsUrl) return '';
+    
+        // Assuming the URL is a direct link to the IPFS gateway
+        const shortened = `${ipfsUrl.slice(0, 20)}...${ipfsUrl.slice(-5)}`;
+        return shortened;
+    };
+
     if (!entry) {
         return <div>No data available.</div>;
     }
@@ -135,7 +143,11 @@ const Viewer = ({ userAddress, nft }) => {
                 <h2>{entry.name}</h2>
                 <p><strong>Creator:</strong> {entry.creator}</p>
                 <p><strong>Created At:</strong> {formattedDate}</p>
-                <p><strong>ipfs:</strong> {entry.ipfsMetadata}</p>
+                <p><strong>ipfs:</strong> 
+          <a href={entry.ipfsMetadata} target="_blank" rel="noopener noreferrer">
+            {formatIPFSLink(entry.ipfsMetadata)}
+          </a>
+        </p>
                 <div className= "viewer-interactions">
                     <button onClick={() => handleInteraction('like', entry.id)} style={{ backgroundColor: 'grey' }}>
                         👍 ({likes})
