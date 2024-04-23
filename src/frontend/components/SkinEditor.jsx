@@ -22,6 +22,15 @@ const SkinEditor = ( { account, nft }) => {
     const [isStanOwner, setStanOwner] = useState(false);
     const [name, setName] = useState("");
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1024);
+    const [isBrave, setIsBrave] = useState(false);
+
+    useEffect(() => {
+        function isBraveBrowser() {
+            console.log(navigator.userAgent)
+            return navigator.userAgent.includes('Brave');
+          }
+        setIsBrave(isBraveBrowser());
+    }, []);
 
     useEffect(() => {
       const handleResize = () => setIsDesktop(window.innerWidth > 1024);
@@ -311,6 +320,9 @@ const SkinEditor = ( { account, nft }) => {
                     onTextFieldChange={handleNameChange}
             />
             </div>
+            <p className="browser-warning">
+                Note: Browser features such as ad blockers or privacy shields (like with Brave) may affect editor functionality. Please adjust settings if you experience issues.
+            </p>
         </div>
     );
 };

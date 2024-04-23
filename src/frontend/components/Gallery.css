@@ -13,11 +13,7 @@
   align-items: center;
   border: 1px solid #ccc;
   overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.skin-card:hover {
-  transform: scale(1.01);
+  
 }
 
 .skin-image {

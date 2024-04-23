@@ -25,4 +25,16 @@
     font-weight: bold;
     margin-bottom: 10px;
   }
+
+  .browser-warning {
+    font-family: 'Minecraftia', sans-serif;
+    color: gray;
+    align-items: center;
+    text-align: center;
+    font-size: 0.75rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
   

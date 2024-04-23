@@ -143,8 +143,8 @@ const Gallery = ({ userAddress, nft }) => {
                 </div>
             ) : (
               <div className="text-center mb-4">
-              <p className="gallery-description" style={{ fontFamily: 'Minecraftia', fontSize: '0.75rem', maxWidth: '600px' }}>
-                Stan holding wallets get a vote (like or dislike) for each edit. Community favorites will be minted in a new collection with proceeds to creators.
+              <p className="gallery-description" style={{ fontFamily: 'Minecraftia', fontSize: '0.725rem', maxWidth: '600px' }}>
+                Click an edit to view its 3D render and details. Stan holders get a vote (like or dislike) for each edit. Community favorites will be minted in a new collection with proceeds to creators.
               </p>
             </div>
             )}
