@@ -117,6 +117,9 @@ const SkinEditor = ( { account, nft }) => {
             newImg.onload = () => {
                 // Check the dimensions of the image
                 if (newImg.width === 64 && newImg.height === 64) {
+                    setPixels({}); // Clear pixel data
+                    setDisplayPixels({}); // Clear display pixel data
+                    updateCanvas();
                     setOriginalImage(newImg);
                 } else {
                     alert("The image must be 64x64 pixels in size.");
@@ -273,18 +276,8 @@ const SkinEditor = ( { account, nft }) => {
         setIsMouseDown(false);
     };
 
-    const handlePixelClick = (x, y) => {
-         if (isMouseDown) {
-            const key = `${x},${y}`;
-            setPixels(prev => ({ ...prev, [key]: color }));
-            setDisplayPixels(prev => ({ ...prev, [key]: color }));
-        }
-    };
-
     const toggleOverlayOpacity = () => {
         setOverlayOpacity(overlayOpacity === 0.0 ? 0.5 : 0.0);
-        console.log("overlayOpacity")
-        console.log(overlayOpacity)
     };
 
     const handlePixelInteraction = (x, y) => {
