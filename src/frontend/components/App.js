@@ -54,12 +54,6 @@ function App() {
     setLoading(false);
   };
 
-  if (loading) {
-    return (
-      <Spinner animation="border" style={{ display: 'flex', justifyContent: 'center' }} />
-    );
-  }
-
   return (
     <BrowserRouter>
       <div className="App">
