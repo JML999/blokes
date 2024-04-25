@@ -2,7 +2,9 @@ import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { Stage, Layer, Rect, Image as KonvaImage } from 'react-konva';
 import ToolBar from './ToolBar.js';
 import AvatarViewer from './AvatarViewer';
+import SkinOverlay from './SkinOverlay.js';
 import editStan from './Skins/stan_to_edit.png';
+import skinGuide from './Skins/cut-out.jpg';
 import './SkinEditor.css';
 import axios from 'axios';
 import {serverTimestamp } from "firebase/firestore";
@@ -23,6 +25,18 @@ const SkinEditor = ( { account, nft }) => {
     const [name, setName] = useState("");
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1024);
     const [isMouseDown, setIsMouseDown] = useState(false);
+    const [overlayImage, setOverlayImage] = React.useState(null);
+    const [overlayOpacity, setOverlayOpacity] = useState(0.0);
+
+    useEffect(() => {
+        const loadOverlayImage = () => {
+          const img = new Image();
+          img.src = skinGuide; 
+          img.onload = () => setOverlayImage(img);
+        };
+    
+        loadOverlayImage();
+      }, []);
 
     useEffect(() => {
       const handleResize = () => setIsDesktop(window.innerWidth > 1024);
@@ -238,9 +252,13 @@ const SkinEditor = ( { account, nft }) => {
     };
     
     const handleMouseUp = (e) => {
-        processInteraction(e);  // Ensure the final drawing/deleting action is processed
+        processInteraction(e);
         setIsMouseDown(false);
+        if (isDeleteMode) {
+            updateCanvas(); // Force a redraw of the canvas to ensure all changes are rendered
+        }
     };
+    
     
     const handleMouseMove = (e) => {
         console.log("isDeleteMode")
@@ -263,9 +281,15 @@ const SkinEditor = ( { account, nft }) => {
         }
     };
 
+    const toggleOverlayOpacity = () => {
+        setOverlayOpacity(overlayOpacity === 0.0 ? 0.5 : 0.0);
+        console.log("overlayOpacity")
+        console.log(overlayOpacity)
+    };
+
     const handlePixelInteraction = (x, y) => {
         const key = `${x},${y}`;
-        setPixels(prev => ({ ...prev, [key]: color }));
+      //  setPixels(prev => ({ ...prev, [key]: color }));
         setDisplayPixels(prev => ({ ...prev, [key]: color }));
         const newColor = isDeleteMode ? 'transparent' : color;
         setPixels(prev => ({ ...prev, [key]: newColor }));
@@ -329,6 +353,7 @@ const SkinEditor = ( { account, nft }) => {
                                     scaleX={scale}
                                     scaleY={scale}
                                 />
+                                {overlayImage && <SkinOverlay image={overlayImage} opacity={overlayOpacity} />}
                                 {[...Array(originalImage.height)].map((_, i) =>
                                     [...Array(originalImage.width)].map((_, j) => (
                                         <Rect
@@ -359,6 +384,7 @@ const SkinEditor = ( { account, nft }) => {
                     mintStatus={mintStatus}
                     updateMintStatus={updateMintStatus} // Passing the update function
                     onTextFieldChange={handleNameChange}
+                    onToggleOverlay={toggleOverlayOpacity} 
             />
             </div>
             <p className="browser-warning">

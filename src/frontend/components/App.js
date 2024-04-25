@@ -56,7 +56,7 @@ function App() {
 
   if (loading) {
     return (
-      <Spinner animation="border" style={{ display: 'flex' }} />
+      <Spinner animation="border" style={{ display: 'flex', justifyContent: 'center' }} />
     );
   }
 

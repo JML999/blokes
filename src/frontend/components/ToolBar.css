@@ -1,3 +1,4 @@
+
 .mint-button {
     margin-top: 10px; /* Adjust space from the top */
     background-color: white; /* Default background */
@@ -13,6 +14,12 @@
 .mint-button:hover {
     background-color: red; /* Red background on hover */
     color: white; /* White text on hover */
+}
+
+.key-button {
+    font-family: 'Minecraftia', sans-serif;
+    padding-left: 20x;
+    font-size: 0.75em;
 }
 
 .status-message {

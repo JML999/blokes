@@ -12,7 +12,8 @@ const ToolBar = ({
     onMint,
     updateMintStatus, // Function to update mint status
     mintStatus,       // Status of minting to display message
-    onTextFieldChange
+    onTextFieldChange,
+    onToggleOverlay
 }) => {
     const fileInputRef = useRef(null);
 
@@ -24,9 +25,11 @@ const ToolBar = ({
     const deleteButtonStyle = {
         backgroundColor: isDeleteMode ? 'lightcoral' : undefined,
         fontFamily: 'Minecraftia',
-        fontSize: '1em'
+        fontSize: '1em',
+        marginLeft: '3px'
     };
     const downloadButtonStyle = {
+        marginTop: '5px',
         fontFamily: 'Minecraftia',
         fontSize: '0.75em'
     };
@@ -60,19 +63,22 @@ const ToolBar = ({
         <div className="toolbar" style={{ marginTop: '25px' }}>
             <button style={paintButtonStyle} onClick={() => onToggleDeleteMode(false)}>Paint</button>
             <button style={deleteButtonStyle} onClick={() => onToggleDeleteMode(true)}>Delete</button>
+            <div style={{marginTop: '4px', marginBottom:'4px'}} >
+                <button className="key-button" onClick={onToggleOverlay}>Body Key</button>
+            </div>
             <SketchPicker color={color} onChangeComplete={(color) => onColorChange(color.hex)} />
-            <div style={{ marginTop: '20px' }}>
+            <div style={{ marginTop: '10px' }}>
                 <button style={downloadButtonStyle} onClick={handleDownload}>Download Stan Art</button>
             </div>
             <div>
                 <input type="file" onChange={handleFileChange} style={{ display: 'none' }} ref={fileInputRef} />
                 <button style={downloadButtonStyle} onClick={() => fileInputRef.current.click()}>Upload Art</button>
             </div>
-            <div style={{ marginTop: '25px' }} >
+            <div style={{ marginTop: '20px' }} >
                 <input
                     type="text"
                     maxLength="20"
-                    placeholder="Name (max 20 chars)"
+                    placeholder="Model Name"
                     onChange={(e) => onTextFieldChange(e.target.value)}  // Use the passed callback
                     style={{ width: '75%', fontFamily: 'Minecraftia', fontSize: 10 }}
                 />

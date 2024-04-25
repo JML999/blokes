@@ -64,7 +64,7 @@ const Dashboard = ({ account, nftContract }) => {
     return (
         <div className="token-row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', paddingTop: '80px' }}>
             {isLoading ? (
-                <Spinner animation="border" style={{ display: 'flex' }} />
+                <Spinner animation="border" style={{ display: 'flex', justifyContent: 'center' }} />
             ) : (
                 tokenData.map((token, index) => (
                     <div key={index} className="token-item" style={{ marginRight: '10px', marginBottom: '10px', paddingTop: '60px' }}>
