@@ -3,10 +3,6 @@ import ReactSkinview3d from 'react-skinview3d';
 
 const AvatarViewer = ({ skinUrl, capeUrl, autoRotate = true }) => {
   useEffect(() => {
-    // Setup logic here. For example, initializing animations or event listeners.
-    console.log("AvatarViewer mounted with skin:", skinUrl, "and cape:", capeUrl);
-
-    // Cleanup logic when component unmounts
     return () => {
       console.log("AvatarViewer unmounting. Clean up resources here.");
       // Here you would clean up any manual WebGL contexts, animations, or event listeners.

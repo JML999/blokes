@@ -51,8 +51,6 @@ function App() {
   const loadContracts = async (signer) => {
     const stanContract = new ethers.Contract(StanAddress.address, StanABI, signer);
     setNFT(stanContract);
-    console.log("stanContract")
-    console.log(stanContract)
     setLoading(false);
   };
 

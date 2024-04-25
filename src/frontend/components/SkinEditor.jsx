@@ -22,15 +22,7 @@ const SkinEditor = ( { account, nft }) => {
     const [isStanOwner, setStanOwner] = useState(false);
     const [name, setName] = useState("");
     const [isDesktop, setIsDesktop] = useState(window.innerWidth > 1024);
-    const [isBrave, setIsBrave] = useState(false);
-
-    useEffect(() => {
-        function isBraveBrowser() {
-            console.log(navigator.userAgent)
-            return navigator.userAgent.includes('Brave');
-          }
-        setIsBrave(isBraveBrowser());
-    }, []);
+    const [isMouseDown, setIsMouseDown] = useState(false);
 
     useEffect(() => {
       const handleResize = () => setIsDesktop(window.innerWidth > 1024);
@@ -52,7 +44,6 @@ const SkinEditor = ( { account, nft }) => {
       }, [account, nft]);
 
     useEffect(() => {
-        console.log('is this running omgg')
         if (originalImage) {
             const canvas = document.createElement('canvas');
             canvas.width = originalImage.width;
@@ -93,15 +84,6 @@ const SkinEditor = ( { account, nft }) => {
         initialImg.src = editStan;
         initialImg.onload = () => setOriginalImage(initialImg);
     }, []);
-
-    const handlePixelClick = (x, y) => {
-        const key = `${x},${y}`;
-        const newColor = isDeleteMode ? 'transparent' : color;
-        const displayColor = isDeleteMode ? 'white' : color;
-
-        setPixels(prev => ({ ...prev, [key]: newColor }));
-        setDisplayPixels(prev => ({ ...prev, [key]: displayColor }));
-    };
 
     const handleFileChange = (file) => {
         if (!file) {
@@ -247,6 +229,57 @@ const SkinEditor = ( { account, nft }) => {
             success: isSuccess
         });
     };
+
+    const handleMouseDown = (e) => {
+        setIsMouseDown(true);
+        console.log("isDeleteMode")
+        console.log(isDeleteMode)
+        processInteraction(e);
+    };
+    
+    const handleMouseUp = (e) => {
+        processInteraction(e);  // Ensure the final drawing/deleting action is processed
+        setIsMouseDown(false);
+    };
+    
+    const handleMouseMove = (e) => {
+        console.log("isDeleteMode")
+        console.log(isDeleteMode)
+        if (isMouseDown) {
+            processInteraction(e);
+        }
+        
+    };
+
+    const handleMouseOut = () => {
+        setIsMouseDown(false);
+    };
+
+    const handlePixelClick = (x, y) => {
+         if (isMouseDown) {
+            const key = `${x},${y}`;
+            setPixels(prev => ({ ...prev, [key]: color }));
+            setDisplayPixels(prev => ({ ...prev, [key]: color }));
+        }
+    };
+
+    const handlePixelInteraction = (x, y) => {
+        const key = `${x},${y}`;
+        setPixels(prev => ({ ...prev, [key]: color }));
+        setDisplayPixels(prev => ({ ...prev, [key]: color }));
+        const newColor = isDeleteMode ? 'transparent' : color;
+        setPixels(prev => ({ ...prev, [key]: newColor }));
+        setDisplayPixels(prev => ({ ...prev, [key]: newColor }));
+    };
+
+    const processInteraction = (e) => {
+        if (isMouseDown) {
+            const mousePos = e.target.getStage().getPointerPosition();
+            const x = Math.floor(mousePos.x / scale);
+            const y = Math.floor(mousePos.y / scale);
+            handlePixelInteraction(x, y);
+        }
+    };
     
     if (!isStanOwner) {
         return (
@@ -269,7 +302,7 @@ const SkinEditor = ( { account, nft }) => {
     return (
         <div className="skin-editor">
             <h2 className="title" style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem', margin: '20px 0' }}>
-                Stan Editor
+                Stan Editor (Beta)
             </h2>
             <p className="description" style={{ fontFamily: 'Minecraftia', fontSize: '0.75rem', maxWidth: '600px' }}>
                 Select a color and click a pixel in the 2D skin to edit the color. See the changes in the 3D renderer on the left.
@@ -280,7 +313,14 @@ const SkinEditor = ( { account, nft }) => {
                 </div>
                 <div className="canvas-container">
                     {originalImage && (
-                        <Stage width={originalImage.width * scale} height={originalImage.height * scale}>
+                        <Stage 
+                        width={originalImage.width * scale} 
+                        height={originalImage.height * scale}
+                        onMouseDown={handleMouseDown}
+                        onMouseUp={handleMouseUp}
+                        onMouseLeave={handleMouseOut}
+                        onMouseMove={handleMouseMove}
+                        >
                             <Layer imageSmoothingEnabled={false}>
                                 <KonvaImage
                                     image={hiddenCanvasRef.current}
@@ -298,7 +338,8 @@ const SkinEditor = ( { account, nft }) => {
                                             width={scale}
                                             height={scale}
                                             fill={displayPixels[`${j},${i}`] || 'transparent'}
-                                            onClick={() => handlePixelClick(j, i)}
+                                          //  onMouseMove={() => handlePixelClick(j, i)}
+                                           // onClick={() => handlePixelClick(j, i)}
                                             stroke="grey"
                                             strokeWidth={0.5}
                                         />
@@ -330,8 +371,6 @@ const SkinEditor = ( { account, nft }) => {
 export default SkinEditor;
 
 
-
-
 /*
     const mintNFT = async (metadataUrl) => {
         try {
@@ -356,7 +395,7 @@ export default SkinEditor;
             console.error("Minting failed:", error);
             return { success: false, message: error.message };
         }
-    };
+    };    
 */
 
 
