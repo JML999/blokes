@@ -8,7 +8,9 @@ const app = express();
 let metadata;
 try {
     const metadataPath = path.resolve(__dirname, 'metadata.json');
+    console.log(`Reading metadata from: ${metadataPath}`);
     const data = fs.readFileSync(metadataPath, 'utf8');
+    console.log(`Raw metadata content: ${data}`);
     metadata = JSON.parse(data);
     console.log("Metadata loaded:", metadata);
 } catch (error) {
