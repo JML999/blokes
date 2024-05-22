@@ -19,15 +19,21 @@ try {
 app.get('/.netlify/functions/metadata/:id', (req, res) => {
     const id = req.params.id;
     console.log(`Request for metadata with id: ${id}`);
+    
+    console.log(`Metadata array: ${JSON.stringify(metadata, null, 2)}`);
     const metadataItem = metadata.find(item => item["File Name"] === `${id}.json`);
+    
     if (metadataItem) {
+        console.log(`Found metadata: ${JSON.stringify(metadataItem)}`);
         res.json(metadataItem);
     } else {
+        console.log(`Metadata not found for id: ${id}`);
         res.status(404).json({ error: "Metadata not found" });
     }
 });
 
 module.exports.handler = serverless(app);
+
 
 
 
