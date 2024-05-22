@@ -38,7 +38,8 @@
     "eject": "react-scripts eject",
     "start-server": "node src/backend/server.js",
     "dev": "concurrently \"npm run start\" \"npm run start-server\"",
-    "start-metadata-server": "node functions/metadata.js"
+    "start-metadata-server": "node functions/metadata.js",
+    "start-railway": "node src/backend/server.js" 
   },
   "eslintConfig": {
     "extends": [
