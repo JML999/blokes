@@ -16,7 +16,6 @@ module.exports = {
 */
 
 
-/*
 module.exports = {
   networks: {
     mumbai: {
@@ -26,8 +25,8 @@ module.exports = {
     },
   },
 };
-*/
 
+/*
 module.exports = {
   networks: {
     HYCHAIN: {
@@ -37,5 +36,7 @@ module.exports = {
     },
   },
 };
+
+*/
 
 

@@ -7,23 +7,10 @@ const About = () => {
     <Container className="mt-5">
     <Row className="justify-content-center">
       <Col md={6} className="text-center">
-      <img
-          src={smallStan}
-          width="90" // Adjust the size as needed
-          height="120" // Adjust the size as needed
-          className="d-inline-block align-top"
-          alt="Small Stan"
-          style={{ marginRight: '0px' }} // Adds space between the icon and the text
-        />
         <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-            The 1st avatars on HYCHAIN.
+           ny-skins   
         </p>
-        <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-            500 defaults built for HYTOPIA.
-        </p>
-        <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-            Edits creator community launching soon. 
-        </p>
+
       </Col>
     </Row>
   </Container>

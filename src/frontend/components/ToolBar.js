@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { SketchPicker } from 'react-color';
-import downloadArt from './Skins/stan_to_download.png';
+import downloadArt from './Skins/jerry_to_download.png';
 import './ToolBar.css';
 
 const ToolBar = ({
@@ -8,11 +8,12 @@ const ToolBar = ({
     onColorChange,
     isDeleteMode,
     onToggleDeleteMode,
-    onUpload,
     onMint,
-    updateMintStatus, // Function to update mint status
-    mintStatus,       // Status of minting to display message
+    updateMintStatus, 
+    mintStatus,       
     onTextFieldChange,
+    onABVFieldChange,
+    onSupplyFieldChange,
     onToggleOverlay
 }) => {
     const fileInputRef = useRef(null);
@@ -34,22 +35,6 @@ const ToolBar = ({
         fontSize: '0.75em'
     };
 
-    const handleDownload = () => {
-        const link = document.createElement('a');
-        link.href = downloadArt;
-        link.download = 'stan_to_download.png';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
-
-    const handleFileChange = (event) => {
-        const file = event.target.files[0];
-        if (file) {
-            onUpload(file);
-        }
-    };
-
     const handleMint = async () => {
         updateMintStatus('Processing...', false);
         try {
@@ -67,20 +52,31 @@ const ToolBar = ({
                 <button className="key-button" onClick={onToggleOverlay}>Body Key</button>
             </div>
             <SketchPicker color={color} onChangeComplete={(color) => onColorChange(color.hex)} />
-            <div style={{ marginTop: '10px' }}>
-                <button style={downloadButtonStyle} onClick={handleDownload}>Download Stan Art</button>
-            </div>
-            <div>
-                <input type="file" onChange={handleFileChange} style={{ display: 'none' }} ref={fileInputRef} />
-                <button style={downloadButtonStyle} onClick={() => fileInputRef.current.click()}>Upload Art</button>
-            </div>
-            <div style={{ marginTop: '20px' }} >
+            <div style={{ marginTop: '15px' }} >
                 <input
                     type="text"
                     maxLength="20"
                     placeholder="Model Name"
                     onChange={(e) => onTextFieldChange(e.target.value)}  // Use the passed callback
-                    style={{ width: '75%', fontFamily: 'Minecraftia', fontSize: 10 }}
+                    style={{ width: '60%', fontFamily: 'Minecraftia', fontSize: 10 }}
+                />
+            </div>
+            <div style={{ marginTop: '10px' }} >
+                <input
+                    type="text"
+                    maxLength="4"
+                    placeholder="Symbol"
+                    onChange={(e) => onABVFieldChange(e.target.value)}  // Use the passed callback
+                    style={{ width: '60%', fontFamily: 'Minecraftia', fontSize: 10 }}
+                />
+            </div>
+            <div style={{ marginTop: '10px' }}>
+                <input
+                    type="number"  // Correct type for numeric inputs
+                    maxLength="9"  // Note: maxLength does not work with input type number in some browsers
+                    placeholder="Supply"
+                    onChange={(e) => onSupplyFieldChange(Number(e.target.value))}  // Convert string to number here
+                    style={{ width: '60%', fontFamily: 'Minecraftia', fontSize: '14px' }}  // Increased font size for better readability
                 />
             </div>
             <div style={{ marginTop: '2px' }}>

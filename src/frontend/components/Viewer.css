@@ -5,18 +5,29 @@
     align-items: center;
     height: 100vh; /* Full viewport height */
     width: 100vw;  /* Full viewport width */
-    font-family: 'Minecraftia', sans-serif; /* Using Minecraftia font for all text */
+    font-family: 'Minecraftia', sans-serif;
+    /* Using Minecraftia font for all text */
 }
+
+.alt-viewer-container {
+    margin-left: 85px;
+    font-family: 'Minecraftia', sans-serif;
+
+}
+
+
 
 /* Container for the AvatarViewer component */
 .avatar-viewer {
     padding-top: 3%;
+    margin-right: 200px;
     margin-bottom: 20px;
     justify-content: center;
 }
 
 /* Container for entity details */
 .entity-details {
+    margin-right: 200px;
     text-align: center;
     background-color: #f4f4f4; /* Light background for the details area */
     padding: 20px;
@@ -63,6 +74,7 @@
 .viewer-interactions button:hover {
     background-color: darkgrey; /* Changes background on hover */
 }
+
 
 /* Media query for smaller screens, such as mobile devices */
 @media (max-width: 768px) {

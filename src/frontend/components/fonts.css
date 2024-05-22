@@ -37,11 +37,11 @@
   }
   
   .custom-button {
-    color: black; /* Set default text color */
+    color: white; /* Set default text color */
   }
   
   .custom-button:hover {
-    color: white; /* Change text color on hover */
+    color: black; /* Change text color on hover */
   }
   
   .input-field:focus {

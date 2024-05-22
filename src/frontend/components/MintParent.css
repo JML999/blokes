@@ -1,0 +1,20 @@
+.mintdashboard {
+    display: flex;
+    flex-direction: row;
+    height: 110vh;
+}
+
+.collections-section {
+    width: 15%;
+    max-width: 22.5%;  /* Ensures it doesn't grow beyond 15% */
+    min-width: 150px; /* Minimum width in pixels, adjust as needed */
+    background-color: #f4f4f4; /* Example background color */
+    overflow-y: auto; /* Makes it scrollable if content is too long */
+}
+
+.viewer-content-section {
+    flex-grow: 1; /* Takes up the rest of the space */
+    background-color: #fff; /* Different background to distinguish the areas */
+    padding: 20px; /* Example padding */
+    max-width: 70.5%;
+}

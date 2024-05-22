@@ -1,62 +1,152 @@
-import React, { useState } from 'react';
-import './fonts.css';
-import AvatarViewer from './AvatarViewer';
-import { avatars } from './skans';
+import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap'; // Import Button from react-bootstrap
+import { ethers } from 'ethers';
+import abi from '../contractsData/NFT.json';
+import address from '../contractsData/NFT-address.json';
+import './Home.css';
+import pinkBackground from './Renders/Pink_Background_Large.png';
 
+const Home = ({ web3Handler, account, disconnectHandler }) => {
+  const [mintStatus, setMintStatus] = useState('');
+  const [data, setData] = useState([]);
+  const [whitelistActive, setWhitelistActive] = useState(false);
+  const [mintPrice, setMintPrice] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-const Home = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % avatars.length);
-  };
+    window.addEventListener('resize', handleResize);
 
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + avatars.length) % avatars.length);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch('/data/all_uris.json');
+      const combinedData = await response.json();
+      setData(combinedData);
+    };
+
+    const fetchContractData = async () => {
+      try {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        const nftContract = new ethers.Contract(address.address, abi, signer);
+
+        const whitelistStatus = await nftContract.whitelistActive();
+        const price = whitelistStatus ? await nftContract.whitelistPrice() : await nftContract.mintPrice();
+
+        setWhitelistActive(whitelistStatus);
+        setMintPrice(ethers.utils.formatEther(price));
+      } catch (error) {
+        console.error('Error fetching contract data:', error);
+      }
+    };
+
+    fetchData();
+    fetchContractData();
+  }, []);
+
+  const mintPressed = async () => {
+    setMintStatus('processing');
+    let attempts = 0;
+    const maxAttempts = 5;
+  
+    while (attempts < maxAttempts) {
+      try {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        const nftContract = new ethers.Contract(address.address, abi, signer);
+  
+        // Fetch the next token ID
+        const nextTokenId = await nftContract.getNextTokenId();
+  
+        // Select metadata URI for the current token ID
+        const entry = data.find(item => item["File Name"] === `${nextTokenId}.json`);
+        console.log('Metadata entry:', entry);
+  
+        if (!entry || !entry["Direct Download Link"]) {
+          throw new Error('Metadata not found for the current token ID or Direct Download Link is missing');
+        }
+  
+        console.log('Direct Download Link (ipfsMetadata):', entry["Direct Download Link"]);
+  
+        // Mint the token with the expected token ID and URI
+        const tx = whitelistActive
+          ? await nftContract.whitelistMint(account, nextTokenId, entry["Direct Download Link"], { value: ethers.utils.parseEther("0.001"), gasLimit: 300000 })
+          : await nftContract.normalMint(account, nextTokenId, entry["Direct Download Link"], { value: ethers.utils.parseEther("0.002"), gasLimit: 300000 });
+  
+        const receipt = await tx.wait();
+  
+        console.log('Minted token ID:', nextTokenId);
+        setMintStatus('success');
+        return; // Exit if successful
+      } catch (error) {
+        console.error(`Mint attempt ${attempts + 1} failed:`, error);
+        attempts += 1;
+        if (attempts >= maxAttempts) {
+          setMintStatus('error');
+        } else {
+          await new Promise(resolve => setTimeout(resolve, 1000)); // Wait 1 second before retrying
+        }
+      }
+    }
   };
 
   return (
-    <div className="d-flex flex-column justify-content-center align-items-center h-100" style={{ backgroundColor: 'white' }}>
-      <div className="text-center mb-4">
-        <h2 className="title" style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem', margin: '20px 0' }}>
-          Stan Edits: The Official Stan Skin Collection
-        </h2>
-        <p className="description" style={{ fontFamily: 'Minecraftia', fontSize: '0.75rem', maxWidth: '600px' }}>
-          Each holder has access to their 1 of 500 Default avatar on HYTOPIA, as well as a community-created library of downloadable skins. Community favorites will be minted in a new collection with proceeds to creators.
-        </p>
-      </div>
-
-      {/* Viewer Container with fixed size */}
-      <div style={{ width: '150px', height: '300px', backgroundColor: 'white', marginBottom: '40px' }}>
-        <AvatarViewer
-          key={currentIndex + (avatars[currentIndex].cape ? "-cape" : "")} // Key change forces React to remount the component, ensuring cleanup
-          skinUrl={avatars[currentIndex].skin}
-          capeUrl={avatars[currentIndex].cape || undefined}
-          autoRotate={true}
-        />
-      </div>
-
-      <div className="d-flex align-items-center">
-        <button onClick={handlePrev} style={{ fontFamily: 'Minecraftia', fontSize: '1rem', padding: '10px 20px', marginRight: '10px' }}>- Prev</button>
-        <p className="token-title" style={{ fontFamily: 'Minecraftia', fontSize: '0.8rem', margin: '0 10px' }}>
-          {avatars[currentIndex].description}
-        </p>
-        <button onClick={handleNext} style={{ fontFamily: 'Minecraftia', fontSize: '1rem', padding: '10px 20px', marginLeft: '10px' }}>Next +</button>
+    <div className="home" style={{ backgroundImage: `url(${pinkBackground})` }}>
+      <div className="content">
+        <h1 className="title">blokes</h1>
+        <div className="price-info">
+          {whitelistActive ? 'Whitelist Mint Price: ' : 'Mint Price: '} {mintPrice} TOPIA
+        </div>
+        {/* Action Buttons */}
+        <div className="home-button-group">
+          <button className="home-custom-button" onClick={mintPressed}>mint</button>
+          <div className={`mint-status ${mintStatus}`}>{getStatusMessage(mintStatus)}</div>
+        </div>
+        <div className="wallet-button-group">
+          {account ? (
+            <Button onClick={disconnectHandler} variant="outline-light" className="custom-button" style={{ fontSize: isMobile ? '0.8rem' : '1rem' }}>
+              Disconnect
+            </Button>
+          ) : (
+            <Button onClick={web3Handler} variant="outline-light" className="custom-button" style={{ fontSize: isMobile ? '0.8rem' : '1rem' }}>
+              Connect Wallet
+            </Button>
+          )}
+        </div>
       </div>
     </div>
   );
+};
+
+const getStatusMessage = (status) => {
+  switch (status) {
+    case 'processing':
+      return 'Processing...';
+    case 'success':
+      return 'Mint successful!';
+    case 'error':
+      return 'Mint failed. Please try again.';
+    default:
+      return '';
+  }
 };
 
 export default Home;
 
 
 
-/*
 
 
 
 
 
-*/
+
+
 
 

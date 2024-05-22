@@ -1,24 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navigation from './Navbar';
 import Home from './Home.js';
-import Landing from './Landing.js';
-import Socials from './Socials.js';
-import Viewer from './Viewer.js';
-import About from './About.js';
-import Edit from './SkinEditor.jsx';
-import Gallery from './Gallery.js';
-import Dashboard from "./Dashboard.js";
 import { Spinner } from 'react-bootstrap';
 import './App.css';
 import { ethers } from 'ethers';
-import StanABI from '../contractsData/NFT.json';
-import StanAddress from '../contractsData/NFT-address.json';
+
 
 function App() {
   const [loading, setLoading] = useState(false);
   const [account, setAccount] = useState(null); // Assuming account is now just the address as a string
+  const [signer, setSigner] = useState(null);
   const [nft, setNFT] = useState({});
+  const [factory, setFactory] = useState({});
 
   useEffect(() => {
     if (window.ethereum) {
@@ -46,18 +39,20 @@ function App() {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const signer = provider.getSigner();
     loadContracts(signer);    
+    setSigner(signer)
+    setLoading(false);
+  };
+
+  const handleDisconnect = () => {
+    setAccount(null); // Assuming 'setAccount' is your state setter for the 'account'
   };
 
   const loadContracts = async (signer) => {
-    const stanContract = new ethers.Contract(StanAddress.address, StanABI, signer);
-    setNFT(stanContract);
-    setLoading(false);
   };
 
   return (
     <BrowserRouter>
       <div className="App">
-        <Navigation web3Handler={web3Handler} account={account} />
         {loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
             <Spinner animation="border" style={{ display: 'flex' }} />
@@ -65,14 +60,7 @@ function App() {
           </div>
         ) : (
           <Routes>
-            <Route path="/" element={<Landing />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Edit" element={<Edit account={account} nft={nft} />} />
-            <Route path="/Gallery" element={<Gallery userAddress={account} nft={nft} />} />
-            <Route path="/Socials" element={<Socials />} />
-            <Route path="/dashboard" element={<Dashboard account={account} nftContract={nft} />} />
-            <Route path="/viewer/:id" element={<Viewer userAddress={account} nft={nft} />}/>
+            <Route path="/" element= {<Home account={account} web3Handler={web3Handler} disconnectHandler={handleDisconnect} />} />
           </Routes>
         )}
       </div>

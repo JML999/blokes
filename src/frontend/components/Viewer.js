@@ -1,130 +1,109 @@
 import React, { useState, useEffect } from 'react';
 import AvatarViewer from './AvatarViewer';
 import './Viewer.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import { db } from "../../firebase";
-import { increment } from "firebase/firestore";
+import { doc, getDoc, increment, serverTimestamp } from "firebase/firestore";
+import { ethers } from 'ethers';
 
-const Viewer = ({ userAddress, nft }) => {
-    const location = useLocation();
-    const entry = location.state?.entry;
-    const [imageUrl, setImageUrl] = useState('');
+import nyskinABI from '../contractsData/nySkinNFTABI.json';
+
+const Viewer = ({ entry, imageData, account }) => {
     const [likes, setLikes] = useState(entry?.likes || 0);
     const [dislikes, setDislikes] = useState(entry?.dislikes || 0);
+    const [mints, setMints] = useState(entry?.mints || 0);
     const [hasVoted, setHasVoted] = useState(false);
-    const [isStanOwner, setStanOwner] = useState(false);
+    const [imageUrl, setImageUrl] = useState('');
+    const [lastMint, setLastMint] = useState(null);
+    const [mintCounts, setMintCounts] = useState({});
 
-    const fetchImage = async (url) => {
-        try {
-            const response = await fetch(url);
-            const blob = await response.blob();
-            const localUrl = URL.createObjectURL(blob);
-            setImageUrl(localUrl);
-        } catch (error) {
-            console.error('Error fetching image:', error);
-            setImageUrl('');
+    
+    const [mintStatus, setMintStatus] = useState({
+        message: '',
+        visible: false,
+        success: true
+    });
+
+    useEffect(() => {
+        if (entry && !(entry.id in mintCounts)) {
+            setMintCounts(prev => ({
+                ...prev,
+                [entry.id]: entry.mints  // Initialize this entry's mint count from the entry prop
+            }));
         }
+    }, [entry, mintCounts]);
+
+    const updateMintStatus = (message, isSuccess) => {
+        setMintStatus({
+            message: message,
+            visible: true,
+            success: isSuccess
+        });
     };
 
-    const checkUserInteraction = async (photoId) => {
-        console.log("we are checking")
-        const query = db.collection('interactions')
-          .where('photoId', '==', photoId)
-          .where('userAddress', '==', userAddress);
-          const snapshot = await query.get();
-          console.log(snapshot)
-          console.log(!snapshot.empty)
-          return !snapshot.empty;
-      };
-
     useEffect(() => {
-        if (userAddress && nft.balanceOf) {
-          const checkIfStanOwner = async () => {
-            try {
-              const balance = await nft.balanceOf(userAddress);
-              setStanOwner(balance > 0);
-            } catch (error) {
-              console.error('Error checking balance:', error);
-            }
-          };
-          checkIfStanOwner();
-        }
-      }, [userAddress, nft]);
-
-      useEffect(() => {
-        if (entry && entry.firebaseImageUrl) {
-            fetchImage(entry.firebaseImageUrl);
-        }
-    }, [entry]);
-
-
-    useEffect(() => {
-        return () => imageUrl && URL.revokeObjectURL(imageUrl);
-    }, [imageUrl]);
-
-
-    const handleInteraction = async (interactionType, id) => {
-        if (!userAddress) {
-            alert("Please connect your web3 wallet to interact.");
-            return;
-        }
-    
-        if (!isStanOwner) {
-            alert("You must own a Stan to vote.");
-            return;
-        }
-    
-        if (hasVoted) {
-            alert("You have already voted for this post.");
-            return;
-        }
-    
-        // Check if the user has already interacted
-        const hasInteracted = await checkUserInteraction(id);
-        if (hasInteracted) {
-            alert("You have already voted for this post.");
-            setHasVoted(true); // Update state to reflect this to avoid future checks
-            return;
-        }
-    
-        try {
-            // Update database with user interaction
-            await db.collection('interactions').add({
-                photoId: id,
-                interactionType,
-                userAddress,
+        if (imageData && entry) {
+            setImageUrl(imageData);
+            setMintStatus({
+                message: '',
+                visible: false,
+                success: true
             });
-    
-            // Increment likes or dislikes in the database based on interaction type
-            const incrementAmount = increment(interactionType === 'like' ? 1 : -1);
-            const editDocRef = db.collection('edits').doc(id);
-            const fieldToUpdate = interactionType === 'like' ? 'likes' : 'dislikes';
-    
-            await editDocRef.update({ [fieldToUpdate]: incrementAmount });
-    
-            // Optimistically update the UI only after successful database update
-            if (interactionType === 'like') {
-                setLikes(likes + 1);
-            } else {
-                setDislikes(dislikes + 1);
-            }
-            setHasVoted(true); // Prevent further votes
-        } catch (error) {
-            console.error('Failed to record interaction:', error);
-            // Optionally undo optimistic UI update here or handle error
+            setMints(entry.mints)
         }
-    };
+    }, [imageData, entry]);
 
-    const formatIPFSLink = (ipfsUrl) => {
-        if (!ipfsUrl) return '';
-    
-        // Assuming the URL is a direct link to the IPFS gateway
-        const shortened = `${ipfsUrl.slice(0, 15)}...${ipfsUrl.slice(-5)}`;
-        return shortened;
+    const handleMint = async () => {
+        if (!account) {
+            alert("Please connect your wallet to mint.");
+            return;
+        }
+
+        updateMintStatus("processing...", true);
+        try {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner();
+            const nftContract = new ethers.Contract(entry.collectionAddress, nyskinABI, signer);
+            const tx = await nftContract.safeMint(account, entry.ipfsMetadata);
+            const receipt = await tx.wait();
+
+            updateMintStatus("Transaction confirmed. Processing mint...", true);
+
+            const transferEvent = receipt.events?.find(e => e.event === "Transfer" && e.args.from === "0x0000000000000000000000000000000000000000");
+            const tokenId = transferEvent.args.tokenId.toString();
+
+            await db.collection('userMints').add({
+                userId: account,
+                collectionAddress: entry.collectionAddress,
+                tokenId,
+                metadata: entry.ipfsMetadata,
+                image: entry.firebaseImageUrl,
+                name: entry.name,
+                timestamp: serverTimestamp()
+            });
+
+            updateMintStatus("NFT minted successfully!", true);
+            setMints(mints + 1);
+
+            const incrementAmount = increment(1);
+            const editDocRef = db.collection('skins').doc(entry.id);
+            const fieldToUpdate = 'mints';
+            await editDocRef.update({ [fieldToUpdate]: incrementAmount });
+            setMintCounts(prev => ({
+                ...prev,
+                [entry.id]: (prev[entry.id] || entry.mints) + 1  // Increment the local mint count
+            }));
+        } catch (error) {
+            updateMintStatus("Failed to mint NFT. Please try again.", false);
+        }
     };
 
     if (!entry) {
-        return <div>No data available.</div>;
+        return (
+            <div className="alt-viewer-container">
+                Select a Skin Collection to View & Mint
+            </div>
+        );
     }
 
     const createdAtDate = entry.createdAt ? new Date(entry.createdAt.seconds * 1000) : new Date();
@@ -134,20 +113,39 @@ const Viewer = ({ userAddress, nft }) => {
         <div className="viewer-container">
             <div className="avatar-viewer">
                 {imageUrl ? (
-                    <AvatarViewer skinUrl={imageUrl} autoRotate={false} />
+                    <AvatarViewer skinUrl={entry.firebaseImageUrl} autoRotate={false} />
                 ) : (
                     <p>Loading image...</p>
                 )}
             </div>
             <div className="entity-details">
                 <h2>{entry.name}</h2>
-                <p><strong>Creator:</strong> {formatIPFSLink(entry.creator)}</p>
+                <p><strong>Mints:</strong> {mintCounts[entry.id] ?? entry.mints} {' / '} {entry.supply} </p>
+                <p><strong>Creator:</strong> {entry.creator}</p>
                 <p><strong>Created At:</strong> {formattedDate}</p>
-                <p><strong>ipfs:</strong> 
-          <a href={entry.ipfsMetadata} target="_blank" rel="noopener noreferrer">
-            {formatIPFSLink(entry.ipfsMetadata)}
-          </a>
-        </p>
+                <p><strong>Collection:</strong> {entry.collectionAddress}</p>
+                <div className="viewer-interactions">
+                    <button onClick={handleMint} style={{ backgroundColor: 'grey' }}>
+                        Mint
+                    </button>
+                </div>
+                <div style={{ marginTop: '2px' }}>
+                {mintStatus.visible && (
+                    <div style={{ color: 'red' }} className={`status-message ${mintStatus.success ? 'success' : 'error'}`}>
+                        {mintStatus.message}
+                    </div>
+                )}
+            </div>
+            </div>
+        </div>
+    );
+};
+
+export default Viewer;
+
+
+
+/*
                 <div className= "viewer-interactions">
                     <button onClick={() => handleInteraction('like', entry.id)} style={{ backgroundColor: 'grey' }}>
                         👍 ({likes})
@@ -156,9 +154,4 @@ const Viewer = ({ userAddress, nft }) => {
                         👎 ({dislikes})
                     </button>
                 </div>
-            </div>
-        </div>
-    );
-};
-
-export default Viewer;
+*/
