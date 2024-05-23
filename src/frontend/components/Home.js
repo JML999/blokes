@@ -98,7 +98,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
         throw new Error('Network response was not ok');
       }
       const entry = await response.json();
-      if (!entry || !entry.image) {
+      if (!entry ) {
         throw new Error('Metadata not found for the current token ID or image link is missing');
       }
       const metadataUri = entry.image;
@@ -106,7 +106,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       // Prepare transaction options
       const txOptions = {
         value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
-        gasLimit: 300000
+        gasLimit: 600000
       };
       console.log('Transaction options:', txOptions);
       const tx = whitelistActive
