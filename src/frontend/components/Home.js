@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from 'react-bootstrap'; // Import Button from react-bootstrap
+import { Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
 import abi from '../contractsData/NFT.json';
 import address from '../contractsData/NFT-address.json';
@@ -12,6 +12,9 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
   const [whitelistActive, setWhitelistActive] = useState(false);
   const [mintPrice, setMintPrice] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [totalSupply, setTotalSupply] = useState(null);
+
+  const expectedChainId = 11155111;
 
   useEffect(() => {
     const handleResize = () => {
@@ -38,9 +41,11 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
 
         const whitelistStatus = await nftContract.whitelistActive();
         const price = whitelistStatus ? await nftContract.whitelistPrice() : await nftContract.mintPrice();
+        const totalSupply = await nftContract.totalSupply();
 
         setWhitelistActive(whitelistStatus);
         setMintPrice(ethers.utils.formatEther(price));
+        setTotalSupply(totalSupply.toNumber());
       } catch (error) {
         console.error('Error fetching contract data:', error);
       }
@@ -51,48 +56,60 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
   }, []);
 
   const mintPressed = async () => {
+    if (!account) {
+      setMintStatus('Please connect your wallet');
+      return;
+    }
+
     setMintStatus('processing');
-  
     try {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
+      const { chainId } = await provider.getNetwork();
+
+      if (chainId !== expectedChainId) {
+        setMintStatus(`Please switch to the correct network. Expected Chain ID: ${expectedChainId}`);
+        return;
+      }
+
       const nftContract = new ethers.Contract(address.address, abi, signer);
-  
+
       // Fetch the next token ID
       const nextTokenId = await nftContract.getNextTokenId();
-  
+
       // Fetch metadata URI for the current token ID
       const response = await fetch(`https://blokesofhytopia.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const entry = await response.json();
-  
+
       console.log('Metadata entry:', entry);
-  
+
       if (!entry || !entry.image) {
         throw new Error('Metadata not found for the current token ID or image link is missing');
       }
-  
+
       const metadataUri = entry.image;
-  
+
       console.log('Metadata URI:', metadataUri);
-  
+
       // Prepare transaction options
       const txOptions = {
         value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
         gasLimit: 300000
       };
-  
+
       // Mint the token with the expected token ID and URI
       const tx = whitelistActive
         ? await nftContract.whitelistMint(account, txOptions)
         : await nftContract.normalMint(account, txOptions);
-  
+
       const receipt = await tx.wait();
-  
+
       console.log('Minted token ID:', nextTokenId);
       setMintStatus('success');
+      setTotalSupply(totalSupply + 1); // Increment the total supply
     } catch (error) {
       console.error('Minting failed:', error);
       setMintStatus('error');
@@ -103,6 +120,9 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
     <div className="home" style={{ backgroundImage: `url(${pinkBackground})` }}>
       <div className="content">
         <h1 className="title">blokes</h1>
+        <div className="sub-title">
+          {totalSupply !== null ? `${totalSupply} / 1400 minted` : '1400 Diggers'}
+        </div>
         <div className="price-info">
           {whitelistActive ? 'Whitelist Mint: ' : ''} {mintPrice} TOPIA
         </div>
@@ -135,12 +155,17 @@ const getStatusMessage = (status) => {
       return 'Mint successful!';
     case 'error':
       return 'Mint failed. Please try again.';
+    case 'Please connect your wallet':
+      return 'Please connect your wallet';
+    case 'Please switch to the correct network. Expected Chain ID: 11155111':
+      return 'Please switch to the correct network: HYCHAIN';
     default:
       return '';
   }
 };
 
 export default Home;
+
 
 
 
