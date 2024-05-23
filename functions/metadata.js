@@ -7,31 +7,6 @@ const cors = require('cors');
 
 app.use(cors());
 
-// Print the first bit of the metadata
-console.log("First bit of metadata:", JSON.stringify(metadata, null, 2).substring(0, 500));
-router.get('/metadata/:id', (req, res) => {
-    const id = req.params.id;
-    console.log(`Received request for metadata ID: ${id}`);
-    const item = metadata[id];
-    if (item) {
-        console.log(`Serving metadata for ID: ${id}`);
-        res.json(item);
-    } else {
-        console.log(`Metadata not found for ID: ${id}`);
-        res.json({
-            "name": "Unrevealed NFT",
-            "description": "This NFT has not been revealed yet.",
-            "image": "https://example.com/placeholder.png"
-        });
-    }
-});
-
-app.use('/.netlify/functions', router);
-
-module.exports = app;
-module.exports.handler = serverless(app);
-
-
 const metadata = {
     "1": {
         "name": "Avatar #1",
@@ -71485,6 +71460,31 @@ const metadata = {
         ]
     }
 };
+
+// Print the first bit of the metadata
+console.log("First bit of metadata:", JSON.stringify(metadata, null, 2).substring(0, 500));
+router.get('/metadata/:id', (req, res) => {
+    const id = req.params.id;
+    console.log(`Received request for metadata ID: ${id}`);
+    const item = metadata[id];
+    if (item) {
+        console.log(`Serving metadata for ID: ${id}`);
+        res.json(item);
+    } else {
+        console.log(`Metadata not found for ID: ${id}`);
+        res.json({
+            "name": "Unrevealed NFT",
+            "description": "This NFT has not been revealed yet.",
+            "image": "https://example.com/placeholder.png"
+        });
+    }
+});
+
+app.use('/.netlify/functions', router);
+
+module.exports = app;
+module.exports.handler = serverless(app);
+
 
 
 
