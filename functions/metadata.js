@@ -7,7 +7,6 @@ const app = express();
 const router = express.Router();
 
 let metadata;
-
 try {
     const metadataPath = path.resolve(__dirname, 'metadata.json');
     const data = fs.readFileSync(metadataPath, 'utf8');
@@ -35,9 +34,10 @@ router.get('/metadata/:id', (req, res) => {
     }
 });
 
-app.use('/.netlify/functions/metadata', router);
+app.use('/.netlify/functions', router);
 
 module.exports.handler = serverless(app);
+
 
 
 
