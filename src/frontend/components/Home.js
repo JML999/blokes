@@ -21,9 +21,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
-
     window.addEventListener('resize', handleResize);
-
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
@@ -48,12 +46,12 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
         });
 
         nftContract.on('DebugLogValue', (message, value) => {
-          console.log(`DebugLogValue: ${message} - ${ethers.formatEther(value)} ETH`);
-          setLogs((prevLogs) => [...prevLogs, `DebugLogValue: ${message} - ${ethers.formatEther(value)} ETH`]);
+          console.log(`DebugLogValue: ${message} - ${ethers.utils.formatEther(value)} ETH`);
+          setLogs((prevLogs) => [...prevLogs, `DebugLogValue: ${message} - ${ethers.utils.formatEther(value)} ETH`]);
         });
 
         setWhitelistActive(whitelistStatus);
-        setMintPrice(ethers.formatEther(price));
+        setMintPrice(ethers.utils.formatEther(price));
         setTotalSupply(totalSupply.toNumber());
 
         // Debugging steps
@@ -107,7 +105,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       console.log('Metadata URI:', metadataUri);
       // Prepare transaction options
       const txOptions = {
-        value: whitelistActive ? ethers.parseEther("0.001") : ethers.parseEther("0.002"),
+        value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
         gasLimit: 300000
       };
       console.log('Transaction options:', txOptions);
@@ -134,7 +132,6 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
         <div className="price-info">
           {whitelistActive ? 'Whitelist Mint: ' : ''} {mintPrice} TOPIA
         </div>
-        {/* Action Buttons */}
         <div className="home-button-group">
           <button className="home-custom-button" onClick={mintPressed}>mint</button>
           <div className={`mint-status ${mintStatus}`}>{getStatusMessage(mintStatus)}</div>

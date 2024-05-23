@@ -42,10 +42,8 @@ function App() {
       const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
       console.log('Accounts received:', accounts);
       setAccount(accounts[0]);
-      const provider = new ethers.BrowserProvider(window.ethereum);
-      const network = await provider.getNetwork();
-      console.log('Network detected:', network);
-      const signer = provider.getSigner(accounts[0]);
+      const provider = new ethers.providers.Web3Provider(window.ethereum)
+      const signer = provider.getSigner();
       console.log('Signer resolved:', signer);
       loadContracts(signer);
       setProvider(provider)
@@ -80,7 +78,7 @@ function App() {
         {loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
             <Spinner animation="border" style={{ display: 'flex' }} />
-            <p className='mx-3 my-0'>Awaiting Metamask Connection...</p>
+            <p className='mx-3 my-0'>Awaiting Wallet Connection...</p>
           </div>
         ) : (
           <Routes>

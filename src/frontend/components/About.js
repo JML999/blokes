@@ -8,9 +8,8 @@ const About = () => {
     <Row className="justify-content-center">
       <Col md={6} className="text-center">
         <p style={{ fontFamily: 'Minecraftia', fontSize: '1.25rem' }}>
-           ny-skins   
+           blokes 
         </p>
-
       </Col>
     </Row>
   </Container>
