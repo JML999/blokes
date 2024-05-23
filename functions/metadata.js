@@ -1,24 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const serverless = require('serverless-http');
 
 const app = express();
-const router = express.Router();
+const PORT = process.env.PORT || 3000;
 
 let metadata;
 try {
     const metadataPath = path.resolve(__dirname, 'metadata.json');
-    console.log("Reading metadata from:", metadataPath);
+    console.log("Looking for metadata at:", metadataPath); // Debugging line
     const data = fs.readFileSync(metadataPath, 'utf8');
     metadata = JSON.parse(data);
-    console.log("Metadata loaded:", JSON.stringify(metadata, null, 2));
+    console.log("Metadata loaded:", metadata); // Debugging line
 } catch (error) {
     console.error("Error reading metadata:", error);
     metadata = {}; // Assign an empty object to avoid undefined errors
 }
 
-router.get('/metadata/:id', (req, res) => {
+app.get('/metadata/:id', (req, res) => {
     const id = req.params.id;
     console.log(`Received request for metadata ID: ${id}`);
     const item = metadata[id];
@@ -35,9 +34,11 @@ router.get('/metadata/:id', (req, res) => {
     }
 });
 
-app.use('/.netlify/functions', router);
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
 
-module.exports.handler = serverless(app);
+
 
 
 
