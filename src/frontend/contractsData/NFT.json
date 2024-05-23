@@ -369,16 +369,6 @@
 				"internalType": "address",
 				"name": "to",
 				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "expectedTokenId",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "uri",
-				"type": "string"
 			}
 		],
 		"name": "normalMint",
@@ -458,6 +448,19 @@
 			}
 		],
 		"name": "setApprovalForAll",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "newBaseMetadataURI",
+				"type": "string"
+			}
+		],
+		"name": "setBaseMetadataURI",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"
@@ -561,16 +564,6 @@
 				"internalType": "address",
 				"name": "to",
 				"type": "address"
-			},
-			{
-				"internalType": "uint256",
-				"name": "expectedTokenId",
-				"type": "uint256"
-			},
-			{
-				"internalType": "string",
-				"name": "uri",
-				"type": "string"
 			}
 		],
 		"name": "whitelistMint",

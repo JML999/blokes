@@ -52,47 +52,36 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
 
   const mintPressed = async () => {
     setMintStatus('processing');
-    let attempts = 0;
-    const maxAttempts = 5;
+    try {
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      const signer = provider.getSigner();
+      const nftContract = new ethers.Contract(address.address, abi, signer);
   
-    while (attempts < maxAttempts) {
-      try {
-        const provider = new ethers.providers.Web3Provider(window.ethereum);
-        const signer = provider.getSigner();
-        const nftContract = new ethers.Contract(address.address, abi, signer);
+      // Fetch the next token ID
+      const nextTokenId = await nftContract.getNextTokenId();
   
-        // Fetch the next token ID
-        const nextTokenId = await nftContract.getNextTokenId();
+      // Fetch metadata from your server
+      const response = await fetch(`https://blokemeta.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
+      const metadata = await response.json();
   
-        // Select metadata URI for the current token ID
-        const entry = data.find(item => item["File Name"] === `${nextTokenId}.json`);
-        console.log('Metadata entry:', entry);
-  
-        if (!entry || !entry["Direct Download Link"]) {
-          throw new Error('Metadata not found for the current token ID or Direct Download Link is missing');
-        }
-  
-        console.log('Direct Download Link (ipfsMetadata):', entry["Direct Download Link"]);
-  
-        // Mint the token with the expected token ID and URI
-        const tx = whitelistActive
-          ? await nftContract.whitelistMint(account, nextTokenId, entry["Direct Download Link"], { value: ethers.utils.parseEther("0.001"), gasLimit: 300000 })
-          : await nftContract.normalMint(account, nextTokenId, entry["Direct Download Link"], { value: ethers.utils.parseEther("0.002"), gasLimit: 300000 });
-  
-        const receipt = await tx.wait();
-  
-        console.log('Minted token ID:', nextTokenId);
-        setMintStatus('success');
-        return; // Exit if successful
-      } catch (error) {
-        console.error(`Mint attempt ${attempts + 1} failed:`, error);
-        attempts += 1;
-        if (attempts >= maxAttempts) {
-          setMintStatus('error');
-        } else {
-          await new Promise(resolve => setTimeout(resolve, 1000)); // Wait 1 second before retrying
-        }
+      if (!metadata || !metadata["Direct Download Link"]) {
+        throw new Error('Metadata not found for the current token ID or Direct Download Link is missing');
       }
+  
+      console.log('Direct Download Link (ipfsMetadata):', metadata["Direct Download Link"]);
+  
+      // Mint the token with the expected token ID and URI
+      const tx = whitelistActive
+        ? await nftContract.whitelistMint({ value: ethers.utils.parseEther("0.001"), gasLimit: 300000 })
+        : await nftContract.normalMint({ value: ethers.utils.parseEther("0.002"), gasLimit: 300000 });
+  
+      const receipt = await tx.wait();
+  
+      console.log('Minted token ID:', nextTokenId);
+      setMintStatus('success');
+    } catch (error) {
+      console.error('Minting failed:', error);
+      setMintStatus('error');
     }
   };
 
