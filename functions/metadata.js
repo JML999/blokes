@@ -71465,7 +71465,7 @@ const metadata = {
 
 // Smart contract details
 const provider = new ethers.providers.JsonRpcProvider('https://testnet-rpc.hychain.com/http');
-const contractAddress = '0x750b43ed37f2e791ca80f93b6185a043d0f1508c';
+const contractAddress = '0x9653d259c335bae01d0cde9c48d9e07ccea662f3';
 const abi = [
     {
         "constant": true,
