@@ -1,9 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
+const serverless = require('serverless-http');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const router = express.Router();
 
 let metadata;
 try {
@@ -17,7 +18,7 @@ try {
     metadata = {}; // Assign an empty object to avoid undefined errors
 }
 
-app.get('/metadata/:id', (req, res) => {
+router.get('/metadata/:id', (req, res) => {
     const id = req.params.id;
     console.log(`Received request for metadata ID: ${id}`);
     const item = metadata[id];
@@ -34,9 +35,10 @@ app.get('/metadata/:id', (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+app.use('/.netlify/functions/metadata', router);
+
+module.exports.handler = serverless(app);
+
 
 
 
