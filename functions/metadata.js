@@ -8,7 +8,7 @@ const router = express.Router();
 
 let metadata;
 try {
-    const metadataPath = path.resolve(__dirname, 'metadata.json');
+    const metadataPath = path.resolve(__dirname, '../metadata.json');
     console.log("Looking for metadata at:", metadataPath); // Debugging line
     const data = fs.readFileSync(metadataPath, 'utf8');
     metadata = JSON.parse(data);
