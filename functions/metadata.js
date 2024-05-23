@@ -9,9 +9,10 @@ const router = express.Router();
 let metadata;
 try {
     const metadataPath = path.resolve(__dirname, 'metadata.json');
+    console.log("Reading metadata from:", metadataPath);
     const data = fs.readFileSync(metadataPath, 'utf8');
     metadata = JSON.parse(data);
-    console.log("Metadata loaded:", metadata);
+    console.log("Metadata loaded:", JSON.stringify(metadata, null, 2));
 } catch (error) {
     console.error("Error reading metadata:", error);
     metadata = {}; // Assign an empty object to avoid undefined errors
@@ -37,6 +38,7 @@ router.get('/metadata/:id', (req, res) => {
 app.use('/.netlify/functions', router);
 
 module.exports.handler = serverless(app);
+
 
 
 
