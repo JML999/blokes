@@ -1,4 +1,3 @@
-// src/backend/server.js
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
@@ -19,17 +18,25 @@ try {
 
 app.get('/metadata/:id', (req, res) => {
     const id = req.params.id;
+    console.log(`Received request for metadata ID: ${id}`);
     const item = metadata[id];
     if (item) {
+        console.log(`Serving metadata for ID: ${id}`);
         res.json(item);
     } else {
-        res.status(404).json({ error: "Metadata not found" });
+        console.log(`Metadata not found for ID: ${id}`);
+        res.json({
+            "name": "Unrevealed NFT",
+            "description": "This NFT has not been revealed yet.",
+            "image": "https://example.com/placeholder.png"
+        });
     }
 });
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
+
 
 
 

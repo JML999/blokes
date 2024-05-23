@@ -1,33 +1,38 @@
+const fs = require('fs');
+const path = require('path');
 const express = require('express');
+
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-// Example metadata for minted tokens
-const mintedMetadata = {
-  1: {
-    name: "Token 1",
-    description: "Description for token 1",
-    image: "ipfs://Qm.../1.png"
-  },
-  // Add metadata for other minted tokens...
-};
+let metadata;
+try {
+    const metadataPath = path.resolve(__dirname, '../../functions/metadata.json');
+    const data = fs.readFileSync(metadataPath, 'utf8');
+    metadata = JSON.parse(data);
+    console.log("Metadata loaded:", metadata);
+} catch (error) {
+    console.error("Error reading metadata:", error);
+    metadata = {}; // Assign an empty object to avoid undefined errors
+}
 
-// Placeholder metadata for non-minted tokens
-const placeholderMetadata = {
-  name: "Placeholder",
-  description: "This token has not been revealed yet.",
-  image: "ipfs://Qm.../placeholder.png"
-};
-
-app.get('/metadata/:tokenId', (req, res) => {
-  const tokenId = req.params.tokenId;
-  if (mintedMetadata[tokenId]) {
-    res.json(mintedMetadata[tokenId]);
-  } else {
-    res.json(placeholderMetadata);
-  }
+app.get('/metadata/:id', (req, res) => {
+    const id = req.params.id;
+    console.log(`Received request for metadata ID: ${id}`);
+    const item = metadata[id];
+    if (item) {
+        console.log(`Serving metadata for ID: ${id}`);
+        res.json(item);
+    } else {
+        console.log(`Metadata not found for ID: ${id}`);
+        res.json({
+            "name": "Unrevealed NFT",
+            "description": "This NFT has not been revealed yet.",
+            "image": "https://example.com/placeholder.png"
+        });
+    }
 });
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
