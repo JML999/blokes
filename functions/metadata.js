@@ -71484,9 +71484,7 @@ const fetchTokenDetails = async (tokenAddress) => {
 router.get('/metadata/:id', async (req, res) => {
     const id = parseInt(req.params.id, 10);
     console.log(`Received request for metadata ID: ${id}`);
-
     try {
-        console.log(`Current total supply: ${totalSupply}`);
         const totalSupply = await fetchTokenDetails("0x9653d259c335bae01d0cde9c48d9e07ccea662f3");
         if (id <= totalSupply) {
             console.log(`Serving metadata for ID: ${id}`);
