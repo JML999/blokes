@@ -52,6 +52,7 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
 
   const mintPressed = async () => {
     setMintStatus('processing');
+  
     try {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
@@ -60,20 +61,33 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
       // Fetch the next token ID
       const nextTokenId = await nftContract.getNextTokenId();
   
-      // Fetch metadata from your server
-      const response = await fetch(`https://blokemeta.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
-      const metadata = await response.json();
+      // Fetch metadata URI for the current token ID
+      const response = await fetch(`https://blokesofhytopia.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const entry = await response.json();
   
-      if (!metadata || !metadata["Direct Download Link"]) {
-        throw new Error('Metadata not found for the current token ID or Direct Download Link is missing');
+      console.log('Metadata entry:', entry);
+  
+      if (!entry || !entry.image) {
+        throw new Error('Metadata not found for the current token ID or image link is missing');
       }
   
-      console.log('Direct Download Link (ipfsMetadata):', metadata["Direct Download Link"]);
+      const metadataUri = entry.image;
+  
+      console.log('Metadata URI:', metadataUri);
+  
+      // Prepare transaction options
+      const txOptions = {
+        value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
+        gasLimit: 300000
+      };
   
       // Mint the token with the expected token ID and URI
       const tx = whitelistActive
-        ? await nftContract.whitelistMint({ value: ethers.utils.parseEther("0.001"), gasLimit: 300000 })
-        : await nftContract.normalMint({ value: ethers.utils.parseEther("0.002"), gasLimit: 300000 });
+        ? await nftContract.whitelistMint(account, txOptions)
+        : await nftContract.normalMint(account, txOptions);
   
       const receipt = await tx.wait();
   
@@ -90,7 +104,7 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
       <div className="content">
         <h1 className="title">blokes</h1>
         <div className="price-info">
-          {whitelistActive ? 'Whitelist Mint Price: ' : 'Mint Price: '} {mintPrice} TOPIA
+          {whitelistActive ? 'Whitelist Mint: ' : ''} {mintPrice} TOPIA
         </div>
         {/* Action Buttons */}
         <div className="home-button-group">
