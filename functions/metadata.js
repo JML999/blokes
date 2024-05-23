@@ -71506,9 +71506,9 @@ router.get('/metadata/:id', async (req, res) => {
         } else {
             console.log(`Metadata not found for ID: ${id}`);
             res.json({
-                "name": "Unrevealed NFT",
-                "description": "This NFT has not been revealed yet.",
-                "image": "https://example.com/placeholder.png"
+                "name": "Unrevealed Bloke",
+                "description": "This Bloke has not been revealed yet.",
+                "image": ""
             });
         }
     } catch (error) {
