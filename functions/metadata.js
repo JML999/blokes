@@ -2,6 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 
+const serverless = require('serverless-http');
+
 const router = express.Router();
 const app = express();
 const PORT = process.env.PORT || 3001;
