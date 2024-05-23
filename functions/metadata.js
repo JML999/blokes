@@ -71475,7 +71475,7 @@ const fetchTokenDetails = async (tokenAddress) => {
         console.log("success", response);
         console.log("success.data", response.data);
         console.log("success.data.total_supply", response.data.total_supply); // Corrected typo from 'toal_supply' to 'total_supply'
-        return response.data.total_supplly; // Return the total supply value
+        return response.data.total_supply; // Return the total supply value
     } catch (error) {
         console.error('Error fetching token details:', error);
         return []; // Returning an empty array may be inappropriate if the expected return type is numeric
