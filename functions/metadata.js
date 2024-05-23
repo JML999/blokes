@@ -7,63 +7,6 @@ const cors = require('cors');
 
 app.use(cors());
 
-// Smart contract details
-const provider = new ethers.providers.InfuraProvider('mainnet', 'https://sepolia.infura.io/v3/2b2b1ac60e2649c1b83e9d67221fdc0a');
-const contractAddress = '0x596f845a14a92f8c3ae502a00558386a413c8f5b';
-const abi = [
-    {
-        "constant": true,
-        "inputs": [],
-        "name": "totalSupply",
-        "outputs": [
-            {
-                "name": "",
-                "type": "uint256"
-            }
-        ],
-        "payable": false,
-        "stateMutability": "view",
-        "type": "function"
-    }
-];
-const contract = new ethers.Contract(contractAddress, abi, provider);
-// Function to get the current total supply of tokens
-async function getTotalSupply() {
-    const totalSupply = await contract.totalSupply();
-    return totalSupply.toNumber();
-}
-
-// Route to serve metadata
-app.get('/metadata/:id', async (req, res) => {
-    const id = parseInt(req.params.id, 10);
-    console.log(`Received request for metadata ID: ${id}`);
-
-    try {
-        const totalSupply = await getTotalSupply();
-        console.log(`Current total supply: ${totalSupply}`);
-
-        if (id <= totalSupply) {
-            console.log(`Serving metadata for ID: ${id}`);
-            const item = metadata[id];
-            res.json(item);
-        } else {
-            console.log(`Metadata not found or token not minted for ID: ${id}`);
-            res.json({
-                "name": "Unrevealed Bloke",
-                "description": "This Bloke has not been minted.",
-                "image": "" // Add an image URL if you have a placeholder image
-            });
-        }
-    } catch (error) {
-        console.error(`Error fetching total supply: ${error}`);
-        res.status(500).send('Internal Server Error');
-    }
-});
-
-app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
-});
-
 const metadata = {
     "1": {
         "name": "Avatar #1",
@@ -71517,6 +71460,63 @@ const metadata = {
         ]
     }
 };
+
+// Smart contract details
+const provider = new ethers.providers.InfuraProvider('mainnet', 'https://sepolia.infura.io/v3/2b2b1ac60e2649c1b83e9d67221fdc0a');
+const contractAddress = '0x596f845a14a92f8c3ae502a00558386a413c8f5b';
+const abi = [
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "totalSupply",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    }
+];
+const contract = new ethers.Contract(contractAddress, abi, provider);
+// Function to get the current total supply of tokens
+async function getTotalSupply() {
+    const totalSupply = await contract.totalSupply();
+    return totalSupply.toNumber();
+}
+
+// Route to serve metadata
+app.get('/metadata/:id', async (req, res) => {
+    const id = parseInt(req.params.id, 10);
+    console.log(`Received request for metadata ID: ${id}`);
+
+    try {
+        const totalSupply = await getTotalSupply();
+        console.log(`Current total supply: ${totalSupply}`);
+
+        if (id <= totalSupply) {
+            console.log(`Serving metadata for ID: ${id}`);
+            const item = metadata[id];
+            res.json(item);
+        } else {
+            console.log(`Metadata not found or token not minted for ID: ${id}`);
+            res.json({
+                "name": "Unrevealed Bloke",
+                "description": "This Bloke has not been minted.",
+                "image": "" // Add an image URL if you have a placeholder image
+            });
+        }
+    } catch (error) {
+        console.error(`Error fetching total supply: ${error}`);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
 
 
 
