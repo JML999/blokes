@@ -6,15 +6,16 @@ import address from '../contractsData/NFT-address.json';
 import './Home.css';
 import pinkBackground from './Renders/Pink_Background_Large.png';
 
-const Home = ({ web3Handler, account, disconnectHandler }) => {
+const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => {
   const [mintStatus, setMintStatus] = useState('');
   const [data, setData] = useState([]);
   const [whitelistActive, setWhitelistActive] = useState(false);
   const [mintPrice, setMintPrice] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [totalSupply, setTotalSupply] = useState(null);
+  const [logs, setLogs] = useState([]);
 
-  const expectedChainId = 11155111;
+  const expectedChainId = 2911;
 
   useEffect(() => {
     const handleResize = () => {
@@ -27,7 +28,7 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
   }, []);
 
   useEffect(() => {
-    const fetchData = async () => {
+     const fetchData = async () => {
       const response = await fetch('/data/all_uris.json');
       const combinedData = await response.json();
       setData(combinedData);
@@ -35,17 +36,28 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
 
     const fetchContractData = async () => {
       try {
-        const provider = new ethers.providers.Web3Provider(window.ethereum);
-        const signer = provider.getSigner();
-        const nftContract = new ethers.Contract(address.address, abi, signer);
-
+        const nftContract = blokes;
         const whitelistStatus = await nftContract.whitelistActive();
         const price = whitelistStatus ? await nftContract.whitelistPrice() : await nftContract.mintPrice();
         const totalSupply = await nftContract.totalSupply();
 
+        // Subscribe to contract events
+        nftContract.on('DebugLog', (message, user) => {
+          console.log(`DebugLog: ${message} - ${user}`);
+          setLogs((prevLogs) => [...prevLogs, `DebugLog: ${message} - ${user}`]);
+        });
+
+        nftContract.on('DebugLogValue', (message, value) => {
+          console.log(`DebugLogValue: ${message} - ${ethers.formatEther(value)} ETH`);
+          setLogs((prevLogs) => [...prevLogs, `DebugLogValue: ${message} - ${ethers.formatEther(value)} ETH`]);
+        });
+
         setWhitelistActive(whitelistStatus);
-        setMintPrice(ethers.utils.formatEther(price));
+        setMintPrice(ethers.formatEther(price));
         setTotalSupply(totalSupply.toNumber());
+
+        // Debugging steps
+        await debugSimpleMethods(nftContract);
       } catch (error) {
         console.error('Error fetching contract data:', error);
       }
@@ -55,58 +67,54 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
     fetchContractData();
   }, []);
 
+  const debugSimpleMethods = async (nftContract) => {
+    try {
+      const totalSupply = await nftContract.totalSupply();
+      console.log(`Total Supply: ${totalSupply.toString()}`);
+    } catch (error) {
+      console.error('Failed to call totalSupply:', error);
+    }
+
+    try {
+      const whitelistActive = await nftContract.whitelistActive();
+      console.log(`Whitelist Active: ${whitelistActive}`);
+    } catch (error) {
+      console.error('Failed to call whitelistActive:', error);
+    }
+  };
+
   const mintPressed = async () => {
     if (!account) {
       setMintStatus('Please connect your wallet');
       return;
     }
-
     setMintStatus('processing');
     try {
-      const provider = new ethers.providers.Web3Provider(window.ethereum);
-      const signer = provider.getSigner();
-      const { chainId } = await provider.getNetwork();
-
-      if (chainId !== expectedChainId) {
-        setMintStatus(`Please switch to the correct network. Expected Chain ID: ${expectedChainId}`);
-        return;
-      }
-
-      const nftContract = new ethers.Contract(address.address, abi, signer);
-
       // Fetch the next token ID
-      const nextTokenId = await nftContract.getNextTokenId();
-
+      const nextTokenId = await blokes.getNextTokenId();
+      console.log("Next", nextTokenId)
+      console.log(account)
       // Fetch metadata URI for the current token ID
       const response = await fetch(`https://blokesofhytopia.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const entry = await response.json();
-
-      console.log('Metadata entry:', entry);
-
       if (!entry || !entry.image) {
         throw new Error('Metadata not found for the current token ID or image link is missing');
       }
-
       const metadataUri = entry.image;
-
       console.log('Metadata URI:', metadataUri);
-
       // Prepare transaction options
       const txOptions = {
-        value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
+        value: whitelistActive ? ethers.parseEther("0.001") : ethers.parseEther("0.002"),
         gasLimit: 300000
       };
-
-      // Mint the token with the expected token ID and URI
+      console.log('Transaction options:', txOptions);
       const tx = whitelistActive
-        ? await nftContract.whitelistMint(account, txOptions)
-        : await nftContract.normalMint(account, txOptions);
-
+        ? await blokes.whitelistMint(account, txOptions)
+        : await blokes.normalMint(account, txOptions);
       const receipt = await tx.wait();
-
       console.log('Minted token ID:', nextTokenId);
       setMintStatus('success');
       setTotalSupply(totalSupply + 1); // Increment the total supply
@@ -142,6 +150,15 @@ const Home = ({ web3Handler, account, disconnectHandler }) => {
             </Button>
           )}
         </div>
+        {/* Display logs */}
+        <div className="logs">
+          <h3>Debug Logs:</h3>
+          <ul>
+            {logs.map((log, index) => (
+              <li key={index}>{log}</li>
+            ))}
+          </ul>
+        </div>
       </div>
     </div>
   );
@@ -157,7 +174,7 @@ const getStatusMessage = (status) => {
       return 'Mint failed. Please try again.';
     case 'Please connect your wallet':
       return 'Please connect your wallet';
-    case 'Please switch to the correct network. Expected Chain ID: 11155111':
+    case 'Please switch to the correct network. Expected Chain ID: 29112':
       return 'Please switch to the correct network: HYCHAIN';
     default:
       return '';
@@ -165,9 +182,6 @@ const getStatusMessage = (status) => {
 };
 
 export default Home;
-
-
-
 
 
 

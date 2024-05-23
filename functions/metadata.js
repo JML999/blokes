@@ -71464,8 +71464,8 @@ const metadata = {
 };
 
 // Smart contract details
-const provider = new ethers.providers.JsonRpcProvider('https://sepolia.infura.io/v3/2b2b1ac60e2649c1b83e9d67221fdc0a');
-const contractAddress = '0x596f845a14a92f8c3ae502a00558386a413c8f5b';
+const provider = new ethers.providers.JsonRpcProvider('https://testnet-rpc.hychain.com/http');
+const contractAddress = '0xb47f0676f9fe5f6f71d9e2263642900ec7312f2a';
 const abi = [
     {
         "constant": true,
