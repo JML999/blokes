@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
-import abi from '../contractsData/NFT.json';
-import address from '../contractsData/NFT-address.json';
 import './Home.css';
 import pinkBackground from './Renders/Pink_Background_Large.png';
 
@@ -27,7 +25,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
   }, []);
 
   useEffect(() => {
-     const fetchData = async () => {
+    const fetchData = async () => {
       const response = await fetch('/data/all_uris.json');
       const combinedData = await response.json();
       setData(combinedData);
@@ -37,20 +35,9 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       try {
         const nftContract = blokes;
         const whitelistStatus = await nftContract.whitelistActive();
-        const mintIsActive = await nftContract.mintIsActive()
+        const mintIsActive = await nftContract.mintIsActive();
         const price = whitelistStatus ? await nftContract.whitelistPrice() : await nftContract.mintPrice();
         const totalSupply = await nftContract.totalSupply();
-
-        // Subscribe to contract events
-        nftContract.on('DebugLog', (message, user) => {
-          console.log(`DebugLog: ${message} - ${user}`);
-          setLogs((prevLogs) => [...prevLogs, `DebugLog: ${message} - ${user}`]);
-        });
-
-        nftContract.on('DebugLogValue', (message, value) => {
-          console.log(`DebugLogValue: ${message} - ${ethers.utils.formatEther(value)} ETH`);
-          setLogs((prevLogs) => [...prevLogs, `DebugLogValue: ${message} - ${ethers.utils.formatEther(value)} ETH`]);
-        });
 
         setMintActive(mintIsActive);
         setWhitelistActive(whitelistStatus);
@@ -89,36 +76,34 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       setMintStatus('Please connect your wallet');
       return;
     }
+    if (!mintIsActive) {
+      setMintStatus('Minting Soon');
+      return;
+    }
     setMintStatus('processing');
     try {
-      // Fetch the next token ID
+      // Fetch the next token ID & URI
       const nextTokenId = await blokes.getNextTokenId();
-      console.log("Next", nextTokenId)
-      console.log(account)
-      // Fetch metadata URI for the current token ID
       const response = await fetch(`https://blokesofhytopia.netlify.app/.netlify/functions/metadata/${nextTokenId}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
       const entry = await response.json();
-      if (!entry ) {
+      if (!entry) {
         throw new Error('Metadata not found for the current token ID or image link is missing');
       }
-      const metadataUri = entry.image;
-      console.log('Metadata URI:', metadataUri);
-      // Prepare transaction options
       const txOptions = {
         value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
         gasLimit: 600000
       };
-      console.log('Transaction options:', txOptions);
       const tx = whitelistActive
         ? await blokes.whitelistMint(account, txOptions)
         : await blokes.normalMint(account, txOptions);
       const receipt = await tx.wait();
-      console.log('Minted token ID:', nextTokenId);
       setMintStatus('success');
-      setTotalSupply(totalSupply + 1); // Increment the total supply
+      
+      const newTotalSupply = await blokes.totalSupply();
+      setTotalSupply(newTotalSupply.toNumber());
     } catch (error) {
       console.error('Minting failed:', error);
       setMintStatus('error');

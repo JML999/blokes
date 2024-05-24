@@ -1,9 +1,9 @@
 {
-  "short_name": "Stans",
-  "name": "Stans Website",
+  "short_name": "Blokes",
+  "name": "Blokes Website",
   "icons": [
     {
-      "src": "StanTiny.png",
+      "src": "avatar_780",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
