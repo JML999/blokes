@@ -9,8 +9,9 @@ import pinkBackground from './Renders/Pink_Background_Large.png';
 const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => {
   const [mintStatus, setMintStatus] = useState('');
   const [data, setData] = useState([]);
-  const [whitelistActive, setWhitelistActive] = useState(false);
-  const [mintPrice, setMintPrice] = useState(null);
+  const [mintIsActive, setMintActive] = useState(false);
+  const [whitelistActive, setWhitelistActive] = useState(true);
+  const [mintPrice, setMintPrice] = useState(450);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
   const [totalSupply, setTotalSupply] = useState(null);
   const [logs, setLogs] = useState([]);
@@ -36,6 +37,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       try {
         const nftContract = blokes;
         const whitelistStatus = await nftContract.whitelistActive();
+        const mintIsActive = await nftContract.mintIsActive()
         const price = whitelistStatus ? await nftContract.whitelistPrice() : await nftContract.mintPrice();
         const totalSupply = await nftContract.totalSupply();
 
@@ -50,6 +52,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
           setLogs((prevLogs) => [...prevLogs, `DebugLogValue: ${message} - ${ethers.utils.formatEther(value)} ETH`]);
         });
 
+        setMintActive(mintIsActive);
         setWhitelistActive(whitelistStatus);
         setMintPrice(ethers.utils.formatEther(price));
         setTotalSupply(totalSupply.toNumber());
@@ -133,7 +136,9 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
           {whitelistActive ? 'Whitelist Mint: ' : ''} {mintPrice} TOPIA
         </div>
         <div className="home-button-group">
-          <button className="home-custom-button" onClick={mintPressed}>mint</button>
+          {mintIsActive ? (
+            <button className="home-custom-button" onClick={mintPressed}>Mint</button>
+          ) : null}
           <div className={`mint-status ${mintStatus}`}>{getStatusMessage(mintStatus)}</div>
         </div>
         <div className="wallet-button-group">
@@ -146,15 +151,6 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
               Connect Wallet
             </Button>
           )}
-        </div>
-        {/* Display logs */}
-        <div className="logs">
-          <h3>Debug Logs:</h3>
-          <ul>
-            {logs.map((log, index) => (
-              <li key={index}>{log}</li>
-            ))}
-          </ul>
         </div>
       </div>
     </div>
