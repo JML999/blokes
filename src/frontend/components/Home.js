@@ -164,7 +164,7 @@ const getStatusMessage = (status) => {
     case 'success':
       return 'Mint successful!';
     case 'error':
-      return 'Mint failed. Please try again.';
+      return 'Mint failed.';
     case 'Please connect your wallet':
       return 'Please connect your wallet';
     case 'Please switch to the correct network. Expected Chain ID: 29112':

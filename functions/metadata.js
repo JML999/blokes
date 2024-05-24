@@ -15,7 +15,7 @@ app.use(express.json());
 
 const metadata = {
     "1": {
-        "name": "Avatar #1",
+        "name": "Digger #1",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lIMl23IijYowc26ZwwyICEKI_2tR-0P_RyLkd8_bzhM",
         "attributes": [
@@ -66,7 +66,7 @@ const metadata = {
         ]
     },
     "2": {
-        "name": "Avatar #2",
+        "name": "Digger #2",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RXw3xTtLnRl1Awly7iGi1v_9QNsaCq_z0zgVXaXDPkE",
         "attributes": [
@@ -117,7 +117,7 @@ const metadata = {
         ]
     },
     "3": {
-        "name": "Avatar #3",
+        "name": "Digger #3",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/b7KxgJGk8cyHFNepXWiC0LG68spEeplrye7NRMLBaVs",
         "attributes": [
@@ -168,7 +168,7 @@ const metadata = {
         ]
     },
     "4": {
-        "name": "Avatar #4",
+        "name": "Digger #4",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kSjvPPbDHwTWDvCIVqHK_YrCyELzJoWMy7ifjeHGFbA",
         "attributes": [
@@ -219,7 +219,7 @@ const metadata = {
         ]
     },
     "5": {
-        "name": "Avatar #5",
+        "name": "Digger #5",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4TTm7qvhbaH6-26CjyctHh6uw5oCStH5w5eCzSfJqEs",
         "attributes": [
@@ -270,7 +270,7 @@ const metadata = {
         ]
     },
     "6": {
-        "name": "Avatar #6",
+        "name": "Digger #6",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4dJiqYI86kF8YwG5RcX6gCI-B2-4dTD38-zWppvSruw",
         "attributes": [
@@ -316,12 +316,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "7": {
-        "name": "Avatar #7",
+        "name": "Digger #7",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8GwTmeie96ctUG7njuGYVLyY8YoHmvsugtpZY7sEryA",
         "attributes": [
@@ -372,7 +372,7 @@ const metadata = {
         ]
     },
     "8": {
-        "name": "Avatar #8",
+        "name": "Digger #8",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/w515zTXgAdp8lupV6jLk5tQadkyCnewenN8Xs6e99i0",
         "attributes": [
@@ -423,7 +423,7 @@ const metadata = {
         ]
     },
     "9": {
-        "name": "Avatar #9",
+        "name": "Digger #9",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Nak24k7GlGC0LPWnOoAh2ygYDmW7mp1AmSI6sEUtMSc",
         "attributes": [
@@ -474,7 +474,7 @@ const metadata = {
         ]
     },
     "10": {
-        "name": "Avatar #10",
+        "name": "Digger #10",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B9e1cpmkNvZLP2PZQjk4_JEGW1V-iObRGARxN1Kozos",
         "attributes": [
@@ -525,7 +525,7 @@ const metadata = {
         ]
     },
     "11": {
-        "name": "Avatar #11",
+        "name": "Digger #11",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LzeWT7f9IoS_KHPFdq5azai8SihzSPH_ELOilyw-_eA",
         "attributes": [
@@ -576,7 +576,7 @@ const metadata = {
         ]
     },
     "12": {
-        "name": "Avatar #12",
+        "name": "Digger #12",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Bv633hdZhpSzUcNqpzK3NG1uwzF2C5ILE_PW0owMjzY",
         "attributes": [
@@ -627,7 +627,7 @@ const metadata = {
         ]
     },
     "13": {
-        "name": "Avatar #13",
+        "name": "Digger #13",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/w14p1DpH4T5PhXYFopRwcUuTU-sZbvx9FtU4gMeGMV8",
         "attributes": [
@@ -678,7 +678,7 @@ const metadata = {
         ]
     },
     "14": {
-        "name": "Avatar #14",
+        "name": "Digger #14",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yQR3Ylu20wYbAH5hcbfVgOwWm0iUo_-Y5d0k8bHJZDk",
         "attributes": [
@@ -729,7 +729,7 @@ const metadata = {
         ]
     },
     "15": {
-        "name": "Avatar #15",
+        "name": "Digger #15",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UtouNEKfSx8zFEmrIAoK0Dl91o2qvxOqMDPuCa2VYHQ",
         "attributes": [
@@ -780,7 +780,7 @@ const metadata = {
         ]
     },
     "16": {
-        "name": "Avatar #16",
+        "name": "Digger #16",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YyKoYrWXIal2_MV-yxG8_uRoAfINQsRCanxAbDc5gXs",
         "attributes": [
@@ -831,7 +831,7 @@ const metadata = {
         ]
     },
     "17": {
-        "name": "Avatar #17",
+        "name": "Digger #17",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xDU-0dxVn8svdW_9-gWP4TmK89FqIaHwg7f-noW4ha8",
         "attributes": [
@@ -877,12 +877,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "18": {
-        "name": "Avatar #18",
+        "name": "Digger #18",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dicJq-06FUTGeRZq_cU4To1SLrwMRKBMEcKTW35gL6o",
         "attributes": [
@@ -933,7 +933,7 @@ const metadata = {
         ]
     },
     "19": {
-        "name": "Avatar #19",
+        "name": "Digger #19",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WIrFpQLcYqNEXZzodKEnxOW1kKJEaZHegbmTDlEFLDk",
         "attributes": [
@@ -984,7 +984,7 @@ const metadata = {
         ]
     },
     "20": {
-        "name": "Avatar #20",
+        "name": "Digger #20",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7ioFhKBJlmsGGYDBDDNZSEzRNECdZzpq5PrGWcUqkHM",
         "attributes": [
@@ -1035,7 +1035,7 @@ const metadata = {
         ]
     },
     "21": {
-        "name": "Avatar #21",
+        "name": "Digger #21",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ui4o9cgDgJMfC8tyVWWsnvReZPbfc353sGGKZ7gsQss",
         "attributes": [
@@ -1086,7 +1086,7 @@ const metadata = {
         ]
     },
     "22": {
-        "name": "Avatar #22",
+        "name": "Digger #22",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xtjT1RaBtxFAQHcnpMRvZtogAxz-wktAZhUzF0Mm9pA",
         "attributes": [
@@ -1137,7 +1137,7 @@ const metadata = {
         ]
     },
     "23": {
-        "name": "Avatar #23",
+        "name": "Digger #23",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OjYZTyvIbTK0HjsbENzCQc59jolXk5yPtoYOv6h4H48",
         "attributes": [
@@ -1188,7 +1188,7 @@ const metadata = {
         ]
     },
     "24": {
-        "name": "Avatar #24",
+        "name": "Digger #24",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WBakgpnDEI4LuOhu5nEocS_768x3-8BMzctLFSSVwBo",
         "attributes": [
@@ -1239,7 +1239,7 @@ const metadata = {
         ]
     },
     "25": {
-        "name": "Avatar #25",
+        "name": "Digger #25",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p56lZ3RIT0LGhBJGKeMYGctKKMGQ6TkoY8Bcd-jOk2Q",
         "attributes": [
@@ -1290,7 +1290,7 @@ const metadata = {
         ]
     },
     "26": {
-        "name": "Avatar #26",
+        "name": "Digger #26",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SgI_wv6RraiIpwgI77dq0c22_W9voo4-lJjdEwFD4g0",
         "attributes": [
@@ -1341,7 +1341,7 @@ const metadata = {
         ]
     },
     "27": {
-        "name": "Avatar #27",
+        "name": "Digger #27",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ohRBY8tGQ5QjiN3iym-g_cfKjhcyMYudieLKg6S8OfU",
         "attributes": [
@@ -1392,7 +1392,7 @@ const metadata = {
         ]
     },
     "28": {
-        "name": "Avatar #28",
+        "name": "Digger #28",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m-HwjEkMCEl8GTWxRbmoc2JW9fpzSvZ4cs1Gorr27tk",
         "attributes": [
@@ -1438,12 +1438,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "29": {
-        "name": "Avatar #29",
+        "name": "Digger #29",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JsRYH15S6ALXqVdU6f5Gnmh9ow79tuUZ5LIXEvMRSrI",
         "attributes": [
@@ -1494,7 +1494,7 @@ const metadata = {
         ]
     },
     "30": {
-        "name": "Avatar #30",
+        "name": "Digger #30",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/y7Miiwd4aQ17EueSHCPPw27_C6Uo5zhUiB8FVcvz31k",
         "attributes": [
@@ -1545,7 +1545,7 @@ const metadata = {
         ]
     },
     "31": {
-        "name": "Avatar #31",
+        "name": "Digger #31",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/smWp9Z4MqGSRPkNrpP8LIdbmxgz2x7SEoYbbK-jGKAg",
         "attributes": [
@@ -1596,7 +1596,7 @@ const metadata = {
         ]
     },
     "32": {
-        "name": "Avatar #32",
+        "name": "Digger #32",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/l1UrKa9q0MSrYflxEpQBsMkM1LNU3Umd3xLx0uIZMFw",
         "attributes": [
@@ -1647,7 +1647,7 @@ const metadata = {
         ]
     },
     "33": {
-        "name": "Avatar #33",
+        "name": "Digger #33",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1tPDEJCLrU1fKVhYgQYskMuo3Trvj2FN-3sZEK5vIrI",
         "attributes": [
@@ -1698,7 +1698,7 @@ const metadata = {
         ]
     },
     "34": {
-        "name": "Avatar #34",
+        "name": "Digger #34",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4ZFFDrFuVPqOB7tE4hK16pNIFQUhXjDusAQnpVX3l4Q",
         "attributes": [
@@ -1749,7 +1749,7 @@ const metadata = {
         ]
     },
     "35": {
-        "name": "Avatar #35",
+        "name": "Digger #35",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zfRFLHESXZrnm77SH6XwiCySM2e7z5WS-vgzOVscTOc",
         "attributes": [
@@ -1800,7 +1800,7 @@ const metadata = {
         ]
     },
     "36": {
-        "name": "Avatar #36",
+        "name": "Digger #36",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/e3JgMM11wCpo-h_kDMWNDiU2CKJ0zFD4xpWWcvWBoWI",
         "attributes": [
@@ -1851,7 +1851,7 @@ const metadata = {
         ]
     },
     "37": {
-        "name": "Avatar #37",
+        "name": "Digger #37",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/asfrHEt_ZQPqD-GiLsEKnhsiIN5s3zAIzw8xof6t8fU",
         "attributes": [
@@ -1902,7 +1902,7 @@ const metadata = {
         ]
     },
     "38": {
-        "name": "Avatar #38",
+        "name": "Digger #38",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/N3sXFTK0_RLTQdRc4yB_rgJikgmACdPvH7oKtQG-L-c",
         "attributes": [
@@ -1953,7 +1953,7 @@ const metadata = {
         ]
     },
     "39": {
-        "name": "Avatar #39",
+        "name": "Digger #39",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nmMajQ2tqcJD94Ra0eImdG99vwkzOdQVl_MOO3Mtk_c",
         "attributes": [
@@ -2004,7 +2004,7 @@ const metadata = {
         ]
     },
     "40": {
-        "name": "Avatar #40",
+        "name": "Digger #40",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_4cqf5oS134mfC_SF-FSXWXFPZnWc-fbZbn-OPeA2L0",
         "attributes": [
@@ -2055,7 +2055,7 @@ const metadata = {
         ]
     },
     "41": {
-        "name": "Avatar #41",
+        "name": "Digger #41",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZHgttmHf8RGB6pcS1zJKguNfdNoajMGMM7TiNEqOeVM",
         "attributes": [
@@ -2106,7 +2106,7 @@ const metadata = {
         ]
     },
     "42": {
-        "name": "Avatar #42",
+        "name": "Digger #42",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7vO8eSUz6Z0ryM01rNA_aKqdlhasZMX-a93Lhgx_o74",
         "attributes": [
@@ -2152,12 +2152,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "43": {
-        "name": "Avatar #43",
+        "name": "Digger #43",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bpLB0BpxLShzc2QbcfIlLREh_Ahacc85WYfQ2vJ-pr8",
         "attributes": [
@@ -2208,7 +2208,7 @@ const metadata = {
         ]
     },
     "44": {
-        "name": "Avatar #44",
+        "name": "Digger #44",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E5SY_iG92rak2qUheRiSHEldB9DjpudNxCofDDWY4v8",
         "attributes": [
@@ -2259,7 +2259,7 @@ const metadata = {
         ]
     },
     "45": {
-        "name": "Avatar #45",
+        "name": "Digger #45",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JczVvOafv0YVqWYsRcWzgM0QkCPBGc_kyDq6sjlmCBQ",
         "attributes": [
@@ -2310,7 +2310,7 @@ const metadata = {
         ]
     },
     "46": {
-        "name": "Avatar #46",
+        "name": "Digger #46",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YslSHJLZQXGLfWQqFF6-XkPk6ekDxUxlXAxiCm-1Y3k",
         "attributes": [
@@ -2361,7 +2361,7 @@ const metadata = {
         ]
     },
     "47": {
-        "name": "Avatar #47",
+        "name": "Digger #47",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/H0F4dp1Ygm9TlgT58ckaUhro0qWdOmIBfSl7QqDsTl8",
         "attributes": [
@@ -2412,7 +2412,7 @@ const metadata = {
         ]
     },
     "48": {
-        "name": "Avatar #48",
+        "name": "Digger #48",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0MlB_dvuvsY41CvZW-hBx5kJ0bQKTGaiSCUFoh5YAvs",
         "attributes": [
@@ -2463,7 +2463,7 @@ const metadata = {
         ]
     },
     "49": {
-        "name": "Avatar #49",
+        "name": "Digger #49",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qGbCS7pAKIpFIF4w6BkaehrUhOsMh37RAhsapFhphpw",
         "attributes": [
@@ -2514,7 +2514,7 @@ const metadata = {
         ]
     },
     "50": {
-        "name": "Avatar #50",
+        "name": "Digger #50",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/twiDtuvUJkA8URTzXNop1YdX3exaX61_cspkAo5kx-U",
         "attributes": [
@@ -2565,7 +2565,7 @@ const metadata = {
         ]
     },
     "51": {
-        "name": "Avatar #51",
+        "name": "Digger #51",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CxRh7N3Sn48eQXkAk7xD3zIoDrjmqWPEao9fa4cbq2Y",
         "attributes": [
@@ -2616,7 +2616,7 @@ const metadata = {
         ]
     },
     "52": {
-        "name": "Avatar #52",
+        "name": "Digger #52",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_jypjvfoiaU1aWmx59f_5RY6-SYazV8uoqUitPXUw0o",
         "attributes": [
@@ -2667,7 +2667,7 @@ const metadata = {
         ]
     },
     "53": {
-        "name": "Avatar #53",
+        "name": "Digger #53",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y68kV820aKZb5uElvGXlhD2_Aom9q6UYCMKkx6C9qLQ",
         "attributes": [
@@ -2718,7 +2718,7 @@ const metadata = {
         ]
     },
     "54": {
-        "name": "Avatar #54",
+        "name": "Digger #54",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r2UugsWAS7LU87WFvv9SGLs5vyyI1qAJtEF_S5Q3-ws",
         "attributes": [
@@ -2769,7 +2769,7 @@ const metadata = {
         ]
     },
     "55": {
-        "name": "Avatar #55",
+        "name": "Digger #55",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lcXNtZMZaXmJJVQNczvbEU7L5dkBRpPr5jDzVP41Z-c",
         "attributes": [
@@ -2820,7 +2820,7 @@ const metadata = {
         ]
     },
     "56": {
-        "name": "Avatar #56",
+        "name": "Digger #56",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TNC59Tfkc8PKUyw12yc1LwP6zph4WrfDRZm1FAXKVPg",
         "attributes": [
@@ -2871,7 +2871,7 @@ const metadata = {
         ]
     },
     "57": {
-        "name": "Avatar #57",
+        "name": "Digger #57",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_WJSyRnpqRChPVBPA_1LDcoYlaP85PRROE1Div4gzaE",
         "attributes": [
@@ -2922,7 +2922,7 @@ const metadata = {
         ]
     },
     "58": {
-        "name": "Avatar #58",
+        "name": "Digger #58",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kgAqjq4h8IBG9Ly6CxAOf2Gp-7gWVxJUrLhxsqefYAo",
         "attributes": [
@@ -2973,7 +2973,7 @@ const metadata = {
         ]
     },
     "59": {
-        "name": "Avatar #59",
+        "name": "Digger #59",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4sUCAPcfEfBjhOsTabc_FX-j-rb3hI_4hD8K5ytU-zs",
         "attributes": [
@@ -3024,7 +3024,7 @@ const metadata = {
         ]
     },
     "60": {
-        "name": "Avatar #60",
+        "name": "Digger #60",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9Zzyzwg429KK2QoMtiUyuTE995rnmMBEglxwSRPpGQo",
         "attributes": [
@@ -3075,7 +3075,7 @@ const metadata = {
         ]
     },
     "61": {
-        "name": "Avatar #61",
+        "name": "Digger #61",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qXGoGPEWLdnPKrw2avXq3VMlpOo-9HQxFMmvjTnFtqs",
         "attributes": [
@@ -3126,7 +3126,7 @@ const metadata = {
         ]
     },
     "62": {
-        "name": "Avatar #62",
+        "name": "Digger #62",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bOofzsCeYhD6oTiKy9Wk3T2aacMQQL24PiKDr6YgQWY",
         "attributes": [
@@ -3177,7 +3177,7 @@ const metadata = {
         ]
     },
     "63": {
-        "name": "Avatar #63",
+        "name": "Digger #63",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZI9PncboxIi9WOwaRncHoKwiB2bMrNfc9SKuNi7Rb1M",
         "attributes": [
@@ -3228,7 +3228,7 @@ const metadata = {
         ]
     },
     "64": {
-        "name": "Avatar #64",
+        "name": "Digger #64",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/23tKOds5_wWF8e1FpVPq70h4oJjHjjs_6wbnIPBYg3o",
         "attributes": [
@@ -3279,7 +3279,7 @@ const metadata = {
         ]
     },
     "65": {
-        "name": "Avatar #65",
+        "name": "Digger #65",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oEcTtZSTKvWekjXeagxt_Dyc3bBPYFss9wAXYOyPG48",
         "attributes": [
@@ -3330,7 +3330,7 @@ const metadata = {
         ]
     },
     "66": {
-        "name": "Avatar #66",
+        "name": "Digger #66",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6I_2-gekK1I_uH8DkovaRsfuoxGwpNkLaFdn8mW3obY",
         "attributes": [
@@ -3381,7 +3381,7 @@ const metadata = {
         ]
     },
     "67": {
-        "name": "Avatar #67",
+        "name": "Digger #67",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/unJmP9zzmlz_4znfTib4v9g0TsyCfzwGH4giQXKxHcU",
         "attributes": [
@@ -3432,7 +3432,7 @@ const metadata = {
         ]
     },
     "68": {
-        "name": "Avatar #68",
+        "name": "Digger #68",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/goAEnHO4nZbzRkY-ycIGvXzpkyiv9vhYu6us_u6o71M",
         "attributes": [
@@ -3483,7 +3483,7 @@ const metadata = {
         ]
     },
     "69": {
-        "name": "Avatar #69",
+        "name": "Digger #69",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9YRMdTTXkCGQJxl5pVpiLkdqkMVz3fCI3oYXCpLIEro",
         "attributes": [
@@ -3534,7 +3534,7 @@ const metadata = {
         ]
     },
     "70": {
-        "name": "Avatar #70",
+        "name": "Digger #70",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zAPu4Yyduvu5_g-apNen-9je-Yafnix0tAXSCQcGHs8",
         "attributes": [
@@ -3585,7 +3585,7 @@ const metadata = {
         ]
     },
     "71": {
-        "name": "Avatar #71",
+        "name": "Digger #71",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/POTyQy2HhNxxUErXIPJXHMAXn1u0NyY7bsiVl171-CY",
         "attributes": [
@@ -3636,7 +3636,7 @@ const metadata = {
         ]
     },
     "72": {
-        "name": "Avatar #72",
+        "name": "Digger #72",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xP5HezhG3Diw7KuT_IG5JcuHHkBOqeOH6luL0xvgUKY",
         "attributes": [
@@ -3687,7 +3687,7 @@ const metadata = {
         ]
     },
     "73": {
-        "name": "Avatar #73",
+        "name": "Digger #73",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JrnLmntRDkr0k430TFDSsAic2c6v-s3ioZ_0Fa-J4Kc",
         "attributes": [
@@ -3738,7 +3738,7 @@ const metadata = {
         ]
     },
     "74": {
-        "name": "Avatar #74",
+        "name": "Digger #74",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mf_O6Uh6Hn9JGINuQpOwS9ymKYQQGX5BKT6eQRdpmeo",
         "attributes": [
@@ -3784,12 +3784,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "75": {
-        "name": "Avatar #75",
+        "name": "Digger #75",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/g5pD6MuPLkE3q8rBMtGVruMOGJYEd7ntxKj7MaRbhE4",
         "attributes": [
@@ -3840,7 +3840,7 @@ const metadata = {
         ]
     },
     "76": {
-        "name": "Avatar #76",
+        "name": "Digger #76",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/84NRNePnTCPE1L72a49ukHRxvXq5AVdLMkLGQfYBLPU",
         "attributes": [
@@ -3891,7 +3891,7 @@ const metadata = {
         ]
     },
     "77": {
-        "name": "Avatar #77",
+        "name": "Digger #77",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Gx_UdU38r_KNVlFbSQ0CTZMqQ8LvSzqFi7jLU3e74_Y",
         "attributes": [
@@ -3942,7 +3942,7 @@ const metadata = {
         ]
     },
     "78": {
-        "name": "Avatar #78",
+        "name": "Digger #78",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pKB9m9KjJuBEIH4VpTnPkLHQUrPD5t3coptc0E4Mwh8",
         "attributes": [
@@ -3993,7 +3993,7 @@ const metadata = {
         ]
     },
     "79": {
-        "name": "Avatar #79",
+        "name": "Digger #79",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Aea7YZtN3yWLZuWfykb-KYN3CpOkn4PXPejYuz8moM4",
         "attributes": [
@@ -4044,7 +4044,7 @@ const metadata = {
         ]
     },
     "80": {
-        "name": "Avatar #80",
+        "name": "Digger #80",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CPj34WfJAcP6AamihYG9fG4T1ftkt2gxsdhDs0KcuC4",
         "attributes": [
@@ -4090,12 +4090,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "81": {
-        "name": "Avatar #81",
+        "name": "Digger #81",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/azc1OWsF4LgTpu_e-XjOI1ahZGLE1yxU1rYPIx2bMPQ",
         "attributes": [
@@ -4146,7 +4146,7 @@ const metadata = {
         ]
     },
     "82": {
-        "name": "Avatar #82",
+        "name": "Digger #82",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3BFykTvbFNfs7VwwDwgzDGjjxtxM_oTvZpC9uW-7KU8",
         "attributes": [
@@ -4197,7 +4197,7 @@ const metadata = {
         ]
     },
     "83": {
-        "name": "Avatar #83",
+        "name": "Digger #83",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/k-Q8AkqFZb3iIfM5fPr4LM9m9_Byz0Rc69orAg26h2U",
         "attributes": [
@@ -4248,7 +4248,7 @@ const metadata = {
         ]
     },
     "84": {
-        "name": "Avatar #84",
+        "name": "Digger #84",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WhI8YwBtA_JzS4PyaAxi9PDg1w9qbmVdiASDoAz9HSM",
         "attributes": [
@@ -4299,7 +4299,7 @@ const metadata = {
         ]
     },
     "85": {
-        "name": "Avatar #85",
+        "name": "Digger #85",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j18_AtCitPV533DS51Ut-mHcPN5ucs7_OyGr5Tislc0",
         "attributes": [
@@ -4350,7 +4350,7 @@ const metadata = {
         ]
     },
     "86": {
-        "name": "Avatar #86",
+        "name": "Digger #86",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/le_O6wEmh3gz-aZRBLLxbMQ9pQB3BbSnFADogarpYp4",
         "attributes": [
@@ -4401,7 +4401,7 @@ const metadata = {
         ]
     },
     "87": {
-        "name": "Avatar #87",
+        "name": "Digger #87",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BTlI-agZB9Ie9th_eera5aHrB3F6BWaWxzIIGZwbFFs",
         "attributes": [
@@ -4452,7 +4452,7 @@ const metadata = {
         ]
     },
     "88": {
-        "name": "Avatar #88",
+        "name": "Digger #88",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YQccV9yW9CimbHbjdQ-UDoMS0jbh7SDOOgqWOBn1aWo",
         "attributes": [
@@ -4503,7 +4503,7 @@ const metadata = {
         ]
     },
     "89": {
-        "name": "Avatar #89",
+        "name": "Digger #89",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/slnz1w61ftZTB9o_Ok3mOzhobbILcRE5JfXIZTetrvk",
         "attributes": [
@@ -4554,7 +4554,7 @@ const metadata = {
         ]
     },
     "90": {
-        "name": "Avatar #90",
+        "name": "Digger #90",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eBxXATTfdL5h1VUsUgY5toqxW2BT3H19Bdtyb0rIIcI",
         "attributes": [
@@ -4605,7 +4605,7 @@ const metadata = {
         ]
     },
     "91": {
-        "name": "Avatar #91",
+        "name": "Digger #91",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/at_g2L5aWeYzny1DBvlveBMUn-mB4ej-IEzsxs-lw_8",
         "attributes": [
@@ -4656,7 +4656,7 @@ const metadata = {
         ]
     },
     "92": {
-        "name": "Avatar #92",
+        "name": "Digger #92",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9g48Q4R2O0FJXFzEoC--J1JYe8UilTbso4rkTzst4II",
         "attributes": [
@@ -4707,7 +4707,7 @@ const metadata = {
         ]
     },
     "93": {
-        "name": "Avatar #93",
+        "name": "Digger #93",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DBFzlLb6uD9g69M1g30h8Twom9M9nZjuyixUIjzkKS0",
         "attributes": [
@@ -4758,7 +4758,7 @@ const metadata = {
         ]
     },
     "94": {
-        "name": "Avatar #94",
+        "name": "Digger #94",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fCOFMLV4AhJnCDBmV_YE_e0_iWDD1rhhuhr5aoQ-TG8",
         "attributes": [
@@ -4809,7 +4809,7 @@ const metadata = {
         ]
     },
     "95": {
-        "name": "Avatar #95",
+        "name": "Digger #95",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/e7NzzwJpe6MmXg3w4Bxh6byrzDwluNWn64SJG9SSPVU",
         "attributes": [
@@ -4860,7 +4860,7 @@ const metadata = {
         ]
     },
     "96": {
-        "name": "Avatar #96",
+        "name": "Digger #96",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XlI4c97m_3dDIbp27MT8_uMByqk0Eviz08LsmXeyjgM",
         "attributes": [
@@ -4911,7 +4911,7 @@ const metadata = {
         ]
     },
     "97": {
-        "name": "Avatar #97",
+        "name": "Digger #97",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3dYS1nIHB9GSI4cxRQ75b2cSjkcMjoQd_2eCB0VijWA",
         "attributes": [
@@ -4962,7 +4962,7 @@ const metadata = {
         ]
     },
     "98": {
-        "name": "Avatar #98",
+        "name": "Digger #98",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bveZoOq38CJm2RKh36J6dg1kBUlvXIrrt2xM8Dgb2I0",
         "attributes": [
@@ -5013,7 +5013,7 @@ const metadata = {
         ]
     },
     "99": {
-        "name": "Avatar #99",
+        "name": "Digger #99",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0QlHuE1_Qwaxb2DuYv6y0DPRgpSxzw-VKSkgLe3Xq08",
         "attributes": [
@@ -5064,7 +5064,7 @@ const metadata = {
         ]
     },
     "100": {
-        "name": "Avatar #100",
+        "name": "Digger #100",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5nGxNlM87vZlwiIpzBA9bo_xh0q2eWiWM0vker69I30",
         "attributes": [
@@ -5115,7 +5115,7 @@ const metadata = {
         ]
     },
     "101": {
-        "name": "Avatar #101",
+        "name": "Digger #101",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9hhMQTwZA63t0x34YYz0dz6lVdOvYfDq5bJR4QAOSxk",
         "attributes": [
@@ -5166,7 +5166,7 @@ const metadata = {
         ]
     },
     "102": {
-        "name": "Avatar #102",
+        "name": "Digger #102",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IMzi-AuzN7napdg1oVtIgOEopcGFpIHWxEmWpFGJXTY",
         "attributes": [
@@ -5217,7 +5217,7 @@ const metadata = {
         ]
     },
     "103": {
-        "name": "Avatar #103",
+        "name": "Digger #103",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nDtsUzhv78zg72acOgo1M8QZX6v7ZiTWlCLmyOyEj_Q",
         "attributes": [
@@ -5268,7 +5268,7 @@ const metadata = {
         ]
     },
     "104": {
-        "name": "Avatar #104",
+        "name": "Digger #104",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kqZqzRy6Eoov7eh-WpthS9chlRnn9rIeLjqiJqxsjDo",
         "attributes": [
@@ -5319,7 +5319,7 @@ const metadata = {
         ]
     },
     "105": {
-        "name": "Avatar #105",
+        "name": "Digger #105",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pwR5HsfDh5Qo07e-eoJ7F_AH9Y6JaCEqkgm14jDVFa8",
         "attributes": [
@@ -5370,7 +5370,7 @@ const metadata = {
         ]
     },
     "106": {
-        "name": "Avatar #106",
+        "name": "Digger #106",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZiY-7VfCtpCib2QQHkg7h25mAYbbny8iovL-4vgZwyU",
         "attributes": [
@@ -5421,7 +5421,7 @@ const metadata = {
         ]
     },
     "107": {
-        "name": "Avatar #107",
+        "name": "Digger #107",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aZWkuqocPezRkQjPolQsX4bwjrRsT4nSw2MCxiJm5_4",
         "attributes": [
@@ -5472,7 +5472,7 @@ const metadata = {
         ]
     },
     "108": {
-        "name": "Avatar #108",
+        "name": "Digger #108",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9pk6Tp_qzDZnuDMx7DD9tJ403osDOGIAD2OtaCwvhbU",
         "attributes": [
@@ -5523,7 +5523,7 @@ const metadata = {
         ]
     },
     "109": {
-        "name": "Avatar #109",
+        "name": "Digger #109",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bcAoVGOl8a1TXRLpnQjgVaIQIoMUUTAS6iw66RtbP6U",
         "attributes": [
@@ -5574,7 +5574,7 @@ const metadata = {
         ]
     },
     "110": {
-        "name": "Avatar #110",
+        "name": "Digger #110",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pZOmuKtvpgaw08qUX7U_A_abu8y0h9tUyiNl6H6v-YI",
         "attributes": [
@@ -5625,7 +5625,7 @@ const metadata = {
         ]
     },
     "111": {
-        "name": "Avatar #111",
+        "name": "Digger #111",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sW9wlO0vroFXh-3xYIfehrOH4YA9frMfPaKCohWS-UM",
         "attributes": [
@@ -5676,7 +5676,7 @@ const metadata = {
         ]
     },
     "112": {
-        "name": "Avatar #112",
+        "name": "Digger #112",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XyxWkLn0R2HsstKPuey25cibXxk9_tEg_ZsVHHm4aiY",
         "attributes": [
@@ -5727,7 +5727,7 @@ const metadata = {
         ]
     },
     "113": {
-        "name": "Avatar #113",
+        "name": "Digger #113",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PSfGI_fJDKMo2aADMj4Yg38oj9d0_2xmc_SIW9Mo4hM",
         "attributes": [
@@ -5778,7 +5778,7 @@ const metadata = {
         ]
     },
     "114": {
-        "name": "Avatar #114",
+        "name": "Digger #114",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PeWWiOs-og4A0Ip83HkNTElT0f-78F3rvfecleigsSs",
         "attributes": [
@@ -5829,7 +5829,7 @@ const metadata = {
         ]
     },
     "115": {
-        "name": "Avatar #115",
+        "name": "Digger #115",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YzLwcecSsx3qCpmBPcfEmDw0NuJnExNvVrBm2IIOfYE",
         "attributes": [
@@ -5880,7 +5880,7 @@ const metadata = {
         ]
     },
     "116": {
-        "name": "Avatar #116",
+        "name": "Digger #116",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y8_7jh0f-6-cYCSXO3AmTqahoJRIvcAMo-gxcdKD6_g",
         "attributes": [
@@ -5931,7 +5931,7 @@ const metadata = {
         ]
     },
     "117": {
-        "name": "Avatar #117",
+        "name": "Digger #117",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Q-Qs8kLUJNTmnwOC25KuDgXrNgO98yvsQ_MIzVz9V0o",
         "attributes": [
@@ -5982,7 +5982,7 @@ const metadata = {
         ]
     },
     "118": {
-        "name": "Avatar #118",
+        "name": "Digger #118",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sGH007CwwBVRHtHdMLC6MPSMBjzqivVnXcVx7bxnVyE",
         "attributes": [
@@ -6033,7 +6033,7 @@ const metadata = {
         ]
     },
     "119": {
-        "name": "Avatar #119",
+        "name": "Digger #119",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JRqfCRW5Uwu5TCtSU7CdpyO6URZfv3r4kaRHwcHK7EQ",
         "attributes": [
@@ -6084,7 +6084,7 @@ const metadata = {
         ]
     },
     "120": {
-        "name": "Avatar #120",
+        "name": "Digger #120",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xOnYpIsd5FC6Sa8FvJLD0bpDecIIaU7odBoexlxR5TU",
         "attributes": [
@@ -6135,7 +6135,7 @@ const metadata = {
         ]
     },
     "121": {
-        "name": "Avatar #121",
+        "name": "Digger #121",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OgxBbjnV49wzEop3-AAJdDtWBrOSn4Ra6zjNBcUyous",
         "attributes": [
@@ -6186,7 +6186,7 @@ const metadata = {
         ]
     },
     "122": {
-        "name": "Avatar #122",
+        "name": "Digger #122",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JXULG9lqXCFG_FRWI1E8TTTljYNhvAe21u28bC2EmyY",
         "attributes": [
@@ -6232,12 +6232,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "123": {
-        "name": "Avatar #123",
+        "name": "Digger #123",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/S3K2gV_A_9v14RqiqhvGPXHc3XDCAyL-9vrwnGWOaxo",
         "attributes": [
@@ -6288,7 +6288,7 @@ const metadata = {
         ]
     },
     "124": {
-        "name": "Avatar #124",
+        "name": "Digger #124",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uo9yn4TESD3lEL_MbZJXMBerRB-prVkQM-GxlDLWdoM",
         "attributes": [
@@ -6339,7 +6339,7 @@ const metadata = {
         ]
     },
     "125": {
-        "name": "Avatar #125",
+        "name": "Digger #125",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bEuh41bLew7pa6KGnuGYNRK5Sbd2Y_sZmDZu4k-oL8o",
         "attributes": [
@@ -6390,7 +6390,7 @@ const metadata = {
         ]
     },
     "126": {
-        "name": "Avatar #126",
+        "name": "Digger #126",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RpfK57n24KPamZsNdT48N373zWAWYqV4BejokOJ44RU",
         "attributes": [
@@ -6441,7 +6441,7 @@ const metadata = {
         ]
     },
     "127": {
-        "name": "Avatar #127",
+        "name": "Digger #127",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5S_jnOVwr0ZzEznybonfba8gJB60yHGBTNvGr98fA3c",
         "attributes": [
@@ -6487,12 +6487,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "128": {
-        "name": "Avatar #128",
+        "name": "Digger #128",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zTBrsvZA0Zh-M0TYOSiwXdmuiJ6grPZEmAOny72uK74",
         "attributes": [
@@ -6543,7 +6543,7 @@ const metadata = {
         ]
     },
     "129": {
-        "name": "Avatar #129",
+        "name": "Digger #129",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LKGarjGibPA542-dwSp-dxpklHcRb7JIR9UHnE39z-g",
         "attributes": [
@@ -6594,7 +6594,7 @@ const metadata = {
         ]
     },
     "130": {
-        "name": "Avatar #130",
+        "name": "Digger #130",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/x215SdO33QBmaoFvbjvhm6afTEzFOs4kuu8HgiO83Rs",
         "attributes": [
@@ -6645,7 +6645,7 @@ const metadata = {
         ]
     },
     "131": {
-        "name": "Avatar #131",
+        "name": "Digger #131",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yVjbCJzl6ydF6FgEOEsjg7vtBeLxr4hUXnrXBuxni20",
         "attributes": [
@@ -6696,7 +6696,7 @@ const metadata = {
         ]
     },
     "132": {
-        "name": "Avatar #132",
+        "name": "Digger #132",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/V54PRxiGGKap2CdnKux1ZT-RFPDz8mpIY3Viknw0pyE",
         "attributes": [
@@ -6747,7 +6747,7 @@ const metadata = {
         ]
     },
     "133": {
-        "name": "Avatar #133",
+        "name": "Digger #133",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DjkUK1rF1Oynk3gS6_98cl-L9SafN2Ck-EoBPWT4mXY",
         "attributes": [
@@ -6798,7 +6798,7 @@ const metadata = {
         ]
     },
     "134": {
-        "name": "Avatar #134",
+        "name": "Digger #134",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PwKCjGxwsKy4VsQbG4X1XFe4k3nhdlarIbwCgUkLeG0",
         "attributes": [
@@ -6849,7 +6849,7 @@ const metadata = {
         ]
     },
     "135": {
-        "name": "Avatar #135",
+        "name": "Digger #135",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_poHZGDCncNtxz3rKT5EbxXB3lbRMloruNEwbMDcAu4",
         "attributes": [
@@ -6900,7 +6900,7 @@ const metadata = {
         ]
     },
     "136": {
-        "name": "Avatar #136",
+        "name": "Digger #136",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Oad_Baox4mnPdfE0QnbOuek1WpTfmuPlnDCm_ZvyAUg",
         "attributes": [
@@ -6951,7 +6951,7 @@ const metadata = {
         ]
     },
     "137": {
-        "name": "Avatar #137",
+        "name": "Digger #137",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qpoux6__lxHM5AtDRLOZbF576M5_M7f3MWZhx-M40_E",
         "attributes": [
@@ -7002,7 +7002,7 @@ const metadata = {
         ]
     },
     "138": {
-        "name": "Avatar #138",
+        "name": "Digger #138",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vp9eZsWBDGHgbydaq5ozh83V-5g6jvi0L439e1cO52w",
         "attributes": [
@@ -7053,7 +7053,7 @@ const metadata = {
         ]
     },
     "139": {
-        "name": "Avatar #139",
+        "name": "Digger #139",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RYHl982Gf41j60l-nCI7VZuA19cgGRVwwuLPsbbal5o",
         "attributes": [
@@ -7104,7 +7104,7 @@ const metadata = {
         ]
     },
     "140": {
-        "name": "Avatar #140",
+        "name": "Digger #140",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QXBOw5Ju-s3I2MoshLN8yytZvZNJ8CKKyakqjy5G8U4",
         "attributes": [
@@ -7155,7 +7155,7 @@ const metadata = {
         ]
     },
     "141": {
-        "name": "Avatar #141",
+        "name": "Digger #141",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gNHQNcG5SIbLsRUmzspXIyHSuLbUrZoWNcSmnONzPJQ",
         "attributes": [
@@ -7206,7 +7206,7 @@ const metadata = {
         ]
     },
     "142": {
-        "name": "Avatar #142",
+        "name": "Digger #142",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/V4LrcwfKnUWGGU8-OqnXen3WEwqPntiQgNezeUWK9ZI",
         "attributes": [
@@ -7257,7 +7257,7 @@ const metadata = {
         ]
     },
     "143": {
-        "name": "Avatar #143",
+        "name": "Digger #143",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gGixBNpiMjYzxw36qT325nWNvYXbRxgHvVt5n6FcNoY",
         "attributes": [
@@ -7308,7 +7308,7 @@ const metadata = {
         ]
     },
     "144": {
-        "name": "Avatar #144",
+        "name": "Digger #144",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BmLb6Rikk5fHGh9jThNLZsdMtBL1pytkVZZ21b52jMI",
         "attributes": [
@@ -7359,7 +7359,7 @@ const metadata = {
         ]
     },
     "145": {
-        "name": "Avatar #145",
+        "name": "Digger #145",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hhd8RvAqx8pScaYkNxAu3pa4q5tmWjLCCktkVZZ_dxM",
         "attributes": [
@@ -7410,7 +7410,7 @@ const metadata = {
         ]
     },
     "146": {
-        "name": "Avatar #146",
+        "name": "Digger #146",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-7if8RH8HpSvF8SsqQQqnkSldU4jf7zHoekRL_7W_tc",
         "attributes": [
@@ -7461,7 +7461,7 @@ const metadata = {
         ]
     },
     "147": {
-        "name": "Avatar #147",
+        "name": "Digger #147",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E46k0B2ViHMQiq_Y3mVmkZuUwdjst4ojlkgRGXXFzzw",
         "attributes": [
@@ -7512,7 +7512,7 @@ const metadata = {
         ]
     },
     "148": {
-        "name": "Avatar #148",
+        "name": "Digger #148",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tnjsTr6dTpfJCh1I-APxWRroBId8ZJfwKLrI1yCdgDE",
         "attributes": [
@@ -7563,7 +7563,7 @@ const metadata = {
         ]
     },
     "149": {
-        "name": "Avatar #149",
+        "name": "Digger #149",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6EpQrWQJKT88sxCjFRKuIG19p3Q4DsGdSt6aLW5uMXo",
         "attributes": [
@@ -7609,12 +7609,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "150": {
-        "name": "Avatar #150",
+        "name": "Digger #150",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dBze3CS8TwTxRTDP_NTWp5EFdKUsfwH8RVH7wDyO9JY",
         "attributes": [
@@ -7665,7 +7665,7 @@ const metadata = {
         ]
     },
     "151": {
-        "name": "Avatar #151",
+        "name": "Digger #151",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/t7LqnqH0fIFR4LIjjjFhH4m9bLJpX9kVz1KfNsSch2E",
         "attributes": [
@@ -7716,7 +7716,7 @@ const metadata = {
         ]
     },
     "152": {
-        "name": "Avatar #152",
+        "name": "Digger #152",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sQ3mQof2F8oDKl3avT3FU2dPyPNVzXgwEGZPueVuRB0",
         "attributes": [
@@ -7767,7 +7767,7 @@ const metadata = {
         ]
     },
     "153": {
-        "name": "Avatar #153",
+        "name": "Digger #153",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aPkmA4vvbCi1L-cM7o-vtfW-qn-12EMBDF2O4GY517M",
         "attributes": [
@@ -7818,7 +7818,7 @@ const metadata = {
         ]
     },
     "154": {
-        "name": "Avatar #154",
+        "name": "Digger #154",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nNTZhXvWwzWjm_QayNFF64jj3uu0xpCQHgQhXrem8vk",
         "attributes": [
@@ -7869,7 +7869,7 @@ const metadata = {
         ]
     },
     "155": {
-        "name": "Avatar #155",
+        "name": "Digger #155",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/amjsW_Yd7fcIavTeL4z7xufUQfB28UxhlUpuinTJyrE",
         "attributes": [
@@ -7920,7 +7920,7 @@ const metadata = {
         ]
     },
     "156": {
-        "name": "Avatar #156",
+        "name": "Digger #156",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B3S0qdrFnvUzPcOxRi6UPGHdXDs_Cu-ifBaRzBCgYas",
         "attributes": [
@@ -7971,7 +7971,7 @@ const metadata = {
         ]
     },
     "157": {
-        "name": "Avatar #157",
+        "name": "Digger #157",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ay1MDQoXng7Ylck6wP6dqZGdKHm3Ekp9lGnwR3gz9SY",
         "attributes": [
@@ -8022,7 +8022,7 @@ const metadata = {
         ]
     },
     "158": {
-        "name": "Avatar #158",
+        "name": "Digger #158",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kK5vguCftCtk1l62DSJyvw_IZw-UXSJVoRySTPa7j-U",
         "attributes": [
@@ -8073,7 +8073,7 @@ const metadata = {
         ]
     },
     "159": {
-        "name": "Avatar #159",
+        "name": "Digger #159",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MB3jfH9UiX95hBkij5lDHx6dQSat8Rlx-PKeaLArLao",
         "attributes": [
@@ -8124,7 +8124,7 @@ const metadata = {
         ]
     },
     "160": {
-        "name": "Avatar #160",
+        "name": "Digger #160",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/crXInI-7V8cwYg9luaWbG1rw7oBqjcl3KGQrRENSYz4",
         "attributes": [
@@ -8175,7 +8175,7 @@ const metadata = {
         ]
     },
     "161": {
-        "name": "Avatar #161",
+        "name": "Digger #161",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fh74hgITvyGRPtqHNEfv1SwPqmz0uHkdsfuaYwZwq6A",
         "attributes": [
@@ -8226,7 +8226,7 @@ const metadata = {
         ]
     },
     "162": {
-        "name": "Avatar #162",
+        "name": "Digger #162",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wUU0TzOBCWD5-Rk9xlLiTvpxyWm_hoN4jJ98b1SZGUA",
         "attributes": [
@@ -8277,7 +8277,7 @@ const metadata = {
         ]
     },
     "163": {
-        "name": "Avatar #163",
+        "name": "Digger #163",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uTmWN2QrlAJWePWp6qvXl8I3piqXJqwI8kE6ASip-_w",
         "attributes": [
@@ -8328,7 +8328,7 @@ const metadata = {
         ]
     },
     "164": {
-        "name": "Avatar #164",
+        "name": "Digger #164",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RdpklzGkFU2xRejbRHjBReFgs45hZZ2qtxEIqLK8VTw",
         "attributes": [
@@ -8379,7 +8379,7 @@ const metadata = {
         ]
     },
     "165": {
-        "name": "Avatar #165",
+        "name": "Digger #165",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ijBbKibduPfQ5jjScmG8R2H-ncK5DJWMwOLlHkBNUvI",
         "attributes": [
@@ -8430,7 +8430,7 @@ const metadata = {
         ]
     },
     "166": {
-        "name": "Avatar #166",
+        "name": "Digger #166",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/agFqGm5-xZThyE7jJHGIxbIBqR4xGnZGydeyCMcK0eA",
         "attributes": [
@@ -8481,7 +8481,7 @@ const metadata = {
         ]
     },
     "167": {
-        "name": "Avatar #167",
+        "name": "Digger #167",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/or6jMpbdqME2LBV3edf5CC6d4PTgdFGIkc21Jkb6FOY",
         "attributes": [
@@ -8527,12 +8527,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "168": {
-        "name": "Avatar #168",
+        "name": "Digger #168",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/alsn76m-YkPvnz1X8RrVLwbGVafD16mwGCjlcJw62b0",
         "attributes": [
@@ -8583,7 +8583,7 @@ const metadata = {
         ]
     },
     "169": {
-        "name": "Avatar #169",
+        "name": "Digger #169",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EQ6_4HngQq9O7AonBxcSNLfgHYZsE7G6JZuSin2pN8o",
         "attributes": [
@@ -8634,7 +8634,7 @@ const metadata = {
         ]
     },
     "170": {
-        "name": "Avatar #170",
+        "name": "Digger #170",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hujdsw_VUcdmrGEZr8iTw9_HNtSfkHFapwCPx-QjAtc",
         "attributes": [
@@ -8685,7 +8685,7 @@ const metadata = {
         ]
     },
     "171": {
-        "name": "Avatar #171",
+        "name": "Digger #171",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7doUi0aUE6e2dur5TvRhascC09KornEelRPQ1BWPu-g",
         "attributes": [
@@ -8736,7 +8736,7 @@ const metadata = {
         ]
     },
     "172": {
-        "name": "Avatar #172",
+        "name": "Digger #172",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zQk0uauqWeXHI99F_N-SVlNB0N6_RchGMRTj9ugFdOI",
         "attributes": [
@@ -8787,7 +8787,7 @@ const metadata = {
         ]
     },
     "173": {
-        "name": "Avatar #173",
+        "name": "Digger #173",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1R2nBY8x2uPQgPknr90icho_39uh3k4B-Yj3TeMa-sE",
         "attributes": [
@@ -8838,7 +8838,7 @@ const metadata = {
         ]
     },
     "174": {
-        "name": "Avatar #174",
+        "name": "Digger #174",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B2K6Vf9W37kRFHoeM1mjHriR0HyVjKfKNn2E1CnDEA4",
         "attributes": [
@@ -8889,7 +8889,7 @@ const metadata = {
         ]
     },
     "175": {
-        "name": "Avatar #175",
+        "name": "Digger #175",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TkRKiVVwfktHDAHDNEk-IRL8WSJ8-d8GtsPGrG0NSQY",
         "attributes": [
@@ -8940,7 +8940,7 @@ const metadata = {
         ]
     },
     "176": {
-        "name": "Avatar #176",
+        "name": "Digger #176",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eUO3YDssltKClpei1buYg-UMbtKMjvhaq3mclAnvJkE",
         "attributes": [
@@ -8991,7 +8991,7 @@ const metadata = {
         ]
     },
     "177": {
-        "name": "Avatar #177",
+        "name": "Digger #177",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OQWlFlzf29sbUAht9L2-ncm_cuM40s07yR17CCu1VHk",
         "attributes": [
@@ -9042,7 +9042,7 @@ const metadata = {
         ]
     },
     "178": {
-        "name": "Avatar #178",
+        "name": "Digger #178",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qzsGrvaf8SrXyI2fBzPuHtR0uuUMJMtNedwQIr28rnE",
         "attributes": [
@@ -9093,7 +9093,7 @@ const metadata = {
         ]
     },
     "179": {
-        "name": "Avatar #179",
+        "name": "Digger #179",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CWcdmA68wtiIiIRGZZKqKKF3lAPSd7V7j0DxnO3cGU8",
         "attributes": [
@@ -9144,7 +9144,7 @@ const metadata = {
         ]
     },
     "180": {
-        "name": "Avatar #180",
+        "name": "Digger #180",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_XSYh7tz6ebZgxBByt2FRIoztOAha7S_DCBoLF-H-zM",
         "attributes": [
@@ -9195,7 +9195,7 @@ const metadata = {
         ]
     },
     "181": {
-        "name": "Avatar #181",
+        "name": "Digger #181",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/u1p6yOeOV_7dAJlUVquMtT6nWf-ABY_dDqYEWWi_fIs",
         "attributes": [
@@ -9246,7 +9246,7 @@ const metadata = {
         ]
     },
     "182": {
-        "name": "Avatar #182",
+        "name": "Digger #182",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/H_MQEW0tkxQN5nAhPsBbmgLHUuZMz9p312-f8-kyMME",
         "attributes": [
@@ -9297,7 +9297,7 @@ const metadata = {
         ]
     },
     "183": {
-        "name": "Avatar #183",
+        "name": "Digger #183",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UAfTHzgWbDZIaeADBYItpPM0_tcQeiaYuijFfWrayr4",
         "attributes": [
@@ -9348,7 +9348,7 @@ const metadata = {
         ]
     },
     "184": {
-        "name": "Avatar #184",
+        "name": "Digger #184",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m0gbXYA-uOh4z0L-tA5WGY6nQ8A2xouqu0Hf90-uNno",
         "attributes": [
@@ -9399,7 +9399,7 @@ const metadata = {
         ]
     },
     "185": {
-        "name": "Avatar #185",
+        "name": "Digger #185",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Sm_BbtOfKROJ7V0ccmbCXv_FTEDV1ul4guzv5R4nzDk",
         "attributes": [
@@ -9450,7 +9450,7 @@ const metadata = {
         ]
     },
     "186": {
-        "name": "Avatar #186",
+        "name": "Digger #186",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yOXMMm6OByeH2dbRpVOuJNHxthewFzXlrDWH8xAQlS0",
         "attributes": [
@@ -9501,7 +9501,7 @@ const metadata = {
         ]
     },
     "187": {
-        "name": "Avatar #187",
+        "name": "Digger #187",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uUGOXb_lPa5swvztU_FSUL6JrtVK_u11JI7QTmsCkYA",
         "attributes": [
@@ -9552,7 +9552,7 @@ const metadata = {
         ]
     },
     "188": {
-        "name": "Avatar #188",
+        "name": "Digger #188",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HeUohg7wwbeaYGmAfQbYfHOJL5Ui7bHYUWqgrAlZSLU",
         "attributes": [
@@ -9603,7 +9603,7 @@ const metadata = {
         ]
     },
     "189": {
-        "name": "Avatar #189",
+        "name": "Digger #189",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_IwCcf8Yf1RW82HbtbR9kNexjIl7Wz08-rV-f28qDYI",
         "attributes": [
@@ -9654,7 +9654,7 @@ const metadata = {
         ]
     },
     "190": {
-        "name": "Avatar #190",
+        "name": "Digger #190",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j7yDkjAKgvgKptZkO02FhEpfBPEqBxALhHUbi2X_S7A",
         "attributes": [
@@ -9705,7 +9705,7 @@ const metadata = {
         ]
     },
     "191": {
-        "name": "Avatar #191",
+        "name": "Digger #191",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2rtb4f1935sEFaG7gTsyObp9xQRQfhTl5hDsA-nOkMs",
         "attributes": [
@@ -9756,7 +9756,7 @@ const metadata = {
         ]
     },
     "192": {
-        "name": "Avatar #192",
+        "name": "Digger #192",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lKF9dk5NgMWdM4hzGzJL70DmUcGjoTksqVqqNJxa8fM",
         "attributes": [
@@ -9807,7 +9807,7 @@ const metadata = {
         ]
     },
     "193": {
-        "name": "Avatar #193",
+        "name": "Digger #193",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h9oFUMguUweBwFIThjGsIt-h8JTYQIlJFg8Nbm8iquw",
         "attributes": [
@@ -9858,7 +9858,7 @@ const metadata = {
         ]
     },
     "194": {
-        "name": "Avatar #194",
+        "name": "Digger #194",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LKakFbx3JXGHmeWlmqVA2iGDHVqETzcZ95OY91TgHpU",
         "attributes": [
@@ -9909,7 +9909,7 @@ const metadata = {
         ]
     },
     "195": {
-        "name": "Avatar #195",
+        "name": "Digger #195",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mWBRvpkljGDgjX2LlfxcF9GTna_ppHHjFYO2m5hulHM",
         "attributes": [
@@ -9960,7 +9960,7 @@ const metadata = {
         ]
     },
     "196": {
-        "name": "Avatar #196",
+        "name": "Digger #196",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HP_uSmzYI1TR7k1uiK4b_RWSNH9qvH_5ZVgkbPBEfYQ",
         "attributes": [
@@ -10011,7 +10011,7 @@ const metadata = {
         ]
     },
     "197": {
-        "name": "Avatar #197",
+        "name": "Digger #197",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iKA84QFnGMPncf-NHZ-b_AgEvSSVirvGJZ3jkFeeFgM",
         "attributes": [
@@ -10062,7 +10062,7 @@ const metadata = {
         ]
     },
     "198": {
-        "name": "Avatar #198",
+        "name": "Digger #198",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nM1ROeFdqcSZSRUAPwAwL0wSSSNrC1MfYd-8mw5hVj8",
         "attributes": [
@@ -10113,7 +10113,7 @@ const metadata = {
         ]
     },
     "199": {
-        "name": "Avatar #199",
+        "name": "Digger #199",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3_LACgaZVJg2hLFBSn-pu_ZsdYf9ghXY-e35vS64n5w",
         "attributes": [
@@ -10164,7 +10164,7 @@ const metadata = {
         ]
     },
     "200": {
-        "name": "Avatar #200",
+        "name": "Digger #200",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ldtYkgMiWwFPH2qc3NsUleQd9CZTxdZDZ6PlZuDDmz8",
         "attributes": [
@@ -10215,7 +10215,7 @@ const metadata = {
         ]
     },
     "201": {
-        "name": "Avatar #201",
+        "name": "Digger #201",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_o2Ogpy3rx7rAGwbgFZ2QnsKH7Dw2r-DAHL9Cl4Oe6Q",
         "attributes": [
@@ -10266,7 +10266,7 @@ const metadata = {
         ]
     },
     "202": {
-        "name": "Avatar #202",
+        "name": "Digger #202",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/f-fJnI4PY1wj7YXC8H4jhKJs8wA9aKWI2K8czG-oCqE",
         "attributes": [
@@ -10317,7 +10317,7 @@ const metadata = {
         ]
     },
     "203": {
-        "name": "Avatar #203",
+        "name": "Digger #203",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gCfIqfVJ91sWtPGVB9-26XKprr6_bIlHyZbs7-9A7iM",
         "attributes": [
@@ -10368,7 +10368,7 @@ const metadata = {
         ]
     },
     "204": {
-        "name": "Avatar #204",
+        "name": "Digger #204",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tonG4IQqmzQ5yft4_kyXCInNqNR4dKyGFk99jFJEock",
         "attributes": [
@@ -10419,7 +10419,7 @@ const metadata = {
         ]
     },
     "205": {
-        "name": "Avatar #205",
+        "name": "Digger #205",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0HmgBiH8WptVlF0NUCwLno1WZFAVSosJI7Zb_CorRIc",
         "attributes": [
@@ -10470,7 +10470,7 @@ const metadata = {
         ]
     },
     "206": {
-        "name": "Avatar #206",
+        "name": "Digger #206",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PaSZ-PBsA_Fjron10ZKhejXQDwawbTUZnnp_ZZQdVFY",
         "attributes": [
@@ -10521,7 +10521,7 @@ const metadata = {
         ]
     },
     "207": {
-        "name": "Avatar #207",
+        "name": "Digger #207",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dI4ilymxiVifUniXqLH7DzpWfovjm0HRlTwaBX8VE5E",
         "attributes": [
@@ -10572,7 +10572,7 @@ const metadata = {
         ]
     },
     "208": {
-        "name": "Avatar #208",
+        "name": "Digger #208",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/koio8wPxkpzVex983NijBU4n0lyPA4dMSqXhd_DjmJI",
         "attributes": [
@@ -10623,7 +10623,7 @@ const metadata = {
         ]
     },
     "209": {
-        "name": "Avatar #209",
+        "name": "Digger #209",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7U7Zg6jHlnnWZ_Rt_VwbSC3TKEC0bMRxJh2IbWb07HM",
         "attributes": [
@@ -10674,7 +10674,7 @@ const metadata = {
         ]
     },
     "210": {
-        "name": "Avatar #210",
+        "name": "Digger #210",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/naiHfznTTghuBy-hTeUFwblCEBs4LlDnmrtB4ccr7u8",
         "attributes": [
@@ -10725,7 +10725,7 @@ const metadata = {
         ]
     },
     "211": {
-        "name": "Avatar #211",
+        "name": "Digger #211",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jjjhvcZciysO1C2pQqMxuBl_QnFjcd_D3yhCo6abNag",
         "attributes": [
@@ -10776,7 +10776,7 @@ const metadata = {
         ]
     },
     "212": {
-        "name": "Avatar #212",
+        "name": "Digger #212",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bMewitcMNaAk4yRzYbbYtPTcn7BY-h6KZpn8bS4s9ho",
         "attributes": [
@@ -10827,7 +10827,7 @@ const metadata = {
         ]
     },
     "213": {
-        "name": "Avatar #213",
+        "name": "Digger #213",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QvInltth3626TthXgcGi07NPfUhCr_3dm8ioN4gYRN8",
         "attributes": [
@@ -10878,7 +10878,7 @@ const metadata = {
         ]
     },
     "214": {
-        "name": "Avatar #214",
+        "name": "Digger #214",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FrL3LEOSvy7SiLvB3mN4vJIUBd-pAA52P9LNA6p7kpg",
         "attributes": [
@@ -10929,7 +10929,7 @@ const metadata = {
         ]
     },
     "215": {
-        "name": "Avatar #215",
+        "name": "Digger #215",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zHjh8AItIHcv6BU-Zv56WMW9EmgF6W2ToyHru9PnndA",
         "attributes": [
@@ -10980,7 +10980,7 @@ const metadata = {
         ]
     },
     "216": {
-        "name": "Avatar #216",
+        "name": "Digger #216",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/X8GWH4GZaHu3x__htig3VZIYeoKvXB9BXZuvSQFyvH4",
         "attributes": [
@@ -11031,7 +11031,7 @@ const metadata = {
         ]
     },
     "217": {
-        "name": "Avatar #217",
+        "name": "Digger #217",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y6fuvEqhR3aQt2jkR4dJ3CmUayhguU9qNPJuLrHbmYA",
         "attributes": [
@@ -11082,7 +11082,7 @@ const metadata = {
         ]
     },
     "218": {
-        "name": "Avatar #218",
+        "name": "Digger #218",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IjFD76I5xeENwytSu2jFNri52Jp0R6vZzfa2WD8xsFI",
         "attributes": [
@@ -11133,7 +11133,7 @@ const metadata = {
         ]
     },
     "219": {
-        "name": "Avatar #219",
+        "name": "Digger #219",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xOBBadxeUn_WUr1A_ZDv4rJVnq3YkRU74TvUcaqxJ1c",
         "attributes": [
@@ -11184,7 +11184,7 @@ const metadata = {
         ]
     },
     "220": {
-        "name": "Avatar #220",
+        "name": "Digger #220",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/D2844V_UZLSWHZ4yJ0UX6L0raW9mzmXMD2zaYj9gL2o",
         "attributes": [
@@ -11230,12 +11230,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "221": {
-        "name": "Avatar #221",
+        "name": "Digger #221",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4DFwkuW6BveE9K36kLqps0Y65QHJQPy11PMw8RI0UBk",
         "attributes": [
@@ -11286,7 +11286,7 @@ const metadata = {
         ]
     },
     "222": {
-        "name": "Avatar #222",
+        "name": "Digger #222",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IACjOae0KnO4DSA_Nh_mtDEsjkVtQkqm979TLnZFybo",
         "attributes": [
@@ -11337,7 +11337,7 @@ const metadata = {
         ]
     },
     "223": {
-        "name": "Avatar #223",
+        "name": "Digger #223",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UcuYY8bIWD1Ka5z7sYz-jjWholcrdlqJNc1eq5U-SXk",
         "attributes": [
@@ -11388,7 +11388,7 @@ const metadata = {
         ]
     },
     "224": {
-        "name": "Avatar #224",
+        "name": "Digger #224",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/D3g1AoHRif9c4xUBIto0zV6W0sN6EmC4f775Rp8Kh4o",
         "attributes": [
@@ -11439,7 +11439,7 @@ const metadata = {
         ]
     },
     "225": {
-        "name": "Avatar #225",
+        "name": "Digger #225",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_Z7MGqlezxJUzJ5E8Fd-ht1Grff4YRjR1GpSGbLZs8g",
         "attributes": [
@@ -11490,7 +11490,7 @@ const metadata = {
         ]
     },
     "226": {
-        "name": "Avatar #226",
+        "name": "Digger #226",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/T6lmE_rKbY8dmljdX0VNZhb4LN8U_Xucfh8Y_p-CPgg",
         "attributes": [
@@ -11541,7 +11541,7 @@ const metadata = {
         ]
     },
     "227": {
-        "name": "Avatar #227",
+        "name": "Digger #227",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kPlXE8gqHbL8F58DyAtHqTv-RmqnAx5v0xYVf0dCaMM",
         "attributes": [
@@ -11592,7 +11592,7 @@ const metadata = {
         ]
     },
     "228": {
-        "name": "Avatar #228",
+        "name": "Digger #228",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fj2fXSZK5TcfQUXAsj_rPmQicArCZHj8VLyke55WaCk",
         "attributes": [
@@ -11643,7 +11643,7 @@ const metadata = {
         ]
     },
     "229": {
-        "name": "Avatar #229",
+        "name": "Digger #229",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oGq56QjXEIJhwKJmtEr1ZEuqNzChmIt_WEvE4E3suqw",
         "attributes": [
@@ -11694,7 +11694,7 @@ const metadata = {
         ]
     },
     "230": {
-        "name": "Avatar #230",
+        "name": "Digger #230",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Gmz83RcGhVEBEUi-H0SWyExBU8o6elVEAFL16VBTUYE",
         "attributes": [
@@ -11740,12 +11740,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "231": {
-        "name": "Avatar #231",
+        "name": "Digger #231",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WruwFtfTYen__Ji175tBcFqG6p36iJoJNaZfMgqrnCc",
         "attributes": [
@@ -11796,7 +11796,7 @@ const metadata = {
         ]
     },
     "232": {
-        "name": "Avatar #232",
+        "name": "Digger #232",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/epBDk3hLpZ2Yq6nmQp0XI2Ix74We1O8mQ3SNUPc3Y0g",
         "attributes": [
@@ -11847,7 +11847,7 @@ const metadata = {
         ]
     },
     "233": {
-        "name": "Avatar #233",
+        "name": "Digger #233",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/edVsuhZng-f3B4GO3NZ9AHBQZmJO0BCGero-qWuA8og",
         "attributes": [
@@ -11898,7 +11898,7 @@ const metadata = {
         ]
     },
     "234": {
-        "name": "Avatar #234",
+        "name": "Digger #234",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kuuaYr7R5Lrf-H9fQO-1ZFxEpUIg0ztmeeesqibbSLk",
         "attributes": [
@@ -11949,7 +11949,7 @@ const metadata = {
         ]
     },
     "235": {
-        "name": "Avatar #235",
+        "name": "Digger #235",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WJbRf-aVguxJl6dV-xfM0-ywN1PkrDNVj4GQnxMYoos",
         "attributes": [
@@ -12000,7 +12000,7 @@ const metadata = {
         ]
     },
     "236": {
-        "name": "Avatar #236",
+        "name": "Digger #236",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aMQnXo2G28-q2wsaPzevVE-xuZeMuVUMR-kKMZEYkAg",
         "attributes": [
@@ -12051,7 +12051,7 @@ const metadata = {
         ]
     },
     "237": {
-        "name": "Avatar #237",
+        "name": "Digger #237",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/S64umysz4ncfTIAP15UpnfuIeGMB6FpeesQyn5plTEw",
         "attributes": [
@@ -12102,7 +12102,7 @@ const metadata = {
         ]
     },
     "238": {
-        "name": "Avatar #238",
+        "name": "Digger #238",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8wI11tpfj_HJEGpNAK1iGJ3eqljZu-V12ArOGdTzcJA",
         "attributes": [
@@ -12153,7 +12153,7 @@ const metadata = {
         ]
     },
     "239": {
-        "name": "Avatar #239",
+        "name": "Digger #239",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DjlbJPP8Jj1kFTWV8ploIJ01KawaLhALAuBpvbPSkhw",
         "attributes": [
@@ -12204,7 +12204,7 @@ const metadata = {
         ]
     },
     "240": {
-        "name": "Avatar #240",
+        "name": "Digger #240",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0DIqR5PXBgB8epc2az9TZd_sR2EZawRloP3zZHVqcrI",
         "attributes": [
@@ -12250,12 +12250,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "241": {
-        "name": "Avatar #241",
+        "name": "Digger #241",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZbdXXben0nVj6dLL_aWv60XSfWrcTgk_846d1J0IPpg",
         "attributes": [
@@ -12306,7 +12306,7 @@ const metadata = {
         ]
     },
     "242": {
-        "name": "Avatar #242",
+        "name": "Digger #242",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xvIe9oJtyRtMyQO5sd7f37IEZ03cNWbD_iAU_fmZLsk",
         "attributes": [
@@ -12357,7 +12357,7 @@ const metadata = {
         ]
     },
     "243": {
-        "name": "Avatar #243",
+        "name": "Digger #243",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/S20P_56dLz_VIqEbo5pgkZUzeC0Em_CahF-BvR0Mad4",
         "attributes": [
@@ -12408,7 +12408,7 @@ const metadata = {
         ]
     },
     "244": {
-        "name": "Avatar #244",
+        "name": "Digger #244",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tH1u7h9FJxUwbyirW2PNOIV7FviVJJF20Ig086V6sGs",
         "attributes": [
@@ -12459,7 +12459,7 @@ const metadata = {
         ]
     },
     "245": {
-        "name": "Avatar #245",
+        "name": "Digger #245",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m6rmMWRhEa9o5pF2YtMhbJREEF2RFAX-0-NqAoDRNrY",
         "attributes": [
@@ -12510,7 +12510,7 @@ const metadata = {
         ]
     },
     "246": {
-        "name": "Avatar #246",
+        "name": "Digger #246",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R9VHd-Qx7PqXQX7DjU9vnUrofm7MZNAQ2Cfcy3fj69A",
         "attributes": [
@@ -12561,7 +12561,7 @@ const metadata = {
         ]
     },
     "247": {
-        "name": "Avatar #247",
+        "name": "Digger #247",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/q4aOaantBo4JEr3CCNGjHNQtDezLIL3qwXuA2a2-DDg",
         "attributes": [
@@ -12612,7 +12612,7 @@ const metadata = {
         ]
     },
     "248": {
-        "name": "Avatar #248",
+        "name": "Digger #248",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ccFwY1d_RHtL6r65cT5CZhvgEhDsQgJwALA1BPfcYqc",
         "attributes": [
@@ -12663,7 +12663,7 @@ const metadata = {
         ]
     },
     "249": {
-        "name": "Avatar #249",
+        "name": "Digger #249",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5KxZe8VyyDZ7jSMMY26WVO42-kK9YOKg86Vwwj8Traw",
         "attributes": [
@@ -12714,7 +12714,7 @@ const metadata = {
         ]
     },
     "250": {
-        "name": "Avatar #250",
+        "name": "Digger #250",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vJeEUVvVdjJhfv557R2lr5KiH1c8TG93wE1oq77yeP8",
         "attributes": [
@@ -12765,7 +12765,7 @@ const metadata = {
         ]
     },
     "251": {
-        "name": "Avatar #251",
+        "name": "Digger #251",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rgBa75E3DWyf9kLe5HJYZXuwxuDfv9u-9_Xj9f44ie8",
         "attributes": [
@@ -12816,7 +12816,7 @@ const metadata = {
         ]
     },
     "252": {
-        "name": "Avatar #252",
+        "name": "Digger #252",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9spaBgTg7rUxUhAukypCXGqFmrakgfSeE8MckUECNYs",
         "attributes": [
@@ -12867,7 +12867,7 @@ const metadata = {
         ]
     },
     "253": {
-        "name": "Avatar #253",
+        "name": "Digger #253",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/70AaHKr5AhGRW2RPqdH0Ea887nj4DzRdjTk-ZkUVAps",
         "attributes": [
@@ -12918,7 +12918,7 @@ const metadata = {
         ]
     },
     "254": {
-        "name": "Avatar #254",
+        "name": "Digger #254",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vdkBYzCeA9l1E1HOs_iXxZM2sOyUAMGjSLLyGUid6Kg",
         "attributes": [
@@ -12969,7 +12969,7 @@ const metadata = {
         ]
     },
     "255": {
-        "name": "Avatar #255",
+        "name": "Digger #255",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lDLjSRor9CMZXtm0cdyLo6Z0gsZ4fapNlBuxm8CXcp8",
         "attributes": [
@@ -13020,7 +13020,7 @@ const metadata = {
         ]
     },
     "256": {
-        "name": "Avatar #256",
+        "name": "Digger #256",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LWon3FGxkb_ytPZBdPBri0dr2B7WHeRb0AOO4RuHTcc",
         "attributes": [
@@ -13071,7 +13071,7 @@ const metadata = {
         ]
     },
     "257": {
-        "name": "Avatar #257",
+        "name": "Digger #257",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jmA_c83PCBGj0Z1M6LRVY89BRxLf2xUrksds50XwTlk",
         "attributes": [
@@ -13122,7 +13122,7 @@ const metadata = {
         ]
     },
     "258": {
-        "name": "Avatar #258",
+        "name": "Digger #258",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FrfRsUD9R2AH9uzVdisc0NFiDT_wIiuSXpYtiA0_MmE",
         "attributes": [
@@ -13173,7 +13173,7 @@ const metadata = {
         ]
     },
     "259": {
-        "name": "Avatar #259",
+        "name": "Digger #259",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j9c_S-8c5b0VICDvsM8ZJAJ8aCQbHGcvLVcYrXvk1AE",
         "attributes": [
@@ -13224,7 +13224,7 @@ const metadata = {
         ]
     },
     "260": {
-        "name": "Avatar #260",
+        "name": "Digger #260",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IaSNiS8wo_daXHCy1GIkn70kFFhW9RJjRfLdEM1cjuA",
         "attributes": [
@@ -13275,7 +13275,7 @@ const metadata = {
         ]
     },
     "261": {
-        "name": "Avatar #261",
+        "name": "Digger #261",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/N5w_Pmmok5YIXNcd0X8qRpX6Cl4udvywgbiYSnY_6c0",
         "attributes": [
@@ -13326,7 +13326,7 @@ const metadata = {
         ]
     },
     "262": {
-        "name": "Avatar #262",
+        "name": "Digger #262",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/x1jglpGhcZubbpbSqZdY5tLLnLNxdDd4W9W2MEE-zvk",
         "attributes": [
@@ -13377,7 +13377,7 @@ const metadata = {
         ]
     },
     "263": {
-        "name": "Avatar #263",
+        "name": "Digger #263",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yHGdEbIdwxRyScgYbw7qNULTc19HMgbT9UptgiEVv4s",
         "attributes": [
@@ -13428,7 +13428,7 @@ const metadata = {
         ]
     },
     "264": {
-        "name": "Avatar #264",
+        "name": "Digger #264",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5_d9kT3jm_DVHXyphPoR_oe0JEJq3Y5L8jDG4H1YCoA",
         "attributes": [
@@ -13479,7 +13479,7 @@ const metadata = {
         ]
     },
     "265": {
-        "name": "Avatar #265",
+        "name": "Digger #265",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EhGJIhQ16yK8fZqpQzCIvwR2AgddeoKSCbofO62rToE",
         "attributes": [
@@ -13530,7 +13530,7 @@ const metadata = {
         ]
     },
     "266": {
-        "name": "Avatar #266",
+        "name": "Digger #266",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oFLFNTr9n9X-rRos-nuvYAYd0tzStlrrmo6nL3gQK98",
         "attributes": [
@@ -13581,7 +13581,7 @@ const metadata = {
         ]
     },
     "267": {
-        "name": "Avatar #267",
+        "name": "Digger #267",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pAI-M1I2nG-rSvRqXz4sAoMjcjIU5-Ab5Ca5xb7Ral0",
         "attributes": [
@@ -13632,7 +13632,7 @@ const metadata = {
         ]
     },
     "268": {
-        "name": "Avatar #268",
+        "name": "Digger #268",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AHAYrZhslX3r6r1V8dcB9-nfdy5FKn5ZXzK69umtkJU",
         "attributes": [
@@ -13683,7 +13683,7 @@ const metadata = {
         ]
     },
     "269": {
-        "name": "Avatar #269",
+        "name": "Digger #269",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_Tx2ulf3eApwMLtD_QxXsp_EWfbHMfennIL-l25HYlM",
         "attributes": [
@@ -13734,7 +13734,7 @@ const metadata = {
         ]
     },
     "270": {
-        "name": "Avatar #270",
+        "name": "Digger #270",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FfGccM6a6lve5ZVgua2tYcolHRJR-SQIWz7BMStfeiY",
         "attributes": [
@@ -13780,12 +13780,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "271": {
-        "name": "Avatar #271",
+        "name": "Digger #271",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h57i8HnSXeNaMpH30bLh30_EJ8GPxvTHpnJyiEkO01U",
         "attributes": [
@@ -13836,7 +13836,7 @@ const metadata = {
         ]
     },
     "272": {
-        "name": "Avatar #272",
+        "name": "Digger #272",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PNWRLoR201tIWIJjd57B7NWqTzD14IJ7R8CPkkcpDgA",
         "attributes": [
@@ -13887,7 +13887,7 @@ const metadata = {
         ]
     },
     "273": {
-        "name": "Avatar #273",
+        "name": "Digger #273",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9XA3xbSrNJ_5vf-ze4gZPLNLbJUnKFx_U7OkUa26-Ps",
         "attributes": [
@@ -13938,7 +13938,7 @@ const metadata = {
         ]
     },
     "274": {
-        "name": "Avatar #274",
+        "name": "Digger #274",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bCpv_6-8igsM4_M-xKW1CN3qwb_G293O-D16rymJNpw",
         "attributes": [
@@ -13989,7 +13989,7 @@ const metadata = {
         ]
     },
     "275": {
-        "name": "Avatar #275",
+        "name": "Digger #275",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RrSPAs84C9nUkh3LgIzO8EtEO8r-m03TCrL6NCDmJ3U",
         "attributes": [
@@ -14040,7 +14040,7 @@ const metadata = {
         ]
     },
     "276": {
-        "name": "Avatar #276",
+        "name": "Digger #276",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9UGugtc7VbeLenx9wmIoyLuseoXQFkLHUS2MPw_-PdA",
         "attributes": [
@@ -14091,7 +14091,7 @@ const metadata = {
         ]
     },
     "277": {
-        "name": "Avatar #277",
+        "name": "Digger #277",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tXjhpxHD_X1x01pVWD4SWHLXH9EjcM4EFqRwjUSOP1s",
         "attributes": [
@@ -14142,7 +14142,7 @@ const metadata = {
         ]
     },
     "278": {
-        "name": "Avatar #278",
+        "name": "Digger #278",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Q4upccC_h4zFaE7azje7SvwkOGtZqSZrv2U4aLFpUcI",
         "attributes": [
@@ -14193,7 +14193,7 @@ const metadata = {
         ]
     },
     "279": {
-        "name": "Avatar #279",
+        "name": "Digger #279",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nLtu6VspabUMfqBcZYIwN8UaxMspiMc10wgss8AEgbU",
         "attributes": [
@@ -14244,7 +14244,7 @@ const metadata = {
         ]
     },
     "280": {
-        "name": "Avatar #280",
+        "name": "Digger #280",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/b3-sLs_TyIzgnW3-2erajp2rvbbwISX8TcUhW4LLAW0",
         "attributes": [
@@ -14295,7 +14295,7 @@ const metadata = {
         ]
     },
     "281": {
-        "name": "Avatar #281",
+        "name": "Digger #281",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5lPH8Fv-hfF-bbmb6JPX01I5NdSX6RSgQQ2vZke-Fx8",
         "attributes": [
@@ -14346,7 +14346,7 @@ const metadata = {
         ]
     },
     "282": {
-        "name": "Avatar #282",
+        "name": "Digger #282",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/W4iu4sawZZPNyXATSK77ObwNfAaWY264SZi9AnXksLQ",
         "attributes": [
@@ -14397,7 +14397,7 @@ const metadata = {
         ]
     },
     "283": {
-        "name": "Avatar #283",
+        "name": "Digger #283",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h4-vuGlux1KPveniW_2Xtbenw8U6SKuUFPSpnAZV2Sk",
         "attributes": [
@@ -14448,7 +14448,7 @@ const metadata = {
         ]
     },
     "284": {
-        "name": "Avatar #284",
+        "name": "Digger #284",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/K1muFBcbx5dAetmX0SGtkQ-NcqGdtbn9b3qF2enIc0Y",
         "attributes": [
@@ -14499,7 +14499,7 @@ const metadata = {
         ]
     },
     "285": {
-        "name": "Avatar #285",
+        "name": "Digger #285",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VQMtolCgqihWquoCM9fafaoojv7S6FX5ICufMbP0UNY",
         "attributes": [
@@ -14550,7 +14550,7 @@ const metadata = {
         ]
     },
     "286": {
-        "name": "Avatar #286",
+        "name": "Digger #286",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4eATyzAzKbcauukqYD11nO-3gslqubOCgaoloaoAHlE",
         "attributes": [
@@ -14596,12 +14596,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "287": {
-        "name": "Avatar #287",
+        "name": "Digger #287",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tIl_pvnhunp8OKneDhX8-VH06acfttj5enHAV1CoOaI",
         "attributes": [
@@ -14652,7 +14652,7 @@ const metadata = {
         ]
     },
     "288": {
-        "name": "Avatar #288",
+        "name": "Digger #288",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oMTWrRyY4iUll6fj6VTf4X2MMoD2rT1bbjWWFGQwlto",
         "attributes": [
@@ -14703,7 +14703,7 @@ const metadata = {
         ]
     },
     "289": {
-        "name": "Avatar #289",
+        "name": "Digger #289",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-TdvSDuRO4d3vFG5Y25PTWHJoiGo0W1j8XO48Ppeu2U",
         "attributes": [
@@ -14754,7 +14754,7 @@ const metadata = {
         ]
     },
     "290": {
-        "name": "Avatar #290",
+        "name": "Digger #290",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/me0V0a_UfVwj9cZl3rZtnLTJUaGAtuu-bqWts_hk3Dw",
         "attributes": [
@@ -14800,12 +14800,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "291": {
-        "name": "Avatar #291",
+        "name": "Digger #291",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5vkUW6Dbsg479Hpf0Oo2y2t3b37D05l0jI9L6E7pmqc",
         "attributes": [
@@ -14856,7 +14856,7 @@ const metadata = {
         ]
     },
     "292": {
-        "name": "Avatar #292",
+        "name": "Digger #292",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fPBbeI9YVmM3gORlIuc8nbIVMyeNmQkv8lFvYpHiq24",
         "attributes": [
@@ -14907,7 +14907,7 @@ const metadata = {
         ]
     },
     "293": {
-        "name": "Avatar #293",
+        "name": "Digger #293",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/t9vWlDE0Knf4XpJes56Vbt_HWs3vVmuTK-f1FJivi3s",
         "attributes": [
@@ -14958,7 +14958,7 @@ const metadata = {
         ]
     },
     "294": {
-        "name": "Avatar #294",
+        "name": "Digger #294",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nIynQ3IdrITGZZs47OH_KAwLc3I8E-xywH_fh2ciCI0",
         "attributes": [
@@ -15009,7 +15009,7 @@ const metadata = {
         ]
     },
     "295": {
-        "name": "Avatar #295",
+        "name": "Digger #295",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ghErny5A-182Ms9_L050-LCXh18XQgc-WguHDg36Zao",
         "attributes": [
@@ -15060,7 +15060,7 @@ const metadata = {
         ]
     },
     "296": {
-        "name": "Avatar #296",
+        "name": "Digger #296",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2bAurQwzCgz4_wVIR2oWgmXvXOecRrWcxA72am5RdIk",
         "attributes": [
@@ -15111,7 +15111,7 @@ const metadata = {
         ]
     },
     "297": {
-        "name": "Avatar #297",
+        "name": "Digger #297",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8lTuDlua3tSN3fPeeUebc3BOPmNjNL8q5-Cv5A_TB5Q",
         "attributes": [
@@ -15162,7 +15162,7 @@ const metadata = {
         ]
     },
     "298": {
-        "name": "Avatar #298",
+        "name": "Digger #298",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wgjWuv9tCgmP7A8QNYnDDF3g7vgNQY_dFAjWTG3LT-8",
         "attributes": [
@@ -15208,12 +15208,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "299": {
-        "name": "Avatar #299",
+        "name": "Digger #299",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8zGneRVbTzD1Wt6SEYRUvUfTqdr40GDK9W3cMJP7x_8",
         "attributes": [
@@ -15264,7 +15264,7 @@ const metadata = {
         ]
     },
     "300": {
-        "name": "Avatar #300",
+        "name": "Digger #300",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NiLPMXHdUETV_3G9QmRYRlOVtUl5qKqSRQodWz1bAjQ",
         "attributes": [
@@ -15315,7 +15315,7 @@ const metadata = {
         ]
     },
     "301": {
-        "name": "Avatar #301",
+        "name": "Digger #301",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F9bygfvc_1eNa2MPnQdUDd9uGJZ-XE_XdJdLNhMC4Fg",
         "attributes": [
@@ -15366,7 +15366,7 @@ const metadata = {
         ]
     },
     "302": {
-        "name": "Avatar #302",
+        "name": "Digger #302",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ENdB1kun7Z5riKJGtNL236ngsBgudlFO0x3HtMK9r0w",
         "attributes": [
@@ -15417,7 +15417,7 @@ const metadata = {
         ]
     },
     "303": {
-        "name": "Avatar #303",
+        "name": "Digger #303",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Sx2hjoP5vBTl3FGFSe-qMxzY1iQTWDcRXp6VOdMs68Q",
         "attributes": [
@@ -15468,7 +15468,7 @@ const metadata = {
         ]
     },
     "304": {
-        "name": "Avatar #304",
+        "name": "Digger #304",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7CtaGF7A1XYbVtdKbFLEidhT-gTwyYgvYsTaJ4A5VJk",
         "attributes": [
@@ -15514,12 +15514,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "305": {
-        "name": "Avatar #305",
+        "name": "Digger #305",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RL8W0Zy03oxNrCW_k5IcWYPRMMjd6L5HYilo3Ni2ow8",
         "attributes": [
@@ -15570,7 +15570,7 @@ const metadata = {
         ]
     },
     "306": {
-        "name": "Avatar #306",
+        "name": "Digger #306",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ESKHaXjrm8PbVQiTvozaoShcJjwX0Zd5qiiDBEE1_4s",
         "attributes": [
@@ -15621,7 +15621,7 @@ const metadata = {
         ]
     },
     "307": {
-        "name": "Avatar #307",
+        "name": "Digger #307",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5O8OMEmzsyp4NROIafZVIUQhsGRJmtzxmhHS4QR82yA",
         "attributes": [
@@ -15672,7 +15672,7 @@ const metadata = {
         ]
     },
     "308": {
-        "name": "Avatar #308",
+        "name": "Digger #308",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QahLEnDDSmtKEtvDPwbtXQXaBIZ5imd1B5dcDUcA_i4",
         "attributes": [
@@ -15723,7 +15723,7 @@ const metadata = {
         ]
     },
     "309": {
-        "name": "Avatar #309",
+        "name": "Digger #309",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RbunLeTo_jne9LROODp7pWc97bNAB_B33thG_MF1i5Y",
         "attributes": [
@@ -15774,7 +15774,7 @@ const metadata = {
         ]
     },
     "310": {
-        "name": "Avatar #310",
+        "name": "Digger #310",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MpJDMa9RH4ug1iKT6sSf1Vnw8l_INSwlgRdT2xAZEwg",
         "attributes": [
@@ -15825,7 +15825,7 @@ const metadata = {
         ]
     },
     "311": {
-        "name": "Avatar #311",
+        "name": "Digger #311",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tr7gmszChi6m1PcYTY8qJljVNhocwSMd59X0Ad2Gtiw",
         "attributes": [
@@ -15876,7 +15876,7 @@ const metadata = {
         ]
     },
     "312": {
-        "name": "Avatar #312",
+        "name": "Digger #312",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qUGmgw0dBA1NYmsqlWnsw1o_1IhcJ4ORw8M3GaN0ctk",
         "attributes": [
@@ -15927,7 +15927,7 @@ const metadata = {
         ]
     },
     "313": {
-        "name": "Avatar #313",
+        "name": "Digger #313",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BKRBSjVyR881Bdvhdq4jCAc0bDeVMv-ha-sOWww_3F8",
         "attributes": [
@@ -15973,12 +15973,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "314": {
-        "name": "Avatar #314",
+        "name": "Digger #314",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4WhVwEbsEizyC1GgWsAuo4-n1b2n4zKxadChofJeAnk",
         "attributes": [
@@ -16029,7 +16029,7 @@ const metadata = {
         ]
     },
     "315": {
-        "name": "Avatar #315",
+        "name": "Digger #315",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sct4_MS8dxoFLIFhihGm2SpdV8hG3X7hxZ_j7uVkn_s",
         "attributes": [
@@ -16080,7 +16080,7 @@ const metadata = {
         ]
     },
     "316": {
-        "name": "Avatar #316",
+        "name": "Digger #316",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pu8nAzqQJmKtFB6y38StG0uLjJV24arxLya0USKr4r4",
         "attributes": [
@@ -16126,12 +16126,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "317": {
-        "name": "Avatar #317",
+        "name": "Digger #317",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/a-d7IwWgmnpfoTPjTnQztnltyU0LSSMyeFk4zYuyw7k",
         "attributes": [
@@ -16182,7 +16182,7 @@ const metadata = {
         ]
     },
     "318": {
-        "name": "Avatar #318",
+        "name": "Digger #318",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E1hIVbIM6R48Z4QvjjNyeyag89YNdostz5ksq1jxR5I",
         "attributes": [
@@ -16233,7 +16233,7 @@ const metadata = {
         ]
     },
     "319": {
-        "name": "Avatar #319",
+        "name": "Digger #319",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FwspALlfKXXYVBnppZv0I3ZfpnuK-YMKsgwcv3wS-8A",
         "attributes": [
@@ -16284,7 +16284,7 @@ const metadata = {
         ]
     },
     "320": {
-        "name": "Avatar #320",
+        "name": "Digger #320",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YCiAuQ7vvqmbBkKgTAbASY-Jz6INaS6Hc7_CrJJZdeA",
         "attributes": [
@@ -16335,7 +16335,7 @@ const metadata = {
         ]
     },
     "321": {
-        "name": "Avatar #321",
+        "name": "Digger #321",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E4NbSSiUpc0ZgvMKRF2HOyqqZa1koeyjr7qYx4dF9-M",
         "attributes": [
@@ -16386,7 +16386,7 @@ const metadata = {
         ]
     },
     "322": {
-        "name": "Avatar #322",
+        "name": "Digger #322",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9ZTKfHWmxLl0rpwgedbrGfqc7ie5C75FOKTnnszRLGQ",
         "attributes": [
@@ -16437,7 +16437,7 @@ const metadata = {
         ]
     },
     "323": {
-        "name": "Avatar #323",
+        "name": "Digger #323",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0vGXoblPD1PSIfar_GwSSyq81KbmvKI-bW854wPBbAo",
         "attributes": [
@@ -16488,7 +16488,7 @@ const metadata = {
         ]
     },
     "324": {
-        "name": "Avatar #324",
+        "name": "Digger #324",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/u2c5O2WrQTkLKe4UAd-zWCrmq0IQTEqDf95zg4lt7Ic",
         "attributes": [
@@ -16539,7 +16539,7 @@ const metadata = {
         ]
     },
     "325": {
-        "name": "Avatar #325",
+        "name": "Digger #325",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tDfXDGHpT3QXaLicg46_XmZ-X5xtLapwOiJZoCh9_as",
         "attributes": [
@@ -16590,7 +16590,7 @@ const metadata = {
         ]
     },
     "326": {
-        "name": "Avatar #326",
+        "name": "Digger #326",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7xFrtaASZ8JcteHvma7zjy9O_TNA4ejQJy7BdvKpC0k",
         "attributes": [
@@ -16641,7 +16641,7 @@ const metadata = {
         ]
     },
     "327": {
-        "name": "Avatar #327",
+        "name": "Digger #327",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QwarOWf8cvnnCeWNc2CKFtLVS7CNYITs5b1x6RWiKG0",
         "attributes": [
@@ -16692,7 +16692,7 @@ const metadata = {
         ]
     },
     "328": {
-        "name": "Avatar #328",
+        "name": "Digger #328",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/No_wwpEkGEl6enH1gW3hMzpQv1Xx87L5mCQvA__GSuo",
         "attributes": [
@@ -16743,7 +16743,7 @@ const metadata = {
         ]
     },
     "329": {
-        "name": "Avatar #329",
+        "name": "Digger #329",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YbG91-6zX86ugGjKZ0-2O1n_fCcrTuStydt_P2XwCrc",
         "attributes": [
@@ -16794,7 +16794,7 @@ const metadata = {
         ]
     },
     "330": {
-        "name": "Avatar #330",
+        "name": "Digger #330",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WR1lgEmTJ79-F64A6xAf0h878yag0x4600XrIMOUCSc",
         "attributes": [
@@ -16845,7 +16845,7 @@ const metadata = {
         ]
     },
     "331": {
-        "name": "Avatar #331",
+        "name": "Digger #331",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UCk4dCnPJ42u_5rnx3wWWVBGZzxlDaBxy5AZMGkpW3Q",
         "attributes": [
@@ -16896,7 +16896,7 @@ const metadata = {
         ]
     },
     "332": {
-        "name": "Avatar #332",
+        "name": "Digger #332",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/w4t_teS1mbS6M_VpIl4qfYmGuWRxBji0bxynjpz71qA",
         "attributes": [
@@ -16947,7 +16947,7 @@ const metadata = {
         ]
     },
     "333": {
-        "name": "Avatar #333",
+        "name": "Digger #333",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VbIkHPQUDCrfSXNdQQHsC_XMWTbwQHNUmu40jgJGPWE",
         "attributes": [
@@ -16998,7 +16998,7 @@ const metadata = {
         ]
     },
     "334": {
-        "name": "Avatar #334",
+        "name": "Digger #334",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mNl5FWnVz0Sxa4C0A1mQ1Wk3pCrEKUDSbBC2jEg3rO8",
         "attributes": [
@@ -17049,7 +17049,7 @@ const metadata = {
         ]
     },
     "335": {
-        "name": "Avatar #335",
+        "name": "Digger #335",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KQoFR0x7BVppo7nZC1FhbDUjzO0xoKFTByAU7nsYwEk",
         "attributes": [
@@ -17100,7 +17100,7 @@ const metadata = {
         ]
     },
     "336": {
-        "name": "Avatar #336",
+        "name": "Digger #336",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9u6hH8piBcQWbeOzUQWfsS5CquzCmI3LaxC8TpGePwM",
         "attributes": [
@@ -17151,7 +17151,7 @@ const metadata = {
         ]
     },
     "337": {
-        "name": "Avatar #337",
+        "name": "Digger #337",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ONVwU9lt8M6okpEmsrW_qnO_L7efZVKtF1kD2X2xFlg",
         "attributes": [
@@ -17202,7 +17202,7 @@ const metadata = {
         ]
     },
     "338": {
-        "name": "Avatar #338",
+        "name": "Digger #338",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rkn7u7-GcZkgVckpdpS3T8LBCbtzPBqnedHKfJ7aYdU",
         "attributes": [
@@ -17253,7 +17253,7 @@ const metadata = {
         ]
     },
     "339": {
-        "name": "Avatar #339",
+        "name": "Digger #339",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E1q6IAkEsLmXelXi7Xz-S0PyqwHh9khFFy_OFXlb2ao",
         "attributes": [
@@ -17304,7 +17304,7 @@ const metadata = {
         ]
     },
     "340": {
-        "name": "Avatar #340",
+        "name": "Digger #340",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qPJyeB56-SolXsNdSt9uJPYkWeKAVSMBN8MSHKbXDMg",
         "attributes": [
@@ -17355,7 +17355,7 @@ const metadata = {
         ]
     },
     "341": {
-        "name": "Avatar #341",
+        "name": "Digger #341",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YDsRULHK85jdy55p6SDdB4VQDi77JsuDbDmBR4nlNVE",
         "attributes": [
@@ -17406,7 +17406,7 @@ const metadata = {
         ]
     },
     "342": {
-        "name": "Avatar #342",
+        "name": "Digger #342",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lHIngf4lsYAqHxdw1QelZgZWHwlHQlE3Z06FuShTXbA",
         "attributes": [
@@ -17457,7 +17457,7 @@ const metadata = {
         ]
     },
     "343": {
-        "name": "Avatar #343",
+        "name": "Digger #343",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yk8METTs9m7epjt7hvkENVDIdY0qr3rU_RI6ZOtz_gA",
         "attributes": [
@@ -17508,7 +17508,7 @@ const metadata = {
         ]
     },
     "344": {
-        "name": "Avatar #344",
+        "name": "Digger #344",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tyu1yn4evKkaNcGIoVfuxTViH9lBgIyIYKqmtMw3G5M",
         "attributes": [
@@ -17559,7 +17559,7 @@ const metadata = {
         ]
     },
     "345": {
-        "name": "Avatar #345",
+        "name": "Digger #345",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/a77H47N_hD_p3rqbMe9mcQ6yHClGpir6kAN8CInW2xE",
         "attributes": [
@@ -17610,7 +17610,7 @@ const metadata = {
         ]
     },
     "346": {
-        "name": "Avatar #346",
+        "name": "Digger #346",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TW1kTTsmXZPXqy4W2S87oW5B-Wh8pDiXRSHnpUiXlj0",
         "attributes": [
@@ -17661,7 +17661,7 @@ const metadata = {
         ]
     },
     "347": {
-        "name": "Avatar #347",
+        "name": "Digger #347",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m2MGpY8732hbCjZ8BIYllnQi0sabapGlEbxatCO0qVE",
         "attributes": [
@@ -17712,7 +17712,7 @@ const metadata = {
         ]
     },
     "348": {
-        "name": "Avatar #348",
+        "name": "Digger #348",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AQaKBUvZsuosqvpBEr9nfaiRtgMXAMlKLOTRVOeHFAs",
         "attributes": [
@@ -17763,7 +17763,7 @@ const metadata = {
         ]
     },
     "349": {
-        "name": "Avatar #349",
+        "name": "Digger #349",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TaQcxs7u_5tQl-vfgqywAQ6cBuHsitn0RhSTsIZ-W7Y",
         "attributes": [
@@ -17814,7 +17814,7 @@ const metadata = {
         ]
     },
     "350": {
-        "name": "Avatar #350",
+        "name": "Digger #350",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HzMwWDYc75ClIYgL9t8-ZE9xwAggGBo5ANdpSYer4pw",
         "attributes": [
@@ -17865,7 +17865,7 @@ const metadata = {
         ]
     },
     "351": {
-        "name": "Avatar #351",
+        "name": "Digger #351",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3wf3G4x-ErVJxbeWqfBKBVDN1yNywlLD7rlbeD4oWnw",
         "attributes": [
@@ -17916,7 +17916,7 @@ const metadata = {
         ]
     },
     "352": {
-        "name": "Avatar #352",
+        "name": "Digger #352",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XSZscIcer5Tsljz4clTx-XkaIKSNDGpQp1LUAR0XK9o",
         "attributes": [
@@ -17967,7 +17967,7 @@ const metadata = {
         ]
     },
     "353": {
-        "name": "Avatar #353",
+        "name": "Digger #353",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/c2tqb8_vcDAGaeaOSBDlfrGCqYV7rN1Udg1Z2ZGwh0c",
         "attributes": [
@@ -18018,7 +18018,7 @@ const metadata = {
         ]
     },
     "354": {
-        "name": "Avatar #354",
+        "name": "Digger #354",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UrfrzSztah7c1BBx4wdxdOGU0SRKXXptaIADNtETkoc",
         "attributes": [
@@ -18069,7 +18069,7 @@ const metadata = {
         ]
     },
     "355": {
-        "name": "Avatar #355",
+        "name": "Digger #355",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EDkM16P-lTsIFjFH9dD5S4RFjkT8hsMfdae-0_YYO5Y",
         "attributes": [
@@ -18120,7 +18120,7 @@ const metadata = {
         ]
     },
     "356": {
-        "name": "Avatar #356",
+        "name": "Digger #356",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZdJf2BctWdWyxtsB-xNKXy-laMW4qIzV2efHeiWFTiA",
         "attributes": [
@@ -18171,7 +18171,7 @@ const metadata = {
         ]
     },
     "357": {
-        "name": "Avatar #357",
+        "name": "Digger #357",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-vimfRVz00cZfLsTNvLNUTPgU-bJMBnMEgzJafhEvhc",
         "attributes": [
@@ -18222,7 +18222,7 @@ const metadata = {
         ]
     },
     "358": {
-        "name": "Avatar #358",
+        "name": "Digger #358",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nEUF2-ikrQYAY1Ls64O7U_kJ3FY0T2X0kiqcaKQnpoI",
         "attributes": [
@@ -18273,7 +18273,7 @@ const metadata = {
         ]
     },
     "359": {
-        "name": "Avatar #359",
+        "name": "Digger #359",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IuX2Q2T7NHZL6bzZKwU9q66rPNcE86H2CwYAORrShsI",
         "attributes": [
@@ -18324,7 +18324,7 @@ const metadata = {
         ]
     },
     "360": {
-        "name": "Avatar #360",
+        "name": "Digger #360",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NK4iRVamyv7UqbV4rmtVYiuioS-WzAcTNnq-mekZZCg",
         "attributes": [
@@ -18375,7 +18375,7 @@ const metadata = {
         ]
     },
     "361": {
-        "name": "Avatar #361",
+        "name": "Digger #361",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FyRNR_YSNOfCBjl4QO3_IAsKnz9_SQZBO-gqk5lFRP8",
         "attributes": [
@@ -18426,7 +18426,7 @@ const metadata = {
         ]
     },
     "362": {
-        "name": "Avatar #362",
+        "name": "Digger #362",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0jpWim8vlAp-dQYAsbhTqp1_fGHZ17IkB7CvarsQrUc",
         "attributes": [
@@ -18477,7 +18477,7 @@ const metadata = {
         ]
     },
     "363": {
-        "name": "Avatar #363",
+        "name": "Digger #363",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/c9XdNHWjd_53oquTCbngMu7ubqfQYWL_8-N7hUaGigU",
         "attributes": [
@@ -18528,7 +18528,7 @@ const metadata = {
         ]
     },
     "364": {
-        "name": "Avatar #364",
+        "name": "Digger #364",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dQoCSzIHrz4Mh1W6k-hkDuzn3TeGwfceBjNOICbfcIE",
         "attributes": [
@@ -18579,7 +18579,7 @@ const metadata = {
         ]
     },
     "365": {
-        "name": "Avatar #365",
+        "name": "Digger #365",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dCwcTvvLwX0aMLivxkrV39NovAiRbACkO-JS9wLkzBw",
         "attributes": [
@@ -18630,7 +18630,7 @@ const metadata = {
         ]
     },
     "366": {
-        "name": "Avatar #366",
+        "name": "Digger #366",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uhFQ0oa5vmdChwhAoWrBJ1PxQAFUwElWfK50YwL_Aik",
         "attributes": [
@@ -18681,7 +18681,7 @@ const metadata = {
         ]
     },
     "367": {
-        "name": "Avatar #367",
+        "name": "Digger #367",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h2kFRcNapvgmYY3ut-g9m72Xuwk1CHCApS-zZLHefKc",
         "attributes": [
@@ -18732,7 +18732,7 @@ const metadata = {
         ]
     },
     "368": {
-        "name": "Avatar #368",
+        "name": "Digger #368",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/t781h6pJZ7lZ4HO3X_WJaNkJvNfjWO4mAInigZieSOk",
         "attributes": [
@@ -18783,7 +18783,7 @@ const metadata = {
         ]
     },
     "369": {
-        "name": "Avatar #369",
+        "name": "Digger #369",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eV0nw96bzqwD6jgZTmxvOOSNC5pLHG-ow7wlZwai3Xw",
         "attributes": [
@@ -18834,7 +18834,7 @@ const metadata = {
         ]
     },
     "370": {
-        "name": "Avatar #370",
+        "name": "Digger #370",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9yYHORpsX14SdSebnILjLu74A5C-gs0rhVrUG9QgbT8",
         "attributes": [
@@ -18885,7 +18885,7 @@ const metadata = {
         ]
     },
     "371": {
-        "name": "Avatar #371",
+        "name": "Digger #371",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wnEbbtnYM7SEdah7VxeYjKSZE92igAvvkr0yMVyZLns",
         "attributes": [
@@ -18936,7 +18936,7 @@ const metadata = {
         ]
     },
     "372": {
-        "name": "Avatar #372",
+        "name": "Digger #372",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Tugiuv2LsStw-vodBcenBqoxYqDwH1Yw2by2f3VZ3KM",
         "attributes": [
@@ -18987,7 +18987,7 @@ const metadata = {
         ]
     },
     "373": {
-        "name": "Avatar #373",
+        "name": "Digger #373",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ggYW2VqC6hvjqpOEHgSfz5GSLiJpmVrxjbjMFSoV9IA",
         "attributes": [
@@ -19038,7 +19038,7 @@ const metadata = {
         ]
     },
     "374": {
-        "name": "Avatar #374",
+        "name": "Digger #374",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mbPdb-PpEZSoU1PUjVk11I2UJCQ_WLE-ovfnfonEhws",
         "attributes": [
@@ -19089,7 +19089,7 @@ const metadata = {
         ]
     },
     "375": {
-        "name": "Avatar #375",
+        "name": "Digger #375",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6qwIEFdABNrvOiLEnRSpoFY062lx_r2LhnXqzeRVoAQ",
         "attributes": [
@@ -19140,7 +19140,7 @@ const metadata = {
         ]
     },
     "376": {
-        "name": "Avatar #376",
+        "name": "Digger #376",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PIpoZMUyeeUkFqm1U06Gnx4qeZOQ3sMk2QiJEqG0G3I",
         "attributes": [
@@ -19191,7 +19191,7 @@ const metadata = {
         ]
     },
     "377": {
-        "name": "Avatar #377",
+        "name": "Digger #377",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SBR6td7XPfw56wx-0oTeZXlpCSfJI2CnVOZDcO1GDkY",
         "attributes": [
@@ -19242,7 +19242,7 @@ const metadata = {
         ]
     },
     "378": {
-        "name": "Avatar #378",
+        "name": "Digger #378",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qUTmMWF157Ai52EQcM17YC_b3JvWsKLNmGS5txI_bVk",
         "attributes": [
@@ -19293,7 +19293,7 @@ const metadata = {
         ]
     },
     "379": {
-        "name": "Avatar #379",
+        "name": "Digger #379",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9GWJIQNIaBwVoPpYxhG2wvQIpPo1uZ8xVXcFp5UpJBE",
         "attributes": [
@@ -19344,7 +19344,7 @@ const metadata = {
         ]
     },
     "380": {
-        "name": "Avatar #380",
+        "name": "Digger #380",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lN_N6LIi8rACDLig5zAkgW-cMBfjdeyYxxVKJ5M6n5g",
         "attributes": [
@@ -19395,7 +19395,7 @@ const metadata = {
         ]
     },
     "381": {
-        "name": "Avatar #381",
+        "name": "Digger #381",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Omym82sKyDBMesc8aQNL4NEa6lFm3MsRHxqkX9L4AQM",
         "attributes": [
@@ -19446,7 +19446,7 @@ const metadata = {
         ]
     },
     "382": {
-        "name": "Avatar #382",
+        "name": "Digger #382",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/55BvUWR66OqNQfo1MQd98b8XOSdb6VYf0fplufYaDTo",
         "attributes": [
@@ -19497,7 +19497,7 @@ const metadata = {
         ]
     },
     "383": {
-        "name": "Avatar #383",
+        "name": "Digger #383",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/plLVJ4iqXKr1i0ZLeeHeb64VyidDrkXL_-o4bnI7vnw",
         "attributes": [
@@ -19548,7 +19548,7 @@ const metadata = {
         ]
     },
     "384": {
-        "name": "Avatar #384",
+        "name": "Digger #384",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pjAzWum2xt6LgIPKz2DNOVrf1CM82rq2hwCMrV9FCXs",
         "attributes": [
@@ -19599,7 +19599,7 @@ const metadata = {
         ]
     },
     "385": {
-        "name": "Avatar #385",
+        "name": "Digger #385",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XJVXb2X8MJKvyd-tKuzUSZ7qUfOlIor7aR6Aj-xZp8c",
         "attributes": [
@@ -19650,7 +19650,7 @@ const metadata = {
         ]
     },
     "386": {
-        "name": "Avatar #386",
+        "name": "Digger #386",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/l9rmeYT1BvZnJ-dIfls-v_oA9rnug7EOSkbGtKDlQFs",
         "attributes": [
@@ -19701,7 +19701,7 @@ const metadata = {
         ]
     },
     "387": {
-        "name": "Avatar #387",
+        "name": "Digger #387",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ffTWyueMVKHBn-y5x9JOv3C3KOMfPm11cPWD282Chew",
         "attributes": [
@@ -19752,7 +19752,7 @@ const metadata = {
         ]
     },
     "388": {
-        "name": "Avatar #388",
+        "name": "Digger #388",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5S81BwyR-1JxbdjA0CZ3rnJGmr5P7zOQs1c626oylDo",
         "attributes": [
@@ -19803,7 +19803,7 @@ const metadata = {
         ]
     },
     "389": {
-        "name": "Avatar #389",
+        "name": "Digger #389",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/D2Niewubo5cSMDTZ9ukCo-n9JsE0CKHsuZXWN_jrh6U",
         "attributes": [
@@ -19854,7 +19854,7 @@ const metadata = {
         ]
     },
     "390": {
-        "name": "Avatar #390",
+        "name": "Digger #390",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/heRPYKWZskH5km9MAHxLeeTfrbcP-Zu7157YyYet9n4",
         "attributes": [
@@ -19905,7 +19905,7 @@ const metadata = {
         ]
     },
     "391": {
-        "name": "Avatar #391",
+        "name": "Digger #391",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZCETA7IG2MYqhJi6drnsh3yaYth0WQSbpG61lFrR96Y",
         "attributes": [
@@ -19956,7 +19956,7 @@ const metadata = {
         ]
     },
     "392": {
-        "name": "Avatar #392",
+        "name": "Digger #392",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/L-SkxVIN7xFGRw2loYXt7h75Re7KLLT05V-Uo0tQ94Y",
         "attributes": [
@@ -20007,7 +20007,7 @@ const metadata = {
         ]
     },
     "393": {
-        "name": "Avatar #393",
+        "name": "Digger #393",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/amIWFpFlvgFcoKVmaqEr1_3gq4v_JOOO0PIHxzcAz_4",
         "attributes": [
@@ -20058,7 +20058,7 @@ const metadata = {
         ]
     },
     "394": {
-        "name": "Avatar #394",
+        "name": "Digger #394",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nCbgdu2svycFRH9e3Ax1l74-tYCL3BcmZ1XBdMGUWMw",
         "attributes": [
@@ -20109,7 +20109,7 @@ const metadata = {
         ]
     },
     "395": {
-        "name": "Avatar #395",
+        "name": "Digger #395",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MUBMeFZg6V3bkGV7wuw_0MYOk6CP8QPeNJZ-PFzn01A",
         "attributes": [
@@ -20160,7 +20160,7 @@ const metadata = {
         ]
     },
     "396": {
-        "name": "Avatar #396",
+        "name": "Digger #396",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DsUB6tWiw7nkXNfC3YlM194mhfjfYzJrvmq0GGwXOwo",
         "attributes": [
@@ -20211,7 +20211,7 @@ const metadata = {
         ]
     },
     "397": {
-        "name": "Avatar #397",
+        "name": "Digger #397",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QLkaY8zcFshLZkRUPtJM5mImr_uuTi-pzQvf63igvsY",
         "attributes": [
@@ -20262,7 +20262,7 @@ const metadata = {
         ]
     },
     "398": {
-        "name": "Avatar #398",
+        "name": "Digger #398",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KzH046R6GFK0nOBvC90qe_QmMJw_CO0_TE1IHzNjYLM",
         "attributes": [
@@ -20308,12 +20308,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "399": {
-        "name": "Avatar #399",
+        "name": "Digger #399",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zGZQlMn22By2KgjhuBw9IG7GBRf7CYFsl_w0sHZg0V0",
         "attributes": [
@@ -20364,7 +20364,7 @@ const metadata = {
         ]
     },
     "400": {
-        "name": "Avatar #400",
+        "name": "Digger #400",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bz_70e6O_Y16f82zShrN78b_dnQ0PRL-7dA2zqEZjjg",
         "attributes": [
@@ -20415,7 +20415,7 @@ const metadata = {
         ]
     },
     "401": {
-        "name": "Avatar #401",
+        "name": "Digger #401",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eK-wLqD5C3SZvRQxmRTBvbPboCree9fyS42iAhE53tI",
         "attributes": [
@@ -20466,7 +20466,7 @@ const metadata = {
         ]
     },
     "402": {
-        "name": "Avatar #402",
+        "name": "Digger #402",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Pyo6hOZiGOg4GfNSk4BsLrQokNeUbOpxIgekYO1a-sE",
         "attributes": [
@@ -20517,7 +20517,7 @@ const metadata = {
         ]
     },
     "403": {
-        "name": "Avatar #403",
+        "name": "Digger #403",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yM1VZZ_Fi882QQCMJiMf922fJN8PwKiLYDh93uTUets",
         "attributes": [
@@ -20568,7 +20568,7 @@ const metadata = {
         ]
     },
     "404": {
-        "name": "Avatar #404",
+        "name": "Digger #404",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/csAwy_cQk1eYN0L_bZZJ1ifWhbkmmDyuf3hko57Fo1I",
         "attributes": [
@@ -20619,7 +20619,7 @@ const metadata = {
         ]
     },
     "405": {
-        "name": "Avatar #405",
+        "name": "Digger #405",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gr5M2IRMAJzYOfPFXGxFgsH6T88CGFmWPaXpKph_Ao8",
         "attributes": [
@@ -20670,7 +20670,7 @@ const metadata = {
         ]
     },
     "406": {
-        "name": "Avatar #406",
+        "name": "Digger #406",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3cp5G8Tb9kiEtnq4dBpnVNyE8pB5bXDpMIzu3UWhbZ0",
         "attributes": [
@@ -20721,7 +20721,7 @@ const metadata = {
         ]
     },
     "407": {
-        "name": "Avatar #407",
+        "name": "Digger #407",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dypQfWlneg66OVnrI7QLCWfgJThpP5Sylqt4bZvzmdA",
         "attributes": [
@@ -20772,7 +20772,7 @@ const metadata = {
         ]
     },
     "408": {
-        "name": "Avatar #408",
+        "name": "Digger #408",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yaSw2b5OGP-5sWTiC3DmYonKpM75jc-HHT37i3AzGDc",
         "attributes": [
@@ -20823,7 +20823,7 @@ const metadata = {
         ]
     },
     "409": {
-        "name": "Avatar #409",
+        "name": "Digger #409",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mCqrZhwuLoklf8ssTjV4NO_BzwsrXcodywW7cgzsrOc",
         "attributes": [
@@ -20874,7 +20874,7 @@ const metadata = {
         ]
     },
     "410": {
-        "name": "Avatar #410",
+        "name": "Digger #410",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4YD_2mVI_haJWaTTOjSa8CV3u1bBxz7Rlst5LRhZ6TY",
         "attributes": [
@@ -20925,7 +20925,7 @@ const metadata = {
         ]
     },
     "411": {
-        "name": "Avatar #411",
+        "name": "Digger #411",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XkOhmTW3VYMQhXkGmzz_3PTpjogq3mjVvFNjU8aGtR4",
         "attributes": [
@@ -20976,7 +20976,7 @@ const metadata = {
         ]
     },
     "412": {
-        "name": "Avatar #412",
+        "name": "Digger #412",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DiVeecHlfg5l5ERX7wBqAP_Cb6h7_bOgjEnGHyccVvY",
         "attributes": [
@@ -21027,7 +21027,7 @@ const metadata = {
         ]
     },
     "413": {
-        "name": "Avatar #413",
+        "name": "Digger #413",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4LYHeq3ZXdrFD3Yun8gNXF7i3Z0xsl1UDaVetEnSYJA",
         "attributes": [
@@ -21078,7 +21078,7 @@ const metadata = {
         ]
     },
     "414": {
-        "name": "Avatar #414",
+        "name": "Digger #414",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OjKsxP7Fbr1rpCCXkbcm6akgzel8nneZFwWT1YzowiE",
         "attributes": [
@@ -21129,7 +21129,7 @@ const metadata = {
         ]
     },
     "415": {
-        "name": "Avatar #415",
+        "name": "Digger #415",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F0ynYZkZ4reZUf4zKB0jBj6KN1s4J7iPZVZ_FUDgpnU",
         "attributes": [
@@ -21180,7 +21180,7 @@ const metadata = {
         ]
     },
     "416": {
-        "name": "Avatar #416",
+        "name": "Digger #416",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gzsxn4gLnMKOmLhOl97OaSc2TGTynj05EnwHW7Q63nE",
         "attributes": [
@@ -21231,7 +21231,7 @@ const metadata = {
         ]
     },
     "417": {
-        "name": "Avatar #417",
+        "name": "Digger #417",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jbnaMiMWEI6cRBUhNa8m5mW2HZI4PJLy0EIF3liTfuU",
         "attributes": [
@@ -21277,12 +21277,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "418": {
-        "name": "Avatar #418",
+        "name": "Digger #418",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xEy5_DPo0pomMz5GVFAo3auedTgEhs3Xqn0XaLHwP3o",
         "attributes": [
@@ -21333,7 +21333,7 @@ const metadata = {
         ]
     },
     "419": {
-        "name": "Avatar #419",
+        "name": "Digger #419",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MBKkHFOiJToOs_J4XEl9czdu_kEbqFDJtw3sTr6LsyY",
         "attributes": [
@@ -21384,7 +21384,7 @@ const metadata = {
         ]
     },
     "420": {
-        "name": "Avatar #420",
+        "name": "Digger #420",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GhAcI1NCmtYjjX8s7KLCJaVbarvJqxHAYfsbFbHCizg",
         "attributes": [
@@ -21435,7 +21435,7 @@ const metadata = {
         ]
     },
     "421": {
-        "name": "Avatar #421",
+        "name": "Digger #421",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HQMi5RAnRfl7XsRkLNbOkdGpZkr6_WS7wTWvcaRjjv8",
         "attributes": [
@@ -21486,7 +21486,7 @@ const metadata = {
         ]
     },
     "422": {
-        "name": "Avatar #422",
+        "name": "Digger #422",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/A7ZRWf32-RLMRy9EKSESqPM158pyZoMM1P6Y9HkAN-8",
         "attributes": [
@@ -21537,7 +21537,7 @@ const metadata = {
         ]
     },
     "423": {
-        "name": "Avatar #423",
+        "name": "Digger #423",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rAC9KUxqblr3WjWI8U1-Qjs0IkLqabqZvVZo0xIjHpw",
         "attributes": [
@@ -21588,7 +21588,7 @@ const metadata = {
         ]
     },
     "424": {
-        "name": "Avatar #424",
+        "name": "Digger #424",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0_ZY1b6Stx1m1CTxwrH0rbSFyP0BC098EINGuR2vWwY",
         "attributes": [
@@ -21639,7 +21639,7 @@ const metadata = {
         ]
     },
     "425": {
-        "name": "Avatar #425",
+        "name": "Digger #425",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JNznA-J77mPdoTAlA6Ox3PYpm57ZRVngFgorix7tCnc",
         "attributes": [
@@ -21690,7 +21690,7 @@ const metadata = {
         ]
     },
     "426": {
-        "name": "Avatar #426",
+        "name": "Digger #426",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7rVp1mITCsigbEgv7JtNs6i9nIrtg-J15dtBOq5Asr4",
         "attributes": [
@@ -21741,7 +21741,7 @@ const metadata = {
         ]
     },
     "427": {
-        "name": "Avatar #427",
+        "name": "Digger #427",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ySgtiL45EqRge9-MV_M7oBJRCLBoXqiNqLvUuVoZf6w",
         "attributes": [
@@ -21792,7 +21792,7 @@ const metadata = {
         ]
     },
     "428": {
-        "name": "Avatar #428",
+        "name": "Digger #428",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CfJHxG8FBtjNY-WtL3mLq0UJpbAkp9FAglmaeVbFS0E",
         "attributes": [
@@ -21843,7 +21843,7 @@ const metadata = {
         ]
     },
     "429": {
-        "name": "Avatar #429",
+        "name": "Digger #429",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FADyMrDFSEp2NBnrvO-FqANirlA7H-mkrhic6t6SU_Q",
         "attributes": [
@@ -21894,7 +21894,7 @@ const metadata = {
         ]
     },
     "430": {
-        "name": "Avatar #430",
+        "name": "Digger #430",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gYDMaxpk-McSaCZfcjAYz7aPElgKhwhH_-wACsir-H0",
         "attributes": [
@@ -21945,7 +21945,7 @@ const metadata = {
         ]
     },
     "431": {
-        "name": "Avatar #431",
+        "name": "Digger #431",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bO44Vg2Elj8c4kHlbtN5VWFhGEu9R-BWbM7SynTVnTw",
         "attributes": [
@@ -21996,7 +21996,7 @@ const metadata = {
         ]
     },
     "432": {
-        "name": "Avatar #432",
+        "name": "Digger #432",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NdoC9ZQnVX-0fK1jY2h7-2iX-RfopVExegjUVvRs5Ho",
         "attributes": [
@@ -22047,7 +22047,7 @@ const metadata = {
         ]
     },
     "433": {
-        "name": "Avatar #433",
+        "name": "Digger #433",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lW0wHhPPcr_WjsMMz_j1su5JziKm0qoWB2PiX92VPGM",
         "attributes": [
@@ -22098,7 +22098,7 @@ const metadata = {
         ]
     },
     "434": {
-        "name": "Avatar #434",
+        "name": "Digger #434",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BxcygbCaN_iriIqtRB1ZdFOM7-93j_lWAf4GcJZ4XMY",
         "attributes": [
@@ -22149,7 +22149,7 @@ const metadata = {
         ]
     },
     "435": {
-        "name": "Avatar #435",
+        "name": "Digger #435",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aCwhBporGGyeYaZyMDcT6jS_MYo6Wwku2_jukZidJjQ",
         "attributes": [
@@ -22200,7 +22200,7 @@ const metadata = {
         ]
     },
     "436": {
-        "name": "Avatar #436",
+        "name": "Digger #436",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yUXtjJ02NGyZy6b8m38QtWw-hnRxySNi342YOhE8ngM",
         "attributes": [
@@ -22251,7 +22251,7 @@ const metadata = {
         ]
     },
     "437": {
-        "name": "Avatar #437",
+        "name": "Digger #437",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/K4IhVAvTcAREmRI4tTO2RHFqSvxH3AZxJsh6vzyjqsg",
         "attributes": [
@@ -22302,7 +22302,7 @@ const metadata = {
         ]
     },
     "438": {
-        "name": "Avatar #438",
+        "name": "Digger #438",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Z4pdFo3g7RV9fu6eqiMbVlJjkXYUUorC4LT0zHXH3gs",
         "attributes": [
@@ -22353,7 +22353,7 @@ const metadata = {
         ]
     },
     "439": {
-        "name": "Avatar #439",
+        "name": "Digger #439",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Oe66TONo7cPJBGt14Xj8TgHwfmB1jugxnGIfNK-R73M",
         "attributes": [
@@ -22399,12 +22399,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "440": {
-        "name": "Avatar #440",
+        "name": "Digger #440",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GZULvIiFGlodpTseiKr3siuo6eQTOTB_r2n1JkfBHX0",
         "attributes": [
@@ -22455,7 +22455,7 @@ const metadata = {
         ]
     },
     "441": {
-        "name": "Avatar #441",
+        "name": "Digger #441",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/u8bFGq_fqfRzP4yve7D4Sa-EYeQpeFb73kTQqJ6pCHs",
         "attributes": [
@@ -22506,7 +22506,7 @@ const metadata = {
         ]
     },
     "442": {
-        "name": "Avatar #442",
+        "name": "Digger #442",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B8Dt44fkStxg6EOQS4qcmUeHFmevyTk5KBYFHwinP-A",
         "attributes": [
@@ -22557,7 +22557,7 @@ const metadata = {
         ]
     },
     "443": {
-        "name": "Avatar #443",
+        "name": "Digger #443",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nqb6Wu6E7tB2kGf-wcBeRu6pv56VXOd39x3VsNTmydI",
         "attributes": [
@@ -22608,7 +22608,7 @@ const metadata = {
         ]
     },
     "444": {
-        "name": "Avatar #444",
+        "name": "Digger #444",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E3pIpWVXjmU3xnw-NEmzoVjsyLJsQazdGfq0Q71JfD0",
         "attributes": [
@@ -22654,12 +22654,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "445": {
-        "name": "Avatar #445",
+        "name": "Digger #445",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JleVEATN0wMsU30N5A25j3XmMazgw4AB1wdSYW61LjI",
         "attributes": [
@@ -22710,7 +22710,7 @@ const metadata = {
         ]
     },
     "446": {
-        "name": "Avatar #446",
+        "name": "Digger #446",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OYN_6BYxAvyh_dKieZd58_N0eLuRBfIMDpGdw3P0Q0c",
         "attributes": [
@@ -22756,12 +22756,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "447": {
-        "name": "Avatar #447",
+        "name": "Digger #447",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WN_x9Y_FTfIKTMz8AiJOcKrRMFRlQ2hlCAG2txBqS3U",
         "attributes": [
@@ -22812,7 +22812,7 @@ const metadata = {
         ]
     },
     "448": {
-        "name": "Avatar #448",
+        "name": "Digger #448",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7VP9ASCGyvE85I4NqA1zbMXi_o7PHmkJYimIqtd04hA",
         "attributes": [
@@ -22863,7 +22863,7 @@ const metadata = {
         ]
     },
     "449": {
-        "name": "Avatar #449",
+        "name": "Digger #449",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-Im_ijjduE3TH_MJK02HSvUAmkvzUJN26ojeUKyRUzk",
         "attributes": [
@@ -22914,7 +22914,7 @@ const metadata = {
         ]
     },
     "450": {
-        "name": "Avatar #450",
+        "name": "Digger #450",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HM8Q7Up6emA3xYTowtBvPqn9GGlPSJEGjRT9vopHrJA",
         "attributes": [
@@ -22965,7 +22965,7 @@ const metadata = {
         ]
     },
     "451": {
-        "name": "Avatar #451",
+        "name": "Digger #451",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iTWvRS3IPpEFPNJWdxoARcBTKSLgQwisnayku6WUaWg",
         "attributes": [
@@ -23016,7 +23016,7 @@ const metadata = {
         ]
     },
     "452": {
-        "name": "Avatar #452",
+        "name": "Digger #452",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OTSoQAeXyhyS-rwPCgqib2g9SGh-w_Op8Oav2-NF764",
         "attributes": [
@@ -23067,7 +23067,7 @@ const metadata = {
         ]
     },
     "453": {
-        "name": "Avatar #453",
+        "name": "Digger #453",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/d5UZi0ObVq5EKQmAxzRQJD7_PRk78Re0-c_bZhkzvmc",
         "attributes": [
@@ -23118,7 +23118,7 @@ const metadata = {
         ]
     },
     "454": {
-        "name": "Avatar #454",
+        "name": "Digger #454",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Md4JqykKaRrpA62PsRIVcv-HGQbX0DD4l8yYVxB_8k4",
         "attributes": [
@@ -23169,7 +23169,7 @@ const metadata = {
         ]
     },
     "455": {
-        "name": "Avatar #455",
+        "name": "Digger #455",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZuixzcP4DjCWC4tmEzQjdKnRQSg1jWd0FxbHOgt7Muc",
         "attributes": [
@@ -23220,7 +23220,7 @@ const metadata = {
         ]
     },
     "456": {
-        "name": "Avatar #456",
+        "name": "Digger #456",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_CTab09nR1LAG1plWWdxHpSGEhs0e_vQ64Hj09tOpmU",
         "attributes": [
@@ -23271,7 +23271,7 @@ const metadata = {
         ]
     },
     "457": {
-        "name": "Avatar #457",
+        "name": "Digger #457",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/glDwsKaQMcq7CbDjjQsmhBpkm6Vau6mGsNwXT0WDUvQ",
         "attributes": [
@@ -23322,7 +23322,7 @@ const metadata = {
         ]
     },
     "458": {
-        "name": "Avatar #458",
+        "name": "Digger #458",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kIssIbgl0E1iFugX-8dlaxl3Qdd2hpBi_VT1rKelGXQ",
         "attributes": [
@@ -23373,7 +23373,7 @@ const metadata = {
         ]
     },
     "459": {
-        "name": "Avatar #459",
+        "name": "Digger #459",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nz8qDbkIVC9p-g75EBTQgQO7ZaTDYZHMR5fikxBKxvw",
         "attributes": [
@@ -23424,7 +23424,7 @@ const metadata = {
         ]
     },
     "460": {
-        "name": "Avatar #460",
+        "name": "Digger #460",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2Vukbm1TO8wqoMAAn5orYI8pe177U-CZGemEjo1oFaE",
         "attributes": [
@@ -23475,7 +23475,7 @@ const metadata = {
         ]
     },
     "461": {
-        "name": "Avatar #461",
+        "name": "Digger #461",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TFIVlmca7nbVX06rhFcAePw_69PPLc7QiXhOBHCGj0Y",
         "attributes": [
@@ -23526,7 +23526,7 @@ const metadata = {
         ]
     },
     "462": {
-        "name": "Avatar #462",
+        "name": "Digger #462",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F4c11FNUCaZFojISAXnLGyKugz4QclqtWHD6u9zWUvE",
         "attributes": [
@@ -23577,7 +23577,7 @@ const metadata = {
         ]
     },
     "463": {
-        "name": "Avatar #463",
+        "name": "Digger #463",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2lgu5cA1GDEfL55BK1T5vFRLjssa1f5QdHw8QOqfkJ4",
         "attributes": [
@@ -23628,7 +23628,7 @@ const metadata = {
         ]
     },
     "464": {
-        "name": "Avatar #464",
+        "name": "Digger #464",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/77KFjytB5unELqHY5I8LqAWs5jX0_JkpOtLtsFeYmp4",
         "attributes": [
@@ -23679,7 +23679,7 @@ const metadata = {
         ]
     },
     "465": {
-        "name": "Avatar #465",
+        "name": "Digger #465",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/i74kLUYrwLebnonbAgTL1mB9gF-4cO8LOpXVoUUg4Kk",
         "attributes": [
@@ -23730,7 +23730,7 @@ const metadata = {
         ]
     },
     "466": {
-        "name": "Avatar #466",
+        "name": "Digger #466",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/luw1mRjTHYcP4d3lzg9o9vXGYQkmLE13SYtCXgTEPF0",
         "attributes": [
@@ -23776,12 +23776,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "467": {
-        "name": "Avatar #467",
+        "name": "Digger #467",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6VcHFYefJA_cye8ULS5DPe7hGYwCxd2wG3xYP4N7SYw",
         "attributes": [
@@ -23832,7 +23832,7 @@ const metadata = {
         ]
     },
     "468": {
-        "name": "Avatar #468",
+        "name": "Digger #468",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/heRfxclUZTNvJLrGdHUVUuVZL1s2WvUaFImW6SKyIjI",
         "attributes": [
@@ -23883,7 +23883,7 @@ const metadata = {
         ]
     },
     "469": {
-        "name": "Avatar #469",
+        "name": "Digger #469",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8VummY6m3yReSAT9paFfm1EVXYLNdUllXL680HDGBP8",
         "attributes": [
@@ -23934,7 +23934,7 @@ const metadata = {
         ]
     },
     "470": {
-        "name": "Avatar #470",
+        "name": "Digger #470",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/krIjjH_SVi6NzazJ0wFKUacklbqCuLnScyvNs7BHtb4",
         "attributes": [
@@ -23985,7 +23985,7 @@ const metadata = {
         ]
     },
     "471": {
-        "name": "Avatar #471",
+        "name": "Digger #471",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eBqfL31t9pklA5Jz9enxOkVEHgB4kqv4aH8ATYPlGBw",
         "attributes": [
@@ -24036,7 +24036,7 @@ const metadata = {
         ]
     },
     "472": {
-        "name": "Avatar #472",
+        "name": "Digger #472",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EOmejkmsN_p9CRajKEmzjyUkuqjhdfJaaK7WAH338DM",
         "attributes": [
@@ -24087,7 +24087,7 @@ const metadata = {
         ]
     },
     "473": {
-        "name": "Avatar #473",
+        "name": "Digger #473",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-3br3MIfgahoxL6xOsfrd7oZ4oVcFv1o9MsQRUELro0",
         "attributes": [
@@ -24138,7 +24138,7 @@ const metadata = {
         ]
     },
     "474": {
-        "name": "Avatar #474",
+        "name": "Digger #474",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YGlzvg7RO9wuBtD8E-kkn3cbPvAMYOXE45U4qMeY-BQ",
         "attributes": [
@@ -24189,7 +24189,7 @@ const metadata = {
         ]
     },
     "475": {
-        "name": "Avatar #475",
+        "name": "Digger #475",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RQhAK3rAfGDoN61U-bNZLgrETi7Yfgf6jXxGanIH08I",
         "attributes": [
@@ -24240,7 +24240,7 @@ const metadata = {
         ]
     },
     "476": {
-        "name": "Avatar #476",
+        "name": "Digger #476",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m0awReMLDTIMwVYng3HamFzkDchyHozYC1Q-aSvPkuo",
         "attributes": [
@@ -24291,7 +24291,7 @@ const metadata = {
         ]
     },
     "477": {
-        "name": "Avatar #477",
+        "name": "Digger #477",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pigpcif3iSUojBm7PWwJmmseeOT6ej2W48tiiRErU-c",
         "attributes": [
@@ -24342,7 +24342,7 @@ const metadata = {
         ]
     },
     "478": {
-        "name": "Avatar #478",
+        "name": "Digger #478",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4SfBFxfjLIyBML1m4nME4utWoWEhAv3pRnl2oR30olM",
         "attributes": [
@@ -24393,7 +24393,7 @@ const metadata = {
         ]
     },
     "479": {
-        "name": "Avatar #479",
+        "name": "Digger #479",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9NoImjB-aKAy0OLRwu4IUZZNNRH_uCVhmfJrEKsT14E",
         "attributes": [
@@ -24444,7 +24444,7 @@ const metadata = {
         ]
     },
     "480": {
-        "name": "Avatar #480",
+        "name": "Digger #480",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/C9Dk5YJP577RIzvyVs9AonzX_hIWvLTGqMCiIi2W8AU",
         "attributes": [
@@ -24495,7 +24495,7 @@ const metadata = {
         ]
     },
     "481": {
-        "name": "Avatar #481",
+        "name": "Digger #481",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1O6cZwxUf7kcJ8sy8lqtPrJx3B3-ajNwvkFMP3MFp04",
         "attributes": [
@@ -24546,7 +24546,7 @@ const metadata = {
         ]
     },
     "482": {
-        "name": "Avatar #482",
+        "name": "Digger #482",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SorjUOYhfd85-8g-tO7KSTjLGibAOHLX6nGfb6FqypY",
         "attributes": [
@@ -24597,7 +24597,7 @@ const metadata = {
         ]
     },
     "483": {
-        "name": "Avatar #483",
+        "name": "Digger #483",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/umXLkmhYZaK2AAzhx3WcB8meSDS64NHVzrgSouGRgik",
         "attributes": [
@@ -24648,7 +24648,7 @@ const metadata = {
         ]
     },
     "484": {
-        "name": "Avatar #484",
+        "name": "Digger #484",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nnuAmvBn7YuRYMALgTim0PZh3UWqv0uJN78v-6apDxA",
         "attributes": [
@@ -24699,7 +24699,7 @@ const metadata = {
         ]
     },
     "485": {
-        "name": "Avatar #485",
+        "name": "Digger #485",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m3P_0ATZYjYBc82fHrw5RsFiOkUdzasImecbbmUIHXE",
         "attributes": [
@@ -24750,7 +24750,7 @@ const metadata = {
         ]
     },
     "486": {
-        "name": "Avatar #486",
+        "name": "Digger #486",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kzMzswOjxFuLKR543M2NvaBhW1HStLG4cXyiMSaExZQ",
         "attributes": [
@@ -24801,7 +24801,7 @@ const metadata = {
         ]
     },
     "487": {
-        "name": "Avatar #487",
+        "name": "Digger #487",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/an3Rj1fZEicWpcr8JvFXdx6aCF4BV4JnpIosnjLs-6o",
         "attributes": [
@@ -24852,7 +24852,7 @@ const metadata = {
         ]
     },
     "488": {
-        "name": "Avatar #488",
+        "name": "Digger #488",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bqiFfU5J5fEH6uNrS-CSyA8ngbb__-GtH_UNSVR5png",
         "attributes": [
@@ -24903,7 +24903,7 @@ const metadata = {
         ]
     },
     "489": {
-        "name": "Avatar #489",
+        "name": "Digger #489",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5IXRfZBOVzEFNfLQfHkmedjLrNGLkEv0WYY_NVKHIw4",
         "attributes": [
@@ -24954,7 +24954,7 @@ const metadata = {
         ]
     },
     "490": {
-        "name": "Avatar #490",
+        "name": "Digger #490",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IhikOWKoS87mYXiYf-Gvny5YS1d7zUkqYsaVLgUxz5Q",
         "attributes": [
@@ -25005,7 +25005,7 @@ const metadata = {
         ]
     },
     "491": {
-        "name": "Avatar #491",
+        "name": "Digger #491",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eoDPfh7uKNW_w7JkwuwJgb4lHqgg3MungpK-B5SqnAM",
         "attributes": [
@@ -25056,7 +25056,7 @@ const metadata = {
         ]
     },
     "492": {
-        "name": "Avatar #492",
+        "name": "Digger #492",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BrWK5uyk5WBzSzb8wAsur_agpeWmtGlE8XeFtDkKbhc",
         "attributes": [
@@ -25102,12 +25102,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "493": {
-        "name": "Avatar #493",
+        "name": "Digger #493",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3koUSO5qdmbd_Q96MYflHvFQvq5I3w6pVcQ6XlD3iuI",
         "attributes": [
@@ -25158,7 +25158,7 @@ const metadata = {
         ]
     },
     "494": {
-        "name": "Avatar #494",
+        "name": "Digger #494",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p-ZD7c-AAulTsDRwwg6mwQLHX2zK-o577zI4vSLkV04",
         "attributes": [
@@ -25209,7 +25209,7 @@ const metadata = {
         ]
     },
     "495": {
-        "name": "Avatar #495",
+        "name": "Digger #495",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2BDeWfXwodSm6ny5VGAtvepW57a-4sF3_9npXntdO1c",
         "attributes": [
@@ -25260,7 +25260,7 @@ const metadata = {
         ]
     },
     "496": {
-        "name": "Avatar #496",
+        "name": "Digger #496",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rWkVnTe3tM_QkK4fiXTbc3Ag6E42hkrzQT1KLEDzmBs",
         "attributes": [
@@ -25311,7 +25311,7 @@ const metadata = {
         ]
     },
     "497": {
-        "name": "Avatar #497",
+        "name": "Digger #497",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hnfpCxRi__ljFE2JJ4Af-9Q4A2ShfBuuMgxZkvXLFow",
         "attributes": [
@@ -25362,7 +25362,7 @@ const metadata = {
         ]
     },
     "498": {
-        "name": "Avatar #498",
+        "name": "Digger #498",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yzlzt_jcV6ON6JBNOmY8kSyE3Bi1q0kKu_8h3enLujw",
         "attributes": [
@@ -25413,7 +25413,7 @@ const metadata = {
         ]
     },
     "499": {
-        "name": "Avatar #499",
+        "name": "Digger #499",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/y9Bp-DqPmfYaWEiDBpalqAq9oDP_BwSXVQNntwgAXhI",
         "attributes": [
@@ -25464,7 +25464,7 @@ const metadata = {
         ]
     },
     "500": {
-        "name": "Avatar #500",
+        "name": "Digger #500",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FGUwiOH4sGHAFwyNsP5bOyNGITb2PGwhXVN9y6-Bh-0",
         "attributes": [
@@ -25515,7 +25515,7 @@ const metadata = {
         ]
     },
     "501": {
-        "name": "Avatar #501",
+        "name": "Digger #501",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vOVmNf2l2J9RjORanwOkn2l8mG7vb2FkydyHQMb6I_s",
         "attributes": [
@@ -25566,7 +25566,7 @@ const metadata = {
         ]
     },
     "502": {
-        "name": "Avatar #502",
+        "name": "Digger #502",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vrAIGlhtCW6jey_12wN9CpI7jhXHAc6gsmqoVU17plQ",
         "attributes": [
@@ -25617,7 +25617,7 @@ const metadata = {
         ]
     },
     "503": {
-        "name": "Avatar #503",
+        "name": "Digger #503",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/swncjaaF1E7Vz7ILi7cvuXygaV4v98P-bztn75kOctY",
         "attributes": [
@@ -25668,7 +25668,7 @@ const metadata = {
         ]
     },
     "504": {
-        "name": "Avatar #504",
+        "name": "Digger #504",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QOVfmwA_OwEB-A_TlUDf614-qfpGQTawKpKvv7FtoRQ",
         "attributes": [
@@ -25719,7 +25719,7 @@ const metadata = {
         ]
     },
     "505": {
-        "name": "Avatar #505",
+        "name": "Digger #505",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/v_rbeVyrUYYH0LWGMETl54V7qELKk8vX3XVugtHVmMw",
         "attributes": [
@@ -25770,7 +25770,7 @@ const metadata = {
         ]
     },
     "506": {
-        "name": "Avatar #506",
+        "name": "Digger #506",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ufhDZFMHzTos_ghewo4WRPOB8YmHu5Bhb4BMciPDZ8c",
         "attributes": [
@@ -25821,7 +25821,7 @@ const metadata = {
         ]
     },
     "507": {
-        "name": "Avatar #507",
+        "name": "Digger #507",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uVpO4ZGqmmuiB5KLRE-d-28MHY0pECLQfZe1VK5h6yk",
         "attributes": [
@@ -25872,7 +25872,7 @@ const metadata = {
         ]
     },
     "508": {
-        "name": "Avatar #508",
+        "name": "Digger #508",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YxfK30mzgqz3VizfqvVgrMuuOT7K2sXI97FxRQjC9R0",
         "attributes": [
@@ -25918,12 +25918,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "509": {
-        "name": "Avatar #509",
+        "name": "Digger #509",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/47dfR5GADBCca88FFgmoVumi2qfs9jACUY8UNIQ6cak",
         "attributes": [
@@ -25974,7 +25974,7 @@ const metadata = {
         ]
     },
     "510": {
-        "name": "Avatar #510",
+        "name": "Digger #510",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bvM_K_h7eIUcRenFq_aqm_keDyU4PQpxvQs2hYd2VXo",
         "attributes": [
@@ -26025,7 +26025,7 @@ const metadata = {
         ]
     },
     "511": {
-        "name": "Avatar #511",
+        "name": "Digger #511",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7dRAR9sOPlJKYECMG5NdCPWm7kpMmf0ytqceXQdnKVU",
         "attributes": [
@@ -26076,7 +26076,7 @@ const metadata = {
         ]
     },
     "512": {
-        "name": "Avatar #512",
+        "name": "Digger #512",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tDntErlG7CC2ityS919nAcdck9VLW-C83DStvgf8D60",
         "attributes": [
@@ -26127,7 +26127,7 @@ const metadata = {
         ]
     },
     "513": {
-        "name": "Avatar #513",
+        "name": "Digger #513",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YLqR7JhMRVyWXZUxhUJiOcTRMU0AxJzZxVl98Er_jKU",
         "attributes": [
@@ -26178,7 +26178,7 @@ const metadata = {
         ]
     },
     "514": {
-        "name": "Avatar #514",
+        "name": "Digger #514",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lOhZ9K3mOK8S4zfVwqmb55nz6Yf9woRLuj_JoRSeuO0",
         "attributes": [
@@ -26229,7 +26229,7 @@ const metadata = {
         ]
     },
     "515": {
-        "name": "Avatar #515",
+        "name": "Digger #515",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r6szRosxoRrZfiA8gG69WVmUKN0G6EYXoSQvcVVw-X4",
         "attributes": [
@@ -26280,7 +26280,7 @@ const metadata = {
         ]
     },
     "516": {
-        "name": "Avatar #516",
+        "name": "Digger #516",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ORkoOaCzmzfSZAr88imXU2bRAvQy-xo45ZkjSkUT_8E",
         "attributes": [
@@ -26331,7 +26331,7 @@ const metadata = {
         ]
     },
     "517": {
-        "name": "Avatar #517",
+        "name": "Digger #517",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/74jq98hAldnBmzlOPFesxFk_MmDvkGP6L651CHWoMhs",
         "attributes": [
@@ -26382,7 +26382,7 @@ const metadata = {
         ]
     },
     "518": {
-        "name": "Avatar #518",
+        "name": "Digger #518",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-hX8yZvmYC0Q4oYKEPh5kc4fdVhuhHqCfm7pbJ6iiu8",
         "attributes": [
@@ -26433,7 +26433,7 @@ const metadata = {
         ]
     },
     "519": {
-        "name": "Avatar #519",
+        "name": "Digger #519",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HeBjQSiriTjmV514n8QCKiXDzF5l_wVnVEmpWaqFvwA",
         "attributes": [
@@ -26484,7 +26484,7 @@ const metadata = {
         ]
     },
     "520": {
-        "name": "Avatar #520",
+        "name": "Digger #520",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/waOfku1fC05vGOi7D-a918uGDK4AsxLPUhDNCTF3fJs",
         "attributes": [
@@ -26535,7 +26535,7 @@ const metadata = {
         ]
     },
     "521": {
-        "name": "Avatar #521",
+        "name": "Digger #521",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hH_4PkqG5io-BHx1IIPxP3OrDJlXyxnE6RzOpzg_sJY",
         "attributes": [
@@ -26586,7 +26586,7 @@ const metadata = {
         ]
     },
     "522": {
-        "name": "Avatar #522",
+        "name": "Digger #522",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oyxWjxxIKLhkKT8658tc0MNagyzy8CEc8MSYJpT8Ppc",
         "attributes": [
@@ -26637,7 +26637,7 @@ const metadata = {
         ]
     },
     "523": {
-        "name": "Avatar #523",
+        "name": "Digger #523",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YP1Bc3FfGc3nCw5L7emqlX5AtmXJ99Ht13_jkkNFhsQ",
         "attributes": [
@@ -26688,7 +26688,7 @@ const metadata = {
         ]
     },
     "524": {
-        "name": "Avatar #524",
+        "name": "Digger #524",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0EMalMxzKUo7Heu6MnP-LPfkYipENvxPpOTTYq1ID40",
         "attributes": [
@@ -26739,7 +26739,7 @@ const metadata = {
         ]
     },
     "525": {
-        "name": "Avatar #525",
+        "name": "Digger #525",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zN9qVIgwldXgHrMTCF8XfsqGENO_0hi_yI50_fy1_k8",
         "attributes": [
@@ -26790,7 +26790,7 @@ const metadata = {
         ]
     },
     "526": {
-        "name": "Avatar #526",
+        "name": "Digger #526",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oMlWfAcrNwLEm7zej-Uf1ymUmlar3MHP5POiENiuFlM",
         "attributes": [
@@ -26841,7 +26841,7 @@ const metadata = {
         ]
     },
     "527": {
-        "name": "Avatar #527",
+        "name": "Digger #527",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/n-tI1p6Qh1TVuwhmtheX7WKVRrx6l5dOW-gCpwjgz3E",
         "attributes": [
@@ -26892,7 +26892,7 @@ const metadata = {
         ]
     },
     "528": {
-        "name": "Avatar #528",
+        "name": "Digger #528",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kCkuDILicYWXp5wPXZvzZuvoceSptvOL46fFqMe-CrY",
         "attributes": [
@@ -26943,7 +26943,7 @@ const metadata = {
         ]
     },
     "529": {
-        "name": "Avatar #529",
+        "name": "Digger #529",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8N9EikP9YiyNETCLDGtXM63ckL9RTpBoJmXSqTsf7A4",
         "attributes": [
@@ -26994,7 +26994,7 @@ const metadata = {
         ]
     },
     "530": {
-        "name": "Avatar #530",
+        "name": "Digger #530",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Rg3tpWZ3Qc58y_6uxCp-Fhu4pGQ3irhlHNKDtG8Tpxo",
         "attributes": [
@@ -27045,7 +27045,7 @@ const metadata = {
         ]
     },
     "531": {
-        "name": "Avatar #531",
+        "name": "Digger #531",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bq45NMbT1UVkoiShfRaO2-gY_oh45yfXNuHRjNt_eYw",
         "attributes": [
@@ -27096,7 +27096,7 @@ const metadata = {
         ]
     },
     "532": {
-        "name": "Avatar #532",
+        "name": "Digger #532",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/06tN1598dCDt3GIG0x39KXmVPooYqEbdsgcdIz7SLiQ",
         "attributes": [
@@ -27147,7 +27147,7 @@ const metadata = {
         ]
     },
     "533": {
-        "name": "Avatar #533",
+        "name": "Digger #533",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6HVGBpjZK2WSZoZ76s10NMP0mmFqPeFuaVZI0XTvUDA",
         "attributes": [
@@ -27198,7 +27198,7 @@ const metadata = {
         ]
     },
     "534": {
-        "name": "Avatar #534",
+        "name": "Digger #534",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2quoIkUtsN_eZR8EivIuzKze-4ASE0ME20sYkwo3YJM",
         "attributes": [
@@ -27249,7 +27249,7 @@ const metadata = {
         ]
     },
     "535": {
-        "name": "Avatar #535",
+        "name": "Digger #535",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/S05g_GEU1G9xMUSrtREpdb_Hf21mwuRZzz9tMHdNalA",
         "attributes": [
@@ -27295,12 +27295,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "536": {
-        "name": "Avatar #536",
+        "name": "Digger #536",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/w9TkiWu26b67pwNtB0zt0JpT0o75kaXEdWinw76T0Vs",
         "attributes": [
@@ -27351,7 +27351,7 @@ const metadata = {
         ]
     },
     "537": {
-        "name": "Avatar #537",
+        "name": "Digger #537",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-83DeEHL9xykwwMRMYDrvc65X60uodeHH8HeCT-WI1g",
         "attributes": [
@@ -27402,7 +27402,7 @@ const metadata = {
         ]
     },
     "538": {
-        "name": "Avatar #538",
+        "name": "Digger #538",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ysoH0YNQNLwznKETKi-Fdu7-pw3YGj_kIKzl8ZyC8nQ",
         "attributes": [
@@ -27453,7 +27453,7 @@ const metadata = {
         ]
     },
     "539": {
-        "name": "Avatar #539",
+        "name": "Digger #539",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BI7heeR-8xebBSdivQBN41NH2zs03AjHhag5DlDEyng",
         "attributes": [
@@ -27504,7 +27504,7 @@ const metadata = {
         ]
     },
     "540": {
-        "name": "Avatar #540",
+        "name": "Digger #540",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vuMM3sgmE9uRo_czV1jk93csjAGSi3hz0_AStY4MACs",
         "attributes": [
@@ -27555,7 +27555,7 @@ const metadata = {
         ]
     },
     "541": {
-        "name": "Avatar #541",
+        "name": "Digger #541",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/COlk5Vmz5DAjifyqt_BP5EuwYVlVA5zaAb6wwmrTC-Y",
         "attributes": [
@@ -27606,7 +27606,7 @@ const metadata = {
         ]
     },
     "542": {
-        "name": "Avatar #542",
+        "name": "Digger #542",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UToz9ZECvGS4QAfaWGScIZ-UyBnXPBI35SMjc834r4w",
         "attributes": [
@@ -27657,7 +27657,7 @@ const metadata = {
         ]
     },
     "543": {
-        "name": "Avatar #543",
+        "name": "Digger #543",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7l4iVRtS8ux5ODFL7jHZXNp0BoI4m-1LOtSSvPJbhj0",
         "attributes": [
@@ -27703,12 +27703,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "544": {
-        "name": "Avatar #544",
+        "name": "Digger #544",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F7SzjCLyBm8R3q_san6llJ4GEwA4DM-iSAiAaVQF8Lw",
         "attributes": [
@@ -27759,7 +27759,7 @@ const metadata = {
         ]
     },
     "545": {
-        "name": "Avatar #545",
+        "name": "Digger #545",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-02FbnuqzcKWj6x91VcOqNxPNdpEbTVzCGtSNlEv1vM",
         "attributes": [
@@ -27810,7 +27810,7 @@ const metadata = {
         ]
     },
     "546": {
-        "name": "Avatar #546",
+        "name": "Digger #546",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E9WOiLq836AuzUyITxMTGdPe1S_57vfjNvYrZbP4bDE",
         "attributes": [
@@ -27861,7 +27861,7 @@ const metadata = {
         ]
     },
     "547": {
-        "name": "Avatar #547",
+        "name": "Digger #547",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tXCU3EfhwFUXO4Q1v8ZnOLA-XTwTnHKn8hpVlcndzfA",
         "attributes": [
@@ -27912,7 +27912,7 @@ const metadata = {
         ]
     },
     "548": {
-        "name": "Avatar #548",
+        "name": "Digger #548",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NS1UEAu_yW13Dkx1HJTiDF91W0bloPdUUXQog1v7Lf4",
         "attributes": [
@@ -27963,7 +27963,7 @@ const metadata = {
         ]
     },
     "549": {
-        "name": "Avatar #549",
+        "name": "Digger #549",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r8mY1cOcVNpxg7cQ7MLEHgWu3a9xKbSVpZQtV3fm5NM",
         "attributes": [
@@ -28014,7 +28014,7 @@ const metadata = {
         ]
     },
     "550": {
-        "name": "Avatar #550",
+        "name": "Digger #550",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3YHyfpFpGbVGufpOwWr3Me6HMbXtXG34sCbbIVMidE8",
         "attributes": [
@@ -28065,7 +28065,7 @@ const metadata = {
         ]
     },
     "551": {
-        "name": "Avatar #551",
+        "name": "Digger #551",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jO96aLmP9RnUrhG9n9GsKZFxyLEnHSaNcwAkrmyerls",
         "attributes": [
@@ -28116,7 +28116,7 @@ const metadata = {
         ]
     },
     "552": {
-        "name": "Avatar #552",
+        "name": "Digger #552",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LFV8B5s-HMXsKzX59-RsTCioOty5zVENczY5GLtSang",
         "attributes": [
@@ -28167,7 +28167,7 @@ const metadata = {
         ]
     },
     "553": {
-        "name": "Avatar #553",
+        "name": "Digger #553",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ly7T-oR6KGWi2l9zfqU39MwXO-0pX7xZcMRPRKCxBBs",
         "attributes": [
@@ -28218,7 +28218,7 @@ const metadata = {
         ]
     },
     "554": {
-        "name": "Avatar #554",
+        "name": "Digger #554",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/beG6WCErcmBleYoXcwU-wA_nkyJ7wf2zvzgE968bFfo",
         "attributes": [
@@ -28269,7 +28269,7 @@ const metadata = {
         ]
     },
     "555": {
-        "name": "Avatar #555",
+        "name": "Digger #555",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3pbV8vPl9f666Xk3eza778hxFReMOHNR6jvb2frL4mY",
         "attributes": [
@@ -28320,7 +28320,7 @@ const metadata = {
         ]
     },
     "556": {
-        "name": "Avatar #556",
+        "name": "Digger #556",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fuXomz2UNIZMK0OFiY7jLk9ElSIk2Yg2VYiOUvFaAtM",
         "attributes": [
@@ -28371,7 +28371,7 @@ const metadata = {
         ]
     },
     "557": {
-        "name": "Avatar #557",
+        "name": "Digger #557",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zb1dsaSFMFgH--OC5bHpSYmCOuoVC4PxGJtLybsifQw",
         "attributes": [
@@ -28422,7 +28422,7 @@ const metadata = {
         ]
     },
     "558": {
-        "name": "Avatar #558",
+        "name": "Digger #558",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6bg3rGHuOO6sVOlbyaW8zRO_fbdbNoKSzuv6RsPmPOw",
         "attributes": [
@@ -28473,7 +28473,7 @@ const metadata = {
         ]
     },
     "559": {
-        "name": "Avatar #559",
+        "name": "Digger #559",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/e_pvHMOWKh_6Ovbob2KYZTprJQZUwShQ9yiyk98eqg8",
         "attributes": [
@@ -28524,7 +28524,7 @@ const metadata = {
         ]
     },
     "560": {
-        "name": "Avatar #560",
+        "name": "Digger #560",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Xoo2VhcXwzZsf3VehD-ZIMGnntr9o6AUURe3RHZlzoI",
         "attributes": [
@@ -28575,7 +28575,7 @@ const metadata = {
         ]
     },
     "561": {
-        "name": "Avatar #561",
+        "name": "Digger #561",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UANKrTmfxbjTuU4cdx_Y-QhILfcfjnEl5EFyTiGEV14",
         "attributes": [
@@ -28621,12 +28621,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "562": {
-        "name": "Avatar #562",
+        "name": "Digger #562",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OM1om9SH-DPbr1jCmuWwxybA3urSrLcY6lw7xIHnkDw",
         "attributes": [
@@ -28677,7 +28677,7 @@ const metadata = {
         ]
     },
     "563": {
-        "name": "Avatar #563",
+        "name": "Digger #563",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hyLmggvFDA3fOfccB7LOqKcKJW-tiibcDiJENBoMiVM",
         "attributes": [
@@ -28728,7 +28728,7 @@ const metadata = {
         ]
     },
     "564": {
-        "name": "Avatar #564",
+        "name": "Digger #564",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EERF2_hpFqzWPNVFI1NEngArZH9PFEeUrsfKf5OKd_c",
         "attributes": [
@@ -28779,7 +28779,7 @@ const metadata = {
         ]
     },
     "565": {
-        "name": "Avatar #565",
+        "name": "Digger #565",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RFBvDuJ0Tp7PkSNin2_5IPITMs-DrWZDKb1gFvNHkW0",
         "attributes": [
@@ -28830,7 +28830,7 @@ const metadata = {
         ]
     },
     "566": {
-        "name": "Avatar #566",
+        "name": "Digger #566",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jaUumGawC_HW41F0bO_0CW9anX8f1m9qnqH_yCaNdXc",
         "attributes": [
@@ -28881,7 +28881,7 @@ const metadata = {
         ]
     },
     "567": {
-        "name": "Avatar #567",
+        "name": "Digger #567",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dABZE2bXxL-xcaRVgAP4HP4jI0M99IFxhYAxVJ2UrqE",
         "attributes": [
@@ -28927,12 +28927,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "568": {
-        "name": "Avatar #568",
+        "name": "Digger #568",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0_O6jm1rWT6tl6_afHE5rLE7B2DkBajIRzzvL5QrNW0",
         "attributes": [
@@ -28983,7 +28983,7 @@ const metadata = {
         ]
     },
     "569": {
-        "name": "Avatar #569",
+        "name": "Digger #569",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VkEe3piFl5KkJ7xxyUVL15HkQMafUI8OBJd4fI2yfyU",
         "attributes": [
@@ -29034,7 +29034,7 @@ const metadata = {
         ]
     },
     "570": {
-        "name": "Avatar #570",
+        "name": "Digger #570",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/c0oHmYzI-fNcUVuHdSpsTX-vTzBEzJi8ejsz-xmOfLU",
         "attributes": [
@@ -29085,7 +29085,7 @@ const metadata = {
         ]
     },
     "571": {
-        "name": "Avatar #571",
+        "name": "Digger #571",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jW8J0tSliqZf2AUN18pAX0vR3NolcN6pZvEtdHOs93U",
         "attributes": [
@@ -29136,7 +29136,7 @@ const metadata = {
         ]
     },
     "572": {
-        "name": "Avatar #572",
+        "name": "Digger #572",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XWXCMPj5sehrXyCPdye7vIy1V4tLLpSIaAzueDx-t78",
         "attributes": [
@@ -29187,7 +29187,7 @@ const metadata = {
         ]
     },
     "573": {
-        "name": "Avatar #573",
+        "name": "Digger #573",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3b1yY84sdjWMW_ZT7Ru0Ys75n5l4_h0hg1LDI6DIxCw",
         "attributes": [
@@ -29238,7 +29238,7 @@ const metadata = {
         ]
     },
     "574": {
-        "name": "Avatar #574",
+        "name": "Digger #574",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5TehLGIO22mNRRuDpgViCFtMDjyhZAgDW1PujVyRZfM",
         "attributes": [
@@ -29289,7 +29289,7 @@ const metadata = {
         ]
     },
     "575": {
-        "name": "Avatar #575",
+        "name": "Digger #575",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cSdAvkEICo7pM1Cgww5YQUUjBgxrIqxdcLpMAzBbogQ",
         "attributes": [
@@ -29340,7 +29340,7 @@ const metadata = {
         ]
     },
     "576": {
-        "name": "Avatar #576",
+        "name": "Digger #576",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/092QnxPwfqLisPBxgoX3Ay7595qV7xpUlfoY54FTprE",
         "attributes": [
@@ -29391,7 +29391,7 @@ const metadata = {
         ]
     },
     "577": {
-        "name": "Avatar #577",
+        "name": "Digger #577",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AKuBwhlpPHjby8qETyrVLRKybYK2wdifTKtkY6y0Hr8",
         "attributes": [
@@ -29442,7 +29442,7 @@ const metadata = {
         ]
     },
     "578": {
-        "name": "Avatar #578",
+        "name": "Digger #578",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9NYFRiwXPWlZxoZks7T8OOq9fbCKzETcVoFM6d6oLGI",
         "attributes": [
@@ -29493,7 +29493,7 @@ const metadata = {
         ]
     },
     "579": {
-        "name": "Avatar #579",
+        "name": "Digger #579",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iobvBeQZ0Ez3rx9z_UsRc5foFYWET3VT7jxNa0FxgZM",
         "attributes": [
@@ -29544,7 +29544,7 @@ const metadata = {
         ]
     },
     "580": {
-        "name": "Avatar #580",
+        "name": "Digger #580",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0_phMDkuEecSaqi-TYOip3w2FjWmYnbiV2FCnrPjIXw",
         "attributes": [
@@ -29595,7 +29595,7 @@ const metadata = {
         ]
     },
     "581": {
-        "name": "Avatar #581",
+        "name": "Digger #581",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nbimJxr4q7dyMF3fQoKaXQ9gENs_ijfRh20o1PXP7W0",
         "attributes": [
@@ -29646,7 +29646,7 @@ const metadata = {
         ]
     },
     "582": {
-        "name": "Avatar #582",
+        "name": "Digger #582",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YAfhPY5XQezHVUvbMFRtOZmSzb-lAJ9J8UR-ICpfvI8",
         "attributes": [
@@ -29697,7 +29697,7 @@ const metadata = {
         ]
     },
     "583": {
-        "name": "Avatar #583",
+        "name": "Digger #583",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TKj0o7V3CgPoQml80hFZCyUtYzLVWKF1rQZ6J06PrHQ",
         "attributes": [
@@ -29748,7 +29748,7 @@ const metadata = {
         ]
     },
     "584": {
-        "name": "Avatar #584",
+        "name": "Digger #584",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nyJNfNl6Hsc41FYQSTpuCiU39fLZUQEP8pIuhACGP-w",
         "attributes": [
@@ -29799,7 +29799,7 @@ const metadata = {
         ]
     },
     "585": {
-        "name": "Avatar #585",
+        "name": "Digger #585",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-5HflUONcJnm5ZTRIiadOXG4mkvJ2Q6F4NcyLLR7jJM",
         "attributes": [
@@ -29850,7 +29850,7 @@ const metadata = {
         ]
     },
     "586": {
-        "name": "Avatar #586",
+        "name": "Digger #586",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qh05gEszx0EsHOIP3BVwseY4XKGydXznUnjdbMqTCz0",
         "attributes": [
@@ -29901,7 +29901,7 @@ const metadata = {
         ]
     },
     "587": {
-        "name": "Avatar #587",
+        "name": "Digger #587",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p1swBZts8W53RI6zf3UgVASF2Ta7TTok3z-pU1qRRJY",
         "attributes": [
@@ -29952,7 +29952,7 @@ const metadata = {
         ]
     },
     "588": {
-        "name": "Avatar #588",
+        "name": "Digger #588",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hbrRxgRbRLg3aMNjK-hEQBab2_bi3qasrNYwXBP-ghg",
         "attributes": [
@@ -30003,7 +30003,7 @@ const metadata = {
         ]
     },
     "589": {
-        "name": "Avatar #589",
+        "name": "Digger #589",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qhT9N5qUPrbw0aa24yKUcjVqVCLT57OlioLiptmNgFs",
         "attributes": [
@@ -30054,7 +30054,7 @@ const metadata = {
         ]
     },
     "590": {
-        "name": "Avatar #590",
+        "name": "Digger #590",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CJiLD0AUkkOzmQqAzfuo3yBIHp5sWRkvX2UN2zUUKz8",
         "attributes": [
@@ -30105,7 +30105,7 @@ const metadata = {
         ]
     },
     "591": {
-        "name": "Avatar #591",
+        "name": "Digger #591",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/H6pLV-NkYnPNpe1RnE3gPDOsjLKXKFbHHgc_5UOCqMI",
         "attributes": [
@@ -30156,7 +30156,7 @@ const metadata = {
         ]
     },
     "592": {
-        "name": "Avatar #592",
+        "name": "Digger #592",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yX_xyskjp9b1v3KL9hfdpKW79nsT6qxRx1pTk37UxRg",
         "attributes": [
@@ -30207,7 +30207,7 @@ const metadata = {
         ]
     },
     "593": {
-        "name": "Avatar #593",
+        "name": "Digger #593",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-o5ANKlhd1LS9qvLAGsaOm0WrhOvi-31yAnzOtjQp0w",
         "attributes": [
@@ -30258,7 +30258,7 @@ const metadata = {
         ]
     },
     "594": {
-        "name": "Avatar #594",
+        "name": "Digger #594",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pIIHiV-ZqtLtA4LygA6GI7fhZKi8nL4rO2jnPMveb4c",
         "attributes": [
@@ -30309,7 +30309,7 @@ const metadata = {
         ]
     },
     "595": {
-        "name": "Avatar #595",
+        "name": "Digger #595",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_K1VT0-c_pSou3NvuWI1DLowMVTbQyRIrw1wBNvzgcU",
         "attributes": [
@@ -30360,7 +30360,7 @@ const metadata = {
         ]
     },
     "596": {
-        "name": "Avatar #596",
+        "name": "Digger #596",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4xlAub0W7eiq_bm_Ma6_gouV9mO8r4OYmnNG-8lLSG0",
         "attributes": [
@@ -30411,7 +30411,7 @@ const metadata = {
         ]
     },
     "597": {
-        "name": "Avatar #597",
+        "name": "Digger #597",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0rv4EpQPhjVZxFdQeaSNLw25HnwDreFaAbCe6oJWl9Y",
         "attributes": [
@@ -30462,7 +30462,7 @@ const metadata = {
         ]
     },
     "598": {
-        "name": "Avatar #598",
+        "name": "Digger #598",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Lj0oQzVHJF_zcsL3n5v4tF3Vn75GiGZSYjxBPq5prDo",
         "attributes": [
@@ -30513,7 +30513,7 @@ const metadata = {
         ]
     },
     "599": {
-        "name": "Avatar #599",
+        "name": "Digger #599",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_V7dOxh4oaA9SwzS5k7uDONnnW2RMfIokl5UI_Iij_M",
         "attributes": [
@@ -30564,7 +30564,7 @@ const metadata = {
         ]
     },
     "600": {
-        "name": "Avatar #600",
+        "name": "Digger #600",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3tvGb4rlYag1hXP7VgDisVsVaOGQrosW9UDD3nsP1MY",
         "attributes": [
@@ -30615,7 +30615,7 @@ const metadata = {
         ]
     },
     "601": {
-        "name": "Avatar #601",
+        "name": "Digger #601",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RaygrPYFXu34uqIdxUow48c_q7qv8tWrYb7kFMEDGkY",
         "attributes": [
@@ -30666,7 +30666,7 @@ const metadata = {
         ]
     },
     "602": {
-        "name": "Avatar #602",
+        "name": "Digger #602",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YOE0DwCTjvFeyY2Lcp-G8T92XA6YNS6Vdo0UE54lgEg",
         "attributes": [
@@ -30717,7 +30717,7 @@ const metadata = {
         ]
     },
     "603": {
-        "name": "Avatar #603",
+        "name": "Digger #603",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ASzNKzNlQSaLCuEZU6lWdXvQxCTv47bOmuaqjKnHC-A",
         "attributes": [
@@ -30768,7 +30768,7 @@ const metadata = {
         ]
     },
     "604": {
-        "name": "Avatar #604",
+        "name": "Digger #604",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KjRrjX95HWKmkaF5FmvWeCPJoTOnSGFQt2gXyk9Sff8",
         "attributes": [
@@ -30819,7 +30819,7 @@ const metadata = {
         ]
     },
     "605": {
-        "name": "Avatar #605",
+        "name": "Digger #605",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BZOQgg1_Y1Vdiq3AaVwjf-N-QjoKFjDTuKmWiEep6-M",
         "attributes": [
@@ -30870,7 +30870,7 @@ const metadata = {
         ]
     },
     "606": {
-        "name": "Avatar #606",
+        "name": "Digger #606",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/utBDpEa7cs4tU9E79bMvDh_R6w1YgkgpPNIkhVrVkK0",
         "attributes": [
@@ -30916,12 +30916,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "607": {
-        "name": "Avatar #607",
+        "name": "Digger #607",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nwYbwq6WK1N_dWr0In7Zz-af7qMNzJeOhkWgRS_CtJ4",
         "attributes": [
@@ -30972,7 +30972,7 @@ const metadata = {
         ]
     },
     "608": {
-        "name": "Avatar #608",
+        "name": "Digger #608",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Elo6f6kTcgtYyItjg7GZsPTJMHLv_BOPNpNiV2RtG8c",
         "attributes": [
@@ -31023,7 +31023,7 @@ const metadata = {
         ]
     },
     "609": {
-        "name": "Avatar #609",
+        "name": "Digger #609",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QgU4t0DYf08NahDg1kBW8V5FJjQAeG5UvRMfvvURt68",
         "attributes": [
@@ -31074,7 +31074,7 @@ const metadata = {
         ]
     },
     "610": {
-        "name": "Avatar #610",
+        "name": "Digger #610",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VWIH5m1-E2I3wO9_8uOjwSN-7tmg2tiyrm2osnBTnTU",
         "attributes": [
@@ -31125,7 +31125,7 @@ const metadata = {
         ]
     },
     "611": {
-        "name": "Avatar #611",
+        "name": "Digger #611",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Evhnzn9hMaFhPwlVNVq835L_ciW9PKsCCXr6BGGgOjY",
         "attributes": [
@@ -31176,7 +31176,7 @@ const metadata = {
         ]
     },
     "612": {
-        "name": "Avatar #612",
+        "name": "Digger #612",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-SRIEBSIsphcm60tHU8BRLXEY2biH0MSKgnwxjIpRis",
         "attributes": [
@@ -31227,7 +31227,7 @@ const metadata = {
         ]
     },
     "613": {
-        "name": "Avatar #613",
+        "name": "Digger #613",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/a-bCYBdPeSdejcMPmf-XkNGb0itV-REU4K0lVR5RvXE",
         "attributes": [
@@ -31278,7 +31278,7 @@ const metadata = {
         ]
     },
     "614": {
-        "name": "Avatar #614",
+        "name": "Digger #614",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ERGPKiv_OxD0pi1GM8LlUMTm9SIzVFogfzkv4jvM-yI",
         "attributes": [
@@ -31329,7 +31329,7 @@ const metadata = {
         ]
     },
     "615": {
-        "name": "Avatar #615",
+        "name": "Digger #615",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CvgW8-S-sAcwyUu4ujcctL9PDAAxPrLPDJN66DaJyIA",
         "attributes": [
@@ -31380,7 +31380,7 @@ const metadata = {
         ]
     },
     "616": {
-        "name": "Avatar #616",
+        "name": "Digger #616",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rsClz19mgZjHPd5GEy7XWJBs1d_Gg28MB2YV2HSfjf4",
         "attributes": [
@@ -31431,7 +31431,7 @@ const metadata = {
         ]
     },
     "617": {
-        "name": "Avatar #617",
+        "name": "Digger #617",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cp3Alr9D0FjThkpC9cIwQoDgLc3EUp60_s7WipLWLy8",
         "attributes": [
@@ -31482,7 +31482,7 @@ const metadata = {
         ]
     },
     "618": {
-        "name": "Avatar #618",
+        "name": "Digger #618",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cJJ6T9NBw1Yr6OgEXd454dKmXgczBVcaP1g4nTc2SgU",
         "attributes": [
@@ -31533,7 +31533,7 @@ const metadata = {
         ]
     },
     "619": {
-        "name": "Avatar #619",
+        "name": "Digger #619",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mZz7JFBhfUoAmq1VbWxFVqqskgxusykbZVAW3le2-c0",
         "attributes": [
@@ -31584,7 +31584,7 @@ const metadata = {
         ]
     },
     "620": {
-        "name": "Avatar #620",
+        "name": "Digger #620",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nVKKtv_BwcsxFYhqHJ6bn059V25r-aYJDHYtgx036eE",
         "attributes": [
@@ -31635,7 +31635,7 @@ const metadata = {
         ]
     },
     "621": {
-        "name": "Avatar #621",
+        "name": "Digger #621",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6gBmkVgKRyHRaSGAc2lUmJLTbl7BeqtS-JWdIWWh91A",
         "attributes": [
@@ -31686,7 +31686,7 @@ const metadata = {
         ]
     },
     "622": {
-        "name": "Avatar #622",
+        "name": "Digger #622",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WOwDFst7Z5-zbCBPZnqIwnf9cJteDYP-HbpUBgbSax0",
         "attributes": [
@@ -31737,7 +31737,7 @@ const metadata = {
         ]
     },
     "623": {
-        "name": "Avatar #623",
+        "name": "Digger #623",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XILo1xYrwqaxywoosxB25VAfGYYYGNrkUhwujZlwkbc",
         "attributes": [
@@ -31788,7 +31788,7 @@ const metadata = {
         ]
     },
     "624": {
-        "name": "Avatar #624",
+        "name": "Digger #624",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/x-lC8jSTEL0E4kou0PYN4fqdPl6Cb0u_pSYq0l9RTb0",
         "attributes": [
@@ -31839,7 +31839,7 @@ const metadata = {
         ]
     },
     "625": {
-        "name": "Avatar #625",
+        "name": "Digger #625",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7FJ68bD0W0LmSY86MEoYHRqXMVE0VsiJTxy4ieZUylQ",
         "attributes": [
@@ -31890,7 +31890,7 @@ const metadata = {
         ]
     },
     "626": {
-        "name": "Avatar #626",
+        "name": "Digger #626",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z1tH6VQnTGwQPKUEgguMQRmcFZ2_zestBR0xIKLZAkk",
         "attributes": [
@@ -31941,7 +31941,7 @@ const metadata = {
         ]
     },
     "627": {
-        "name": "Avatar #627",
+        "name": "Digger #627",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5OZG4I1YEXh0KgdKnIsEOmDkF_KIy-XM1535Sp_iE4o",
         "attributes": [
@@ -31992,7 +31992,7 @@ const metadata = {
         ]
     },
     "628": {
-        "name": "Avatar #628",
+        "name": "Digger #628",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/og2MkpDw4UKCt0AbONbmj6NylQB6PM89XkYwjEyw1wc",
         "attributes": [
@@ -32038,12 +32038,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "629": {
-        "name": "Avatar #629",
+        "name": "Digger #629",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yNRtRcl2cXiUQOAp0kdmBtx3nxhG8ZH8WkvxQclpwls",
         "attributes": [
@@ -32094,7 +32094,7 @@ const metadata = {
         ]
     },
     "630": {
-        "name": "Avatar #630",
+        "name": "Digger #630",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/C49SStv0ceUeti-rRkagV-icLhcB3RMDTmb4ThJc6SI",
         "attributes": [
@@ -32145,7 +32145,7 @@ const metadata = {
         ]
     },
     "631": {
-        "name": "Avatar #631",
+        "name": "Digger #631",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Sf7TU_9UbYv5T3Gv7gecdW0xQRPtRCCOeSje8joN4L4",
         "attributes": [
@@ -32191,12 +32191,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "632": {
-        "name": "Avatar #632",
+        "name": "Digger #632",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lUAHgUP8C2K4brOFSEso454j8MSYcmL_mAZ6pGCCc0g",
         "attributes": [
@@ -32247,7 +32247,7 @@ const metadata = {
         ]
     },
     "633": {
-        "name": "Avatar #633",
+        "name": "Digger #633",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HmrCEBZtD_QqDaInQUgygVJB4SXSkKf7Xt36EGwaQBc",
         "attributes": [
@@ -32298,7 +32298,7 @@ const metadata = {
         ]
     },
     "634": {
-        "name": "Avatar #634",
+        "name": "Digger #634",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CAO_lJjDZWeD7d_yW76pe-AoreFqVbXkVXLfRBc_fUU",
         "attributes": [
@@ -32349,7 +32349,7 @@ const metadata = {
         ]
     },
     "635": {
-        "name": "Avatar #635",
+        "name": "Digger #635",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6udRwJ-wwflEaoyDPH8PqthBQzLusY0n-VSn2yF3qFw",
         "attributes": [
@@ -32400,7 +32400,7 @@ const metadata = {
         ]
     },
     "636": {
-        "name": "Avatar #636",
+        "name": "Digger #636",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4k4v6h84Mx1Zre7WcmjHXNUURDBhBEUXMZaWfRYI7zA",
         "attributes": [
@@ -32451,7 +32451,7 @@ const metadata = {
         ]
     },
     "637": {
-        "name": "Avatar #637",
+        "name": "Digger #637",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WohJbCNBXWAX8v04Pc1_x3KXOR5nGs9kxszzz-u4n4s",
         "attributes": [
@@ -32502,7 +32502,7 @@ const metadata = {
         ]
     },
     "638": {
-        "name": "Avatar #638",
+        "name": "Digger #638",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3cchF9ZPX385VVLlvVX7zlrPdRoMmNsX2Ou12h3EUB0",
         "attributes": [
@@ -32553,7 +32553,7 @@ const metadata = {
         ]
     },
     "639": {
-        "name": "Avatar #639",
+        "name": "Digger #639",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p65HcGsT923Tig801MXEQpV4R3DEIhYp4urQrWMiesU",
         "attributes": [
@@ -32604,7 +32604,7 @@ const metadata = {
         ]
     },
     "640": {
-        "name": "Avatar #640",
+        "name": "Digger #640",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jfTilyLBuxFJflCFIf7hzLC7tr_xvO5kH30HEU_kNnw",
         "attributes": [
@@ -32655,7 +32655,7 @@ const metadata = {
         ]
     },
     "641": {
-        "name": "Avatar #641",
+        "name": "Digger #641",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uNq1jn5LS2i_VE-UVobPw7EKa5L5SzWulkv4yYq-l40",
         "attributes": [
@@ -32706,7 +32706,7 @@ const metadata = {
         ]
     },
     "642": {
-        "name": "Avatar #642",
+        "name": "Digger #642",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CADFhV9KhEKprwehvs9JSyChBtrSEqh6STVkNTXrEJg",
         "attributes": [
@@ -32757,7 +32757,7 @@ const metadata = {
         ]
     },
     "643": {
-        "name": "Avatar #643",
+        "name": "Digger #643",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kgOmqbA5sjAxeWEqnAuKQmBEon1IfYUuO61GHt7hSPI",
         "attributes": [
@@ -32808,7 +32808,7 @@ const metadata = {
         ]
     },
     "644": {
-        "name": "Avatar #644",
+        "name": "Digger #644",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MtweQbEiv9e7PqbhCR3uiDmZNs7s8kFLMQV8WdfyO-U",
         "attributes": [
@@ -32859,7 +32859,7 @@ const metadata = {
         ]
     },
     "645": {
-        "name": "Avatar #645",
+        "name": "Digger #645",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yQHuY5hWs1W4a65DfhbSKaFllaROnhAVyUS52hy0UA8",
         "attributes": [
@@ -32910,7 +32910,7 @@ const metadata = {
         ]
     },
     "646": {
-        "name": "Avatar #646",
+        "name": "Digger #646",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-eQN9x4vCbFx0bwm3kRO7hknURw7wXLsE_OTfSvNORQ",
         "attributes": [
@@ -32961,7 +32961,7 @@ const metadata = {
         ]
     },
     "647": {
-        "name": "Avatar #647",
+        "name": "Digger #647",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kjp85j3pbtv1_1F5vNRNAShXcZyAoQ9w75ptBCTJ6iA",
         "attributes": [
@@ -33012,7 +33012,7 @@ const metadata = {
         ]
     },
     "648": {
-        "name": "Avatar #648",
+        "name": "Digger #648",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CXvqPdvHBYGyrirXC3hJm5u8T4t5K6MUuPDKXAUzs1M",
         "attributes": [
@@ -33063,7 +33063,7 @@ const metadata = {
         ]
     },
     "649": {
-        "name": "Avatar #649",
+        "name": "Digger #649",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pyFiAQxLPwiSmOIYi0tcvv8XjN8RmWQoO-cuLObehgw",
         "attributes": [
@@ -33114,7 +33114,7 @@ const metadata = {
         ]
     },
     "650": {
-        "name": "Avatar #650",
+        "name": "Digger #650",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j9RosWGoWxJMHFp6RLezubBNOahCL-teOWkk_t0P9dI",
         "attributes": [
@@ -33165,7 +33165,7 @@ const metadata = {
         ]
     },
     "651": {
-        "name": "Avatar #651",
+        "name": "Digger #651",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/l95W5SNQkU4o8ihzwT4OLnHqrYhecpghnOhB7rl-BgE",
         "attributes": [
@@ -33211,12 +33211,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "652": {
-        "name": "Avatar #652",
+        "name": "Digger #652",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/okYvJjgJ6uq14rfCFuHiLUg6XMlZL6ouZnGysw62wOM",
         "attributes": [
@@ -33267,7 +33267,7 @@ const metadata = {
         ]
     },
     "653": {
-        "name": "Avatar #653",
+        "name": "Digger #653",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z_HZri663c2MUS8gF8SX14UjoWHyyLuFjgn08XlCD7A",
         "attributes": [
@@ -33318,7 +33318,7 @@ const metadata = {
         ]
     },
     "654": {
-        "name": "Avatar #654",
+        "name": "Digger #654",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cZyGD7G95_-EchcKgOjjfhaki42464fTfBQQdT6V9wA",
         "attributes": [
@@ -33369,7 +33369,7 @@ const metadata = {
         ]
     },
     "655": {
-        "name": "Avatar #655",
+        "name": "Digger #655",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ypnewHfrYulVI9HvBAZ0GU43bHGxKAIOjM5bKIwzyyQ",
         "attributes": [
@@ -33420,7 +33420,7 @@ const metadata = {
         ]
     },
     "656": {
-        "name": "Avatar #656",
+        "name": "Digger #656",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DROw-iNuWlkailIfMGfkopkLVWYdFN-I4fiBkx68hnU",
         "attributes": [
@@ -33471,7 +33471,7 @@ const metadata = {
         ]
     },
     "657": {
-        "name": "Avatar #657",
+        "name": "Digger #657",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6OVs0nckRi0qDQceIBL7VuQPPcp1-WeMKoEkk-kSinY",
         "attributes": [
@@ -33522,7 +33522,7 @@ const metadata = {
         ]
     },
     "658": {
-        "name": "Avatar #658",
+        "name": "Digger #658",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HmnZk08MjSLGMVOghU5lKjoLNkP4ZzkKtcuPxEADw6U",
         "attributes": [
@@ -33573,7 +33573,7 @@ const metadata = {
         ]
     },
     "659": {
-        "name": "Avatar #659",
+        "name": "Digger #659",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bYCSyBrcBRjN2Pcawv2nxOPh3Lj05_VVzRQtYtCaop0",
         "attributes": [
@@ -33624,7 +33624,7 @@ const metadata = {
         ]
     },
     "660": {
-        "name": "Avatar #660",
+        "name": "Digger #660",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oVIT3glzfTss1looZZWoB5iZHoPnUVLC4hBpT9_kl60",
         "attributes": [
@@ -33675,7 +33675,7 @@ const metadata = {
         ]
     },
     "661": {
-        "name": "Avatar #661",
+        "name": "Digger #661",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TFMK4vrw6v2znfPpzndfAYN9Vx4a47z-YUNPBsBKxVM",
         "attributes": [
@@ -33726,7 +33726,7 @@ const metadata = {
         ]
     },
     "662": {
-        "name": "Avatar #662",
+        "name": "Digger #662",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FjpIEOIi3R-IBZv-ojYtRP8LQB6AL_VZRQT88xONulo",
         "attributes": [
@@ -33777,7 +33777,7 @@ const metadata = {
         ]
     },
     "663": {
-        "name": "Avatar #663",
+        "name": "Digger #663",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ljK3dnm_CVO7SykEX9NyQDJBG6YKxyNw4VTxDdXwUJ4",
         "attributes": [
@@ -33828,7 +33828,7 @@ const metadata = {
         ]
     },
     "664": {
-        "name": "Avatar #664",
+        "name": "Digger #664",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GxmukwJszEEzgAzKWgE4hfLMbftoGEI7DegCDZdnoHY",
         "attributes": [
@@ -33879,7 +33879,7 @@ const metadata = {
         ]
     },
     "665": {
-        "name": "Avatar #665",
+        "name": "Digger #665",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/honMewh9jMwv9x-gEgKv3Hx41we-pbh_0zpZfARPSQ0",
         "attributes": [
@@ -33930,7 +33930,7 @@ const metadata = {
         ]
     },
     "666": {
-        "name": "Avatar #666",
+        "name": "Digger #666",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qRVsJD_h-TGJWZ7AND-EFv9nY6ZL8Z8jZ8PujBnM_sE",
         "attributes": [
@@ -33981,7 +33981,7 @@ const metadata = {
         ]
     },
     "667": {
-        "name": "Avatar #667",
+        "name": "Digger #667",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Nv0USIM-2TcoQJeCedD1XHPY9jkSn0x1MQ68jS6ws_E",
         "attributes": [
@@ -34032,7 +34032,7 @@ const metadata = {
         ]
     },
     "668": {
-        "name": "Avatar #668",
+        "name": "Digger #668",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dxSG_8IxGnG9SKdoqar0FHLwIzVFR-ZUZOsjWsLh4xg",
         "attributes": [
@@ -34083,7 +34083,7 @@ const metadata = {
         ]
     },
     "669": {
-        "name": "Avatar #669",
+        "name": "Digger #669",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HosGvBYDmYxY9gOP4PDDjWXs-HXAz2hVVMsF0na0O3Y",
         "attributes": [
@@ -34134,7 +34134,7 @@ const metadata = {
         ]
     },
     "670": {
-        "name": "Avatar #670",
+        "name": "Digger #670",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZrG1G-H2ek3H-tvvFcNn-RbYX7bZH4DPjQm8W7eSUdI",
         "attributes": [
@@ -34185,7 +34185,7 @@ const metadata = {
         ]
     },
     "671": {
-        "name": "Avatar #671",
+        "name": "Digger #671",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ui5HD79my9Id0JKj_JBkyL2vtdQp4vIKUvDMA4t9_oo",
         "attributes": [
@@ -34236,7 +34236,7 @@ const metadata = {
         ]
     },
     "672": {
-        "name": "Avatar #672",
+        "name": "Digger #672",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-SbEin7bnBoV2knz77qUviKgI7_H_hjfHfwxDd7H_To",
         "attributes": [
@@ -34287,7 +34287,7 @@ const metadata = {
         ]
     },
     "673": {
-        "name": "Avatar #673",
+        "name": "Digger #673",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/K837hdj7jwg3wy0eC3vdfdL1l9RrovDfi6P14iJtZLE",
         "attributes": [
@@ -34338,7 +34338,7 @@ const metadata = {
         ]
     },
     "674": {
-        "name": "Avatar #674",
+        "name": "Digger #674",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/s5xJslPkTo185betngWIsCVbP123UkGlhKwmwxCoC_I",
         "attributes": [
@@ -34389,7 +34389,7 @@ const metadata = {
         ]
     },
     "675": {
-        "name": "Avatar #675",
+        "name": "Digger #675",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FvR09HMN3Rg4uY0bVeQQkWkPO24ipBQIMOvyixd92oE",
         "attributes": [
@@ -34440,7 +34440,7 @@ const metadata = {
         ]
     },
     "676": {
-        "name": "Avatar #676",
+        "name": "Digger #676",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uUmBZx6V2MNI6AkyuouOQmfVqmZbLKr3IzvBDFsUj0A",
         "attributes": [
@@ -34491,7 +34491,7 @@ const metadata = {
         ]
     },
     "677": {
-        "name": "Avatar #677",
+        "name": "Digger #677",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5Uen7N-jUHCkKDDAGrH-_1rDaMMLiStOzODFu7Ue3gQ",
         "attributes": [
@@ -34542,7 +34542,7 @@ const metadata = {
         ]
     },
     "678": {
-        "name": "Avatar #678",
+        "name": "Digger #678",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1lu6W0wXKvLjpiWoq2cThlQvtPl1iVbZJnE3sUIXML4",
         "attributes": [
@@ -34593,7 +34593,7 @@ const metadata = {
         ]
     },
     "679": {
-        "name": "Avatar #679",
+        "name": "Digger #679",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6y26j8lQZ-d1P3lyCNsSFHYVaogjK3FtfyIYNzgCAvg",
         "attributes": [
@@ -34644,7 +34644,7 @@ const metadata = {
         ]
     },
     "680": {
-        "name": "Avatar #680",
+        "name": "Digger #680",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LAdVKq18nCKBdNKFh07c6g2ZjqXzWgOieH2OfTiBFvg",
         "attributes": [
@@ -34695,7 +34695,7 @@ const metadata = {
         ]
     },
     "681": {
-        "name": "Avatar #681",
+        "name": "Digger #681",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yv_XEa_ka8AprFivNGM5DTW5W1T1ud7IXMMWMPD991Q",
         "attributes": [
@@ -34746,7 +34746,7 @@ const metadata = {
         ]
     },
     "682": {
-        "name": "Avatar #682",
+        "name": "Digger #682",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CjWN_HGs_7mMWdTdp0YwfAtJkWHA4k7I-02uVKdBZO0",
         "attributes": [
@@ -34797,7 +34797,7 @@ const metadata = {
         ]
     },
     "683": {
-        "name": "Avatar #683",
+        "name": "Digger #683",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zvsZDp78b7T7zs52yhidWdb7EkPFX9sj_qOJDPlic6g",
         "attributes": [
@@ -34848,7 +34848,7 @@ const metadata = {
         ]
     },
     "684": {
-        "name": "Avatar #684",
+        "name": "Digger #684",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uHivQT2uMpLrtfWKADYrndDP1wxczKgEzzCmtqxvnLY",
         "attributes": [
@@ -34899,7 +34899,7 @@ const metadata = {
         ]
     },
     "685": {
-        "name": "Avatar #685",
+        "name": "Digger #685",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eA_jwLzseJkoqz-kEqtViTsDK3kUbVZKgj9y7fBDfDo",
         "attributes": [
@@ -34950,7 +34950,7 @@ const metadata = {
         ]
     },
     "686": {
-        "name": "Avatar #686",
+        "name": "Digger #686",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jMLB0mr1aZCCvawb40fg-DQfiahOapeOSXDCt0JwqU0",
         "attributes": [
@@ -35001,7 +35001,7 @@ const metadata = {
         ]
     },
     "687": {
-        "name": "Avatar #687",
+        "name": "Digger #687",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AlKmlYjbbllMfN9LzEFX_h9-TG-PahxJh1i49rnbKP4",
         "attributes": [
@@ -35052,7 +35052,7 @@ const metadata = {
         ]
     },
     "688": {
-        "name": "Avatar #688",
+        "name": "Digger #688",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wO-3CGXkqvNpvMvus6KZtVYfk0b71PE7ZCfOfkh4v-A",
         "attributes": [
@@ -35103,7 +35103,7 @@ const metadata = {
         ]
     },
     "689": {
-        "name": "Avatar #689",
+        "name": "Digger #689",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/k38ajHnjnQamvoyGTFKfYR_xoJZswnTg4o0QSiz2Qzo",
         "attributes": [
@@ -35154,7 +35154,7 @@ const metadata = {
         ]
     },
     "690": {
-        "name": "Avatar #690",
+        "name": "Digger #690",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y_i4QEJr2RIfMphZJuFrSr80MBY25iOZiysRerdBfOk",
         "attributes": [
@@ -35205,7 +35205,7 @@ const metadata = {
         ]
     },
     "691": {
-        "name": "Avatar #691",
+        "name": "Digger #691",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/voNAVefR8O-2Q6XQww0AxFx3gr2HsjLP9Ykxhpt_Zz4",
         "attributes": [
@@ -35256,7 +35256,7 @@ const metadata = {
         ]
     },
     "692": {
-        "name": "Avatar #692",
+        "name": "Digger #692",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8Bjwnvu669ghhswPPObGW7LC_ygWb8AhpnCjHEd41wk",
         "attributes": [
@@ -35307,7 +35307,7 @@ const metadata = {
         ]
     },
     "693": {
-        "name": "Avatar #693",
+        "name": "Digger #693",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9hElA5dWcrGtIyln0dg9BqjXLQwAEIq1bksTKFoJ6Qs",
         "attributes": [
@@ -35358,7 +35358,7 @@ const metadata = {
         ]
     },
     "694": {
-        "name": "Avatar #694",
+        "name": "Digger #694",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qanqSFsT9qUQlkpK4y0UwcUiV-71eGu16OCa4Nft4YQ",
         "attributes": [
@@ -35409,7 +35409,7 @@ const metadata = {
         ]
     },
     "695": {
-        "name": "Avatar #695",
+        "name": "Digger #695",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kQOYBpx-abrJqgmhJFmy9OkNfXQMjWCRiq9sbnu7Kbc",
         "attributes": [
@@ -35460,7 +35460,7 @@ const metadata = {
         ]
     },
     "696": {
-        "name": "Avatar #696",
+        "name": "Digger #696",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jYesOUV7NzXYhMdgJ-e0dk-AbYcA0mtrIH1J7uJRdgQ",
         "attributes": [
@@ -35511,7 +35511,7 @@ const metadata = {
         ]
     },
     "697": {
-        "name": "Avatar #697",
+        "name": "Digger #697",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rbifs-Df8uUrfY0T4eBkLvGXR7bDnfOjfu6yocDzb4U",
         "attributes": [
@@ -35562,7 +35562,7 @@ const metadata = {
         ]
     },
     "698": {
-        "name": "Avatar #698",
+        "name": "Digger #698",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9p-HxZMq-GMPH5oZduB0NYXjoJZmmjAUyIqTaP2UiTA",
         "attributes": [
@@ -35613,7 +35613,7 @@ const metadata = {
         ]
     },
     "699": {
-        "name": "Avatar #699",
+        "name": "Digger #699",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nekdWcJTwwGbTQxIwn9gOUhaUh18HQLno-1rit-rnMI",
         "attributes": [
@@ -35664,7 +35664,7 @@ const metadata = {
         ]
     },
     "700": {
-        "name": "Avatar #700",
+        "name": "Digger #700",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cSFPDM_nAhBBEgWVY7_pJ_smviBirKrE0L7dxg0i6Pk",
         "attributes": [
@@ -35715,7 +35715,7 @@ const metadata = {
         ]
     },
     "701": {
-        "name": "Avatar #701",
+        "name": "Digger #701",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gON5V5WHz6Yn0z1ze4Sv8CLOphp1QkQNncCyNrFfwAg",
         "attributes": [
@@ -35766,7 +35766,7 @@ const metadata = {
         ]
     },
     "702": {
-        "name": "Avatar #702",
+        "name": "Digger #702",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/G1uh-EOk0BV4IghP86rj8_WigYDfuE8UjCe_FbhAuMU",
         "attributes": [
@@ -35817,7 +35817,7 @@ const metadata = {
         ]
     },
     "703": {
-        "name": "Avatar #703",
+        "name": "Digger #703",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8WD6uG7Bj_mAy5xks1LiKHwHOiFr4vceJDjrqF5-tcw",
         "attributes": [
@@ -35868,7 +35868,7 @@ const metadata = {
         ]
     },
     "704": {
-        "name": "Avatar #704",
+        "name": "Digger #704",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Gp0BiqknDe0mg4apRgNnO8QuBkqeBNEWLtrK27ZEXhA",
         "attributes": [
@@ -35919,7 +35919,7 @@ const metadata = {
         ]
     },
     "705": {
-        "name": "Avatar #705",
+        "name": "Digger #705",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NL5UmrfdhZTwa62fuAia6g3CtJ5e4BXMLlyJse0UOWw",
         "attributes": [
@@ -35970,7 +35970,7 @@ const metadata = {
         ]
     },
     "706": {
-        "name": "Avatar #706",
+        "name": "Digger #706",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CHU0OI9ef0_cai0sGSuhXnwmS9lLwc2AX7QLOawSBxY",
         "attributes": [
@@ -36021,7 +36021,7 @@ const metadata = {
         ]
     },
     "707": {
-        "name": "Avatar #707",
+        "name": "Digger #707",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Gml7hsulHpBies5f2iEiz0ZZ1UeYkAVsA5dl5NqGclg",
         "attributes": [
@@ -36072,7 +36072,7 @@ const metadata = {
         ]
     },
     "708": {
-        "name": "Avatar #708",
+        "name": "Digger #708",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zIqAr58_0UYDMLzmPCHScRudQA79RDxgSkAaPb23fgQ",
         "attributes": [
@@ -36123,7 +36123,7 @@ const metadata = {
         ]
     },
     "709": {
-        "name": "Avatar #709",
+        "name": "Digger #709",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_WQ2DVwv4O4WDnfXLJhOs00gIwpPhsOilacFBls4bC4",
         "attributes": [
@@ -36174,7 +36174,7 @@ const metadata = {
         ]
     },
     "710": {
-        "name": "Avatar #710",
+        "name": "Digger #710",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/H4aYAGAXmqyXxOEdtmGIlmkID0AfdHrkb5YW0HcRzbE",
         "attributes": [
@@ -36225,7 +36225,7 @@ const metadata = {
         ]
     },
     "711": {
-        "name": "Avatar #711",
+        "name": "Digger #711",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Bcykmof5JEV4DB-mtk2NamrSE_TAPX2SFyucO2edUq4",
         "attributes": [
@@ -36276,7 +36276,7 @@ const metadata = {
         ]
     },
     "712": {
-        "name": "Avatar #712",
+        "name": "Digger #712",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CZduZl0U9UuM8d7CEKYXC5kG-PXh0q2FDNvUgkq3cIc",
         "attributes": [
@@ -36327,7 +36327,7 @@ const metadata = {
         ]
     },
     "713": {
-        "name": "Avatar #713",
+        "name": "Digger #713",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4g5UiDByXb4hA5jH7_c7L76rt2FdZaI60-U-mBWdQuo",
         "attributes": [
@@ -36378,7 +36378,7 @@ const metadata = {
         ]
     },
     "714": {
-        "name": "Avatar #714",
+        "name": "Digger #714",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/U5qfg5gh2SEp3nVfpppr289_fngXhZP-i6MmaRYeDes",
         "attributes": [
@@ -36429,7 +36429,7 @@ const metadata = {
         ]
     },
     "715": {
-        "name": "Avatar #715",
+        "name": "Digger #715",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YH0wFJYieT1Z0Wq6L21nZKJ6bcgg0mm5f2SrfWlq-iE",
         "attributes": [
@@ -36480,7 +36480,7 @@ const metadata = {
         ]
     },
     "716": {
-        "name": "Avatar #716",
+        "name": "Digger #716",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cMmQ1qkwW0Yr0Fm-QTR0wah_5EbNHrgLHFS6X-_-u1E",
         "attributes": [
@@ -36526,12 +36526,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "717": {
-        "name": "Avatar #717",
+        "name": "Digger #717",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/A0x42wKBUuzZm3bikWY4jlnjY5h-k1B7lrWLB1SvCjk",
         "attributes": [
@@ -36582,7 +36582,7 @@ const metadata = {
         ]
     },
     "718": {
-        "name": "Avatar #718",
+        "name": "Digger #718",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KTs2AKzEFG6PMkkEWDijVSScwlQ-Ryemzdx2UZSQ7xU",
         "attributes": [
@@ -36633,7 +36633,7 @@ const metadata = {
         ]
     },
     "719": {
-        "name": "Avatar #719",
+        "name": "Digger #719",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UqM6_AKu3K1MVVMAEW1o6pgaKSQ324tM3n4SARLf8Wc",
         "attributes": [
@@ -36679,12 +36679,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "720": {
-        "name": "Avatar #720",
+        "name": "Digger #720",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fGXSal11T7CLadYOIY07F4vEJ-oMGLlnh1oZ-9PPIp8",
         "attributes": [
@@ -36735,7 +36735,7 @@ const metadata = {
         ]
     },
     "721": {
-        "name": "Avatar #721",
+        "name": "Digger #721",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5wGezKo9b7tWp-8zv-B2w_mK917yj2w7_pJobwExcTw",
         "attributes": [
@@ -36786,7 +36786,7 @@ const metadata = {
         ]
     },
     "722": {
-        "name": "Avatar #722",
+        "name": "Digger #722",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tRioPvLDtz_dipdpK39mfoy52fz7SjAyMvGr7eFwvec",
         "attributes": [
@@ -36837,7 +36837,7 @@ const metadata = {
         ]
     },
     "723": {
-        "name": "Avatar #723",
+        "name": "Digger #723",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gbbQg1y0kcNUY1wb_rOrrWAUCVYv6-UJtlyKJtyVHsA",
         "attributes": [
@@ -36888,7 +36888,7 @@ const metadata = {
         ]
     },
     "724": {
-        "name": "Avatar #724",
+        "name": "Digger #724",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/U3nDjZzuVt1yyTTTCp8H8k4xppdoBnqYHGSmm4lNP6E",
         "attributes": [
@@ -36939,7 +36939,7 @@ const metadata = {
         ]
     },
     "725": {
-        "name": "Avatar #725",
+        "name": "Digger #725",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Pahqfyb3rmdMr_j-Fvcq_AnKDXZdk7zpn4m8gkEyT68",
         "attributes": [
@@ -36990,7 +36990,7 @@ const metadata = {
         ]
     },
     "726": {
-        "name": "Avatar #726",
+        "name": "Digger #726",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZDBWezyxsDOuGQ2jKr33GVeMIEE041eTd-zJezZV0xc",
         "attributes": [
@@ -37041,7 +37041,7 @@ const metadata = {
         ]
     },
     "727": {
-        "name": "Avatar #727",
+        "name": "Digger #727",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oBj2W0-u39D0j5RfoblmysscbvWFcX55F8AjW0Lrvio",
         "attributes": [
@@ -37092,7 +37092,7 @@ const metadata = {
         ]
     },
     "728": {
-        "name": "Avatar #728",
+        "name": "Digger #728",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ouf7CBsOBibkdRj70RSupvywvFRkGzKtQmH7joWmYHQ",
         "attributes": [
@@ -37143,7 +37143,7 @@ const metadata = {
         ]
     },
     "729": {
-        "name": "Avatar #729",
+        "name": "Digger #729",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/28NXZj6CPgkypzISmGeLK28MMc5FWQe0KjSveVpCrpo",
         "attributes": [
@@ -37194,7 +37194,7 @@ const metadata = {
         ]
     },
     "730": {
-        "name": "Avatar #730",
+        "name": "Digger #730",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yu70qxgXq5ZA8Ac0yPFnfh4jHIPd1Z1c6PkM-EFj_tk",
         "attributes": [
@@ -37245,7 +37245,7 @@ const metadata = {
         ]
     },
     "731": {
-        "name": "Avatar #731",
+        "name": "Digger #731",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YJAo9UwrSyarUPrLTe4mXoxAGPIWxbIxsU7ZH77mHk8",
         "attributes": [
@@ -37296,7 +37296,7 @@ const metadata = {
         ]
     },
     "732": {
-        "name": "Avatar #732",
+        "name": "Digger #732",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sZCGmv1ffpztXQHEA0EWWhXSetadJpdOA3tNzatK6_M",
         "attributes": [
@@ -37347,7 +37347,7 @@ const metadata = {
         ]
     },
     "733": {
-        "name": "Avatar #733",
+        "name": "Digger #733",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QK4NoO6BDrLRrPG3HUwytzGDj1rmfLk8wDgp4XQPQhU",
         "attributes": [
@@ -37398,7 +37398,7 @@ const metadata = {
         ]
     },
     "734": {
-        "name": "Avatar #734",
+        "name": "Digger #734",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/miFiYZZNnPVijJfaA74txqkS90TXH9NeIzV0nrQN2yU",
         "attributes": [
@@ -37449,7 +37449,7 @@ const metadata = {
         ]
     },
     "735": {
-        "name": "Avatar #735",
+        "name": "Digger #735",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LQ5vs7p_IBdPuB9EYlf2_C0BaITHEG-MKGKRYnX8Ao8",
         "attributes": [
@@ -37500,7 +37500,7 @@ const metadata = {
         ]
     },
     "736": {
-        "name": "Avatar #736",
+        "name": "Digger #736",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/W09M3-v5-5EhDQy03Ao8iTJBTN-1HEWz1UVGGyzt0lY",
         "attributes": [
@@ -37551,7 +37551,7 @@ const metadata = {
         ]
     },
     "737": {
-        "name": "Avatar #737",
+        "name": "Digger #737",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IBuHJjBnqkwPl4zDXXK85NFLJVOtNfsnUkgqJFiPwZc",
         "attributes": [
@@ -37602,7 +37602,7 @@ const metadata = {
         ]
     },
     "738": {
-        "name": "Avatar #738",
+        "name": "Digger #738",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FA9baZ62Zdus4bGmv-Whc4gC9tMZ6PuehsMNR6TpNqk",
         "attributes": [
@@ -37653,7 +37653,7 @@ const metadata = {
         ]
     },
     "739": {
-        "name": "Avatar #739",
+        "name": "Digger #739",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AU5e4VhmAUwVU8evme6zhgvnRoMJ5tO_GP8Xj1DLQio",
         "attributes": [
@@ -37704,7 +37704,7 @@ const metadata = {
         ]
     },
     "740": {
-        "name": "Avatar #740",
+        "name": "Digger #740",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LjL3r8cwAvM41ozL87VGom5H7pbHFraREUDG0wuArEE",
         "attributes": [
@@ -37755,7 +37755,7 @@ const metadata = {
         ]
     },
     "741": {
-        "name": "Avatar #741",
+        "name": "Digger #741",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qgKQycIaA03zI3Eakk7hMuG2YZ_xE5SswMij1qawcdM",
         "attributes": [
@@ -37806,7 +37806,7 @@ const metadata = {
         ]
     },
     "742": {
-        "name": "Avatar #742",
+        "name": "Digger #742",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5epSW4dETQNwYgXJWsrKTMP6EHVIY7tl0v-wQX-SvRw",
         "attributes": [
@@ -37857,7 +37857,7 @@ const metadata = {
         ]
     },
     "743": {
-        "name": "Avatar #743",
+        "name": "Digger #743",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MzOoYIPsZcG3yQy1Gvo9bnU1AX4vsNbcwt7cJVzBaFs",
         "attributes": [
@@ -37908,7 +37908,7 @@ const metadata = {
         ]
     },
     "744": {
-        "name": "Avatar #744",
+        "name": "Digger #744",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/A-Eg4SHsVshnLq3CqfPOOqoIszxbSFSAbtlWga7Q2Jw",
         "attributes": [
@@ -37959,7 +37959,7 @@ const metadata = {
         ]
     },
     "745": {
-        "name": "Avatar #745",
+        "name": "Digger #745",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NDK_XjlJsy2m6WQTrrH2XQPVH7y3aF0KLMt3RAczLTs",
         "attributes": [
@@ -38010,7 +38010,7 @@ const metadata = {
         ]
     },
     "746": {
-        "name": "Avatar #746",
+        "name": "Digger #746",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UNuqV5uygdlzA0vIe_eZSQuFqO9QKbZyz7FL7p9HHhk",
         "attributes": [
@@ -38061,7 +38061,7 @@ const metadata = {
         ]
     },
     "747": {
-        "name": "Avatar #747",
+        "name": "Digger #747",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-bceG5KGov3FONgXR_SJX1Ke1AXoSGn7BPjPDBaFDoY",
         "attributes": [
@@ -38112,7 +38112,7 @@ const metadata = {
         ]
     },
     "748": {
-        "name": "Avatar #748",
+        "name": "Digger #748",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cIQHz1gGEeKIsVYf86YTiMOJ3NBiWYaW9RdUbCsC-Aw",
         "attributes": [
@@ -38163,7 +38163,7 @@ const metadata = {
         ]
     },
     "749": {
-        "name": "Avatar #749",
+        "name": "Digger #749",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nk0OcVDJKlZSvpMBHDsMKnbxxkzaacsWs4AU9HF1-Qw",
         "attributes": [
@@ -38214,7 +38214,7 @@ const metadata = {
         ]
     },
     "750": {
-        "name": "Avatar #750",
+        "name": "Digger #750",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5w_iIpG9cYhO8Nf5DprU2b53nySpgHsWcS58p0-45ZM",
         "attributes": [
@@ -38265,7 +38265,7 @@ const metadata = {
         ]
     },
     "751": {
-        "name": "Avatar #751",
+        "name": "Digger #751",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oPX_15ahHBAmKQ4xtXZN4Tt-pMVyQUBB9fu0BR8O3q0",
         "attributes": [
@@ -38316,7 +38316,7 @@ const metadata = {
         ]
     },
     "752": {
-        "name": "Avatar #752",
+        "name": "Digger #752",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Hfe8JXBfAww9Pa7i9AUGPLxtcyQmDwdu8cnmAXp4VxI",
         "attributes": [
@@ -38367,7 +38367,7 @@ const metadata = {
         ]
     },
     "753": {
-        "name": "Avatar #753",
+        "name": "Digger #753",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7Rxhton6MyimEx5wHVB7qbws1ZW-c6Nu5hya-8VOFgo",
         "attributes": [
@@ -38418,7 +38418,7 @@ const metadata = {
         ]
     },
     "754": {
-        "name": "Avatar #754",
+        "name": "Digger #754",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3w0odgVH8VuqlwK9A3xE9TaNBJ1TTz5wXvIXeMgofCo",
         "attributes": [
@@ -38469,7 +38469,7 @@ const metadata = {
         ]
     },
     "755": {
-        "name": "Avatar #755",
+        "name": "Digger #755",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xbUfv3Wm9YEbQRH-KJOVfnfVdlIHCjwvhg0l2XrxbeE",
         "attributes": [
@@ -38520,7 +38520,7 @@ const metadata = {
         ]
     },
     "756": {
-        "name": "Avatar #756",
+        "name": "Digger #756",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/683Kzo4I1Rqj6xLCUWbG1MijxI2wPJXqbWpxe5S3F0k",
         "attributes": [
@@ -38571,7 +38571,7 @@ const metadata = {
         ]
     },
     "757": {
-        "name": "Avatar #757",
+        "name": "Digger #757",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/khEPy1oPpZP-i0rAenBClh2PPh8uXgUKTUrYaaBB_7U",
         "attributes": [
@@ -38622,7 +38622,7 @@ const metadata = {
         ]
     },
     "758": {
-        "name": "Avatar #758",
+        "name": "Digger #758",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DzGO_SvrXWECcZRcOozWH-jOPG8kfmUMVy6iE3A1VjI",
         "attributes": [
@@ -38673,7 +38673,7 @@ const metadata = {
         ]
     },
     "759": {
-        "name": "Avatar #759",
+        "name": "Digger #759",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_eRbpNQXJlpC5euV-L1LyTNs92xrjo7rGezbWAu-9Tc",
         "attributes": [
@@ -38724,7 +38724,7 @@ const metadata = {
         ]
     },
     "760": {
-        "name": "Avatar #760",
+        "name": "Digger #760",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gUOFRI2v62AtT4HiKMkKnjKg-Bf_sjGl4vy0RysQQ6g",
         "attributes": [
@@ -38775,7 +38775,7 @@ const metadata = {
         ]
     },
     "761": {
-        "name": "Avatar #761",
+        "name": "Digger #761",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cgFixnf4dquU-bv7cgh2iXmzu5lHeu9mZS2XcN_WO7o",
         "attributes": [
@@ -38826,7 +38826,7 @@ const metadata = {
         ]
     },
     "762": {
-        "name": "Avatar #762",
+        "name": "Digger #762",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/A_ns7DzXdVqVJZEzj6IG2KNRzXHyM5AgZy3X-geYF1A",
         "attributes": [
@@ -38877,7 +38877,7 @@ const metadata = {
         ]
     },
     "763": {
-        "name": "Avatar #763",
+        "name": "Digger #763",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sCzf70-ZdmEFN4uwKGgpR2ztdSuC8D70iILttK5wgaI",
         "attributes": [
@@ -38928,7 +38928,7 @@ const metadata = {
         ]
     },
     "764": {
-        "name": "Avatar #764",
+        "name": "Digger #764",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/g7DFOUlmKmjT-zBPP_eiPDFD1xnrBRSo_Kc0t8HQazo",
         "attributes": [
@@ -38979,7 +38979,7 @@ const metadata = {
         ]
     },
     "765": {
-        "name": "Avatar #765",
+        "name": "Digger #765",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/su57UrkQRR2rXkenFw_9yQKhIdTTpVQi4TCFmU8cwD4",
         "attributes": [
@@ -39030,7 +39030,7 @@ const metadata = {
         ]
     },
     "766": {
-        "name": "Avatar #766",
+        "name": "Digger #766",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Hy_lpDozmTwBq9Y_hrRD3j7aeC4PGcmh_cJJcMIgC60",
         "attributes": [
@@ -39081,7 +39081,7 @@ const metadata = {
         ]
     },
     "767": {
-        "name": "Avatar #767",
+        "name": "Digger #767",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kp-MM9plf7qz4sEydcYy-2ZWd308XIsYD5YGaUgCz3k",
         "attributes": [
@@ -39132,7 +39132,7 @@ const metadata = {
         ]
     },
     "768": {
-        "name": "Avatar #768",
+        "name": "Digger #768",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/536BTpSo68ePemoojPhDl85trrFzrLkQOezim29jjPU",
         "attributes": [
@@ -39178,12 +39178,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "769": {
-        "name": "Avatar #769",
+        "name": "Digger #769",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NPE5_1ElJTNNVMT7fdbZRoeQAlJtsfULaUHgtbzITDA",
         "attributes": [
@@ -39234,7 +39234,7 @@ const metadata = {
         ]
     },
     "770": {
-        "name": "Avatar #770",
+        "name": "Digger #770",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ItL01ZBwoOwcRN7mcK_fe0DgAeck8P4o2VXKlZxbeEw",
         "attributes": [
@@ -39285,7 +39285,7 @@ const metadata = {
         ]
     },
     "771": {
-        "name": "Avatar #771",
+        "name": "Digger #771",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/W5yId2AhBpTBFjMrpgtU6iN8iAZfVMYgrn_cr9mkppY",
         "attributes": [
@@ -39336,7 +39336,7 @@ const metadata = {
         ]
     },
     "772": {
-        "name": "Avatar #772",
+        "name": "Digger #772",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7y3VD_LilqbdyywXUSAaaLVV_V22jpY6EiQFuoAEaXI",
         "attributes": [
@@ -39387,7 +39387,7 @@ const metadata = {
         ]
     },
     "773": {
-        "name": "Avatar #773",
+        "name": "Digger #773",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/t0GXLpdTA9_le83xiaFwM5wgetbyXRwEdVcK2YhvEfY",
         "attributes": [
@@ -39438,7 +39438,7 @@ const metadata = {
         ]
     },
     "774": {
-        "name": "Avatar #774",
+        "name": "Digger #774",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/evv5Gs3j4N_kG9N_6J4dugeCm2ak0dASA8q0wXi1NoU",
         "attributes": [
@@ -39489,7 +39489,7 @@ const metadata = {
         ]
     },
     "775": {
-        "name": "Avatar #775",
+        "name": "Digger #775",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gBipcorrB2R17fA25HxYtZlOKHVoShqmo64tiC93gxw",
         "attributes": [
@@ -39540,7 +39540,7 @@ const metadata = {
         ]
     },
     "776": {
-        "name": "Avatar #776",
+        "name": "Digger #776",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r_xktkPi_e43hLyNj0zAJk_PuLMsHyVRHl4UxCyOfl4",
         "attributes": [
@@ -39591,7 +39591,7 @@ const metadata = {
         ]
     },
     "777": {
-        "name": "Avatar #777",
+        "name": "Digger #777",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SZkiiqDw7ZTfi3IoJetx18RwAJuJ7WPvnX7jrhRXFsQ",
         "attributes": [
@@ -39642,7 +39642,7 @@ const metadata = {
         ]
     },
     "778": {
-        "name": "Avatar #778",
+        "name": "Digger #778",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/u5z8YiPInf82KehAwdbcemyR6RoXxXzGINZPUA87u0o",
         "attributes": [
@@ -39693,7 +39693,7 @@ const metadata = {
         ]
     },
     "779": {
-        "name": "Avatar #779",
+        "name": "Digger #779",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ov4OCVW4rINPOSww-SHTm2HI-skzXhB20HQHeiqOKI0",
         "attributes": [
@@ -39744,7 +39744,7 @@ const metadata = {
         ]
     },
     "780": {
-        "name": "Avatar #780",
+        "name": "Digger #780",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R0PCoRyyPgfLh81aoOnX2VLp-OA_jDH_DmOZPuSyQTw",
         "attributes": [
@@ -39795,7 +39795,7 @@ const metadata = {
         ]
     },
     "781": {
-        "name": "Avatar #781",
+        "name": "Digger #781",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kTQ7JWT_XrLMCf1I2aLdGG6847Hgk-U_kj5M87Ra2Tw",
         "attributes": [
@@ -39846,7 +39846,7 @@ const metadata = {
         ]
     },
     "782": {
-        "name": "Avatar #782",
+        "name": "Digger #782",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cxYruPImo7igiLPc5N-8citmeykvFWIylYhA822flQo",
         "attributes": [
@@ -39897,7 +39897,7 @@ const metadata = {
         ]
     },
     "783": {
-        "name": "Avatar #783",
+        "name": "Digger #783",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/b-wybYDT8zfh3buVxeAUradcGXkAgyc9ACPOhKyHR3U",
         "attributes": [
@@ -39948,7 +39948,7 @@ const metadata = {
         ]
     },
     "784": {
-        "name": "Avatar #784",
+        "name": "Digger #784",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FgypmmHlrmlVRFzwNefekR9h3Zc5Wj1gbZfF4RGIUHg",
         "attributes": [
@@ -39999,7 +39999,7 @@ const metadata = {
         ]
     },
     "785": {
-        "name": "Avatar #785",
+        "name": "Digger #785",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NS5je91dTDMclfkLi9FTs2wmdFqh5hniDKa0M8VBA5c",
         "attributes": [
@@ -40050,7 +40050,7 @@ const metadata = {
         ]
     },
     "786": {
-        "name": "Avatar #786",
+        "name": "Digger #786",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/StQczRuIiU6nqdGBD12nq_duz45BJV1Gtxrv5TdJ-SM",
         "attributes": [
@@ -40101,7 +40101,7 @@ const metadata = {
         ]
     },
     "787": {
-        "name": "Avatar #787",
+        "name": "Digger #787",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_iMLGsE4PfwEg864quqkP3r0Cddu1_ekcjzPO3EAE-Y",
         "attributes": [
@@ -40152,7 +40152,7 @@ const metadata = {
         ]
     },
     "788": {
-        "name": "Avatar #788",
+        "name": "Digger #788",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/M9KGhmDm3TcwfpBEbbmxsQpR4t3lHdfDYEGIuGU3fTA",
         "attributes": [
@@ -40198,12 +40198,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "789": {
-        "name": "Avatar #789",
+        "name": "Digger #789",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-bVYpHgj8d9SWYlmGnRCeCKTOGdsuXC2otmbVBZeZio",
         "attributes": [
@@ -40254,7 +40254,7 @@ const metadata = {
         ]
     },
     "790": {
-        "name": "Avatar #790",
+        "name": "Digger #790",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/O2mXFBChD9Wg3FrLbrZeTwvVUWNinTLrs1PFo4_rtB0",
         "attributes": [
@@ -40305,7 +40305,7 @@ const metadata = {
         ]
     },
     "791": {
-        "name": "Avatar #791",
+        "name": "Digger #791",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8GplbOIiIKam55nbY9_mTHc6ZJQv7YF7tDdVC5AEz50",
         "attributes": [
@@ -40356,7 +40356,7 @@ const metadata = {
         ]
     },
     "792": {
-        "name": "Avatar #792",
+        "name": "Digger #792",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fvaYCXZ5cEp8lUF2ZosztfMbBRavicivLggax1Ow4NY",
         "attributes": [
@@ -40407,7 +40407,7 @@ const metadata = {
         ]
     },
     "793": {
-        "name": "Avatar #793",
+        "name": "Digger #793",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IB9Hopui9hRkrq2lUQXodBc1XQi1UWHW5BvF7QDQzLI",
         "attributes": [
@@ -40458,7 +40458,7 @@ const metadata = {
         ]
     },
     "794": {
-        "name": "Avatar #794",
+        "name": "Digger #794",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SyDh_flMp9rAY082pHGffIbJzk_JcTGB__fIcp0p4lY",
         "attributes": [
@@ -40509,7 +40509,7 @@ const metadata = {
         ]
     },
     "795": {
-        "name": "Avatar #795",
+        "name": "Digger #795",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/M8H2VLA04b177zxYi9a4EuSIc1p8W3EDQvHNKCJJIbk",
         "attributes": [
@@ -40560,7 +40560,7 @@ const metadata = {
         ]
     },
     "796": {
-        "name": "Avatar #796",
+        "name": "Digger #796",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3D1IGcnKLUXnxSfJA7rzi5WmmX0j1Q7TphvncLE9jtg",
         "attributes": [
@@ -40611,7 +40611,7 @@ const metadata = {
         ]
     },
     "797": {
-        "name": "Avatar #797",
+        "name": "Digger #797",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TsJ8B59l9NPubTr-nA2bXYsX0k-lBgdh4ERQUeV31TI",
         "attributes": [
@@ -40662,7 +40662,7 @@ const metadata = {
         ]
     },
     "798": {
-        "name": "Avatar #798",
+        "name": "Digger #798",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UlfYHE7o0ikfrYAFeL6e8ujuK6OVAe-OnfgVMKexr3g",
         "attributes": [
@@ -40713,7 +40713,7 @@ const metadata = {
         ]
     },
     "799": {
-        "name": "Avatar #799",
+        "name": "Digger #799",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BZxTJ4AU4Co9UaCNT8ZxETDoYrRn5JEp1JAWV4LFMJw",
         "attributes": [
@@ -40764,7 +40764,7 @@ const metadata = {
         ]
     },
     "800": {
-        "name": "Avatar #800",
+        "name": "Digger #800",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nB1ukYXVNDIk_C2niW2TytjuNT50bZA98Z6_ZgEq46Y",
         "attributes": [
@@ -40815,7 +40815,7 @@ const metadata = {
         ]
     },
     "801": {
-        "name": "Avatar #801",
+        "name": "Digger #801",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z07drmAFzqInhPjFuZAVf6QtwOnCj4iSITL5ABI8u5Y",
         "attributes": [
@@ -40866,7 +40866,7 @@ const metadata = {
         ]
     },
     "802": {
-        "name": "Avatar #802",
+        "name": "Digger #802",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jrTwr_UnNuVUNZPVLm6KTlMzT4C8eikuCSNKV6sCVQw",
         "attributes": [
@@ -40917,7 +40917,7 @@ const metadata = {
         ]
     },
     "803": {
-        "name": "Avatar #803",
+        "name": "Digger #803",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/17q9mAmYdxDx7jhnWyy15ZlDhG_sRRBzTNAUgarhGkg",
         "attributes": [
@@ -40968,7 +40968,7 @@ const metadata = {
         ]
     },
     "804": {
-        "name": "Avatar #804",
+        "name": "Digger #804",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7M3vvLn1jwrzhZwOOgZIuz1aKHUIxvp1SufdUqWJo6Q",
         "attributes": [
@@ -41019,7 +41019,7 @@ const metadata = {
         ]
     },
     "805": {
-        "name": "Avatar #805",
+        "name": "Digger #805",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/e20b5CrXe9y3oL9-IkWkXYDXpaIiXmEB1G7gG72Vp5I",
         "attributes": [
@@ -41070,7 +41070,7 @@ const metadata = {
         ]
     },
     "806": {
-        "name": "Avatar #806",
+        "name": "Digger #806",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E9eQnOt4OkIims7Y5ERtovWHxXWhHnfCnjZ-j7zd7MA",
         "attributes": [
@@ -41121,7 +41121,7 @@ const metadata = {
         ]
     },
     "807": {
-        "name": "Avatar #807",
+        "name": "Digger #807",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DVit7dNi4VMiz36KCqZrAyzSfpY4Pd9hX7MVdexTLM8",
         "attributes": [
@@ -41172,7 +41172,7 @@ const metadata = {
         ]
     },
     "808": {
-        "name": "Avatar #808",
+        "name": "Digger #808",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kk8BbvXUTBmbSrHJUPJ87fdUcSTBqoGq6uYeowZMi14",
         "attributes": [
@@ -41223,7 +41223,7 @@ const metadata = {
         ]
     },
     "809": {
-        "name": "Avatar #809",
+        "name": "Digger #809",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2ZuN8oFs99d8Xh32aAFUk75ZYzkXeQdpN8r8OXqaCF0",
         "attributes": [
@@ -41269,12 +41269,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "810": {
-        "name": "Avatar #810",
+        "name": "Digger #810",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dmZwy-9w3QORoK6nKvUVTD99MayFTtnjIdKzVvwvZdQ",
         "attributes": [
@@ -41325,7 +41325,7 @@ const metadata = {
         ]
     },
     "811": {
-        "name": "Avatar #811",
+        "name": "Digger #811",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GYwhuJVYm0OvdPZ8kL5K7NuWmer-zhDN15X2p7rApl8",
         "attributes": [
@@ -41376,7 +41376,7 @@ const metadata = {
         ]
     },
     "812": {
-        "name": "Avatar #812",
+        "name": "Digger #812",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TWWljTCFZt_Ml8-GBImBGwL4I6xgvkwZIxA7pl_3b88",
         "attributes": [
@@ -41427,7 +41427,7 @@ const metadata = {
         ]
     },
     "813": {
-        "name": "Avatar #813",
+        "name": "Digger #813",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_pgEncL8j6NUP7vlGzMzoCClK11_0_ATppKgF-eNn7k",
         "attributes": [
@@ -41478,7 +41478,7 @@ const metadata = {
         ]
     },
     "814": {
-        "name": "Avatar #814",
+        "name": "Digger #814",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TnaPlyW4oWHHz_ZLq_vxMq29XoCFQ-EjdfjPm0YU9pY",
         "attributes": [
@@ -41529,7 +41529,7 @@ const metadata = {
         ]
     },
     "815": {
-        "name": "Avatar #815",
+        "name": "Digger #815",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-MrX65Du8BC6yMmt2m0i4owdQdnb4Cmeq1C31Na8IPQ",
         "attributes": [
@@ -41580,7 +41580,7 @@ const metadata = {
         ]
     },
     "816": {
-        "name": "Avatar #816",
+        "name": "Digger #816",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Xfa1IZwIpMNMMlnUNPJ6co9LDHoxvbZnhJTA-m_oQxY",
         "attributes": [
@@ -41631,7 +41631,7 @@ const metadata = {
         ]
     },
     "817": {
-        "name": "Avatar #817",
+        "name": "Digger #817",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fv3E1wL74ujZjMnIetVm1UG3vpnJemRkxq71ZSe8WEY",
         "attributes": [
@@ -41682,7 +41682,7 @@ const metadata = {
         ]
     },
     "818": {
-        "name": "Avatar #818",
+        "name": "Digger #818",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jV6UVvRG-Kj8uNrGoiQjOmiCpdLT1iVleHDnCtPRYaM",
         "attributes": [
@@ -41733,7 +41733,7 @@ const metadata = {
         ]
     },
     "819": {
-        "name": "Avatar #819",
+        "name": "Digger #819",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bGiXoIhhxg-EmP6faBL7y2STWM7MFSYPyUaifMUm3EE",
         "attributes": [
@@ -41784,7 +41784,7 @@ const metadata = {
         ]
     },
     "820": {
-        "name": "Avatar #820",
+        "name": "Digger #820",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jd2iPWah3JQ2f_PnomZoet-Mz-QKQUro-1OIoGrWA5A",
         "attributes": [
@@ -41835,7 +41835,7 @@ const metadata = {
         ]
     },
     "821": {
-        "name": "Avatar #821",
+        "name": "Digger #821",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/99QkDeTjlnhOm3s2hbSCksH3KoiyL2KsxdcyeqLqynU",
         "attributes": [
@@ -41886,7 +41886,7 @@ const metadata = {
         ]
     },
     "822": {
-        "name": "Avatar #822",
+        "name": "Digger #822",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RIjBw9Gfjm8HVi-6_OR58JHN68q3mcwUhq0Noa81L6Y",
         "attributes": [
@@ -41937,7 +41937,7 @@ const metadata = {
         ]
     },
     "823": {
-        "name": "Avatar #823",
+        "name": "Digger #823",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hKNU-AdUr3mL4E0b4pbwrM1NaMYRY8Cy_ZZQv_tLUE0",
         "attributes": [
@@ -41988,7 +41988,7 @@ const metadata = {
         ]
     },
     "824": {
-        "name": "Avatar #824",
+        "name": "Digger #824",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VI-eNsNzEk8h-IrdJgAXu3NHFhVCJkIPlDyUnPMvwjw",
         "attributes": [
@@ -42034,12 +42034,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "825": {
-        "name": "Avatar #825",
+        "name": "Digger #825",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R1jPZxBzKQnZOkR4cuyR_dp-qKMmYeDxK-ni_YTeDBw",
         "attributes": [
@@ -42090,7 +42090,7 @@ const metadata = {
         ]
     },
     "826": {
-        "name": "Avatar #826",
+        "name": "Digger #826",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WeHmr6GGxfO0-_CK2T9zlbwpQ4T8L3yM24maJNb2J5o",
         "attributes": [
@@ -42141,7 +42141,7 @@ const metadata = {
         ]
     },
     "827": {
-        "name": "Avatar #827",
+        "name": "Digger #827",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ozhC_fMAU1RvOvHX213g2bhhcpQL3QuHZVigrwuQvRk",
         "attributes": [
@@ -42192,7 +42192,7 @@ const metadata = {
         ]
     },
     "828": {
-        "name": "Avatar #828",
+        "name": "Digger #828",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rsVKHlP7A7S7tW0JaE5AyYRDbWYmQY20UofGGQXlBuE",
         "attributes": [
@@ -42243,7 +42243,7 @@ const metadata = {
         ]
     },
     "829": {
-        "name": "Avatar #829",
+        "name": "Digger #829",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0Iz1joAxEh6oytuYW-P2vmA1dGE4wcUZTvuYat6ioAs",
         "attributes": [
@@ -42294,7 +42294,7 @@ const metadata = {
         ]
     },
     "830": {
-        "name": "Avatar #830",
+        "name": "Digger #830",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8_bVyGDiIOhriHb-M3jFoAr1vxb-EnfmF7Vms2vHQk0",
         "attributes": [
@@ -42345,7 +42345,7 @@ const metadata = {
         ]
     },
     "831": {
-        "name": "Avatar #831",
+        "name": "Digger #831",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6yZd4c02twDEoQLNe9RT0GRxIE8zi2fV90gxl6soBxo",
         "attributes": [
@@ -42396,7 +42396,7 @@ const metadata = {
         ]
     },
     "832": {
-        "name": "Avatar #832",
+        "name": "Digger #832",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8iKUxbi3PEpoX7KIMGMs52MbLp-n_BZNOAEq8cRN1Gw",
         "attributes": [
@@ -42447,7 +42447,7 @@ const metadata = {
         ]
     },
     "833": {
-        "name": "Avatar #833",
+        "name": "Digger #833",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/M65YPbdqgr54yk4WRRryivdeJckLCWB8deG1dhIfCQY",
         "attributes": [
@@ -42498,7 +42498,7 @@ const metadata = {
         ]
     },
     "834": {
-        "name": "Avatar #834",
+        "name": "Digger #834",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EX4sBoSG5H5I5cf7Vd4Hnrq8KUS8LWzLTYQp39LQWKE",
         "attributes": [
@@ -42544,12 +42544,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "835": {
-        "name": "Avatar #835",
+        "name": "Digger #835",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/m6Hrz_elIinaY9F-G4Ng-e0PyfZCVlS9QexlAHU4bvQ",
         "attributes": [
@@ -42600,7 +42600,7 @@ const metadata = {
         ]
     },
     "836": {
-        "name": "Avatar #836",
+        "name": "Digger #836",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hlrtR2keunvsfyTk92-J77f7Ozn5-5Yadyz1VreHvIo",
         "attributes": [
@@ -42651,7 +42651,7 @@ const metadata = {
         ]
     },
     "837": {
-        "name": "Avatar #837",
+        "name": "Digger #837",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xXY7wO6aGsROeFjy56MbRFEdPxJYaWyewTcqUbV8mq0",
         "attributes": [
@@ -42697,12 +42697,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "838": {
-        "name": "Avatar #838",
+        "name": "Digger #838",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GU-TGX2SkEwTVaL5c10LeYGC-zU-dca9lG3GJfxcJ9o",
         "attributes": [
@@ -42753,7 +42753,7 @@ const metadata = {
         ]
     },
     "839": {
-        "name": "Avatar #839",
+        "name": "Digger #839",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/K6o_lpwMFQnR8pG49H2fzbuvIUo89IjtiAFXst5ZEXg",
         "attributes": [
@@ -42804,7 +42804,7 @@ const metadata = {
         ]
     },
     "840": {
-        "name": "Avatar #840",
+        "name": "Digger #840",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8w6s2UrHo1NbXifBH_I71uxeiXol35oAsFJBPks6CbA",
         "attributes": [
@@ -42855,7 +42855,7 @@ const metadata = {
         ]
     },
     "841": {
-        "name": "Avatar #841",
+        "name": "Digger #841",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/une7bu_D81pnNF5Lnq9SfklElxT717zUabUwJOB8C9M",
         "attributes": [
@@ -42906,7 +42906,7 @@ const metadata = {
         ]
     },
     "842": {
-        "name": "Avatar #842",
+        "name": "Digger #842",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ROdY-NwwTdgFd8w_neR-40S0WCWPyqNveprOpxyUwTY",
         "attributes": [
@@ -42957,7 +42957,7 @@ const metadata = {
         ]
     },
     "843": {
-        "name": "Avatar #843",
+        "name": "Digger #843",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/otVMjsRXFT1vMgSmmuXhclHboGrnKTcmkAEJU1pdPwc",
         "attributes": [
@@ -43008,7 +43008,7 @@ const metadata = {
         ]
     },
     "844": {
-        "name": "Avatar #844",
+        "name": "Digger #844",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qc9L1vVNzQMW5legEEu3ogE0Nmae1YZuhwoMDWZt2CU",
         "attributes": [
@@ -43059,7 +43059,7 @@ const metadata = {
         ]
     },
     "845": {
-        "name": "Avatar #845",
+        "name": "Digger #845",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6TdZAUnjngskURO8KbOrMm7yUuiaufbW_fmesNJtBUI",
         "attributes": [
@@ -43110,7 +43110,7 @@ const metadata = {
         ]
     },
     "846": {
-        "name": "Avatar #846",
+        "name": "Digger #846",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FCxPUb8dibvTaWpqSZPgRWEMLMIhj-jDnWeoG7rP5d4",
         "attributes": [
@@ -43161,7 +43161,7 @@ const metadata = {
         ]
     },
     "847": {
-        "name": "Avatar #847",
+        "name": "Digger #847",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/I0gYb9QBB-x9qB9KvFhE8PWGpEl8LcXFMPviuxshb54",
         "attributes": [
@@ -43212,7 +43212,7 @@ const metadata = {
         ]
     },
     "848": {
-        "name": "Avatar #848",
+        "name": "Digger #848",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qsORKraE-W1Sigt7DxcqRRoi9TVNPMT3LEm_ijUnPn8",
         "attributes": [
@@ -43263,7 +43263,7 @@ const metadata = {
         ]
     },
     "849": {
-        "name": "Avatar #849",
+        "name": "Digger #849",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sdfWFN6UA2k1gRkNTDN9VOhFrxufuFNfxgVenGaV6WQ",
         "attributes": [
@@ -43314,7 +43314,7 @@ const metadata = {
         ]
     },
     "850": {
-        "name": "Avatar #850",
+        "name": "Digger #850",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/axWK0rgcMll2DE4iMeFFLj-yYVGFqkmmVYP-XqO-vCc",
         "attributes": [
@@ -43365,7 +43365,7 @@ const metadata = {
         ]
     },
     "851": {
-        "name": "Avatar #851",
+        "name": "Digger #851",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/S08kZP2JOQaCUbWJ4EKXawOCEw4b0TwRYlOcFZmUmzk",
         "attributes": [
@@ -43416,7 +43416,7 @@ const metadata = {
         ]
     },
     "852": {
-        "name": "Avatar #852",
+        "name": "Digger #852",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ECe2xAoZLD9vSkGN2I-1RsN0qboleeK-lpWkX5u_znE",
         "attributes": [
@@ -43467,7 +43467,7 @@ const metadata = {
         ]
     },
     "853": {
-        "name": "Avatar #853",
+        "name": "Digger #853",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DeM89gnHfHWbta8vWwiYvCyZbf3bLG7zij9TvUy_uMA",
         "attributes": [
@@ -43513,12 +43513,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "854": {
-        "name": "Avatar #854",
+        "name": "Digger #854",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JRdXj8tcwpFibIikValo2HjAtHv2cAnORD2aZQ5T6gA",
         "attributes": [
@@ -43569,7 +43569,7 @@ const metadata = {
         ]
     },
     "855": {
-        "name": "Avatar #855",
+        "name": "Digger #855",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YMVoQipd3bSG9-z7HjzggPt6BYw5hJVbWKGNznRB8gA",
         "attributes": [
@@ -43620,7 +43620,7 @@ const metadata = {
         ]
     },
     "856": {
-        "name": "Avatar #856",
+        "name": "Digger #856",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZWjxfs4xA0xr4U-b4tNfL7x8pZreMFiIh9boy-j4T6Y",
         "attributes": [
@@ -43671,7 +43671,7 @@ const metadata = {
         ]
     },
     "857": {
-        "name": "Avatar #857",
+        "name": "Digger #857",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8GwrQFV-GByicnmPUVGkfFu39RYmAQgr6MaqEvPcuXg",
         "attributes": [
@@ -43722,7 +43722,7 @@ const metadata = {
         ]
     },
     "858": {
-        "name": "Avatar #858",
+        "name": "Digger #858",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yt8XbxsLITkFLBSvetIdYRYN5foWwkfeoOXLkwgijMI",
         "attributes": [
@@ -43773,7 +43773,7 @@ const metadata = {
         ]
     },
     "859": {
-        "name": "Avatar #859",
+        "name": "Digger #859",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6O0CTvYo97gi0lAhlbU6SPWT4nQM2t54HDPN3T27hog",
         "attributes": [
@@ -43824,7 +43824,7 @@ const metadata = {
         ]
     },
     "860": {
-        "name": "Avatar #860",
+        "name": "Digger #860",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3mPHSEUNhHwuwCKvUp2uMF54CRXKUo_udhKvFEz5WWg",
         "attributes": [
@@ -43875,7 +43875,7 @@ const metadata = {
         ]
     },
     "861": {
-        "name": "Avatar #861",
+        "name": "Digger #861",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4Or9e_5WLyCudbJ9-X8_TSuR62mGvC0KzUo01rMOZwQ",
         "attributes": [
@@ -43926,7 +43926,7 @@ const metadata = {
         ]
     },
     "862": {
-        "name": "Avatar #862",
+        "name": "Digger #862",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-jLeui0jAq4FseMoe-Kf8xkKlZP3w1sIPLvV4Az0RD8",
         "attributes": [
@@ -43977,7 +43977,7 @@ const metadata = {
         ]
     },
     "863": {
-        "name": "Avatar #863",
+        "name": "Digger #863",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/apxTXXmBdgrRMndv6c0-Ux1kshmcjdgJ4aTjqN00P5A",
         "attributes": [
@@ -44028,7 +44028,7 @@ const metadata = {
         ]
     },
     "864": {
-        "name": "Avatar #864",
+        "name": "Digger #864",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hSs0pidJKOO1nvYjms1z-5qwpj9HlZXyChRM-rVp-UI",
         "attributes": [
@@ -44079,7 +44079,7 @@ const metadata = {
         ]
     },
     "865": {
-        "name": "Avatar #865",
+        "name": "Digger #865",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FAub15WG4-0kqbJRag0ID1tH-WTRUadKm_3D2MU33MU",
         "attributes": [
@@ -44130,7 +44130,7 @@ const metadata = {
         ]
     },
     "866": {
-        "name": "Avatar #866",
+        "name": "Digger #866",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wcsS7QyHxz6l-IE7WogqvxaDwEiZ74IX_iGymnx4EnQ",
         "attributes": [
@@ -44181,7 +44181,7 @@ const metadata = {
         ]
     },
     "867": {
-        "name": "Avatar #867",
+        "name": "Digger #867",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ef5y0z3TzVkGDjQKSD1N3x2B2yfRzcTSv2rmLPEzKAE",
         "attributes": [
@@ -44232,7 +44232,7 @@ const metadata = {
         ]
     },
     "868": {
-        "name": "Avatar #868",
+        "name": "Digger #868",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r6XTzNFnSdJmqNt_DTSOZJwKMUjYo04D_5Brbd4yid0",
         "attributes": [
@@ -44283,7 +44283,7 @@ const metadata = {
         ]
     },
     "869": {
-        "name": "Avatar #869",
+        "name": "Digger #869",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/l9qFDNlo7S_d74CU36XL1ry5nhomGfFiziaykNpEU78",
         "attributes": [
@@ -44334,7 +44334,7 @@ const metadata = {
         ]
     },
     "870": {
-        "name": "Avatar #870",
+        "name": "Digger #870",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BmUO5aJUNvo_BqbkHN1ii4LC6jWmURga0kif81bhacU",
         "attributes": [
@@ -44385,7 +44385,7 @@ const metadata = {
         ]
     },
     "871": {
-        "name": "Avatar #871",
+        "name": "Digger #871",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pzNIS1iRIU5EkrxSy0sRcCViKlw87cC4pNWHU8FtZyc",
         "attributes": [
@@ -44436,7 +44436,7 @@ const metadata = {
         ]
     },
     "872": {
-        "name": "Avatar #872",
+        "name": "Digger #872",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NpVwEVyUZGzI-lOUtCF6Tn_OlJV1ZuDfny0TU5X4gcA",
         "attributes": [
@@ -44487,7 +44487,7 @@ const metadata = {
         ]
     },
     "873": {
-        "name": "Avatar #873",
+        "name": "Digger #873",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-8haRy4JZLt-fmNDLlEP68nefpD1Vae7SKiL5fwLctY",
         "attributes": [
@@ -44538,7 +44538,7 @@ const metadata = {
         ]
     },
     "874": {
-        "name": "Avatar #874",
+        "name": "Digger #874",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WmZp3zKk7SGTAUO2MBfQDREZ5lrcCnXK-3HoMfcfgNo",
         "attributes": [
@@ -44589,7 +44589,7 @@ const metadata = {
         ]
     },
     "875": {
-        "name": "Avatar #875",
+        "name": "Digger #875",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qOT5cigajzZWnSPmaLdWDUOVDmTOKBu48H4mh6rWXs8",
         "attributes": [
@@ -44640,7 +44640,7 @@ const metadata = {
         ]
     },
     "876": {
-        "name": "Avatar #876",
+        "name": "Digger #876",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/G9PJqXaz5irml51_p6w_YGRbLoKlNFEGmdx_MkM1aG0",
         "attributes": [
@@ -44691,7 +44691,7 @@ const metadata = {
         ]
     },
     "877": {
-        "name": "Avatar #877",
+        "name": "Digger #877",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Kt97qNnoo9mnBKTMVXvox7krphKDX9p9aILYjm5QuEY",
         "attributes": [
@@ -44742,7 +44742,7 @@ const metadata = {
         ]
     },
     "878": {
-        "name": "Avatar #878",
+        "name": "Digger #878",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ghNe1SQMZI1hKMAc_biepy2V4BK3S-6_oI9e4Kkp5Ac",
         "attributes": [
@@ -44793,7 +44793,7 @@ const metadata = {
         ]
     },
     "879": {
-        "name": "Avatar #879",
+        "name": "Digger #879",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BVMqzkB3po9yNn1tpO6AEM9urSrTHhL8njvOwj4pLbc",
         "attributes": [
@@ -44844,7 +44844,7 @@ const metadata = {
         ]
     },
     "880": {
-        "name": "Avatar #880",
+        "name": "Digger #880",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3Rblvfusk45IYZDNSNhSiiG60VSmvH350v7iT8guqys",
         "attributes": [
@@ -44895,7 +44895,7 @@ const metadata = {
         ]
     },
     "881": {
-        "name": "Avatar #881",
+        "name": "Digger #881",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lEi8FtAFqjAu-XhhB2mr8f5tVgAvgiHxSbk1nH00eYo",
         "attributes": [
@@ -44946,7 +44946,7 @@ const metadata = {
         ]
     },
     "882": {
-        "name": "Avatar #882",
+        "name": "Digger #882",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rCdt8WLc4yHQ13n_-H5QAdmM2tAGygeOOSOCmKfJKbU",
         "attributes": [
@@ -44997,7 +44997,7 @@ const metadata = {
         ]
     },
     "883": {
-        "name": "Avatar #883",
+        "name": "Digger #883",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qAXUJTAEGxXaZl-V_I_fiLn_9_2J86Va9EQ-HL48BNM",
         "attributes": [
@@ -45048,7 +45048,7 @@ const metadata = {
         ]
     },
     "884": {
-        "name": "Avatar #884",
+        "name": "Digger #884",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LjP6-P0MioVHGs4OJbFsPAgB6EefETOxQsJBpBJHqQU",
         "attributes": [
@@ -45094,12 +45094,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "885": {
-        "name": "Avatar #885",
+        "name": "Digger #885",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ODc74MmMIZLRy-qSue8UpM_HCJTcZuhAWtlqtMh6GQs",
         "attributes": [
@@ -45150,7 +45150,7 @@ const metadata = {
         ]
     },
     "886": {
-        "name": "Avatar #886",
+        "name": "Digger #886",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4EZydc4PpF2N9HDQCEJbTFqJu6kRG0RQczezgndNdlU",
         "attributes": [
@@ -45201,7 +45201,7 @@ const metadata = {
         ]
     },
     "887": {
-        "name": "Avatar #887",
+        "name": "Digger #887",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iUHFus5rPFn4pjKrU4o-pb9AtBmDrxh3X-iqCVAT0B4",
         "attributes": [
@@ -45252,7 +45252,7 @@ const metadata = {
         ]
     },
     "888": {
-        "name": "Avatar #888",
+        "name": "Digger #888",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dhfbKnUErGMcCQGm9ZGq2x7bDqcqpnn05nFlox2-RWg",
         "attributes": [
@@ -45303,7 +45303,7 @@ const metadata = {
         ]
     },
     "889": {
-        "name": "Avatar #889",
+        "name": "Digger #889",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5bN7VYOnr-449rQ25Bd-F4BpDpCcPQIMp72orWfT2QM",
         "attributes": [
@@ -45354,7 +45354,7 @@ const metadata = {
         ]
     },
     "890": {
-        "name": "Avatar #890",
+        "name": "Digger #890",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dAW0fId0ZJ_qzTG4ZaqCii__SHlgLEt-DtxtHMncrP8",
         "attributes": [
@@ -45405,7 +45405,7 @@ const metadata = {
         ]
     },
     "891": {
-        "name": "Avatar #891",
+        "name": "Digger #891",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FNu4_me6UeOJ91F_hkQml7INOLoyEhBRoVMrYHuyYBA",
         "attributes": [
@@ -45456,7 +45456,7 @@ const metadata = {
         ]
     },
     "892": {
-        "name": "Avatar #892",
+        "name": "Digger #892",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dQzMAF6AJO6nk1k-qwSkNe5bl8_cBAr9jsgJLNmu3dY",
         "attributes": [
@@ -45507,7 +45507,7 @@ const metadata = {
         ]
     },
     "893": {
-        "name": "Avatar #893",
+        "name": "Digger #893",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9P2GapkywixjjB1K3dTo9JdRHykHMtOoIcqPq8h-IMg",
         "attributes": [
@@ -45558,7 +45558,7 @@ const metadata = {
         ]
     },
     "894": {
-        "name": "Avatar #894",
+        "name": "Digger #894",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PmteL_wVFJCDUIZOC42KNH_9Un9pkMeOPT45CXHV8h4",
         "attributes": [
@@ -45609,7 +45609,7 @@ const metadata = {
         ]
     },
     "895": {
-        "name": "Avatar #895",
+        "name": "Digger #895",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/c48xaioZNm_86GCkkgqMkJpXaCb4edAIAjd0JIQS2sE",
         "attributes": [
@@ -45660,7 +45660,7 @@ const metadata = {
         ]
     },
     "896": {
-        "name": "Avatar #896",
+        "name": "Digger #896",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DeOPt-FU1Eq5hfAeE6jCjngzU99dmEYDO8xrgRkDvjg",
         "attributes": [
@@ -45711,7 +45711,7 @@ const metadata = {
         ]
     },
     "897": {
-        "name": "Avatar #897",
+        "name": "Digger #897",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wRtEqqAgYIC6ThSpCjQ8wXmPRbPBpc20ay7S_f6KKgs",
         "attributes": [
@@ -45762,7 +45762,7 @@ const metadata = {
         ]
     },
     "898": {
-        "name": "Avatar #898",
+        "name": "Digger #898",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YCG1IWWeamMAIA-4qnLvIT72MQpmvb49gr3r6BGCR7g",
         "attributes": [
@@ -45813,7 +45813,7 @@ const metadata = {
         ]
     },
     "899": {
-        "name": "Avatar #899",
+        "name": "Digger #899",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QMYhKtdrqIwFJ_5LcjtkNUsDcJiTYqh41TEmld36Chc",
         "attributes": [
@@ -45864,7 +45864,7 @@ const metadata = {
         ]
     },
     "900": {
-        "name": "Avatar #900",
+        "name": "Digger #900",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/smdjhHi8QJrOFcX75m9L0nsiR3qDyruBnc5sZWXGB_I",
         "attributes": [
@@ -45915,7 +45915,7 @@ const metadata = {
         ]
     },
     "901": {
-        "name": "Avatar #901",
+        "name": "Digger #901",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oH0d-F9Gd6lzQLlz6q9TlRawgXCl7DWoSfo6_sU8DtY",
         "attributes": [
@@ -45966,7 +45966,7 @@ const metadata = {
         ]
     },
     "902": {
-        "name": "Avatar #902",
+        "name": "Digger #902",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cNn0adN6wj6PyOPOngqlhMK9srPeFQiM578Ej9rhqHk",
         "attributes": [
@@ -46017,7 +46017,7 @@ const metadata = {
         ]
     },
     "903": {
-        "name": "Avatar #903",
+        "name": "Digger #903",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Z-RjxVXtCtSSIbVduOlr6-8-SRFydSj-XHCJ-Ln_GoY",
         "attributes": [
@@ -46068,7 +46068,7 @@ const metadata = {
         ]
     },
     "904": {
-        "name": "Avatar #904",
+        "name": "Digger #904",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ke98IqmUNpONJ97x20uQSEv7LI03KQa-PQqD5AZlqx0",
         "attributes": [
@@ -46119,7 +46119,7 @@ const metadata = {
         ]
     },
     "905": {
-        "name": "Avatar #905",
+        "name": "Digger #905",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/neY3bFmR8TuSPwW3MySkMICjBa7lQmTDOGdukS4NAAA",
         "attributes": [
@@ -46170,7 +46170,7 @@ const metadata = {
         ]
     },
     "906": {
-        "name": "Avatar #906",
+        "name": "Digger #906",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/COOHv-rnUp2QoSqozPz2Thk4KUjSRlPh7xZNnm5LF58",
         "attributes": [
@@ -46221,7 +46221,7 @@ const metadata = {
         ]
     },
     "907": {
-        "name": "Avatar #907",
+        "name": "Digger #907",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kgRI6X17sgLxvfoLRe8DP9KjPyLTaJSfQaZAgWHGx-Q",
         "attributes": [
@@ -46272,7 +46272,7 @@ const metadata = {
         ]
     },
     "908": {
-        "name": "Avatar #908",
+        "name": "Digger #908",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6JX3EDZxFJdvP5V5jJXCS8FM8mCmyN2Fn3UuJ_e3UVQ",
         "attributes": [
@@ -46318,12 +46318,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "909": {
-        "name": "Avatar #909",
+        "name": "Digger #909",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IV8cChMKgJ_FQMmWzE5o1UypX-1q9AfubSOBnNh_Xgk",
         "attributes": [
@@ -46374,7 +46374,7 @@ const metadata = {
         ]
     },
     "910": {
-        "name": "Avatar #910",
+        "name": "Digger #910",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7uzx1TBIYebbinCgRSsEE_pAhGI0Izpo4zYltIrP7x8",
         "attributes": [
@@ -46425,7 +46425,7 @@ const metadata = {
         ]
     },
     "911": {
-        "name": "Avatar #911",
+        "name": "Digger #911",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aKdvecSZvihvGlQGVvGAvxBc5hjk3mG1qdk2wQ2hemk",
         "attributes": [
@@ -46476,7 +46476,7 @@ const metadata = {
         ]
     },
     "912": {
-        "name": "Avatar #912",
+        "name": "Digger #912",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/W81WWL8D0l-GvDKb82VOhpcVeivO37rxxdcLYNZIiA0",
         "attributes": [
@@ -46527,7 +46527,7 @@ const metadata = {
         ]
     },
     "913": {
-        "name": "Avatar #913",
+        "name": "Digger #913",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cMzi5iSYNPQH5fq4hDIAMF2ONlceMJBWnCOkVrMq1HM",
         "attributes": [
@@ -46578,7 +46578,7 @@ const metadata = {
         ]
     },
     "914": {
-        "name": "Avatar #914",
+        "name": "Digger #914",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pGkHrJL146QgVYorR1RwTu8K6PUYX9SrRmAWN_2ZiMs",
         "attributes": [
@@ -46629,7 +46629,7 @@ const metadata = {
         ]
     },
     "915": {
-        "name": "Avatar #915",
+        "name": "Digger #915",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BuSDKz6G0QhqikOo_00iYdfo9L1fMVwAaa33tVmbxbs",
         "attributes": [
@@ -46680,7 +46680,7 @@ const metadata = {
         ]
     },
     "916": {
-        "name": "Avatar #916",
+        "name": "Digger #916",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RQj50DZt4k_ROjkS2PDoaGlz4tn6yVygZXJpPS-YSqo",
         "attributes": [
@@ -46731,7 +46731,7 @@ const metadata = {
         ]
     },
     "917": {
-        "name": "Avatar #917",
+        "name": "Digger #917",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/emmeZliWsihVNgHDK1I-4Bv8IoVNUoDLKc4CHhoqm4k",
         "attributes": [
@@ -46782,7 +46782,7 @@ const metadata = {
         ]
     },
     "918": {
-        "name": "Avatar #918",
+        "name": "Digger #918",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/niAKvTRUoO34xYPHYEHoWu_sDaqqUGkB4EZVsFJKZqc",
         "attributes": [
@@ -46833,7 +46833,7 @@ const metadata = {
         ]
     },
     "919": {
-        "name": "Avatar #919",
+        "name": "Digger #919",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tjSMYlKScjwNNVHPwMz8fh4M3aSyQBxnymrDN5m-jS0",
         "attributes": [
@@ -46884,7 +46884,7 @@ const metadata = {
         ]
     },
     "920": {
-        "name": "Avatar #920",
+        "name": "Digger #920",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1WxD5gPV3lMO2Z2n04HtuKUjhjkhPPsTN9Q2EsIQecg",
         "attributes": [
@@ -46935,7 +46935,7 @@ const metadata = {
         ]
     },
     "921": {
-        "name": "Avatar #921",
+        "name": "Digger #921",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aaJAZtj6M8e1qPJ_pOHSyDOYYj1EAuBUqW6ZRyqtahg",
         "attributes": [
@@ -46986,7 +46986,7 @@ const metadata = {
         ]
     },
     "922": {
-        "name": "Avatar #922",
+        "name": "Digger #922",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/a6pmoRSptMVUfIpED0286JT-RbVosMVrQKzIDWJLwTo",
         "attributes": [
@@ -47037,7 +47037,7 @@ const metadata = {
         ]
     },
     "923": {
-        "name": "Avatar #923",
+        "name": "Digger #923",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HBHvIvosIcd1247yYTg-9ZTULDzE8XPqUo2nQiX1ol8",
         "attributes": [
@@ -47088,7 +47088,7 @@ const metadata = {
         ]
     },
     "924": {
-        "name": "Avatar #924",
+        "name": "Digger #924",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/q9agr52Qc0HDjgU06ybZMU5rnO0zyMm7DIpl2NI-ACw",
         "attributes": [
@@ -47139,7 +47139,7 @@ const metadata = {
         ]
     },
     "925": {
-        "name": "Avatar #925",
+        "name": "Digger #925",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PduxEjkPHGvf4oWxSHZceHthL7PCitT3Nc-f1mowBw0",
         "attributes": [
@@ -47190,7 +47190,7 @@ const metadata = {
         ]
     },
     "926": {
-        "name": "Avatar #926",
+        "name": "Digger #926",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wHZcasCwno9yxyXVfyTCb2jCrMjcg1EP_5ht73vWxzw",
         "attributes": [
@@ -47241,7 +47241,7 @@ const metadata = {
         ]
     },
     "927": {
-        "name": "Avatar #927",
+        "name": "Digger #927",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nimX4xvHHQSyvyV40jVQJWDvVfn1Rfr1WoSq8LHCHkc",
         "attributes": [
@@ -47292,7 +47292,7 @@ const metadata = {
         ]
     },
     "928": {
-        "name": "Avatar #928",
+        "name": "Digger #928",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SsUrtA7ofcW0f6wLHU0kwtHI7z0nXuPQsEZqhc0rnjM",
         "attributes": [
@@ -47343,7 +47343,7 @@ const metadata = {
         ]
     },
     "929": {
-        "name": "Avatar #929",
+        "name": "Digger #929",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dV4g_TslR4Sw5yiIztsVXrn7GL8l5O18dbL97BFN1S8",
         "attributes": [
@@ -47394,7 +47394,7 @@ const metadata = {
         ]
     },
     "930": {
-        "name": "Avatar #930",
+        "name": "Digger #930",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/q89Yo8xWqIZr4kWixqp53TnXD0gN294LmpC2Hnjy4hE",
         "attributes": [
@@ -47445,7 +47445,7 @@ const metadata = {
         ]
     },
     "931": {
-        "name": "Avatar #931",
+        "name": "Digger #931",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/f0_bVGURNjdiRSCkTB7NZ1oS7_MP6iU0v5WtSQi-7NM",
         "attributes": [
@@ -47496,7 +47496,7 @@ const metadata = {
         ]
     },
     "932": {
-        "name": "Avatar #932",
+        "name": "Digger #932",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GeCS46fsWeMj06SlC7No2r_HrqVjTeKbo2oNivoZgTI",
         "attributes": [
@@ -47547,7 +47547,7 @@ const metadata = {
         ]
     },
     "933": {
-        "name": "Avatar #933",
+        "name": "Digger #933",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PrpYwhdWvctblgW1casH9gUe3tmlrOahn3CzNaUhjmg",
         "attributes": [
@@ -47598,7 +47598,7 @@ const metadata = {
         ]
     },
     "934": {
-        "name": "Avatar #934",
+        "name": "Digger #934",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E9IjCPSn7ncte8DGnAc_FJOPa83v7BsBEcjhBYmlR4w",
         "attributes": [
@@ -47649,7 +47649,7 @@ const metadata = {
         ]
     },
     "935": {
-        "name": "Avatar #935",
+        "name": "Digger #935",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uIWHs-W4B1Fx9kYoNX3S3rH_WCS6QxVEK4AWruwVAvs",
         "attributes": [
@@ -47700,7 +47700,7 @@ const metadata = {
         ]
     },
     "936": {
-        "name": "Avatar #936",
+        "name": "Digger #936",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nxadyjwIR5gsoNpKCPN_sS1vmaUOVlONhLv_7VjRLjA",
         "attributes": [
@@ -47751,7 +47751,7 @@ const metadata = {
         ]
     },
     "937": {
-        "name": "Avatar #937",
+        "name": "Digger #937",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lr7OEknz2TkXp7PimvYJQH9lab95tz2hZR4Cm5V0BHE",
         "attributes": [
@@ -47802,7 +47802,7 @@ const metadata = {
         ]
     },
     "938": {
-        "name": "Avatar #938",
+        "name": "Digger #938",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JuHicxcMn13Kn94yIzxhivkquiCyijshh794O1vu-b0",
         "attributes": [
@@ -47853,7 +47853,7 @@ const metadata = {
         ]
     },
     "939": {
-        "name": "Avatar #939",
+        "name": "Digger #939",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YHBgIzejHm_JokzOAXinSQz2b0Wm7MfciDOHBFrKy0Q",
         "attributes": [
@@ -47904,7 +47904,7 @@ const metadata = {
         ]
     },
     "940": {
-        "name": "Avatar #940",
+        "name": "Digger #940",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jvmRPM1_2x6jS3zIRs9MbzZj2Ls0NjJWCYweZoErOv8",
         "attributes": [
@@ -47955,7 +47955,7 @@ const metadata = {
         ]
     },
     "941": {
-        "name": "Avatar #941",
+        "name": "Digger #941",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/s8R7OPyEtvb2DoAug_Uj4Rix6ssBhsJ3MusTShy-xFk",
         "attributes": [
@@ -48006,7 +48006,7 @@ const metadata = {
         ]
     },
     "942": {
-        "name": "Avatar #942",
+        "name": "Digger #942",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7owtk7xCPQWpZ8L5LAOlz14GHyFUmES2rS4wARPlfKY",
         "attributes": [
@@ -48057,7 +48057,7 @@ const metadata = {
         ]
     },
     "943": {
-        "name": "Avatar #943",
+        "name": "Digger #943",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-X7V2WTnd_bHXuF_JMxOAJShQdlH_q7i8FQdKc6Rtho",
         "attributes": [
@@ -48108,7 +48108,7 @@ const metadata = {
         ]
     },
     "944": {
-        "name": "Avatar #944",
+        "name": "Digger #944",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lTBtx6Tebn65EoPwJKhYgV8WJ1caE6JYXfHd4QPjQMY",
         "attributes": [
@@ -48159,7 +48159,7 @@ const metadata = {
         ]
     },
     "945": {
-        "name": "Avatar #945",
+        "name": "Digger #945",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NtBbhgJS0etqWXnEuN4_q7DvHHTTCz1Mxk3lzNInZo8",
         "attributes": [
@@ -48210,7 +48210,7 @@ const metadata = {
         ]
     },
     "946": {
-        "name": "Avatar #946",
+        "name": "Digger #946",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YO3JsQG72pzI6Jlzco1yBVcARENk-ZaNUQWyHfVi31Q",
         "attributes": [
@@ -48261,7 +48261,7 @@ const metadata = {
         ]
     },
     "947": {
-        "name": "Avatar #947",
+        "name": "Digger #947",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F0GSHMIzelsDrPFuwMvh8MRbnwsQmDZ8dScwk77V7ug",
         "attributes": [
@@ -48312,7 +48312,7 @@ const metadata = {
         ]
     },
     "948": {
-        "name": "Avatar #948",
+        "name": "Digger #948",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cxA4noTZq9D4vvWyqXlK4fnRWK8-VxKjJmrnakXFTq0",
         "attributes": [
@@ -48363,7 +48363,7 @@ const metadata = {
         ]
     },
     "949": {
-        "name": "Avatar #949",
+        "name": "Digger #949",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eJuxFbPyEqlu2ovYCL1wdC0hmVOSlwoOuXs6Azn9oGs",
         "attributes": [
@@ -48414,7 +48414,7 @@ const metadata = {
         ]
     },
     "950": {
-        "name": "Avatar #950",
+        "name": "Digger #950",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BQlTnGqL4qEx2pF6yiyYGFG9gjx4aSboSExDEHvOXkc",
         "attributes": [
@@ -48465,7 +48465,7 @@ const metadata = {
         ]
     },
     "951": {
-        "name": "Avatar #951",
+        "name": "Digger #951",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8e_BXnisrrxz6pp7uQp5EDosFtTQn9RtJHAsr66zyoI",
         "attributes": [
@@ -48516,7 +48516,7 @@ const metadata = {
         ]
     },
     "952": {
-        "name": "Avatar #952",
+        "name": "Digger #952",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Q-Ui9oBusuJTorNZXJShCpouUOgyddJwwtrv98Vx1x0",
         "attributes": [
@@ -48567,7 +48567,7 @@ const metadata = {
         ]
     },
     "953": {
-        "name": "Avatar #953",
+        "name": "Digger #953",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Hnxuvtcd-ujmmpJF728SL0r_zTG_O2OmGEGX81cfjww",
         "attributes": [
@@ -48618,7 +48618,7 @@ const metadata = {
         ]
     },
     "954": {
-        "name": "Avatar #954",
+        "name": "Digger #954",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/RWQsqG7mwjiWp4UYB2XK32k8X7odA4c9hlj86wIFecQ",
         "attributes": [
@@ -48669,7 +48669,7 @@ const metadata = {
         ]
     },
     "955": {
-        "name": "Avatar #955",
+        "name": "Digger #955",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/g28DCkGZlKWAX0NDVXZzRX14ct1mT-mEQVBUQ_yPHcs",
         "attributes": [
@@ -48720,7 +48720,7 @@ const metadata = {
         ]
     },
     "956": {
-        "name": "Avatar #956",
+        "name": "Digger #956",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-5sinnjkrP9RpXM0IIKe3oR6kf7lcfD1xFYJzcd4C98",
         "attributes": [
@@ -48771,7 +48771,7 @@ const metadata = {
         ]
     },
     "957": {
-        "name": "Avatar #957",
+        "name": "Digger #957",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2FwbSCI5r7XNOYuchZ2CgXekqrJkTxioqS-d0zMQMcU",
         "attributes": [
@@ -48822,7 +48822,7 @@ const metadata = {
         ]
     },
     "958": {
-        "name": "Avatar #958",
+        "name": "Digger #958",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mG7Ois8TZ9hFmCsBJig1oFiTiUWSGZYrhLj4epikYOY",
         "attributes": [
@@ -48873,7 +48873,7 @@ const metadata = {
         ]
     },
     "959": {
-        "name": "Avatar #959",
+        "name": "Digger #959",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/l-Ni3D4IWJnx-POX6pWQNiwKKExBC35Y6BcoYY_cehs",
         "attributes": [
@@ -48924,7 +48924,7 @@ const metadata = {
         ]
     },
     "960": {
-        "name": "Avatar #960",
+        "name": "Digger #960",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JA-fGk3MZJWE1XdWyTlcc4gWdCgb14_60-5hpNEZ6lw",
         "attributes": [
@@ -48975,7 +48975,7 @@ const metadata = {
         ]
     },
     "961": {
-        "name": "Avatar #961",
+        "name": "Digger #961",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/V8SfcLgfpXDHgV_t5tvTTss_q3ySlZxtbmBiR-hZmJ0",
         "attributes": [
@@ -49026,7 +49026,7 @@ const metadata = {
         ]
     },
     "962": {
-        "name": "Avatar #962",
+        "name": "Digger #962",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ja0ic1Zbgt8941aCHRLjPHqUoOlOF_MRFFjdOIpmwp4",
         "attributes": [
@@ -49077,7 +49077,7 @@ const metadata = {
         ]
     },
     "963": {
-        "name": "Avatar #963",
+        "name": "Digger #963",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/73lFVMQ1CoACDwH9Dle4eAWEOcRsSN9OChJhHagxzE4",
         "attributes": [
@@ -49128,7 +49128,7 @@ const metadata = {
         ]
     },
     "964": {
-        "name": "Avatar #964",
+        "name": "Digger #964",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aoiT2_Fm4fXvE-HMgo-rLRgWKtMlV3iRXaBSmJZsVOU",
         "attributes": [
@@ -49179,7 +49179,7 @@ const metadata = {
         ]
     },
     "965": {
-        "name": "Avatar #965",
+        "name": "Digger #965",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ib6Z7LOHfT9Sl_6H1IPJ83CoTJBe7OQbJfkiW0kpLgY",
         "attributes": [
@@ -49230,7 +49230,7 @@ const metadata = {
         ]
     },
     "966": {
-        "name": "Avatar #966",
+        "name": "Digger #966",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HWzd2oInv0rQ9vsbbC2GAFKcKw7TA726XHTIqpPo17I",
         "attributes": [
@@ -49281,7 +49281,7 @@ const metadata = {
         ]
     },
     "967": {
-        "name": "Avatar #967",
+        "name": "Digger #967",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nZZ5arCo64_x3ECkV00j3SPeFHx5l7Khb02k0_oNsJM",
         "attributes": [
@@ -49332,7 +49332,7 @@ const metadata = {
         ]
     },
     "968": {
-        "name": "Avatar #968",
+        "name": "Digger #968",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iS3MR3QqCHFTgie2waozdWLr7tZGwpkRQ_u9hts_VqU",
         "attributes": [
@@ -49383,7 +49383,7 @@ const metadata = {
         ]
     },
     "969": {
-        "name": "Avatar #969",
+        "name": "Digger #969",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vQC2mGbHFPcffrVJfOR1e45SPC6NWgLrJpld_ID6vZQ",
         "attributes": [
@@ -49434,7 +49434,7 @@ const metadata = {
         ]
     },
     "970": {
-        "name": "Avatar #970",
+        "name": "Digger #970",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/q41lWURuvK7ir2_zaJdWrH5mEAA_5Ze3jPon4lAlKaE",
         "attributes": [
@@ -49485,7 +49485,7 @@ const metadata = {
         ]
     },
     "971": {
-        "name": "Avatar #971",
+        "name": "Digger #971",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Z9Xyc9a7trz2mNtEENZ3z6mkINXH20c_eVrlBxycPHw",
         "attributes": [
@@ -49536,7 +49536,7 @@ const metadata = {
         ]
     },
     "972": {
-        "name": "Avatar #972",
+        "name": "Digger #972",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fLV464T4Xii4OreRhD2V8eQVMN9EOPX9WN1yBjxmjkQ",
         "attributes": [
@@ -49587,7 +49587,7 @@ const metadata = {
         ]
     },
     "973": {
-        "name": "Avatar #973",
+        "name": "Digger #973",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4HV1unBeJDuL_gqsn948zy4u6lY_nRx6EYImV-GAe2o",
         "attributes": [
@@ -49638,7 +49638,7 @@ const metadata = {
         ]
     },
     "974": {
-        "name": "Avatar #974",
+        "name": "Digger #974",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/81Jjlt4xiD68uRIMZVj61UZiHdQzePYi6nwu7CPhV4A",
         "attributes": [
@@ -49689,7 +49689,7 @@ const metadata = {
         ]
     },
     "975": {
-        "name": "Avatar #975",
+        "name": "Digger #975",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7A_RQeZQr2UMC58ZXG0tF_IfuqnXyNuexeJ3eeKh0Qk",
         "attributes": [
@@ -49740,7 +49740,7 @@ const metadata = {
         ]
     },
     "976": {
-        "name": "Avatar #976",
+        "name": "Digger #976",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2iI1pPJ1LnyVK0eaOqRrTnDVuDv1wZs-GtU5Y-VPw-4",
         "attributes": [
@@ -49791,7 +49791,7 @@ const metadata = {
         ]
     },
     "977": {
-        "name": "Avatar #977",
+        "name": "Digger #977",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tZ_e1B6QZEY4QGKtNuaV87W6tsm7WAFVXYi0cwJ6bu4",
         "attributes": [
@@ -49842,7 +49842,7 @@ const metadata = {
         ]
     },
     "978": {
-        "name": "Avatar #978",
+        "name": "Digger #978",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EOBwEAxHqVdj7Amw1vNXjG4bv3NrOY0VKhwgT3TDBVk",
         "attributes": [
@@ -49893,7 +49893,7 @@ const metadata = {
         ]
     },
     "979": {
-        "name": "Avatar #979",
+        "name": "Digger #979",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JkGZIF2WCGAnl0mM_wbYSslfLrRHx33Tl0YPq-HQF0A",
         "attributes": [
@@ -49944,7 +49944,7 @@ const metadata = {
         ]
     },
     "980": {
-        "name": "Avatar #980",
+        "name": "Digger #980",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uzzzpxTU7uZurG73bZilvN8kzYzdQoshikxJ6C6-ro4",
         "attributes": [
@@ -49995,7 +49995,7 @@ const metadata = {
         ]
     },
     "981": {
-        "name": "Avatar #981",
+        "name": "Digger #981",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/inYYA-r4F0hFrq0zbGFEALYLXRt-Cy92I1PgIwsa2vQ",
         "attributes": [
@@ -50046,7 +50046,7 @@ const metadata = {
         ]
     },
     "982": {
-        "name": "Avatar #982",
+        "name": "Digger #982",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zjSXmDOE9gac-vxHlXTaSRZ_WQoAI-HrmZDYIz80Knk",
         "attributes": [
@@ -50097,7 +50097,7 @@ const metadata = {
         ]
     },
     "983": {
-        "name": "Avatar #983",
+        "name": "Digger #983",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/beXfG-pBxHD5hAIkAp3vAHJcg99rhFLd3Nf8jqhI4Bo",
         "attributes": [
@@ -50148,7 +50148,7 @@ const metadata = {
         ]
     },
     "984": {
-        "name": "Avatar #984",
+        "name": "Digger #984",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bv0ocmv_DPTYMGKNUoiHNnYoTdCSzl6FlQ43QVTS8uQ",
         "attributes": [
@@ -50199,7 +50199,7 @@ const metadata = {
         ]
     },
     "985": {
-        "name": "Avatar #985",
+        "name": "Digger #985",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0ZVjK9OEUI-Qo2B0yhL4MkOvgYv4H0pArlRM0slElzo",
         "attributes": [
@@ -50250,7 +50250,7 @@ const metadata = {
         ]
     },
     "986": {
-        "name": "Avatar #986",
+        "name": "Digger #986",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gB-P9ZS8y--KR-F0jUiUeyGxJqtUYe7JF4rVyEtQfyE",
         "attributes": [
@@ -50301,7 +50301,7 @@ const metadata = {
         ]
     },
     "987": {
-        "name": "Avatar #987",
+        "name": "Digger #987",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BY2FwSy2789XDkZDHtZYtC_Ol0xXKmpTHcZ6htx9_vo",
         "attributes": [
@@ -50352,7 +50352,7 @@ const metadata = {
         ]
     },
     "988": {
-        "name": "Avatar #988",
+        "name": "Digger #988",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8Gu8HBEFu9LG9dNMNmIcGHc8olSagMxJ_8BrJxDFDp8",
         "attributes": [
@@ -50403,7 +50403,7 @@ const metadata = {
         ]
     },
     "989": {
-        "name": "Avatar #989",
+        "name": "Digger #989",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/18zuVBz5COjqFeyPaDtjRDBrdQpwJ4IUCzY_22m80RY",
         "attributes": [
@@ -50454,7 +50454,7 @@ const metadata = {
         ]
     },
     "990": {
-        "name": "Avatar #990",
+        "name": "Digger #990",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aKlCSQ3aDo1B3dzEMMzcKVaA_Q1dbNWFmW37YD9F3EA",
         "attributes": [
@@ -50505,7 +50505,7 @@ const metadata = {
         ]
     },
     "991": {
-        "name": "Avatar #991",
+        "name": "Digger #991",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dALwvPyJ4afHP6n-q6Wip9G-6ljtT4xNK5E4KsKAc3E",
         "attributes": [
@@ -50556,7 +50556,7 @@ const metadata = {
         ]
     },
     "992": {
-        "name": "Avatar #992",
+        "name": "Digger #992",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-XCzGaQWfG94qZLJUzICiGffQHosUv1z-7WmiUXxxkM",
         "attributes": [
@@ -50607,7 +50607,7 @@ const metadata = {
         ]
     },
     "993": {
-        "name": "Avatar #993",
+        "name": "Digger #993",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sSWB43daxOEWs5bn-hPeGE2bZuwf5B8qRiC7mNWjZJA",
         "attributes": [
@@ -50658,7 +50658,7 @@ const metadata = {
         ]
     },
     "994": {
-        "name": "Avatar #994",
+        "name": "Digger #994",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VmR9ZlKfIj-uFJEctL2CnIfPn2gD0yCHzTiY9NjVd5c",
         "attributes": [
@@ -50709,7 +50709,7 @@ const metadata = {
         ]
     },
     "995": {
-        "name": "Avatar #995",
+        "name": "Digger #995",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FIrHmbLYuN7oDGxbdZjCfUHsZ99Cq6wK1cJtAg5Bn0w",
         "attributes": [
@@ -50760,7 +50760,7 @@ const metadata = {
         ]
     },
     "996": {
-        "name": "Avatar #996",
+        "name": "Digger #996",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DXU7zcdWde5u-_lQOmDOXBfjFQkXQ_igLz8OIHnzq8g",
         "attributes": [
@@ -50811,7 +50811,7 @@ const metadata = {
         ]
     },
     "997": {
-        "name": "Avatar #997",
+        "name": "Digger #997",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UuWVIdg5MfHtFppBz8xOgrlJWYfPCF795vw7z5NXSQY",
         "attributes": [
@@ -50862,7 +50862,7 @@ const metadata = {
         ]
     },
     "998": {
-        "name": "Avatar #998",
+        "name": "Digger #998",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NUg3A8ovK_gQfF_PWnvD0ssIlKTnMya4uZrJZilHfs4",
         "attributes": [
@@ -50913,7 +50913,7 @@ const metadata = {
         ]
     },
     "999": {
-        "name": "Avatar #999",
+        "name": "Digger #999",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vbE9fOhwQ5P0vpdB19nRBd9HgJgo-W1NHDIkiUTmcVE",
         "attributes": [
@@ -50964,7 +50964,7 @@ const metadata = {
         ]
     },
     "1000": {
-        "name": "Avatar #1000",
+        "name": "Digger #1000",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_km9mE3QWzORwsALLKvEw91fYsw0R4uLxjJiGWUCE2Y",
         "attributes": [
@@ -51015,7 +51015,7 @@ const metadata = {
         ]
     },
     "1001": {
-        "name": "Avatar #1001",
+        "name": "Digger #1001",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wDWp1mD6MCXNc4Ei1k9NcCv3JpXqHiGJ1yXMHhoxlxo",
         "attributes": [
@@ -51066,7 +51066,7 @@ const metadata = {
         ]
     },
     "1002": {
-        "name": "Avatar #1002",
+        "name": "Digger #1002",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/O2uZM9xw-5XmStSFKyvbLPquXu8PEW-WTD9-vlRhK_E",
         "attributes": [
@@ -51117,7 +51117,7 @@ const metadata = {
         ]
     },
     "1003": {
-        "name": "Avatar #1003",
+        "name": "Digger #1003",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/27UrtUta1CZQbaF5yB4E8W5LJRrcl-lARuxq0eyouLs",
         "attributes": [
@@ -51168,7 +51168,7 @@ const metadata = {
         ]
     },
     "1004": {
-        "name": "Avatar #1004",
+        "name": "Digger #1004",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z0ExkdPWj1mmBEkQIKwPoqef494y5WSlVgsRtcKHxS0",
         "attributes": [
@@ -51219,7 +51219,7 @@ const metadata = {
         ]
     },
     "1005": {
-        "name": "Avatar #1005",
+        "name": "Digger #1005",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jnGGIAzQ7a7GWoJiW407-VCSq_gtzmBGB-rVRpAaOJc",
         "attributes": [
@@ -51270,7 +51270,7 @@ const metadata = {
         ]
     },
     "1006": {
-        "name": "Avatar #1006",
+        "name": "Digger #1006",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ffi9y4hdUNawJlrfN8nb49qUPN4bxykOWmJMEtoquFE",
         "attributes": [
@@ -51321,7 +51321,7 @@ const metadata = {
         ]
     },
     "1007": {
-        "name": "Avatar #1007",
+        "name": "Digger #1007",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TTrNz3eHy5o5oe0Wo4CiB5c0Kd4_c9J2_d6GvjpTXOo",
         "attributes": [
@@ -51372,7 +51372,7 @@ const metadata = {
         ]
     },
     "1008": {
-        "name": "Avatar #1008",
+        "name": "Digger #1008",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3XKRPpJiQ35I_wwJduPTS_z0e3udWfoesNFdh72J0Mo",
         "attributes": [
@@ -51423,7 +51423,7 @@ const metadata = {
         ]
     },
     "1009": {
-        "name": "Avatar #1009",
+        "name": "Digger #1009",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Z6ROytvxUSYvVu712vB7xncu9PF7O5EBpXBRxyjpk74",
         "attributes": [
@@ -51474,7 +51474,7 @@ const metadata = {
         ]
     },
     "1010": {
-        "name": "Avatar #1010",
+        "name": "Digger #1010",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BkQHuSmL-FFBXfi12blZhX6y_ssm5n03t4z3O-mSdXc",
         "attributes": [
@@ -51520,12 +51520,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1011": {
-        "name": "Avatar #1011",
+        "name": "Digger #1011",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oezhcme6aSD69bprbR-xNAJAisqcKcsxichKW6oo_gY",
         "attributes": [
@@ -51576,7 +51576,7 @@ const metadata = {
         ]
     },
     "1012": {
-        "name": "Avatar #1012",
+        "name": "Digger #1012",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZjeKEUuiq3Jbg9dyp9OZpBtTU3KV5mT7CT2yKgn-tq4",
         "attributes": [
@@ -51627,7 +51627,7 @@ const metadata = {
         ]
     },
     "1013": {
-        "name": "Avatar #1013",
+        "name": "Digger #1013",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yreN41YNTq0g3v6lk4T1GK6yKq_8XHPDQb9JxbmxUxw",
         "attributes": [
@@ -51678,7 +51678,7 @@ const metadata = {
         ]
     },
     "1014": {
-        "name": "Avatar #1014",
+        "name": "Digger #1014",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mo1gWEcXSwwrlabciMu2qYcRh7W17ZHZh4lGFnJuPWg",
         "attributes": [
@@ -51729,7 +51729,7 @@ const metadata = {
         ]
     },
     "1015": {
-        "name": "Avatar #1015",
+        "name": "Digger #1015",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aI8u4ckae3pbylvklCx7Eshpf5z7Bcw1xiStQbdtxUY",
         "attributes": [
@@ -51780,7 +51780,7 @@ const metadata = {
         ]
     },
     "1016": {
-        "name": "Avatar #1016",
+        "name": "Digger #1016",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wl60fKj6tE8T9-3uqQM-x9_eje5ggy7JjfPqbdOAFJc",
         "attributes": [
@@ -51831,7 +51831,7 @@ const metadata = {
         ]
     },
     "1017": {
-        "name": "Avatar #1017",
+        "name": "Digger #1017",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8Dr0cFOXtkmnA5Ka0iUnKVITHGwEuRKOvLrg7vddnk0",
         "attributes": [
@@ -51882,7 +51882,7 @@ const metadata = {
         ]
     },
     "1018": {
-        "name": "Avatar #1018",
+        "name": "Digger #1018",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MlBnVHSUFfErIh_55y5yy26d465FJSVN4GZ4fEwiIAY",
         "attributes": [
@@ -51933,7 +51933,7 @@ const metadata = {
         ]
     },
     "1019": {
-        "name": "Avatar #1019",
+        "name": "Digger #1019",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Mi4Dk1XptHObt1iN8J98U-x9zofqGa1zKX-rONce66I",
         "attributes": [
@@ -51984,7 +51984,7 @@ const metadata = {
         ]
     },
     "1020": {
-        "name": "Avatar #1020",
+        "name": "Digger #1020",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NRYH2MVT5CQUH58MW41tzI5teUKsZbBFBRX9otcEzPk",
         "attributes": [
@@ -52035,7 +52035,7 @@ const metadata = {
         ]
     },
     "1021": {
-        "name": "Avatar #1021",
+        "name": "Digger #1021",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eh5DZ79BwkbsyF6HQwDlCoO2xf8bxqXjRC7CpSSdeek",
         "attributes": [
@@ -52086,7 +52086,7 @@ const metadata = {
         ]
     },
     "1022": {
-        "name": "Avatar #1022",
+        "name": "Digger #1022",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gM_IXRtc7enQ3JhlFIEXdMvaYdc3hEbSqNPAFQF0PyU",
         "attributes": [
@@ -52137,7 +52137,7 @@ const metadata = {
         ]
     },
     "1023": {
-        "name": "Avatar #1023",
+        "name": "Digger #1023",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PwpT0U24ZjvJjO7Ib87NdY6PSa9gY-oHdwQv6dSig-M",
         "attributes": [
@@ -52188,7 +52188,7 @@ const metadata = {
         ]
     },
     "1024": {
-        "name": "Avatar #1024",
+        "name": "Digger #1024",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iTbLzxMUQ9A8SO9Teyx1VqQI9VksAOExY3ktq_bCWoI",
         "attributes": [
@@ -52239,7 +52239,7 @@ const metadata = {
         ]
     },
     "1025": {
-        "name": "Avatar #1025",
+        "name": "Digger #1025",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/t6MH2SMjlihtBUsLnlI1TcHB1M4zmmQUofiYnhGwun0",
         "attributes": [
@@ -52290,7 +52290,7 @@ const metadata = {
         ]
     },
     "1026": {
-        "name": "Avatar #1026",
+        "name": "Digger #1026",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hc1qUOIOh8fjTpx48HmQqLeXysKhf_WB-JjL8zePvi0",
         "attributes": [
@@ -52341,7 +52341,7 @@ const metadata = {
         ]
     },
     "1027": {
-        "name": "Avatar #1027",
+        "name": "Digger #1027",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dmelxYImF5Xq7_PuDkagRj4e1Xp0vVJF4C45QgxGEYA",
         "attributes": [
@@ -52387,12 +52387,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1028": {
-        "name": "Avatar #1028",
+        "name": "Digger #1028",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qLGMRJC_qsJuvd3FQkx3x3D6cdazSEEp22Z9ROVA9ks",
         "attributes": [
@@ -52443,7 +52443,7 @@ const metadata = {
         ]
     },
     "1029": {
-        "name": "Avatar #1029",
+        "name": "Digger #1029",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zMfzbyg42OQkXZmu4yUfoukMZsiLdM4rv_jR3d1t4Ks",
         "attributes": [
@@ -52494,7 +52494,7 @@ const metadata = {
         ]
     },
     "1030": {
-        "name": "Avatar #1030",
+        "name": "Digger #1030",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tWNWg9IANwbfZM8OIc6-gne0NG4YSMiVciQKmC98R4g",
         "attributes": [
@@ -52545,7 +52545,7 @@ const metadata = {
         ]
     },
     "1031": {
-        "name": "Avatar #1031",
+        "name": "Digger #1031",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/X_Ww5K-CnmEytn3FEAg4Kx8VqAFaDYiKTZ7XzdwfEdY",
         "attributes": [
@@ -52591,12 +52591,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1032": {
-        "name": "Avatar #1032",
+        "name": "Digger #1032",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B43FJi9AKwXu5RxhQaSwuCdvJLNZcEZcWnViEUP1HFg",
         "attributes": [
@@ -52647,7 +52647,7 @@ const metadata = {
         ]
     },
     "1033": {
-        "name": "Avatar #1033",
+        "name": "Digger #1033",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CsFwttp3OmY1m8QW_oofoSYB6-UTnqhXP__tNB-h6EE",
         "attributes": [
@@ -52698,7 +52698,7 @@ const metadata = {
         ]
     },
     "1034": {
-        "name": "Avatar #1034",
+        "name": "Digger #1034",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ijevM-P2vJd-jHbYG04FIZzSB3kEYdHyvsVz9zdn948",
         "attributes": [
@@ -52749,7 +52749,7 @@ const metadata = {
         ]
     },
     "1035": {
-        "name": "Avatar #1035",
+        "name": "Digger #1035",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lb2qv1JhiMShJDEMUCrt5f8GvrdwfuMSWfzFbplALjc",
         "attributes": [
@@ -52800,7 +52800,7 @@ const metadata = {
         ]
     },
     "1036": {
-        "name": "Avatar #1036",
+        "name": "Digger #1036",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/51NC2ZiKyTpLvFGAkWwzi81scVp1hG7TWRcAu6u-4ZA",
         "attributes": [
@@ -52851,7 +52851,7 @@ const metadata = {
         ]
     },
     "1037": {
-        "name": "Avatar #1037",
+        "name": "Digger #1037",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3E48O3sFB1oW1kFM5xdaugkRQQTbXSV9H1m2AooJkTI",
         "attributes": [
@@ -52902,7 +52902,7 @@ const metadata = {
         ]
     },
     "1038": {
-        "name": "Avatar #1038",
+        "name": "Digger #1038",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5FiYEeVLk31JsJHQSU01DKnt5qjakP2HpfgCuiG2Jf8",
         "attributes": [
@@ -52953,7 +52953,7 @@ const metadata = {
         ]
     },
     "1039": {
-        "name": "Avatar #1039",
+        "name": "Digger #1039",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-tou9QCCMk8-vQY52G7JQrI-xqBwBZcbYIBQ37JdFSM",
         "attributes": [
@@ -53004,7 +53004,7 @@ const metadata = {
         ]
     },
     "1040": {
-        "name": "Avatar #1040",
+        "name": "Digger #1040",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ehvuIKs7hGgIKlxN8l8d70OAjWfSSKAoW-Mpe9FLuxk",
         "attributes": [
@@ -53055,7 +53055,7 @@ const metadata = {
         ]
     },
     "1041": {
-        "name": "Avatar #1041",
+        "name": "Digger #1041",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZSg2p17o8OuXqr0tw46xfBo-ehAk9NauREbPPXIuSSU",
         "attributes": [
@@ -53106,7 +53106,7 @@ const metadata = {
         ]
     },
     "1042": {
-        "name": "Avatar #1042",
+        "name": "Digger #1042",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R9bju7mPj4K-rjJFKK4fy5Kh7eBUVJ2Z7pFuMa1nltw",
         "attributes": [
@@ -53157,7 +53157,7 @@ const metadata = {
         ]
     },
     "1043": {
-        "name": "Avatar #1043",
+        "name": "Digger #1043",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DQDWg3tnYKWmOw22A_Jc0-fPNFTwIDzE29u-h1aUSEQ",
         "attributes": [
@@ -53208,7 +53208,7 @@ const metadata = {
         ]
     },
     "1044": {
-        "name": "Avatar #1044",
+        "name": "Digger #1044",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dHzfcHJKcg3UFqiyZGOhyC1V2MMKuRIjXVqfEWWtSy4",
         "attributes": [
@@ -53259,7 +53259,7 @@ const metadata = {
         ]
     },
     "1045": {
-        "name": "Avatar #1045",
+        "name": "Digger #1045",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mCxLu4NI2z32PXsJhxT2xUPdmfM8UeN4l_bqPQGO0tk",
         "attributes": [
@@ -53310,7 +53310,7 @@ const metadata = {
         ]
     },
     "1046": {
-        "name": "Avatar #1046",
+        "name": "Digger #1046",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Nx5fbJhDmDIYbb2YP1uWeEpa7jZNkSSKKUT5UPSTPug",
         "attributes": [
@@ -53361,7 +53361,7 @@ const metadata = {
         ]
     },
     "1047": {
-        "name": "Avatar #1047",
+        "name": "Digger #1047",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AU_zWBb1c6QSoyJNX42UXH0FeSMAUsuPZvhdyguh00U",
         "attributes": [
@@ -53412,7 +53412,7 @@ const metadata = {
         ]
     },
     "1048": {
-        "name": "Avatar #1048",
+        "name": "Digger #1048",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZrA7XfvmkEnIG4FvEH8AeJUtRg4QY7EOXGyIZ3zcHbc",
         "attributes": [
@@ -53463,7 +53463,7 @@ const metadata = {
         ]
     },
     "1049": {
-        "name": "Avatar #1049",
+        "name": "Digger #1049",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DCT7PmiMRvM_Q9cOwgXZwozWkdd3er2sANuW6ODqAVQ",
         "attributes": [
@@ -53514,7 +53514,7 @@ const metadata = {
         ]
     },
     "1050": {
-        "name": "Avatar #1050",
+        "name": "Digger #1050",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_3bix2q7xNY01wNA4XMIysiv0pN5nCk7tY3TSnmxq4E",
         "attributes": [
@@ -53565,7 +53565,7 @@ const metadata = {
         ]
     },
     "1051": {
-        "name": "Avatar #1051",
+        "name": "Digger #1051",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LS6xJggM1cAzGxlWkIIeXoUF9BW3wou2App-NDD-Lt0",
         "attributes": [
@@ -53616,7 +53616,7 @@ const metadata = {
         ]
     },
     "1052": {
-        "name": "Avatar #1052",
+        "name": "Digger #1052",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AhLKYwTweOcvgKzAQklKHo0A7rllImJ0Or8193hC6qI",
         "attributes": [
@@ -53667,7 +53667,7 @@ const metadata = {
         ]
     },
     "1053": {
-        "name": "Avatar #1053",
+        "name": "Digger #1053",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BdgRADZA3ShwNlDJvoy1N8h9PmuqvqacfwQA2Elq5rc",
         "attributes": [
@@ -53718,7 +53718,7 @@ const metadata = {
         ]
     },
     "1054": {
-        "name": "Avatar #1054",
+        "name": "Digger #1054",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fjuJP-H_dJJNhCfrgixaoe3Y9faRAK6CVxrP8HGA8a8",
         "attributes": [
@@ -53769,7 +53769,7 @@ const metadata = {
         ]
     },
     "1055": {
-        "name": "Avatar #1055",
+        "name": "Digger #1055",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SNz28MdQmR9hLD3IksWOu3_9TDSIPCW2rkSn2Wm2IyQ",
         "attributes": [
@@ -53820,7 +53820,7 @@ const metadata = {
         ]
     },
     "1056": {
-        "name": "Avatar #1056",
+        "name": "Digger #1056",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7j63kxtTMBCP2d6jhUS7bZhjtzNaXtD32mK26DIHTkQ",
         "attributes": [
@@ -53871,7 +53871,7 @@ const metadata = {
         ]
     },
     "1057": {
-        "name": "Avatar #1057",
+        "name": "Digger #1057",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Oh-CmD0dCZJEw3CZSqxrigrE8g0z2XLEZfYVPMja8wU",
         "attributes": [
@@ -53922,7 +53922,7 @@ const metadata = {
         ]
     },
     "1058": {
-        "name": "Avatar #1058",
+        "name": "Digger #1058",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ldch3izYFaQQybOkb9oIu8ykJWaMLAEuWipB6QxlRoo",
         "attributes": [
@@ -53973,7 +53973,7 @@ const metadata = {
         ]
     },
     "1059": {
-        "name": "Avatar #1059",
+        "name": "Digger #1059",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pptoCC1L5Fvd51gIWW_YC3GjzWDmVE1sQJxPRT6BNZM",
         "attributes": [
@@ -54024,7 +54024,7 @@ const metadata = {
         ]
     },
     "1060": {
-        "name": "Avatar #1060",
+        "name": "Digger #1060",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bbvPuVD11A3rs0M-zoV8uYdkDMGB2n8cceSH1I13AJU",
         "attributes": [
@@ -54075,7 +54075,7 @@ const metadata = {
         ]
     },
     "1061": {
-        "name": "Avatar #1061",
+        "name": "Digger #1061",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-sGSNba-bB4MjfgATXU_YJ36VcIukaIYoT_R6-049Ac",
         "attributes": [
@@ -54126,7 +54126,7 @@ const metadata = {
         ]
     },
     "1062": {
-        "name": "Avatar #1062",
+        "name": "Digger #1062",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/I_MFS5iQ-q3cn_76acVnctQ2LA_VPGvbNZjWOT-d9G8",
         "attributes": [
@@ -54177,7 +54177,7 @@ const metadata = {
         ]
     },
     "1063": {
-        "name": "Avatar #1063",
+        "name": "Digger #1063",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mPAKaEazj4HuRKUay2FoGtyGH6m1VRYZXGsdw7iFwPc",
         "attributes": [
@@ -54228,7 +54228,7 @@ const metadata = {
         ]
     },
     "1064": {
-        "name": "Avatar #1064",
+        "name": "Digger #1064",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-aF2n9KBOsr2oeZu7And5RLkWmSFfpkqBsUS05-Bof4",
         "attributes": [
@@ -54279,7 +54279,7 @@ const metadata = {
         ]
     },
     "1065": {
-        "name": "Avatar #1065",
+        "name": "Digger #1065",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Bpc3zm6KUlyMFjNhR18op8p3_5VstT-7MNZeFzbcT90",
         "attributes": [
@@ -54330,7 +54330,7 @@ const metadata = {
         ]
     },
     "1066": {
-        "name": "Avatar #1066",
+        "name": "Digger #1066",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1HgegxPUQGAZw5B-CEI70iLqq7L5veJ3tt8869CdrIU",
         "attributes": [
@@ -54381,7 +54381,7 @@ const metadata = {
         ]
     },
     "1067": {
-        "name": "Avatar #1067",
+        "name": "Digger #1067",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/86JMwQ9kkYSWVh2ITqEF1XUHehB6jO3HgXf8rYlfnJc",
         "attributes": [
@@ -54432,7 +54432,7 @@ const metadata = {
         ]
     },
     "1068": {
-        "name": "Avatar #1068",
+        "name": "Digger #1068",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9fpqtzxoX7Ceqjb-sjY5hhF4COrrGoVgpW2Rv4iYr7c",
         "attributes": [
@@ -54483,7 +54483,7 @@ const metadata = {
         ]
     },
     "1069": {
-        "name": "Avatar #1069",
+        "name": "Digger #1069",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EzQSxY3kgZtXC5MUi0DTLrYHrmM3xSUsSgWV-BR7WK8",
         "attributes": [
@@ -54534,7 +54534,7 @@ const metadata = {
         ]
     },
     "1070": {
-        "name": "Avatar #1070",
+        "name": "Digger #1070",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R75sHeoMd49Z1YH83hf59EMos3vGiZJ6MPZ4AEwHOwk",
         "attributes": [
@@ -54585,7 +54585,7 @@ const metadata = {
         ]
     },
     "1071": {
-        "name": "Avatar #1071",
+        "name": "Digger #1071",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TWUV1jIyqyu1HBCgdJL8GFb33fGqTRq5gND8QQ-Nefg",
         "attributes": [
@@ -54636,7 +54636,7 @@ const metadata = {
         ]
     },
     "1072": {
-        "name": "Avatar #1072",
+        "name": "Digger #1072",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/edQ5uiHKTw95ufYp67TtFV1fBDabCHN59SG-jvlHzfY",
         "attributes": [
@@ -54687,7 +54687,7 @@ const metadata = {
         ]
     },
     "1073": {
-        "name": "Avatar #1073",
+        "name": "Digger #1073",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TjYTfwyoShc0PkKeMc6qM-5BPd51s0bwAZTEqHAktFY",
         "attributes": [
@@ -54738,7 +54738,7 @@ const metadata = {
         ]
     },
     "1074": {
-        "name": "Avatar #1074",
+        "name": "Digger #1074",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oeGAmeazJK7il9tjOlLrIKGLbh3S3ptdf7BPZ3pbXPU",
         "attributes": [
@@ -54789,7 +54789,7 @@ const metadata = {
         ]
     },
     "1075": {
-        "name": "Avatar #1075",
+        "name": "Digger #1075",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Dd4D--J-4rd-Q5g8zcDRqJh_lkkeTsyavUPZ5RtvWCc",
         "attributes": [
@@ -54840,7 +54840,7 @@ const metadata = {
         ]
     },
     "1076": {
-        "name": "Avatar #1076",
+        "name": "Digger #1076",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VOKYsmu3JiOzSlpAFVIzIFQCHVkE_xytPYK7tHTvf5Y",
         "attributes": [
@@ -54891,7 +54891,7 @@ const metadata = {
         ]
     },
     "1077": {
-        "name": "Avatar #1077",
+        "name": "Digger #1077",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZViK1TLfvVyBkrHMPzXaOyOZu0HoV54fQRpgowfvmik",
         "attributes": [
@@ -54942,7 +54942,7 @@ const metadata = {
         ]
     },
     "1078": {
-        "name": "Avatar #1078",
+        "name": "Digger #1078",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Elp9si0YhhmZVl5Ayw3urAHE0FegmDwGG-nhl9Os0VQ",
         "attributes": [
@@ -54993,7 +54993,7 @@ const metadata = {
         ]
     },
     "1079": {
-        "name": "Avatar #1079",
+        "name": "Digger #1079",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5m05qPzEeFMN_4xAPWGR7DmryWc8KB1rfXPe0UfYEQc",
         "attributes": [
@@ -55044,7 +55044,7 @@ const metadata = {
         ]
     },
     "1080": {
-        "name": "Avatar #1080",
+        "name": "Digger #1080",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/I7c_Q0_Afo4yGC218mJcxVwrrCWLEGpjZG4e4hoWPXU",
         "attributes": [
@@ -55095,7 +55095,7 @@ const metadata = {
         ]
     },
     "1081": {
-        "name": "Avatar #1081",
+        "name": "Digger #1081",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kKjoKbyN98u9yyVWmvl95sSAfY9gSC3SMk70mNuWjrg",
         "attributes": [
@@ -55146,7 +55146,7 @@ const metadata = {
         ]
     },
     "1082": {
-        "name": "Avatar #1082",
+        "name": "Digger #1082",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KdhkLVsIOfq9r3kKi0_jJGNoMgBq9RDR4kY0g4YvKqs",
         "attributes": [
@@ -55197,7 +55197,7 @@ const metadata = {
         ]
     },
     "1083": {
-        "name": "Avatar #1083",
+        "name": "Digger #1083",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TTNIh1J4Aku7-6L0U7D5VgzDdYn5G8EvYfwuzwsPi2Y",
         "attributes": [
@@ -55248,7 +55248,7 @@ const metadata = {
         ]
     },
     "1084": {
-        "name": "Avatar #1084",
+        "name": "Digger #1084",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KX6Llg8BQak1b97dpL7Da6bWUMbbEBWpR3DJdnuJdvA",
         "attributes": [
@@ -55299,7 +55299,7 @@ const metadata = {
         ]
     },
     "1085": {
-        "name": "Avatar #1085",
+        "name": "Digger #1085",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YveROzPcSID1Z3nOH_xHqQRs9CbwWj7bnUrcre3zupU",
         "attributes": [
@@ -55345,12 +55345,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1086": {
-        "name": "Avatar #1086",
+        "name": "Digger #1086",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-hWAmupZ0dCS_IOKM8gEEH9Md03PSVElQhLkT-0yHWU",
         "attributes": [
@@ -55401,7 +55401,7 @@ const metadata = {
         ]
     },
     "1087": {
-        "name": "Avatar #1087",
+        "name": "Digger #1087",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cevKL-CX0AdD9CALexd1dBF3uTwL5Fwb7Y3BhKj5r-s",
         "attributes": [
@@ -55447,12 +55447,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1088": {
-        "name": "Avatar #1088",
+        "name": "Digger #1088",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wsUrxnkkAVn5KPlQ2KVgC15pcJRNOHgGsp1BauSjaFM",
         "attributes": [
@@ -55503,7 +55503,7 @@ const metadata = {
         ]
     },
     "1089": {
-        "name": "Avatar #1089",
+        "name": "Digger #1089",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tLbg7-J90yx8tzQBb-jm9-EcstFAHjf6W7l4kaw7-dw",
         "attributes": [
@@ -55554,7 +55554,7 @@ const metadata = {
         ]
     },
     "1090": {
-        "name": "Avatar #1090",
+        "name": "Digger #1090",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XDbJ2b4dvV8UPJDLTGpHZR627LKvJzaTEZLO5mjb4X4",
         "attributes": [
@@ -55605,7 +55605,7 @@ const metadata = {
         ]
     },
     "1091": {
-        "name": "Avatar #1091",
+        "name": "Digger #1091",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PzKhZUl89JcDzrgIhUGLdl6h7efP9TkMOkBZHD6yaco",
         "attributes": [
@@ -55656,7 +55656,7 @@ const metadata = {
         ]
     },
     "1092": {
-        "name": "Avatar #1092",
+        "name": "Digger #1092",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Unb45YJ9aetsfD_f48p-XWvgXLnmli8Lj0CDL4vWGEk",
         "attributes": [
@@ -55707,7 +55707,7 @@ const metadata = {
         ]
     },
     "1093": {
-        "name": "Avatar #1093",
+        "name": "Digger #1093",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lPAVyhyV0prlpG5Nsb51ihpAOO7lL4DzJYjMN1k9fi0",
         "attributes": [
@@ -55758,7 +55758,7 @@ const metadata = {
         ]
     },
     "1094": {
-        "name": "Avatar #1094",
+        "name": "Digger #1094",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JMLeMC2dCQzH5b2t54_1yCxrn8rbMy98i2tpxrArPK0",
         "attributes": [
@@ -55809,7 +55809,7 @@ const metadata = {
         ]
     },
     "1095": {
-        "name": "Avatar #1095",
+        "name": "Digger #1095",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4B4syTAL_RGayEGakNgxQt8sZjPQ9AZzpesvLt5S_4w",
         "attributes": [
@@ -55860,7 +55860,7 @@ const metadata = {
         ]
     },
     "1096": {
-        "name": "Avatar #1096",
+        "name": "Digger #1096",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Kqgkx9pbu7k61Ri9Lw4cDK6ZOglmAt_T5gtsbtfHwSQ",
         "attributes": [
@@ -55911,7 +55911,7 @@ const metadata = {
         ]
     },
     "1097": {
-        "name": "Avatar #1097",
+        "name": "Digger #1097",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FH_wgd6IUdFAXs6cLE7FNyoMH6u2Er_Hh8wO5_Pwqcw",
         "attributes": [
@@ -55962,7 +55962,7 @@ const metadata = {
         ]
     },
     "1098": {
-        "name": "Avatar #1098",
+        "name": "Digger #1098",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rEuC5IxqQ4ypLECguEM8BoMJTDeuIq3oeI-GH840qxU",
         "attributes": [
@@ -56013,7 +56013,7 @@ const metadata = {
         ]
     },
     "1099": {
-        "name": "Avatar #1099",
+        "name": "Digger #1099",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TXJgtw3K9GNVa2PXTzXoBX_4ofBJp1okZQ0-xMTv2jc",
         "attributes": [
@@ -56064,7 +56064,7 @@ const metadata = {
         ]
     },
     "1100": {
-        "name": "Avatar #1100",
+        "name": "Digger #1100",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cXBMVw83huV8rOxHuGKQu1aPYyKTUCXDwjn0nARLtVM",
         "attributes": [
@@ -56115,7 +56115,7 @@ const metadata = {
         ]
     },
     "1101": {
-        "name": "Avatar #1101",
+        "name": "Digger #1101",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/DlQ8k3SWCCmd-XKB2KSox3bVks7cOUoFDV6R2XSu8AI",
         "attributes": [
@@ -56166,7 +56166,7 @@ const metadata = {
         ]
     },
     "1102": {
-        "name": "Avatar #1102",
+        "name": "Digger #1102",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/guNedhIZ-bma3H77wsisMRQ4qk3xtMTjKwY--XtxRKI",
         "attributes": [
@@ -56217,7 +56217,7 @@ const metadata = {
         ]
     },
     "1103": {
-        "name": "Avatar #1103",
+        "name": "Digger #1103",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gO-UZjmMAz5JNQp4zqx36OLmJMyi7uymUsnpnSDCPso",
         "attributes": [
@@ -56268,7 +56268,7 @@ const metadata = {
         ]
     },
     "1104": {
-        "name": "Avatar #1104",
+        "name": "Digger #1104",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5QSku8OwmKXEcFoMLm4uzoM6ZVER8PYv_nFwBLq9U50",
         "attributes": [
@@ -56319,7 +56319,7 @@ const metadata = {
         ]
     },
     "1105": {
-        "name": "Avatar #1105",
+        "name": "Digger #1105",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yCIVeE9qOZ-5_O3g_7zNo5Jyx-jsruwmwQz0SLzUuDI",
         "attributes": [
@@ -56370,7 +56370,7 @@ const metadata = {
         ]
     },
     "1106": {
-        "name": "Avatar #1106",
+        "name": "Digger #1106",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XNFyEIvyq3L8y6N9knmgBFyscYh-bHJuLcG4xXWOBls",
         "attributes": [
@@ -56421,7 +56421,7 @@ const metadata = {
         ]
     },
     "1107": {
-        "name": "Avatar #1107",
+        "name": "Digger #1107",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4ULnUR1wE2JIAbBxdg7VOwYiHOQjDPy9luJaPRvLiXM",
         "attributes": [
@@ -56472,7 +56472,7 @@ const metadata = {
         ]
     },
     "1108": {
-        "name": "Avatar #1108",
+        "name": "Digger #1108",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/d-aJf_Xut8mgZlkIOw1p9Mdhj4Iog4MCkMXe93r_yng",
         "attributes": [
@@ -56523,7 +56523,7 @@ const metadata = {
         ]
     },
     "1109": {
-        "name": "Avatar #1109",
+        "name": "Digger #1109",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/N1lkBeIetUauZNBLnruEX9T7h6dMzSog0nERXr8y0iA",
         "attributes": [
@@ -56574,7 +56574,7 @@ const metadata = {
         ]
     },
     "1110": {
-        "name": "Avatar #1110",
+        "name": "Digger #1110",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9TaFfqt9dOy8XoAuh7CQToSbGKpefSOyUROmE6RPrS0",
         "attributes": [
@@ -56625,7 +56625,7 @@ const metadata = {
         ]
     },
     "1111": {
-        "name": "Avatar #1111",
+        "name": "Digger #1111",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9-XarSJUnaGYIBBh6KyTF3qNxlBmYg50aVcaZyu8lm8",
         "attributes": [
@@ -56676,7 +56676,7 @@ const metadata = {
         ]
     },
     "1112": {
-        "name": "Avatar #1112",
+        "name": "Digger #1112",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bR63ZJtEbfEFGqmlp-WluyMHCAlvdyGmaFjbs4X1NJ4",
         "attributes": [
@@ -56727,7 +56727,7 @@ const metadata = {
         ]
     },
     "1113": {
-        "name": "Avatar #1113",
+        "name": "Digger #1113",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/JuKq3gsjN6Q4J9qnELcoIdjPalS5qjAILAAt3MV3rYw",
         "attributes": [
@@ -56778,7 +56778,7 @@ const metadata = {
         ]
     },
     "1114": {
-        "name": "Avatar #1114",
+        "name": "Digger #1114",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/w3YdE7fy_rjE-ZnH75QsexbGgnlv44ns2sjpc0HnTJM",
         "attributes": [
@@ -56829,7 +56829,7 @@ const metadata = {
         ]
     },
     "1115": {
-        "name": "Avatar #1115",
+        "name": "Digger #1115",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wLWRY-2IdpTVRaCOo7HN2RSQoAROFLFv0g2DsaegvH8",
         "attributes": [
@@ -56875,12 +56875,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1116": {
-        "name": "Avatar #1116",
+        "name": "Digger #1116",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h1CBHVtg64uD17c_Gfa25tpkDr14v8cXXNKyXspcfqI",
         "attributes": [
@@ -56931,7 +56931,7 @@ const metadata = {
         ]
     },
     "1117": {
-        "name": "Avatar #1117",
+        "name": "Digger #1117",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0YsVBIx_dPYgCQSboUqzG5HlNqOlRhV6VIjauwVRkNU",
         "attributes": [
@@ -56982,7 +56982,7 @@ const metadata = {
         ]
     },
     "1118": {
-        "name": "Avatar #1118",
+        "name": "Digger #1118",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0J3k_ueBkXS_0sTkelxGFrypXSWvxWThw4EZyulxUCw",
         "attributes": [
@@ -57033,7 +57033,7 @@ const metadata = {
         ]
     },
     "1119": {
-        "name": "Avatar #1119",
+        "name": "Digger #1119",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LEf4JBpvG6R0obvbAfJvDT4eMvELbrok8M2JLnp_a6A",
         "attributes": [
@@ -57084,7 +57084,7 @@ const metadata = {
         ]
     },
     "1120": {
-        "name": "Avatar #1120",
+        "name": "Digger #1120",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/APWKRBmzI-5ri_DTM44eJZuuu5tX1UfBxof6njamo4E",
         "attributes": [
@@ -57130,12 +57130,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1121": {
-        "name": "Avatar #1121",
+        "name": "Digger #1121",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Um9nG9K5LeNcT3rTFACqBq1Z1BB-XrCKgufW37cE8U0",
         "attributes": [
@@ -57186,7 +57186,7 @@ const metadata = {
         ]
     },
     "1122": {
-        "name": "Avatar #1122",
+        "name": "Digger #1122",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3N0_MtfRLvQC9kQZnjhl6XlPLJIP1PRzoVmD-_5ZJWA",
         "attributes": [
@@ -57237,7 +57237,7 @@ const metadata = {
         ]
     },
     "1123": {
-        "name": "Avatar #1123",
+        "name": "Digger #1123",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/C8_lBc54GteolUwlT7cGndGgZxNX93uyq7EQemjcK44",
         "attributes": [
@@ -57288,7 +57288,7 @@ const metadata = {
         ]
     },
     "1124": {
-        "name": "Avatar #1124",
+        "name": "Digger #1124",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/i1JXUFGofmm7593nbJf97OYgMLT_3B-2_MXtOqF8MXc",
         "attributes": [
@@ -57339,7 +57339,7 @@ const metadata = {
         ]
     },
     "1125": {
-        "name": "Avatar #1125",
+        "name": "Digger #1125",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/THTo-ikRjmZECmbjmHylEIUO4xabAcPQLZUFvLx2LBA",
         "attributes": [
@@ -57390,7 +57390,7 @@ const metadata = {
         ]
     },
     "1126": {
-        "name": "Avatar #1126",
+        "name": "Digger #1126",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7FWmc8uOgeLe20r3oqvKMbfzx4iLtCdFiCretyNNu38",
         "attributes": [
@@ -57441,7 +57441,7 @@ const metadata = {
         ]
     },
     "1127": {
-        "name": "Avatar #1127",
+        "name": "Digger #1127",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SB3X7nBiN8qaOnAkLFNXtCMmyuM5D3b4WQ0QHOza1ro",
         "attributes": [
@@ -57492,7 +57492,7 @@ const metadata = {
         ]
     },
     "1128": {
-        "name": "Avatar #1128",
+        "name": "Digger #1128",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pu_UzFtZUm6xM9DtuegRgufFf1BC-zb5uNhznwQwz5M",
         "attributes": [
@@ -57543,7 +57543,7 @@ const metadata = {
         ]
     },
     "1129": {
-        "name": "Avatar #1129",
+        "name": "Digger #1129",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wbAh6JWjUxmgO1rgrEza8qOjhqaN03-e2n0h_R3z_0Y",
         "attributes": [
@@ -57594,7 +57594,7 @@ const metadata = {
         ]
     },
     "1130": {
-        "name": "Avatar #1130",
+        "name": "Digger #1130",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dQi2BBoRkuKSj8ORcWir_dL6NwKuyg5RnZu06SyUK7k",
         "attributes": [
@@ -57645,7 +57645,7 @@ const metadata = {
         ]
     },
     "1131": {
-        "name": "Avatar #1131",
+        "name": "Digger #1131",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/a0BXsZYCVMHn5XnOXw9vfvOUU3dopmhNNxMTlcJ1EDU",
         "attributes": [
@@ -57696,7 +57696,7 @@ const metadata = {
         ]
     },
     "1132": {
-        "name": "Avatar #1132",
+        "name": "Digger #1132",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kG7MdlSA19ISfsrIERzSroXA2tzysnVMHzYEcpCm7h0",
         "attributes": [
@@ -57747,7 +57747,7 @@ const metadata = {
         ]
     },
     "1133": {
-        "name": "Avatar #1133",
+        "name": "Digger #1133",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/L40iwPFir9zBpYaL-jegbZY0uo7zCr8yBtoZaWBYgqo",
         "attributes": [
@@ -57798,7 +57798,7 @@ const metadata = {
         ]
     },
     "1134": {
-        "name": "Avatar #1134",
+        "name": "Digger #1134",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WHfSbF-GpJoh6al1WhYNZXX4dF5iXvY5iIOiexJxeIo",
         "attributes": [
@@ -57849,7 +57849,7 @@ const metadata = {
         ]
     },
     "1135": {
-        "name": "Avatar #1135",
+        "name": "Digger #1135",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PLxLRq3OdN0qKSHoxwjsg33y_1xj1Cdo6QbfOW4qHfk",
         "attributes": [
@@ -57900,7 +57900,7 @@ const metadata = {
         ]
     },
     "1136": {
-        "name": "Avatar #1136",
+        "name": "Digger #1136",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bMmlAbyksW1FWSpGH__x4zst6oc0LEkJoDa3Utd2GL8",
         "attributes": [
@@ -57951,7 +57951,7 @@ const metadata = {
         ]
     },
     "1137": {
-        "name": "Avatar #1137",
+        "name": "Digger #1137",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yS6G9F0tc-LLGe83Kpd1jo5hnoax0Nujuusd7Lk12Z0",
         "attributes": [
@@ -58002,7 +58002,7 @@ const metadata = {
         ]
     },
     "1138": {
-        "name": "Avatar #1138",
+        "name": "Digger #1138",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Uig_WSn_VPl6XwHDwGm2RvzVV1Ca5fJ44PxuYKejpMc",
         "attributes": [
@@ -58053,7 +58053,7 @@ const metadata = {
         ]
     },
     "1139": {
-        "name": "Avatar #1139",
+        "name": "Digger #1139",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/AoaO95iYLkw4YcnS8sIjK7a8vFSdcg-DWXyfwPM16E0",
         "attributes": [
@@ -58104,7 +58104,7 @@ const metadata = {
         ]
     },
     "1140": {
-        "name": "Avatar #1140",
+        "name": "Digger #1140",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oTZzT102sfCZ7Xnp5voRWdHqwelXANpYQy_szkSmKO4",
         "attributes": [
@@ -58155,7 +58155,7 @@ const metadata = {
         ]
     },
     "1141": {
-        "name": "Avatar #1141",
+        "name": "Digger #1141",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/45gaUHC2IhjeamCaO_YURC46WC9jHg-OhIBh1oEib6g",
         "attributes": [
@@ -58206,7 +58206,7 @@ const metadata = {
         ]
     },
     "1142": {
-        "name": "Avatar #1142",
+        "name": "Digger #1142",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FVMWuDF9qzkbn-JNfdNHkPDkX4sMrkf8U-6q25kMuSQ",
         "attributes": [
@@ -58252,12 +58252,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1143": {
-        "name": "Avatar #1143",
+        "name": "Digger #1143",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/MZ4GGnA1xeu-6TEJFiA0ipmCcqq5BHbE2Gom19gpLAE",
         "attributes": [
@@ -58308,7 +58308,7 @@ const metadata = {
         ]
     },
     "1144": {
-        "name": "Avatar #1144",
+        "name": "Digger #1144",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/gPcE2VO0Ri5UsLnNQ0BmQcqc_EcdwZH3lBdh-CsRUl8",
         "attributes": [
@@ -58359,7 +58359,7 @@ const metadata = {
         ]
     },
     "1145": {
-        "name": "Avatar #1145",
+        "name": "Digger #1145",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5FAXs8cbhiBxb2TqmuyTpwX3kBX6QfP6kppeQbKJHR8",
         "attributes": [
@@ -58410,7 +58410,7 @@ const metadata = {
         ]
     },
     "1146": {
-        "name": "Avatar #1146",
+        "name": "Digger #1146",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/b5xAGuUVPePH24xFEksqW7oi73Mp00ba13LeqVtKBKM",
         "attributes": [
@@ -58461,7 +58461,7 @@ const metadata = {
         ]
     },
     "1147": {
-        "name": "Avatar #1147",
+        "name": "Digger #1147",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1QXMIsX8xj6L4BGrV7KfM4xBpe_i9UoiTkF821BRioU",
         "attributes": [
@@ -58512,7 +58512,7 @@ const metadata = {
         ]
     },
     "1148": {
-        "name": "Avatar #1148",
+        "name": "Digger #1148",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ACV3OPx03iYr-VpnK8pCh8O2vec4kMHCpLRfSGzdVQk",
         "attributes": [
@@ -58563,7 +58563,7 @@ const metadata = {
         ]
     },
     "1149": {
-        "name": "Avatar #1149",
+        "name": "Digger #1149",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p3B5j62l9N97BzEwoauxtKs89HBYwG_Qsw21_owSDjw",
         "attributes": [
@@ -58614,7 +58614,7 @@ const metadata = {
         ]
     },
     "1150": {
-        "name": "Avatar #1150",
+        "name": "Digger #1150",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FA9amEdPY6XOP_S5tnwVbr--P4v9aS89stcqvsNbmPs",
         "attributes": [
@@ -58665,7 +58665,7 @@ const metadata = {
         ]
     },
     "1151": {
-        "name": "Avatar #1151",
+        "name": "Digger #1151",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/h9RNHX7olOMaSCv2qhHI7gSWnlddFrGtjF0IAMVL66o",
         "attributes": [
@@ -58716,7 +58716,7 @@ const metadata = {
         ]
     },
     "1152": {
-        "name": "Avatar #1152",
+        "name": "Digger #1152",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eZAykU1Zan066G70TSTrQgXXNxW96zz152_ZYCEpouw",
         "attributes": [
@@ -58767,7 +58767,7 @@ const metadata = {
         ]
     },
     "1153": {
-        "name": "Avatar #1153",
+        "name": "Digger #1153",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5hhIT0S1Rgca5mOtA0CeGJxMn0R3LQ7guz4Hl6O9pdY",
         "attributes": [
@@ -58818,7 +58818,7 @@ const metadata = {
         ]
     },
     "1154": {
-        "name": "Avatar #1154",
+        "name": "Digger #1154",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eVNSgTpAehkTI6fK_-rfstkoH2WdmGGuD35su1m_Ucw",
         "attributes": [
@@ -58869,7 +58869,7 @@ const metadata = {
         ]
     },
     "1155": {
-        "name": "Avatar #1155",
+        "name": "Digger #1155",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/mPdAVEqsx1GxrROUdgaTOH8RU7N6nDLE3kY1APf875g",
         "attributes": [
@@ -58920,7 +58920,7 @@ const metadata = {
         ]
     },
     "1156": {
-        "name": "Avatar #1156",
+        "name": "Digger #1156",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6BnfpY4kKfMY0aCoetr3hFGeyd0_BSzNE_JzhUePh9M",
         "attributes": [
@@ -58971,7 +58971,7 @@ const metadata = {
         ]
     },
     "1157": {
-        "name": "Avatar #1157",
+        "name": "Digger #1157",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VATuDcdEhyxLsaK5_12saFYOwEcfap_0gr4kz2MYAIE",
         "attributes": [
@@ -59022,7 +59022,7 @@ const metadata = {
         ]
     },
     "1158": {
-        "name": "Avatar #1158",
+        "name": "Digger #1158",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/auqt47r1IM0frqMMXS0_tggK4P5kXGQ1OmSSOhtyan0",
         "attributes": [
@@ -59073,7 +59073,7 @@ const metadata = {
         ]
     },
     "1159": {
-        "name": "Avatar #1159",
+        "name": "Digger #1159",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/QX_aYEDivrvMHC2hr-9nKF7EttLmztvuk2nxTo12b98",
         "attributes": [
@@ -59124,7 +59124,7 @@ const metadata = {
         ]
     },
     "1160": {
-        "name": "Avatar #1160",
+        "name": "Digger #1160",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zi0seFhGBhhddmoUWCZZg_ZCGcBQ6pdUjG-36zrmpsA",
         "attributes": [
@@ -59175,7 +59175,7 @@ const metadata = {
         ]
     },
     "1161": {
-        "name": "Avatar #1161",
+        "name": "Digger #1161",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/zSS3JnXFzTz4FYbWW6NqFdyBW6vo1x9_PIw6Bv3sBQY",
         "attributes": [
@@ -59226,7 +59226,7 @@ const metadata = {
         ]
     },
     "1162": {
-        "name": "Avatar #1162",
+        "name": "Digger #1162",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EgN-ExNBuLByGMVuNsevNR0-qo2AOvapPJj-ldiXSyw",
         "attributes": [
@@ -59277,7 +59277,7 @@ const metadata = {
         ]
     },
     "1163": {
-        "name": "Avatar #1163",
+        "name": "Digger #1163",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FhqBe4N7Ugml-5CdK5wEta4bEmTxGVfR_rP6IF-zUAQ",
         "attributes": [
@@ -59328,7 +59328,7 @@ const metadata = {
         ]
     },
     "1164": {
-        "name": "Avatar #1164",
+        "name": "Digger #1164",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ESyEFKvg5AzA97vdPhKPyOtJwCQ9B6r2F_zkEosaJkA",
         "attributes": [
@@ -59379,7 +59379,7 @@ const metadata = {
         ]
     },
     "1165": {
-        "name": "Avatar #1165",
+        "name": "Digger #1165",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j0ICkHJso6XdUN90cUasDqih-Ok3HvAcY9_s1cYfUVY",
         "attributes": [
@@ -59430,7 +59430,7 @@ const metadata = {
         ]
     },
     "1166": {
-        "name": "Avatar #1166",
+        "name": "Digger #1166",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rIUV3GsENm8uNYSkw5tmTUnw2julsfGB_JTcKUUYjBY",
         "attributes": [
@@ -59481,7 +59481,7 @@ const metadata = {
         ]
     },
     "1167": {
-        "name": "Avatar #1167",
+        "name": "Digger #1167",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/liErmcMD9I0A1Oz_evtJUId_mbU8zmhnio7DPhe2774",
         "attributes": [
@@ -59532,7 +59532,7 @@ const metadata = {
         ]
     },
     "1168": {
-        "name": "Avatar #1168",
+        "name": "Digger #1168",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sikLW0oktG0JnnVRdPQXkexuqsL8L3nsEP0SAX59ZgM",
         "attributes": [
@@ -59583,7 +59583,7 @@ const metadata = {
         ]
     },
     "1169": {
-        "name": "Avatar #1169",
+        "name": "Digger #1169",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/iXw-zDuJGkYX_T7TAcn6QI2Q1Xiy6KrNt77wceZWzFw",
         "attributes": [
@@ -59634,7 +59634,7 @@ const metadata = {
         ]
     },
     "1170": {
-        "name": "Avatar #1170",
+        "name": "Digger #1170",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/efPTHdueLasttHeZxJ0PVFxT43CpKbVAqSWxodc2ceY",
         "attributes": [
@@ -59685,7 +59685,7 @@ const metadata = {
         ]
     },
     "1171": {
-        "name": "Avatar #1171",
+        "name": "Digger #1171",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vxwRUn7BhAbE0JxAXnds-0ZaMgggAX0lw90GSMTgHX0",
         "attributes": [
@@ -59736,7 +59736,7 @@ const metadata = {
         ]
     },
     "1172": {
-        "name": "Avatar #1172",
+        "name": "Digger #1172",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Bs8ruAM4hn40UL5Na-eFFVXqUSm748BbXGKpSXOnwmk",
         "attributes": [
@@ -59787,7 +59787,7 @@ const metadata = {
         ]
     },
     "1173": {
-        "name": "Avatar #1173",
+        "name": "Digger #1173",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/amv6Uh518mKllP1znBjocjbiiPvvv_7ca0ovvzXjuSM",
         "attributes": [
@@ -59838,7 +59838,7 @@ const metadata = {
         ]
     },
     "1174": {
-        "name": "Avatar #1174",
+        "name": "Digger #1174",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qgKlSxw2BXSdxeZ-gTUqmifN1SmGGB36gIw1IXSLKZY",
         "attributes": [
@@ -59889,7 +59889,7 @@ const metadata = {
         ]
     },
     "1175": {
-        "name": "Avatar #1175",
+        "name": "Digger #1175",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nST-h3XlAAOKzJxKACiRLQOWrZeN7njIdz3PC14pyow",
         "attributes": [
@@ -59940,7 +59940,7 @@ const metadata = {
         ]
     },
     "1176": {
-        "name": "Avatar #1176",
+        "name": "Digger #1176",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YdSEhRk9nQ2o6s8-si6I9POH6yRNOOOar6EZYE4qfV0",
         "attributes": [
@@ -59991,7 +59991,7 @@ const metadata = {
         ]
     },
     "1177": {
-        "name": "Avatar #1177",
+        "name": "Digger #1177",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IfKMuRD53GOYgguQiuRttuyfrxA15nLUOVEvj41TW9M",
         "attributes": [
@@ -60042,7 +60042,7 @@ const metadata = {
         ]
     },
     "1178": {
-        "name": "Avatar #1178",
+        "name": "Digger #1178",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FJWScHRlk1VZWJbf2f0NWMIpheg0jlHJDZ1oBIYJLWE",
         "attributes": [
@@ -60093,7 +60093,7 @@ const metadata = {
         ]
     },
     "1179": {
-        "name": "Avatar #1179",
+        "name": "Digger #1179",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/b-0cowpODU9V0rSPR2xDZalbWEp6rGY3kE1tiActpdU",
         "attributes": [
@@ -60144,7 +60144,7 @@ const metadata = {
         ]
     },
     "1180": {
-        "name": "Avatar #1180",
+        "name": "Digger #1180",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8qRhZHh_TDAAnEA2v_1SnUJNrSLpln8h7OHFMEh7SZ8",
         "attributes": [
@@ -60195,7 +60195,7 @@ const metadata = {
         ]
     },
     "1181": {
-        "name": "Avatar #1181",
+        "name": "Digger #1181",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VJtpVDJS3QupTGljuA05IKQHtZEgitBTQuGBJ6SQgy0",
         "attributes": [
@@ -60246,7 +60246,7 @@ const metadata = {
         ]
     },
     "1182": {
-        "name": "Avatar #1182",
+        "name": "Digger #1182",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0P2TDou979EwJzqb8Du2ChIg98nUXmv5kFQQl-2WeYo",
         "attributes": [
@@ -60297,7 +60297,7 @@ const metadata = {
         ]
     },
     "1183": {
-        "name": "Avatar #1183",
+        "name": "Digger #1183",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hGoLL-0E5a8rD9ThCU_d_cFnoIH0p7zz7w7hYRRNbKw",
         "attributes": [
@@ -60348,7 +60348,7 @@ const metadata = {
         ]
     },
     "1184": {
-        "name": "Avatar #1184",
+        "name": "Digger #1184",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uD4bvYnQQg2woBCQf4MmZO2Y9kQhJ2gEujgkg-r4pBY",
         "attributes": [
@@ -60394,12 +60394,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1185": {
-        "name": "Avatar #1185",
+        "name": "Digger #1185",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rFfqBNIwlWeu4bPrUNW1BtcowRp0kOGaZP7sphX9nHY",
         "attributes": [
@@ -60450,7 +60450,7 @@ const metadata = {
         ]
     },
     "1186": {
-        "name": "Avatar #1186",
+        "name": "Digger #1186",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oyoJ3mJqsm2qYlMEx6bT9T7WkaVhrxgNtYOhAa7AJiU",
         "attributes": [
@@ -60501,7 +60501,7 @@ const metadata = {
         ]
     },
     "1187": {
-        "name": "Avatar #1187",
+        "name": "Digger #1187",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/g67Ho-0f3fe5pePz7wxoKYiTjlKHulkAyBNuC0hesr0",
         "attributes": [
@@ -60552,7 +60552,7 @@ const metadata = {
         ]
     },
     "1188": {
-        "name": "Avatar #1188",
+        "name": "Digger #1188",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/earnUmcNd1Ag64QKyEdXiX4TWiT_Ay8JwWJgADCFGH8",
         "attributes": [
@@ -60603,7 +60603,7 @@ const metadata = {
         ]
     },
     "1189": {
-        "name": "Avatar #1189",
+        "name": "Digger #1189",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-C8fuI67mfd1Tyz_CqFVkBHFIvykvjU4nLyxKgOxKjE",
         "attributes": [
@@ -60654,7 +60654,7 @@ const metadata = {
         ]
     },
     "1190": {
-        "name": "Avatar #1190",
+        "name": "Digger #1190",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CXXRa8O2R-dreBrhb1JoCzzOtjTc6Mf0xW5k_ui4vSs",
         "attributes": [
@@ -60700,12 +60700,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1191": {
-        "name": "Avatar #1191",
+        "name": "Digger #1191",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/K2_JjBbku35BonB-SoIu-9Ouyu-ty8P2y4cZKMV6L6U",
         "attributes": [
@@ -60756,7 +60756,7 @@ const metadata = {
         ]
     },
     "1192": {
-        "name": "Avatar #1192",
+        "name": "Digger #1192",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1gsWNKCJrILqXdxIsD89Gwyk6pHT1pyHs2PlcCTpbg0",
         "attributes": [
@@ -60807,7 +60807,7 @@ const metadata = {
         ]
     },
     "1193": {
-        "name": "Avatar #1193",
+        "name": "Digger #1193",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KUHX_D9-H-llUFrXs4nDcQSS_Bi3G79HYoNf5NkPZl8",
         "attributes": [
@@ -60858,7 +60858,7 @@ const metadata = {
         ]
     },
     "1194": {
-        "name": "Avatar #1194",
+        "name": "Digger #1194",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZZCt3ZM0sP6eGTStjOT-fngG-Tvm5SMjBWwS8TgfGeY",
         "attributes": [
@@ -60909,7 +60909,7 @@ const metadata = {
         ]
     },
     "1195": {
-        "name": "Avatar #1195",
+        "name": "Digger #1195",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SKIqSd6RX-41A7I_-N524j3XcukTvkpobcFJl0O4zWg",
         "attributes": [
@@ -60955,12 +60955,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1196": {
-        "name": "Avatar #1196",
+        "name": "Digger #1196",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Lpnwh8l680JL-w05_dl4ZBhi8XHID8T7t4e31sKqTes",
         "attributes": [
@@ -61011,7 +61011,7 @@ const metadata = {
         ]
     },
     "1197": {
-        "name": "Avatar #1197",
+        "name": "Digger #1197",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B9w87-ALldCmJfmy0isXBp_YNpAXHO6u9DRo8v4jU3E",
         "attributes": [
@@ -61062,7 +61062,7 @@ const metadata = {
         ]
     },
     "1198": {
-        "name": "Avatar #1198",
+        "name": "Digger #1198",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/fQotvtUXCZuuCxwpTQLx1VeWlgQAMX39fTnmcm7yH3c",
         "attributes": [
@@ -61113,7 +61113,7 @@ const metadata = {
         ]
     },
     "1199": {
-        "name": "Avatar #1199",
+        "name": "Digger #1199",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7KpT8a3232yuKxssdxHocgWp6q7QoVvd0vBGxGm9Gvk",
         "attributes": [
@@ -61164,7 +61164,7 @@ const metadata = {
         ]
     },
     "1200": {
-        "name": "Avatar #1200",
+        "name": "Digger #1200",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TI_HqEHUJ8Kpfw0J0flQ84p_kLFGNIqjDeW14RC5yA8",
         "attributes": [
@@ -61215,7 +61215,7 @@ const metadata = {
         ]
     },
     "1201": {
-        "name": "Avatar #1201",
+        "name": "Digger #1201",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CWFxF0Xr4HKCQqsMmnViWKMeD62ELw_tdocv7Fd0VCE",
         "attributes": [
@@ -61266,7 +61266,7 @@ const metadata = {
         ]
     },
     "1202": {
-        "name": "Avatar #1202",
+        "name": "Digger #1202",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pzLWTA1JjwlYZSHSbJP6Vz0n6nQ4drmPyTJrCYnH5gs",
         "attributes": [
@@ -61317,7 +61317,7 @@ const metadata = {
         ]
     },
     "1203": {
-        "name": "Avatar #1203",
+        "name": "Digger #1203",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Wt9lsD2lMfjI_HpdnWo29beqZ5nXtDOZrO8ID3hk6tQ",
         "attributes": [
@@ -61368,7 +61368,7 @@ const metadata = {
         ]
     },
     "1204": {
-        "name": "Avatar #1204",
+        "name": "Digger #1204",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5SzG6MooRIS43D_WDRIvlK7E4F3q2iKZnhQ3tIvTjco",
         "attributes": [
@@ -61419,7 +61419,7 @@ const metadata = {
         ]
     },
     "1205": {
-        "name": "Avatar #1205",
+        "name": "Digger #1205",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/swWHYNPeyeZSqtXGz1WBhGqxkROnDFpYtFisxFO4yts",
         "attributes": [
@@ -61470,7 +61470,7 @@ const metadata = {
         ]
     },
     "1206": {
-        "name": "Avatar #1206",
+        "name": "Digger #1206",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4_m4VVJawNiy6YB_zsK8eV6j0V3Xl9cLtNyIDdh90hs",
         "attributes": [
@@ -61521,7 +61521,7 @@ const metadata = {
         ]
     },
     "1207": {
-        "name": "Avatar #1207",
+        "name": "Digger #1207",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Sz3wlr8uyCTwDfhWivCYhsRDNWHA2dmtdpzmXEgAzv0",
         "attributes": [
@@ -61572,7 +61572,7 @@ const metadata = {
         ]
     },
     "1208": {
-        "name": "Avatar #1208",
+        "name": "Digger #1208",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/I2cC-aakW64bJRzjYOWJX00e1Os1GK0FrIcewvXLgVc",
         "attributes": [
@@ -61623,7 +61623,7 @@ const metadata = {
         ]
     },
     "1209": {
-        "name": "Avatar #1209",
+        "name": "Digger #1209",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2R0UWieIxKAjVYrgJyNen8-JH_F1dKrTtAgtQUPAGWI",
         "attributes": [
@@ -61674,7 +61674,7 @@ const metadata = {
         ]
     },
     "1210": {
-        "name": "Avatar #1210",
+        "name": "Digger #1210",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R5dOf89OXb2vad4X-Mmir0b2OEkx6igAMEAh0W9g118",
         "attributes": [
@@ -61725,7 +61725,7 @@ const metadata = {
         ]
     },
     "1211": {
-        "name": "Avatar #1211",
+        "name": "Digger #1211",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/r-IBDpeNhpofvTuaLG_JkUmf0J-KODOu5s48vVlhxaA",
         "attributes": [
@@ -61776,7 +61776,7 @@ const metadata = {
         ]
     },
     "1212": {
-        "name": "Avatar #1212",
+        "name": "Digger #1212",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/SvXajDQwzqpMHsNfV_IAu7GI1U1Pv08iDKbIUeYU8Q4",
         "attributes": [
@@ -61827,7 +61827,7 @@ const metadata = {
         ]
     },
     "1213": {
-        "name": "Avatar #1213",
+        "name": "Digger #1213",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FgHAxwABS6bgexmt8cmfeYmyqHlm_gv6AVqVWM053Xc",
         "attributes": [
@@ -61878,7 +61878,7 @@ const metadata = {
         ]
     },
     "1214": {
-        "name": "Avatar #1214",
+        "name": "Digger #1214",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/hfgtMo11rdzJIhQTsYTfLXdIRTmGAnjK-hKLKc11e9w",
         "attributes": [
@@ -61929,7 +61929,7 @@ const metadata = {
         ]
     },
     "1215": {
-        "name": "Avatar #1215",
+        "name": "Digger #1215",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5O2HyjYrfXVcruZ0rR-cRPXqz6l4TgGFAqQT9M_KJdo",
         "attributes": [
@@ -61980,7 +61980,7 @@ const metadata = {
         ]
     },
     "1216": {
-        "name": "Avatar #1216",
+        "name": "Digger #1216",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yhevd-XrHIv0FFSwjQY-4nYFZzDqnJSlNKWuFXOIXEc",
         "attributes": [
@@ -62031,7 +62031,7 @@ const metadata = {
         ]
     },
     "1217": {
-        "name": "Avatar #1217",
+        "name": "Digger #1217",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-siTxwlMkV6N3aFOlsd-3XBmed6AkSlFWScHaV8v9HM",
         "attributes": [
@@ -62082,7 +62082,7 @@ const metadata = {
         ]
     },
     "1218": {
-        "name": "Avatar #1218",
+        "name": "Digger #1218",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ktiA1bh1F3GDDYjxTXre_7PekykXCLqRACz6Oif1Ntk",
         "attributes": [
@@ -62133,7 +62133,7 @@ const metadata = {
         ]
     },
     "1219": {
-        "name": "Avatar #1219",
+        "name": "Digger #1219",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E9XY9al9r5rry5HSsolMppFyfS4H_eGE20BGNLGE2RY",
         "attributes": [
@@ -62184,7 +62184,7 @@ const metadata = {
         ]
     },
     "1220": {
-        "name": "Avatar #1220",
+        "name": "Digger #1220",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y-HRgG1arB7ZklXqpRXlcXDF_1TQNHZ0jQBt9f17lpI",
         "attributes": [
@@ -62235,7 +62235,7 @@ const metadata = {
         ]
     },
     "1221": {
-        "name": "Avatar #1221",
+        "name": "Digger #1221",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0wf26yIoR2b0rsuTIZzgv54K42oi3ETgIZZKgHAJaWM",
         "attributes": [
@@ -62286,7 +62286,7 @@ const metadata = {
         ]
     },
     "1222": {
-        "name": "Avatar #1222",
+        "name": "Digger #1222",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BRs1ue-wzIUlCHUOPUFvjbqSU7uDPkgvXB3J7ERN3H8",
         "attributes": [
@@ -62337,7 +62337,7 @@ const metadata = {
         ]
     },
     "1223": {
-        "name": "Avatar #1223",
+        "name": "Digger #1223",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/s5kyV7KLoU5bULW7j4nsSa4ny_tEAMAMQI3WCdqtFXM",
         "attributes": [
@@ -62388,7 +62388,7 @@ const metadata = {
         ]
     },
     "1224": {
-        "name": "Avatar #1224",
+        "name": "Digger #1224",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TOxk4vgPP34xP4362qyTn1gUxPp2z3P78mTLsZPGQzw",
         "attributes": [
@@ -62439,7 +62439,7 @@ const metadata = {
         ]
     },
     "1225": {
-        "name": "Avatar #1225",
+        "name": "Digger #1225",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cLBYpmfSI2xGgup37fGzgD6HWVvQhoxmT_yrtcjvwYQ",
         "attributes": [
@@ -62490,7 +62490,7 @@ const metadata = {
         ]
     },
     "1226": {
-        "name": "Avatar #1226",
+        "name": "Digger #1226",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5PIa-LFIxS8MxHHv215CCJxa2n2N1ZOh0lYfC29eHqU",
         "attributes": [
@@ -62536,12 +62536,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1227": {
-        "name": "Avatar #1227",
+        "name": "Digger #1227",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/B72GYGNfdHjRS5gpJ0_Q2F_yxFWlVm5dH-SdgibwNt0",
         "attributes": [
@@ -62592,7 +62592,7 @@ const metadata = {
         ]
     },
     "1228": {
-        "name": "Avatar #1228",
+        "name": "Digger #1228",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-avBVS339pnYTZhbwyZj7XFmJmIlDOJpfLcyxvaW1WI",
         "attributes": [
@@ -62643,7 +62643,7 @@ const metadata = {
         ]
     },
     "1229": {
-        "name": "Avatar #1229",
+        "name": "Digger #1229",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ia6oXZoIVw4RoDGNl64TqKbuGm731G6p5WOoTYJqwOc",
         "attributes": [
@@ -62694,7 +62694,7 @@ const metadata = {
         ]
     },
     "1230": {
-        "name": "Avatar #1230",
+        "name": "Digger #1230",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Y0iCDS4NlQd2R5Ij8Wc512p3zwd6QWGC3WotZDg3-w4",
         "attributes": [
@@ -62745,7 +62745,7 @@ const metadata = {
         ]
     },
     "1231": {
-        "name": "Avatar #1231",
+        "name": "Digger #1231",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-O7PCs1uYq8EM64pv2EkprPI3HCMFAJNNBXrY1nR2t4",
         "attributes": [
@@ -62796,7 +62796,7 @@ const metadata = {
         ]
     },
     "1232": {
-        "name": "Avatar #1232",
+        "name": "Digger #1232",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KoHjmDf-VYqFshvDJxaMB8VWJCLjxRUIXX71gSwkCX8",
         "attributes": [
@@ -62847,7 +62847,7 @@ const metadata = {
         ]
     },
     "1233": {
-        "name": "Avatar #1233",
+        "name": "Digger #1233",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p5hU8EVxZtqhtAWyu4-QPzVeI9sywy6g-CK5Kyurw8E",
         "attributes": [
@@ -62898,7 +62898,7 @@ const metadata = {
         ]
     },
     "1234": {
-        "name": "Avatar #1234",
+        "name": "Digger #1234",
         "description": "A unique set of diggers.",
         "image": "",
         "attributes": [
@@ -62949,7 +62949,7 @@ const metadata = {
         ]
     },
     "1235": {
-        "name": "Avatar #1235",
+        "name": "Digger #1235",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nNPTE88URTPhYLwOzCd-r9NcpTWx7BeFvFVT1VsitBU",
         "attributes": [
@@ -63000,7 +63000,7 @@ const metadata = {
         ]
     },
     "1236": {
-        "name": "Avatar #1236",
+        "name": "Digger #1236",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IGfWWMa8EBL6Lx7M9H-er-cKcG1KfDBdFn6NLuVX8Z8",
         "attributes": [
@@ -63051,7 +63051,7 @@ const metadata = {
         ]
     },
     "1237": {
-        "name": "Avatar #1237",
+        "name": "Digger #1237",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Qlnghaijk_tqDvnqyLO4Qjjc7FcEnjIHGkLqNe1lhik",
         "attributes": [
@@ -63102,7 +63102,7 @@ const metadata = {
         ]
     },
     "1238": {
-        "name": "Avatar #1238",
+        "name": "Digger #1238",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/y1n7wGTV0wteie7g1vVKLRjToconwEEe-WYgsxt8kXQ",
         "attributes": [
@@ -63153,7 +63153,7 @@ const metadata = {
         ]
     },
     "1239": {
-        "name": "Avatar #1239",
+        "name": "Digger #1239",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LYCsLILsLpCQfjb-T9RWpN5VzJqyvurgdidB5Lyja7I",
         "attributes": [
@@ -63204,7 +63204,7 @@ const metadata = {
         ]
     },
     "1240": {
-        "name": "Avatar #1240",
+        "name": "Digger #1240",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/k7IMsXfx7Rb8vauCrGTlIWKRH-fVtM4KikAktN0DFKU",
         "attributes": [
@@ -63255,7 +63255,7 @@ const metadata = {
         ]
     },
     "1241": {
-        "name": "Avatar #1241",
+        "name": "Digger #1241",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sGVZth6AYUyPovAbsgHLrO621EyvXWTlkOBBjbI0JNU",
         "attributes": [
@@ -63306,7 +63306,7 @@ const metadata = {
         ]
     },
     "1242": {
-        "name": "Avatar #1242",
+        "name": "Digger #1242",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZR5CkfvHGwYm7vZrH6GHiSKqZWEktDsQe9IxU1-bMmQ",
         "attributes": [
@@ -63352,12 +63352,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1243": {
-        "name": "Avatar #1243",
+        "name": "Digger #1243",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/UmoM5X6Jw9epmaOcdjYA9XOlbIQsp4XcAXPz-y4QeHg",
         "attributes": [
@@ -63408,7 +63408,7 @@ const metadata = {
         ]
     },
     "1244": {
-        "name": "Avatar #1244",
+        "name": "Digger #1244",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YBklv2ss1m7V53raX_7Y6qoBsn0-tedoDHupQK5_Ak0",
         "attributes": [
@@ -63459,7 +63459,7 @@ const metadata = {
         ]
     },
     "1245": {
-        "name": "Avatar #1245",
+        "name": "Digger #1245",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tbOgH7c-sZ0rsY2mB2ZGoy0xZQxP3JBTuSRPIACa3Hg",
         "attributes": [
@@ -63510,7 +63510,7 @@ const metadata = {
         ]
     },
     "1246": {
-        "name": "Avatar #1246",
+        "name": "Digger #1246",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/lkVy6zk9a61ArYikMSQEL4SyWBuem5i_eoOOs-G0JPY",
         "attributes": [
@@ -63561,7 +63561,7 @@ const metadata = {
         ]
     },
     "1247": {
-        "name": "Avatar #1247",
+        "name": "Digger #1247",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OKCnNv4GRKTHTlo4ZjizzVZXa5pknsH9H11f63gvaEA",
         "attributes": [
@@ -63612,7 +63612,7 @@ const metadata = {
         ]
     },
     "1248": {
-        "name": "Avatar #1248",
+        "name": "Digger #1248",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Ifk9NfWt9QvT9LjFr9hI8y7kWAzXYMsi0OLkpE_NSq4",
         "attributes": [
@@ -63663,7 +63663,7 @@ const metadata = {
         ]
     },
     "1249": {
-        "name": "Avatar #1249",
+        "name": "Digger #1249",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/849Jkx4YGTs8O1ySgG4wAi7hHJc-e000o6WyCGbJFVI",
         "attributes": [
@@ -63714,7 +63714,7 @@ const metadata = {
         ]
     },
     "1250": {
-        "name": "Avatar #1250",
+        "name": "Digger #1250",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/NIzz6yhOLMBAkvS6Caq0FMgJ3Lcs2-r-Hn9aXGrFd1k",
         "attributes": [
@@ -63765,7 +63765,7 @@ const metadata = {
         ]
     },
     "1251": {
-        "name": "Avatar #1251",
+        "name": "Digger #1251",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aRF7T5hfRvYdQW7B_R0wIqmMwsp4succxakxoil3GS0",
         "attributes": [
@@ -63816,7 +63816,7 @@ const metadata = {
         ]
     },
     "1252": {
-        "name": "Avatar #1252",
+        "name": "Digger #1252",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4sJup3PD-7a7Jz3IeoF7nkLSNGiIsazZj1YlRYqXz1M",
         "attributes": [
@@ -63867,7 +63867,7 @@ const metadata = {
         ]
     },
     "1253": {
-        "name": "Avatar #1253",
+        "name": "Digger #1253",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/dORVd9nUfo87-BqghBPOj0LTq1S8JAw0IINiC5bQtWg",
         "attributes": [
@@ -63918,7 +63918,7 @@ const metadata = {
         ]
     },
     "1254": {
-        "name": "Avatar #1254",
+        "name": "Digger #1254",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/oDLYHIlfjW93nDG6ZJ04lGmcHPDedudQ02mFyE8aIIg",
         "attributes": [
@@ -63969,7 +63969,7 @@ const metadata = {
         ]
     },
     "1255": {
-        "name": "Avatar #1255",
+        "name": "Digger #1255",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wIs8LdcUFoTL5jlHPlAeCIjRrOX3fBt8NuncfGc2dWU",
         "attributes": [
@@ -64020,7 +64020,7 @@ const metadata = {
         ]
     },
     "1256": {
-        "name": "Avatar #1256",
+        "name": "Digger #1256",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FKvnefvzaeHJEI62lzrQHegr45Z0_YZpOCvrgCDh15M",
         "attributes": [
@@ -64071,7 +64071,7 @@ const metadata = {
         ]
     },
     "1257": {
-        "name": "Avatar #1257",
+        "name": "Digger #1257",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sexk8Nz90h_H3RQhFY2pVaMAsjTO5oLNJ8A7DyYJHi4",
         "attributes": [
@@ -64122,7 +64122,7 @@ const metadata = {
         ]
     },
     "1258": {
-        "name": "Avatar #1258",
+        "name": "Digger #1258",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6l4YIGoqkXmX_pxlPtG4m0D_QJNLDh0bjHjMZoakm6s",
         "attributes": [
@@ -64173,7 +64173,7 @@ const metadata = {
         ]
     },
     "1259": {
-        "name": "Avatar #1259",
+        "name": "Digger #1259",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3AdLZclzTf2vB02RsJokBK2lCeOTI73ADY1ethVPbVo",
         "attributes": [
@@ -64224,7 +64224,7 @@ const metadata = {
         ]
     },
     "1260": {
-        "name": "Avatar #1260",
+        "name": "Digger #1260",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/8xykgZYCs1qgE-eANAtN9-LF3No0WWX2KCwI_BcdXt0",
         "attributes": [
@@ -64275,7 +64275,7 @@ const metadata = {
         ]
     },
     "1261": {
-        "name": "Avatar #1261",
+        "name": "Digger #1261",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/80NEu9N-IB5VJL5Ty83t7rF72IySzowvg0B7DXx-4DM",
         "attributes": [
@@ -64326,7 +64326,7 @@ const metadata = {
         ]
     },
     "1262": {
-        "name": "Avatar #1262",
+        "name": "Digger #1262",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZJCzYuuWCgAAV8RXnlkdlUhHC0nHyhh1cfhbLxJpALs",
         "attributes": [
@@ -64377,7 +64377,7 @@ const metadata = {
         ]
     },
     "1263": {
-        "name": "Avatar #1263",
+        "name": "Digger #1263",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jUgWq2uikArqrUeiHr5_r43cy2FoWoTR39zc3UMQC5w",
         "attributes": [
@@ -64428,7 +64428,7 @@ const metadata = {
         ]
     },
     "1264": {
-        "name": "Avatar #1264",
+        "name": "Digger #1264",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z3mONaJ7TY3WvBkOaiOHknXQeOz3TpsaTL_VFoZehKI",
         "attributes": [
@@ -64479,7 +64479,7 @@ const metadata = {
         ]
     },
     "1265": {
-        "name": "Avatar #1265",
+        "name": "Digger #1265",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/y7dwh6lfh9ez3nnhTts9wrrxxmKge0RV-ZmWQv3aQvg",
         "attributes": [
@@ -64525,12 +64525,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1266": {
-        "name": "Avatar #1266",
+        "name": "Digger #1266",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/VAFHEnYdAFE37fQw1BWWiqyAs5BXwsGrEBvcOeHAAn4",
         "attributes": [
@@ -64581,7 +64581,7 @@ const metadata = {
         ]
     },
     "1267": {
-        "name": "Avatar #1267",
+        "name": "Digger #1267",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ADP9Z526z3SADOt5sVX_A7W0O_EWDeO5_d-lUYq4VcE",
         "attributes": [
@@ -64632,7 +64632,7 @@ const metadata = {
         ]
     },
     "1268": {
-        "name": "Avatar #1268",
+        "name": "Digger #1268",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yhWQsVBSO_Psi9BFjKLJatv8l7lwelyyvcQ9L0t4dQs",
         "attributes": [
@@ -64683,7 +64683,7 @@ const metadata = {
         ]
     },
     "1269": {
-        "name": "Avatar #1269",
+        "name": "Digger #1269",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YAKCuKUxsfUNievhSEvUmqq548Ys-3IXeVMwm1OYnTE",
         "attributes": [
@@ -64734,7 +64734,7 @@ const metadata = {
         ]
     },
     "1270": {
-        "name": "Avatar #1270",
+        "name": "Digger #1270",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vhrUV0PHw1qf-K34N15dwSAwPcsaCEFIJJJ8h1gvLL8",
         "attributes": [
@@ -64785,7 +64785,7 @@ const metadata = {
         ]
     },
     "1271": {
-        "name": "Avatar #1271",
+        "name": "Digger #1271",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KsMR8SQXqrodUnEdo5o8Nov_smNSMhh-0LAgFbYciBQ",
         "attributes": [
@@ -64836,7 +64836,7 @@ const metadata = {
         ]
     },
     "1272": {
-        "name": "Avatar #1272",
+        "name": "Digger #1272",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Xli1woLbT6KwHm0K834j2nZls7Ww7ivxveLmpdRGaBY",
         "attributes": [
@@ -64887,7 +64887,7 @@ const metadata = {
         ]
     },
     "1273": {
-        "name": "Avatar #1273",
+        "name": "Digger #1273",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kc2qoiFUbMcStw8DjSk1gmKyZNwXyGHgryWtVUVscxU",
         "attributes": [
@@ -64938,7 +64938,7 @@ const metadata = {
         ]
     },
     "1274": {
-        "name": "Avatar #1274",
+        "name": "Digger #1274",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9ZWIybKT0aQsoRYjTuq5izRurGntaXK2R5MoQsV3vf8",
         "attributes": [
@@ -64984,12 +64984,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1275": {
-        "name": "Avatar #1275",
+        "name": "Digger #1275",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PpT5NALiJJUKTJXjEFIGfd0_uuuKPpeOWurHX4uPTCs",
         "attributes": [
@@ -65040,7 +65040,7 @@ const metadata = {
         ]
     },
     "1276": {
-        "name": "Avatar #1276",
+        "name": "Digger #1276",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jrBBAbrv5N0DHZ3RL7bv7IQSVi1_ZxR7i5lpOxpduQM",
         "attributes": [
@@ -65091,7 +65091,7 @@ const metadata = {
         ]
     },
     "1277": {
-        "name": "Avatar #1277",
+        "name": "Digger #1277",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7XmJsxHCN5uD4XgicohsZwOwbzZKlGYV3GJjp4iiNdQ",
         "attributes": [
@@ -65142,7 +65142,7 @@ const metadata = {
         ]
     },
     "1278": {
-        "name": "Avatar #1278",
+        "name": "Digger #1278",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/v6KXoMmXjzE9DK_gfQGgWN9VKzjvYNXmKKSdG1d7Dpw",
         "attributes": [
@@ -65193,7 +65193,7 @@ const metadata = {
         ]
     },
     "1279": {
-        "name": "Avatar #1279",
+        "name": "Digger #1279",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9kg91KNROVqI-RocR8mDajTjMGd5y6DkIUcjSKegoaw",
         "attributes": [
@@ -65244,7 +65244,7 @@ const metadata = {
         ]
     },
     "1280": {
-        "name": "Avatar #1280",
+        "name": "Digger #1280",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jwR1TNDtftOsZNflCts5jxiWeCuRUIj_0BNjQc5PA0A",
         "attributes": [
@@ -65295,7 +65295,7 @@ const metadata = {
         ]
     },
     "1281": {
-        "name": "Avatar #1281",
+        "name": "Digger #1281",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6svg3s66QMw4nRPb8aW1TjSbGfmp-rTjgic0pr3upN8",
         "attributes": [
@@ -65346,7 +65346,7 @@ const metadata = {
         ]
     },
     "1282": {
-        "name": "Avatar #1282",
+        "name": "Digger #1282",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/XFjMsTBcIbpsDvAW6wSVOPT5Hh8zdtsUFO6x0aDAgF0",
         "attributes": [
@@ -65397,7 +65397,7 @@ const metadata = {
         ]
     },
     "1283": {
-        "name": "Avatar #1283",
+        "name": "Digger #1283",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YNIehGtOsp_6XR8SschoK1OWJknrLngr50tt-U6fGEE",
         "attributes": [
@@ -65448,7 +65448,7 @@ const metadata = {
         ]
     },
     "1284": {
-        "name": "Avatar #1284",
+        "name": "Digger #1284",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nIEsyy9InLX91XomTLGklvbFGo5rguC2v0QMP4Ue35M",
         "attributes": [
@@ -65499,7 +65499,7 @@ const metadata = {
         ]
     },
     "1285": {
-        "name": "Avatar #1285",
+        "name": "Digger #1285",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/25rnGNVi4wb53L2GgswjudIb7d1lXZQwHFctfqp69yg",
         "attributes": [
@@ -65550,7 +65550,7 @@ const metadata = {
         ]
     },
     "1286": {
-        "name": "Avatar #1286",
+        "name": "Digger #1286",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/BttWEGgLLm4drPuw-HugO4sE7lko5GhtgZnolEI9SHQ",
         "attributes": [
@@ -65601,7 +65601,7 @@ const metadata = {
         ]
     },
     "1287": {
-        "name": "Avatar #1287",
+        "name": "Digger #1287",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/nwmCJKoc1PzQeYt51fCWW_0CqOIviDkHg_lQyQ_9CIo",
         "attributes": [
@@ -65652,7 +65652,7 @@ const metadata = {
         ]
     },
     "1288": {
-        "name": "Avatar #1288",
+        "name": "Digger #1288",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Eq0O7JlZKg1TvMznDO2zzmg3gJmSpUrPpSifUe40ZnY",
         "attributes": [
@@ -65703,7 +65703,7 @@ const metadata = {
         ]
     },
     "1289": {
-        "name": "Avatar #1289",
+        "name": "Digger #1289",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/40tVrAzy6y00swtE5lPw41BdXqK-EudhAqO4wQDRVnU",
         "attributes": [
@@ -65754,7 +65754,7 @@ const metadata = {
         ]
     },
     "1290": {
-        "name": "Avatar #1290",
+        "name": "Digger #1290",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/GCPx-TIbIDhFnxsVyKmBqz9CYtmzJ1MQWjm-YpaSrgA",
         "attributes": [
@@ -65805,7 +65805,7 @@ const metadata = {
         ]
     },
     "1291": {
-        "name": "Avatar #1291",
+        "name": "Digger #1291",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PebsjTvxXPk_X1a72WN44HbT0WQ7upsKYzIDM4ivjUw",
         "attributes": [
@@ -65851,12 +65851,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1292": {
-        "name": "Avatar #1292",
+        "name": "Digger #1292",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EFUyxstfUapMGFjQIe4B3lGgnSOYvJMs95ec0xAO1ak",
         "attributes": [
@@ -65907,7 +65907,7 @@ const metadata = {
         ]
     },
     "1293": {
-        "name": "Avatar #1293",
+        "name": "Digger #1293",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Sjhv-ntg4gvOM3Aa__PEl9vtIwzUCYKPcNkogg1UzxY",
         "attributes": [
@@ -65958,7 +65958,7 @@ const metadata = {
         ]
     },
     "1294": {
-        "name": "Avatar #1294",
+        "name": "Digger #1294",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/E0oNA_2h8d0Fni__P1u6JN8fSBPlyB8iLCbVQO4LUyU",
         "attributes": [
@@ -66009,7 +66009,7 @@ const metadata = {
         ]
     },
     "1295": {
-        "name": "Avatar #1295",
+        "name": "Digger #1295",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/wCwUyoPzJdIhnAgLfFYdUPTHC9MXh7m4oVgnbuclMVA",
         "attributes": [
@@ -66055,12 +66055,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1296": {
-        "name": "Avatar #1296",
+        "name": "Digger #1296",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Tam5htHqs5dOyMr7vMCSDAHRp1A3QDq8UJFtkF7ecME",
         "attributes": [
@@ -66111,7 +66111,7 @@ const metadata = {
         ]
     },
     "1297": {
-        "name": "Avatar #1297",
+        "name": "Digger #1297",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z9aWKxMJb3yxbxqtzBAp7fIB-TRvInTUd7chCnI1sM0",
         "attributes": [
@@ -66162,7 +66162,7 @@ const metadata = {
         ]
     },
     "1298": {
-        "name": "Avatar #1298",
+        "name": "Digger #1298",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FEVxOE1tH3bcCBwHH4ltVT4ffte9OXN9o9-pbhwA2NU",
         "attributes": [
@@ -66213,7 +66213,7 @@ const metadata = {
         ]
     },
     "1299": {
-        "name": "Avatar #1299",
+        "name": "Digger #1299",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F5GXlxnSNWJznJYa5m8aswhDDoo_ipC-OJGhNZVcEY4",
         "attributes": [
@@ -66264,7 +66264,7 @@ const metadata = {
         ]
     },
     "1300": {
-        "name": "Avatar #1300",
+        "name": "Digger #1300",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OTHF2Vydxdr5XLe5HHgfPdyDS8RZvSsayUTNYMnL7gI",
         "attributes": [
@@ -66310,12 +66310,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1301": {
-        "name": "Avatar #1301",
+        "name": "Digger #1301",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/qtpAEtkz0wpBCEStpXG2sryQOa24Qx0H2mfr5WlCorQ",
         "attributes": [
@@ -66366,7 +66366,7 @@ const metadata = {
         ]
     },
     "1302": {
-        "name": "Avatar #1302",
+        "name": "Digger #1302",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9l96BJ7ZTLDppQmsoh6G6isIKQGSseYo4xL1ax6brls",
         "attributes": [
@@ -66417,7 +66417,7 @@ const metadata = {
         ]
     },
     "1303": {
-        "name": "Avatar #1303",
+        "name": "Digger #1303",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/778ykb83uJxqo4B0mb2es86BQhtkA7izCdt1_rBxxOE",
         "attributes": [
@@ -66468,7 +66468,7 @@ const metadata = {
         ]
     },
     "1304": {
-        "name": "Avatar #1304",
+        "name": "Digger #1304",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FIC2t2nulyi6oF0WDT6go46YT4NNXw6Xdh7qx6rR2u4",
         "attributes": [
@@ -66519,7 +66519,7 @@ const metadata = {
         ]
     },
     "1305": {
-        "name": "Avatar #1305",
+        "name": "Digger #1305",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/rJbyH6k-IHetVS8NqmJK8yf8VT_2_u9VXVqfX2xe-ZE",
         "attributes": [
@@ -66570,7 +66570,7 @@ const metadata = {
         ]
     },
     "1306": {
-        "name": "Avatar #1306",
+        "name": "Digger #1306",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2jZJHvXrEEI_Txaka0DzA6vGwAWs_HAHZZZvQK5a43E",
         "attributes": [
@@ -66621,7 +66621,7 @@ const metadata = {
         ]
     },
     "1307": {
-        "name": "Avatar #1307",
+        "name": "Digger #1307",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vGtarQUqV-p_eIcLM1i7p23tvRw0LzjnwrwVt-XkbK0",
         "attributes": [
@@ -66672,7 +66672,7 @@ const metadata = {
         ]
     },
     "1308": {
-        "name": "Avatar #1308",
+        "name": "Digger #1308",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7wIHT1FLWZgIry3bXkRBBWRXB4O3Q8C0ClXIzU62LAo",
         "attributes": [
@@ -66723,7 +66723,7 @@ const metadata = {
         ]
     },
     "1309": {
-        "name": "Avatar #1309",
+        "name": "Digger #1309",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Hlyndqgff9rOfW7bWNADDnDTHg0GeQtXwCh6-15YS0k",
         "attributes": [
@@ -66774,7 +66774,7 @@ const metadata = {
         ]
     },
     "1310": {
-        "name": "Avatar #1310",
+        "name": "Digger #1310",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/X58u1bVHsF8pzbIS-RdAgfBQIrJiwtiAKu_yTZ5Mlzw",
         "attributes": [
@@ -66825,7 +66825,7 @@ const metadata = {
         ]
     },
     "1311": {
-        "name": "Avatar #1311",
+        "name": "Digger #1311",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9a1_mdmqz-eWRMtWL4ThwMZSS3cfyJf4DHL-FpjlsyY",
         "attributes": [
@@ -66876,7 +66876,7 @@ const metadata = {
         ]
     },
     "1312": {
-        "name": "Avatar #1312",
+        "name": "Digger #1312",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/sNUivB9rdK2mE6QBxQ2W_EMhwWEE1HxCaBxX9g4CQcA",
         "attributes": [
@@ -66927,7 +66927,7 @@ const metadata = {
         ]
     },
     "1313": {
-        "name": "Avatar #1313",
+        "name": "Digger #1313",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kQnFspI_5EaK30nJnDCE25qQ9VXKOAsaD5LTs3O0jsc",
         "attributes": [
@@ -66978,7 +66978,7 @@ const metadata = {
         ]
     },
     "1314": {
-        "name": "Avatar #1314",
+        "name": "Digger #1314",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3YjgLdFTexNW2km2D4RSxbgtgzqVRl5CX9qv_QBXoxA",
         "attributes": [
@@ -67029,7 +67029,7 @@ const metadata = {
         ]
     },
     "1315": {
-        "name": "Avatar #1315",
+        "name": "Digger #1315",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/YfI36x9M7iSRGU3frBk-6ewx3yBQzQRAJGalFrQ5ALo",
         "attributes": [
@@ -67080,7 +67080,7 @@ const metadata = {
         ]
     },
     "1316": {
-        "name": "Avatar #1316",
+        "name": "Digger #1316",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/IC3Tpmw-U--RGkFUNiCrPxIJN0RPiOly9FGtgdvtdsE",
         "attributes": [
@@ -67131,7 +67131,7 @@ const metadata = {
         ]
     },
     "1317": {
-        "name": "Avatar #1317",
+        "name": "Digger #1317",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/c6Ys9O-NtKZChmlnaTYcNqlqfZ_iqCW4sGScwVz3jjI",
         "attributes": [
@@ -67182,7 +67182,7 @@ const metadata = {
         ]
     },
     "1318": {
-        "name": "Avatar #1318",
+        "name": "Digger #1318",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/p_X0BjDRIQZWpdjpbDKZeGGGJlojtnVwTpiDUBepXKo",
         "attributes": [
@@ -67233,7 +67233,7 @@ const metadata = {
         ]
     },
     "1319": {
-        "name": "Avatar #1319",
+        "name": "Digger #1319",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jSo0G6-T1Ljd5BRevdGp9GR6QFJxfZ92Tce0KrcNuIk",
         "attributes": [
@@ -67284,7 +67284,7 @@ const metadata = {
         ]
     },
     "1320": {
-        "name": "Avatar #1320",
+        "name": "Digger #1320",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_hsEkBVtUl_3R5HUEe8Ao_DMh7s9HMcqxwKGCF-yFZo",
         "attributes": [
@@ -67335,7 +67335,7 @@ const metadata = {
         ]
     },
     "1321": {
-        "name": "Avatar #1321",
+        "name": "Digger #1321",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5OE9oDIU8I_m7GdzBfkCTnhzDHXY_YP-1zLnxwek6b0",
         "attributes": [
@@ -67386,7 +67386,7 @@ const metadata = {
         ]
     },
     "1322": {
-        "name": "Avatar #1322",
+        "name": "Digger #1322",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/q5t3BJ1jFzm07d9ZzjBLoQQeia7VdtktIwzgG8QJkHQ",
         "attributes": [
@@ -67437,7 +67437,7 @@ const metadata = {
         ]
     },
     "1323": {
-        "name": "Avatar #1323",
+        "name": "Digger #1323",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6Exu3KqMRyQo8VMSi0BN-s77xSVFRVNU4cBt81uxfzg",
         "attributes": [
@@ -67488,7 +67488,7 @@ const metadata = {
         ]
     },
     "1324": {
-        "name": "Avatar #1324",
+        "name": "Digger #1324",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-hKBJZJZuBWBxr9GMVSyh-1w-DqeUTO8835brZDnvjw",
         "attributes": [
@@ -67539,7 +67539,7 @@ const metadata = {
         ]
     },
     "1325": {
-        "name": "Avatar #1325",
+        "name": "Digger #1325",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZiFKeDUVIhuIXRItZuRgnuOUmPDlxwzQkkrxsPCKnL4",
         "attributes": [
@@ -67590,7 +67590,7 @@ const metadata = {
         ]
     },
     "1326": {
-        "name": "Avatar #1326",
+        "name": "Digger #1326",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tzccrZWs5YjrEPybmbL_iMMeSrlA7xdY9IeX7tBFr4U",
         "attributes": [
@@ -67636,12 +67636,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1327": {
-        "name": "Avatar #1327",
+        "name": "Digger #1327",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WhIg3RfxkEWQ82KVtYAxgEm5ehhRCNxYjKwQlPddqdE",
         "attributes": [
@@ -67692,7 +67692,7 @@ const metadata = {
         ]
     },
     "1328": {
-        "name": "Avatar #1328",
+        "name": "Digger #1328",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/eOu7nIHI277P-a6BW-wCXsN40zQtoyBsAbYlxt5OrqE",
         "attributes": [
@@ -67743,7 +67743,7 @@ const metadata = {
         ]
     },
     "1329": {
-        "name": "Avatar #1329",
+        "name": "Digger #1329",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uc4pJwx5gtbherqHhqsmkcUQIdQsSLlQxCq6cHYICpU",
         "attributes": [
@@ -67794,7 +67794,7 @@ const metadata = {
         ]
     },
     "1330": {
-        "name": "Avatar #1330",
+        "name": "Digger #1330",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3BPbtp_jBiO8HZTZ3oQctumNo17n7ct0UdNnF8EQnL0",
         "attributes": [
@@ -67845,7 +67845,7 @@ const metadata = {
         ]
     },
     "1331": {
-        "name": "Avatar #1331",
+        "name": "Digger #1331",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/L_2ZkALpstnNCr2rR7tp1_z6y1mkfNFWBncDYlZksHg",
         "attributes": [
@@ -67896,7 +67896,7 @@ const metadata = {
         ]
     },
     "1332": {
-        "name": "Avatar #1332",
+        "name": "Digger #1332",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/7v5wQL3_XUDKeSOhE3bRpFzlKOUPtmvxzGUNnr1Xy2g",
         "attributes": [
@@ -67947,7 +67947,7 @@ const metadata = {
         ]
     },
     "1333": {
-        "name": "Avatar #1333",
+        "name": "Digger #1333",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/G9-XVbYMF78DQz0GxY-4k1BYAs42XKcrFeH_Ew2zgas",
         "attributes": [
@@ -67998,7 +67998,7 @@ const metadata = {
         ]
     },
     "1334": {
-        "name": "Avatar #1334",
+        "name": "Digger #1334",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_fOTJD-RRqEe22yni5bMEojki_DCmroNHfg0bgMTZdM",
         "attributes": [
@@ -68049,7 +68049,7 @@ const metadata = {
         ]
     },
     "1335": {
-        "name": "Avatar #1335",
+        "name": "Digger #1335",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3NNkIPx-J8zvDaF4MYEhe6VDWtdaYv30E-UMjtIl2zI",
         "attributes": [
@@ -68100,7 +68100,7 @@ const metadata = {
         ]
     },
     "1336": {
-        "name": "Avatar #1336",
+        "name": "Digger #1336",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yT9LiuXiqkOQcXfwrAy_tT-BNvTHz9JgOdRXhjR3De0",
         "attributes": [
@@ -68151,7 +68151,7 @@ const metadata = {
         ]
     },
     "1337": {
-        "name": "Avatar #1337",
+        "name": "Digger #1337",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_60ivNh7Jgy1MkrBEQNT4pr1JXRhwz4dR5hswexa_wI",
         "attributes": [
@@ -68202,7 +68202,7 @@ const metadata = {
         ]
     },
     "1338": {
-        "name": "Avatar #1338",
+        "name": "Digger #1338",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/CqXLv8HRhDrbaTSx4HZsNm_ab7UyPXz3sxwB5SyHmrs",
         "attributes": [
@@ -68248,12 +68248,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1339": {
-        "name": "Avatar #1339",
+        "name": "Digger #1339",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/cFp65nRoTWvxCAJuvDYj5u3Df4yG-x-AhLJko8cw27E",
         "attributes": [
@@ -68304,7 +68304,7 @@ const metadata = {
         ]
     },
     "1340": {
-        "name": "Avatar #1340",
+        "name": "Digger #1340",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ghS2QqnKCcbBWssC5oGMrUMV8caq9T47anDCuXsLd4g",
         "attributes": [
@@ -68355,7 +68355,7 @@ const metadata = {
         ]
     },
     "1341": {
-        "name": "Avatar #1341",
+        "name": "Digger #1341",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pcDHNCGoPSRI4GK-UAK7rEKNqZPxCaKl5_cgC_bpB7A",
         "attributes": [
@@ -68406,7 +68406,7 @@ const metadata = {
         ]
     },
     "1342": {
-        "name": "Avatar #1342",
+        "name": "Digger #1342",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3SemdBRqMKyzJ2HZqfaUnTUmws4b4BOqlCdVyTCvIYw",
         "attributes": [
@@ -68457,7 +68457,7 @@ const metadata = {
         ]
     },
     "1343": {
-        "name": "Avatar #1343",
+        "name": "Digger #1343",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/scB-XNbrD4g17ML_fPKZLsfld7j6Z414VbZ689tu4vI",
         "attributes": [
@@ -68508,7 +68508,7 @@ const metadata = {
         ]
     },
     "1344": {
-        "name": "Avatar #1344",
+        "name": "Digger #1344",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/9enH1WRMMw497NlqrfkX23rfUEANR2sJghWkzS2NqYU",
         "attributes": [
@@ -68559,7 +68559,7 @@ const metadata = {
         ]
     },
     "1345": {
-        "name": "Avatar #1345",
+        "name": "Digger #1345",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/PlQJucXLioCQVSyvSF1HKa5Jyoku63S61gH41w6n6nA",
         "attributes": [
@@ -68610,7 +68610,7 @@ const metadata = {
         ]
     },
     "1346": {
-        "name": "Avatar #1346",
+        "name": "Digger #1346",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/5LS0wQ7Yfww-03MCA73Nz0QWyyfgkfJLfUJI3BLD5h8",
         "attributes": [
@@ -68661,7 +68661,7 @@ const metadata = {
         ]
     },
     "1347": {
-        "name": "Avatar #1347",
+        "name": "Digger #1347",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FZMb_ceGIP013ZoxO5_K_1t4iuhTrrVFfJIZEqO-43A",
         "attributes": [
@@ -68712,7 +68712,7 @@ const metadata = {
         ]
     },
     "1348": {
-        "name": "Avatar #1348",
+        "name": "Digger #1348",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/OaTDoqB9NQS2c_1LbPbYiwbO8s9eZCKAWOVS-Mqwycs",
         "attributes": [
@@ -68763,7 +68763,7 @@ const metadata = {
         ]
     },
     "1349": {
-        "name": "Avatar #1349",
+        "name": "Digger #1349",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/TEm4O_MQI5LSXmEzvpR7ruEniHSLdDrIXqzdjpzh5rc",
         "attributes": [
@@ -68814,7 +68814,7 @@ const metadata = {
         ]
     },
     "1350": {
-        "name": "Avatar #1350",
+        "name": "Digger #1350",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Rb3QM4GunrvmPdmXA4SPtySrXMBuBZcC53BEdmgoVWs",
         "attributes": [
@@ -68865,7 +68865,7 @@ const metadata = {
         ]
     },
     "1351": {
-        "name": "Avatar #1351",
+        "name": "Digger #1351",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/X1vC6hpgJLiW3IJ8xMnv9r7q67-rNWQho1pT0XBomv4",
         "attributes": [
@@ -68916,7 +68916,7 @@ const metadata = {
         ]
     },
     "1352": {
-        "name": "Avatar #1352",
+        "name": "Digger #1352",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bm_kAAsEhbLGVGYLIPcVP_i-X00pZrXQxc4FJ23VMRA",
         "attributes": [
@@ -68967,7 +68967,7 @@ const metadata = {
         ]
     },
     "1353": {
-        "name": "Avatar #1353",
+        "name": "Digger #1353",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/4x3tydbVQa65-8UUfbwJej--FpIHm9ii3QqONjQjHTA",
         "attributes": [
@@ -69018,7 +69018,7 @@ const metadata = {
         ]
     },
     "1354": {
-        "name": "Avatar #1354",
+        "name": "Digger #1354",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/HmUXx5FZQkVo_xwaqwR5VVl4gWmtJPBB1zmGrbtno68",
         "attributes": [
@@ -69069,7 +69069,7 @@ const metadata = {
         ]
     },
     "1355": {
-        "name": "Avatar #1355",
+        "name": "Digger #1355",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/jkEjxcN9oJb9qY67YIdZatHgzyPmgnh9doswahzeRx4",
         "attributes": [
@@ -69120,7 +69120,7 @@ const metadata = {
         ]
     },
     "1356": {
-        "name": "Avatar #1356",
+        "name": "Digger #1356",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Uu1Wylv0Px1F5EF3gWTXPOK7lW6psDIhvTyYuQ5pjno",
         "attributes": [
@@ -69171,7 +69171,7 @@ const metadata = {
         ]
     },
     "1357": {
-        "name": "Avatar #1357",
+        "name": "Digger #1357",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aboVgqI8-pyqEHNmfSTNnBbvtpxDcdPLBFdwmZAAocQ",
         "attributes": [
@@ -69222,7 +69222,7 @@ const metadata = {
         ]
     },
     "1358": {
-        "name": "Avatar #1358",
+        "name": "Digger #1358",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/znLs_dF-JjbzlcJI2roz0iVmn68iOUasYNISKzQWcxQ",
         "attributes": [
@@ -69273,7 +69273,7 @@ const metadata = {
         ]
     },
     "1359": {
-        "name": "Avatar #1359",
+        "name": "Digger #1359",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KvFiFTLb8Rm7HAXTS7TKDyGILx9G6jx9SQOLBd_p_EQ",
         "attributes": [
@@ -69324,7 +69324,7 @@ const metadata = {
         ]
     },
     "1360": {
-        "name": "Avatar #1360",
+        "name": "Digger #1360",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yykFODDak55uZWSIK-tpI5HUOaWAc8l5ApBcW-UVEuI",
         "attributes": [
@@ -69375,7 +69375,7 @@ const metadata = {
         ]
     },
     "1361": {
-        "name": "Avatar #1361",
+        "name": "Digger #1361",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/droivx5bFnYZPnIUNEjpCvgvJZlA_3Kb2t6RQwKVL94",
         "attributes": [
@@ -69426,7 +69426,7 @@ const metadata = {
         ]
     },
     "1362": {
-        "name": "Avatar #1362",
+        "name": "Digger #1362",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ZfKcVMllrr8w9W4zyQVWwmJecPGWsROkfIAeTVcp7Y8",
         "attributes": [
@@ -69477,7 +69477,7 @@ const metadata = {
         ]
     },
     "1363": {
-        "name": "Avatar #1363",
+        "name": "Digger #1363",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Udl0DBrfc2WaGrFfeI6M2nQ7RwSFmqtOsJRcTB_tOgI",
         "attributes": [
@@ -69528,7 +69528,7 @@ const metadata = {
         ]
     },
     "1364": {
-        "name": "Avatar #1364",
+        "name": "Digger #1364",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Kq9fJ6Fi1oSd937MTZywRK4xDC6oUSp4Aft29C5iBV4",
         "attributes": [
@@ -69579,7 +69579,7 @@ const metadata = {
         ]
     },
     "1365": {
-        "name": "Avatar #1365",
+        "name": "Digger #1365",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/0JRc6UcN60yZXG_F0VOpfuJH9R7JiwEN2ypku21DelE",
         "attributes": [
@@ -69630,7 +69630,7 @@ const metadata = {
         ]
     },
     "1366": {
-        "name": "Avatar #1366",
+        "name": "Digger #1366",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/kMQx34WFXX-taVR0cnZSYbsQbzOvQyRhqM0T3YFpIQo",
         "attributes": [
@@ -69681,7 +69681,7 @@ const metadata = {
         ]
     },
     "1367": {
-        "name": "Avatar #1367",
+        "name": "Digger #1367",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/niruDMSsiMCFKM0viP1vOMz1nVJ9P0KgTGGXH6dW71I",
         "attributes": [
@@ -69732,7 +69732,7 @@ const metadata = {
         ]
     },
     "1368": {
-        "name": "Avatar #1368",
+        "name": "Digger #1368",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/F0HY0mDaKyuCYv2V0gQhBhRayiiBPCACsklV8-EIwkE",
         "attributes": [
@@ -69778,12 +69778,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1369": {
-        "name": "Avatar #1369",
+        "name": "Digger #1369",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aXb77cHggTCDjoexYQFd9Q0juwRLoTJxZWg6rC93RyY",
         "attributes": [
@@ -69829,12 +69829,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Zombie"
+                "value": "Tank Tie Zombie"
             }
         ]
     },
     "1370": {
-        "name": "Avatar #1370",
+        "name": "Digger #1370",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/07AfEY-Suhp1pEdrj187XZWL_VSDQriCpNUR3YzAOp0",
         "attributes": [
@@ -69885,7 +69885,7 @@ const metadata = {
         ]
     },
     "1371": {
-        "name": "Avatar #1371",
+        "name": "Digger #1371",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WKwjAUNpVrSUEkqPlZ2znVTG9tQOoYnEH9AJXjzC_E8",
         "attributes": [
@@ -69936,7 +69936,7 @@ const metadata = {
         ]
     },
     "1372": {
-        "name": "Avatar #1372",
+        "name": "Digger #1372",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/KvVSfVvNwc24SpCB09kRKTti5cTEMxchdw60L5u9T9w",
         "attributes": [
@@ -69987,7 +69987,7 @@ const metadata = {
         ]
     },
     "1373": {
-        "name": "Avatar #1373",
+        "name": "Digger #1373",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/LZoonRVfyW_mrxNo8oi4kdKP8SvduxiosQYApOoug5Y",
         "attributes": [
@@ -70038,7 +70038,7 @@ const metadata = {
         ]
     },
     "1374": {
-        "name": "Avatar #1374",
+        "name": "Digger #1374",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/ncJqaboy6Gccjf7-bnGSX0O8b2th0iyHcOPm2kLoSIc",
         "attributes": [
@@ -70089,7 +70089,7 @@ const metadata = {
         ]
     },
     "1375": {
-        "name": "Avatar #1375",
+        "name": "Digger #1375",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/yx0_Fbp_4_fPtTps5zHXqf3grdZ9_4GWu7bMIZhwIKI",
         "attributes": [
@@ -70140,7 +70140,7 @@ const metadata = {
         ]
     },
     "1376": {
-        "name": "Avatar #1376",
+        "name": "Digger #1376",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/2Y5RoFagD6PP15rSY3L6Sjx_3RiHvPg1bXSE0_IR-ns",
         "attributes": [
@@ -70191,7 +70191,7 @@ const metadata = {
         ]
     },
     "1377": {
-        "name": "Avatar #1377",
+        "name": "Digger #1377",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/6MYZYfWRISmuL_xB9aRGEEqwSOg2wfuYHF20YvetYiM",
         "attributes": [
@@ -70242,7 +70242,7 @@ const metadata = {
         ]
     },
     "1378": {
-        "name": "Avatar #1378",
+        "name": "Digger #1378",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/bXdKdqzdNudNrOebzM8n_iGgdl0U_qghHCTd-AdCd98",
         "attributes": [
@@ -70293,7 +70293,7 @@ const metadata = {
         ]
     },
     "1379": {
-        "name": "Avatar #1379",
+        "name": "Digger #1379",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/EtAYEkXV63SIdg-wNlzHnvFKAIwVzA8iOM4oKmAt_Ys",
         "attributes": [
@@ -70344,7 +70344,7 @@ const metadata = {
         ]
     },
     "1380": {
-        "name": "Avatar #1380",
+        "name": "Digger #1380",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/tV07I_ih6bP2lp7y6Yqap7pCqqtY4ETS7RJdaacIK54",
         "attributes": [
@@ -70395,7 +70395,7 @@ const metadata = {
         ]
     },
     "1381": {
-        "name": "Avatar #1381",
+        "name": "Digger #1381",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/j2j5fT7U9dg8AosWdI9xHr83j78JtpIkqCQ_o2ZB_qI",
         "attributes": [
@@ -70446,7 +70446,7 @@ const metadata = {
         ]
     },
     "1382": {
-        "name": "Avatar #1382",
+        "name": "Digger #1382",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/R4UoVhCLu-Fi2P2_eV_kJg8F_nuqC1DlX-QvggQ3p_k",
         "attributes": [
@@ -70497,7 +70497,7 @@ const metadata = {
         ]
     },
     "1383": {
-        "name": "Avatar #1383",
+        "name": "Digger #1383",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/z_fgC8QijFVR12fqFmzo59hYtUT-Bi0-VXNbNwpmbG8",
         "attributes": [
@@ -70548,7 +70548,7 @@ const metadata = {
         ]
     },
     "1384": {
-        "name": "Avatar #1384",
+        "name": "Digger #1384",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xFhAj3GbsoWOd6ZI3v2j8RmkgPdnCi4i4Hnvl-CBkTs",
         "attributes": [
@@ -70599,7 +70599,7 @@ const metadata = {
         ]
     },
     "1385": {
-        "name": "Avatar #1385",
+        "name": "Digger #1385",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/WBt2iH1OYrV3K3s8FdtTWUB-Ep9oJy3RZPaPyj8WSok",
         "attributes": [
@@ -70650,7 +70650,7 @@ const metadata = {
         ]
     },
     "1386": {
-        "name": "Avatar #1386",
+        "name": "Digger #1386",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/pxToHFq33OibGArK1i-KG4j4gPdUosRrywI2XvmIehM",
         "attributes": [
@@ -70701,7 +70701,7 @@ const metadata = {
         ]
     },
     "1387": {
-        "name": "Avatar #1387",
+        "name": "Digger #1387",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/_FddEySgm-8Rnpg9PUctFO9EiKDkrJkjnlSUtv46Ank",
         "attributes": [
@@ -70752,7 +70752,7 @@ const metadata = {
         ]
     },
     "1388": {
-        "name": "Avatar #1388",
+        "name": "Digger #1388",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/-5PZb9uiSWw_Yng8fVcLQxrciz4zh0WH_HjoSI9eh38",
         "attributes": [
@@ -70803,7 +70803,7 @@ const metadata = {
         ]
     },
     "1389": {
-        "name": "Avatar #1389",
+        "name": "Digger #1389",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/aF3y8ZHWzLjJ0cmyANLtRHvG827mFtKhzw9WQgnZw8g",
         "attributes": [
@@ -70854,7 +70854,7 @@ const metadata = {
         ]
     },
     "1390": {
-        "name": "Avatar #1390",
+        "name": "Digger #1390",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/3BMWMa4fX4GL8LeO7RZGSBxwpDttiPVyiu6VaRdVxcw",
         "attributes": [
@@ -70905,7 +70905,7 @@ const metadata = {
         ]
     },
     "1391": {
-        "name": "Avatar #1391",
+        "name": "Digger #1391",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/vhBj8nHY9BC5Zmv1OUyLx_3IX-rDlmNShMOeXx19EYU",
         "attributes": [
@@ -70956,7 +70956,7 @@ const metadata = {
         ]
     },
     "1392": {
-        "name": "Avatar #1392",
+        "name": "Digger #1392",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1sQkfu0Ynpv3q-6Gy85bgSTY1EN2qnkTPj7hdssE7zQ",
         "attributes": [
@@ -71007,7 +71007,7 @@ const metadata = {
         ]
     },
     "1393": {
-        "name": "Avatar #1393",
+        "name": "Digger #1393",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/n-_PWUZei0qOSurkw0OszioY_YlzPyGIt4vjjE95K3s",
         "attributes": [
@@ -71058,7 +71058,7 @@ const metadata = {
         ]
     },
     "1394": {
-        "name": "Avatar #1394",
+        "name": "Digger #1394",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FVG3Pt-lgNYKBf4O2bmD1zqgrOJljP91LdVF_A4IQ04",
         "attributes": [
@@ -71109,7 +71109,7 @@ const metadata = {
         ]
     },
     "1395": {
-        "name": "Avatar #1395",
+        "name": "Digger #1395",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/xf1f8qlmmDz9BcI-7JsBzy8SEqg-wXyDbROHUrx5_JQ",
         "attributes": [
@@ -71160,7 +71160,7 @@ const metadata = {
         ]
     },
     "1396": {
-        "name": "Avatar #1396",
+        "name": "Digger #1396",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/FLZwSVby3zUKu8ATGnaItpkRBA_vNW-cgdIm5hk5AjE",
         "attributes": [
@@ -71211,7 +71211,7 @@ const metadata = {
         ]
     },
     "1397": {
-        "name": "Avatar #1397",
+        "name": "Digger #1397",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/htjBKXSLAJNxpZxEKziLVHd_-rka4ghqIhDB84yZKCE",
         "attributes": [
@@ -71262,7 +71262,7 @@ const metadata = {
         ]
     },
     "1398": {
-        "name": "Avatar #1398",
+        "name": "Digger #1398",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1CaQoaVnM_ea5zLx86YStMOMcNp_KxXeDoACzNYUrDM",
         "attributes": [
@@ -71313,7 +71313,7 @@ const metadata = {
         ]
     },
     "1399": {
-        "name": "Avatar #1399",
+        "name": "Digger #1399",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/uvoD8-IphhtR0bJCZHZJj1oLvrImDnNQTHlwYtFDQRk",
         "attributes": [
@@ -71364,7 +71364,7 @@ const metadata = {
         ]
     },
     "1400": {
-        "name": "Avatar #1400",
+        "name": "Digger #1400",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/Kr-X21cdxs8zx_y0EuOmVZYzRBmL8AE667rauBensfE",
         "attributes": [
@@ -71410,12 +71410,12 @@ const metadata = {
             },
             {
                 "trait_type": "Shirt",
-                "value": "Tank Tye Dye"
+                "value": "Tank Tie Dye"
             }
         ]
     },
     "1401": {
-        "name": "Avatar #1401",
+        "name": "Digger #1401",
         "description": "A unique set of diggers.",
         "image": "https://arweave.net/1Yz7kmHfd4L3gd6HWjyx2Y242DG51k9sU41sJTSUU4U",
         "attributes": [
