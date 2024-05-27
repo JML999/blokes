@@ -12,7 +12,6 @@ const BASE_URL = 'https://hychain.calderaexplorer.xyz/api/v2';
 app.use(cors());
 app.use(express.json());
 
-
 const metadata = {
     "1": {
         "name": "Bloke #1",
@@ -62,6 +61,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "404"
             }
         ]
     },
@@ -104,7 +107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113,6 +116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "316"
             }
         ]
     },
@@ -164,6 +171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1426"
             }
         ]
     },
@@ -215,6 +226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "369"
             }
         ]
     },
@@ -257,7 +272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -266,6 +281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2471"
             }
         ]
     },
@@ -308,7 +327,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -317,6 +336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "904"
             }
         ]
     },
@@ -368,6 +391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "105"
             }
         ]
     },
@@ -410,7 +437,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -419,6 +446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2334"
             }
         ]
     },
@@ -461,7 +492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -470,6 +501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1014"
             }
         ]
     },
@@ -521,6 +556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1443"
             }
         ]
     },
@@ -572,6 +611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "676"
             }
         ]
     },
@@ -614,7 +657,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -623,6 +666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1589"
             }
         ]
     },
@@ -674,6 +721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "535"
             }
         ]
     },
@@ -716,7 +767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -725,6 +776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1865"
             }
         ]
     },
@@ -767,7 +822,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -776,6 +831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1764"
             }
         ]
     },
@@ -827,6 +886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1170"
             }
         ]
     },
@@ -878,6 +941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1744"
             }
         ]
     },
@@ -929,6 +996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1075"
             }
         ]
     },
@@ -971,7 +1042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -980,6 +1051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "942"
             }
         ]
     },
@@ -1031,6 +1106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1941"
             }
         ]
     },
@@ -1073,7 +1152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -1082,6 +1161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1263"
             }
         ]
     },
@@ -1133,6 +1216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "941"
             }
         ]
     },
@@ -1184,6 +1271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "157"
             }
         ]
     },
@@ -1226,7 +1317,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -1235,6 +1326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1739"
             }
         ]
     },
@@ -1286,6 +1381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1921"
             }
         ]
     },
@@ -1337,6 +1436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "96"
             }
         ]
     },
@@ -1388,6 +1491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "48"
             }
         ]
     },
@@ -1439,6 +1546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1128"
             }
         ]
     },
@@ -1490,6 +1601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "534"
             }
         ]
     },
@@ -1532,7 +1647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -1541,6 +1656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2073"
             }
         ]
     },
@@ -1583,7 +1702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -1592,6 +1711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1841"
             }
         ]
     },
@@ -1643,6 +1766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "274"
             }
         ]
     },
@@ -1694,6 +1821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "504"
             }
         ]
     },
@@ -1745,6 +1876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1851"
             }
         ]
     },
@@ -1796,6 +1931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2098"
             }
         ]
     },
@@ -1847,6 +1986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2215"
             }
         ]
     },
@@ -1898,6 +2041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "786"
             }
         ]
     },
@@ -1940,7 +2087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -1949,6 +2096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1658"
             }
         ]
     },
@@ -1991,7 +2142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2000,6 +2151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1743"
             }
         ]
     },
@@ -2051,6 +2206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1574"
             }
         ]
     },
@@ -2093,7 +2252,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2102,6 +2261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1789"
             }
         ]
     },
@@ -2153,6 +2316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "836"
             }
         ]
     },
@@ -2195,7 +2362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2204,6 +2371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "598"
             }
         ]
     },
@@ -2246,7 +2417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2255,6 +2426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1758"
             }
         ]
     },
@@ -2306,6 +2481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2378"
             }
         ]
     },
@@ -2357,6 +2536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2481"
             }
         ]
     },
@@ -2408,6 +2591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1939"
             }
         ]
     },
@@ -2459,6 +2646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1334"
             }
         ]
     },
@@ -2501,7 +2692,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2510,6 +2701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "591"
             }
         ]
     },
@@ -2561,6 +2756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1390"
             }
         ]
     },
@@ -2612,6 +2811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "226"
             }
         ]
     },
@@ -2663,6 +2866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1450"
             }
         ]
     },
@@ -2714,6 +2921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "265"
             }
         ]
     },
@@ -2756,7 +2967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2765,6 +2976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1091"
             }
         ]
     },
@@ -2807,7 +3022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -2816,6 +3031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1380"
             }
         ]
     },
@@ -2867,6 +3086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1261"
             }
         ]
     },
@@ -2918,6 +3141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2337"
             }
         ]
     },
@@ -2969,6 +3196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "440"
             }
         ]
     },
@@ -3020,6 +3251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1926"
             }
         ]
     },
@@ -3071,6 +3306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "21"
             }
         ]
     },
@@ -3122,6 +3361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "128"
             }
         ]
     },
@@ -3173,6 +3416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2043"
             }
         ]
     },
@@ -3215,7 +3462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3224,6 +3471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "453"
             }
         ]
     },
@@ -3275,6 +3526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1763"
             }
         ]
     },
@@ -3326,6 +3581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "821"
             }
         ]
     },
@@ -3368,7 +3627,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3377,6 +3636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2381"
             }
         ]
     },
@@ -3428,6 +3691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "886"
             }
         ]
     },
@@ -3470,7 +3737,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3479,6 +3746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2434"
             }
         ]
     },
@@ -3530,6 +3801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "250"
             }
         ]
     },
@@ -3572,7 +3847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3581,6 +3856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "575"
             }
         ]
     },
@@ -3623,7 +3902,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3632,6 +3911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2424"
             }
         ]
     },
@@ -3674,7 +3957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3683,6 +3966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2131"
             }
         ]
     },
@@ -3734,6 +4021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1382"
             }
         ]
     },
@@ -3776,7 +4067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3785,6 +4076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2342"
             }
         ]
     },
@@ -3827,7 +4122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3836,6 +4131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1844"
             }
         ]
     },
@@ -3878,7 +4177,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3887,6 +4186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2151"
             }
         ]
     },
@@ -3929,7 +4232,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3938,6 +4241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "62"
             }
         ]
     },
@@ -3980,7 +4287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -3989,6 +4296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2224"
             }
         ]
     },
@@ -4031,7 +4342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4040,6 +4351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1303"
             }
         ]
     },
@@ -4082,7 +4397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4091,6 +4406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "829"
             }
         ]
     },
@@ -4133,7 +4452,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4142,6 +4461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1853"
             }
         ]
     },
@@ -4184,7 +4507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4193,6 +4516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2193"
             }
         ]
     },
@@ -4244,6 +4571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "45"
             }
         ]
     },
@@ -4286,7 +4617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4295,6 +4626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "415"
             }
         ]
     },
@@ -4346,6 +4681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2094"
             }
         ]
     },
@@ -4397,6 +4736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "273"
             }
         ]
     },
@@ -4439,7 +4782,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4448,6 +4791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "118"
             }
         ]
     },
@@ -4490,7 +4837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4499,6 +4846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2225"
             }
         ]
     },
@@ -4550,6 +4901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1729"
             }
         ]
     },
@@ -4592,7 +4947,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4601,6 +4956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "678"
             }
         ]
     },
@@ -4652,6 +5011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1163"
             }
         ]
     },
@@ -4694,7 +5057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4703,6 +5066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "910"
             }
         ]
     },
@@ -4745,7 +5112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4754,6 +5121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1395"
             }
         ]
     },
@@ -4805,6 +5176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "15"
             }
         ]
     },
@@ -4856,6 +5231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "44"
             }
         ]
     },
@@ -4898,7 +5277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -4907,6 +5286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1093"
             }
         ]
     },
@@ -4958,6 +5341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1761"
             }
         ]
     },
@@ -5000,7 +5387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5009,6 +5396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1254"
             }
         ]
     },
@@ -5051,7 +5442,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5060,6 +5451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "249"
             }
         ]
     },
@@ -5111,6 +5506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "949"
             }
         ]
     },
@@ -5162,6 +5561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "35"
             }
         ]
     },
@@ -5204,7 +5607,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5213,6 +5616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2181"
             }
         ]
     },
@@ -5255,7 +5662,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5264,6 +5671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2185"
             }
         ]
     },
@@ -5315,6 +5726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2070"
             }
         ]
     },
@@ -5357,7 +5772,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5366,6 +5781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "569"
             }
         ]
     },
@@ -5417,6 +5836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1625"
             }
         ]
     },
@@ -5468,6 +5891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1885"
             }
         ]
     },
@@ -5519,6 +5946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2270"
             }
         ]
     },
@@ -5561,7 +5992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5570,6 +6001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "32"
             }
         ]
     },
@@ -5621,6 +6056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "421"
             }
         ]
     },
@@ -5663,7 +6102,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5672,6 +6111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1469"
             }
         ]
     },
@@ -5723,6 +6166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "197"
             }
         ]
     },
@@ -5765,7 +6212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5774,6 +6221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "627"
             }
         ]
     },
@@ -5825,6 +6276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1432"
             }
         ]
     },
@@ -5867,7 +6322,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -5876,6 +6331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "866"
             }
         ]
     },
@@ -5927,6 +6386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1102"
             }
         ]
     },
@@ -5978,6 +6441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "700"
             }
         ]
     },
@@ -6029,6 +6496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2248"
             }
         ]
     },
@@ -6080,6 +6551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1613"
             }
         ]
     },
@@ -6122,7 +6597,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6131,6 +6606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1412"
             }
         ]
     },
@@ -6182,6 +6661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "759"
             }
         ]
     },
@@ -6224,7 +6707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6233,6 +6716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1185"
             }
         ]
     },
@@ -6284,6 +6771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1174"
             }
         ]
     },
@@ -6326,7 +6817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6335,6 +6826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "91"
             }
         ]
     },
@@ -6386,6 +6881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1464"
             }
         ]
     },
@@ -6437,6 +6936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1373"
             }
         ]
     },
@@ -6488,6 +6991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1269"
             }
         ]
     },
@@ -6539,6 +7046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2045"
             }
         ]
     },
@@ -6581,7 +7092,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6590,6 +7101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1312"
             }
         ]
     },
@@ -6641,6 +7156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1365"
             }
         ]
     },
@@ -6683,7 +7202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6692,6 +7211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "628"
             }
         ]
     },
@@ -6734,7 +7257,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6743,6 +7266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "920"
             }
         ]
     },
@@ -6794,6 +7321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "374"
             }
         ]
     },
@@ -6836,7 +7367,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -6845,6 +7376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "538"
             }
         ]
     },
@@ -6896,6 +7431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "361"
             }
         ]
     },
@@ -6947,6 +7486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "125"
             }
         ]
     },
@@ -6998,6 +7541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "884"
             }
         ]
     },
@@ -7049,6 +7596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1903"
             }
         ]
     },
@@ -7100,6 +7651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1793"
             }
         ]
     },
@@ -7142,7 +7697,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7151,6 +7706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2170"
             }
         ]
     },
@@ -7202,6 +7761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1906"
             }
         ]
     },
@@ -7253,6 +7816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1149"
             }
         ]
     },
@@ -7295,7 +7862,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7304,6 +7871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2263"
             }
         ]
     },
@@ -7346,7 +7917,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7355,6 +7926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "269"
             }
         ]
     },
@@ -7406,6 +7981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "894"
             }
         ]
     },
@@ -7448,7 +8027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7457,6 +8036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2363"
             }
         ]
     },
@@ -7499,7 +8082,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7508,6 +8091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "292"
             }
         ]
     },
@@ -7559,6 +8146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "761"
             }
         ]
     },
@@ -7601,7 +8192,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7610,6 +8201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2468"
             }
         ]
     },
@@ -7661,6 +8256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1258"
             }
         ]
     },
@@ -7712,6 +8311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1605"
             }
         ]
     },
@@ -7763,6 +8366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2421"
             }
         ]
     },
@@ -7805,7 +8412,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7814,6 +8421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1876"
             }
         ]
     },
@@ -7865,6 +8476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1392"
             }
         ]
     },
@@ -7907,7 +8522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7916,6 +8531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1599"
             }
         ]
     },
@@ -7958,7 +8577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -7967,6 +8586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "755"
             }
         ]
     },
@@ -8018,6 +8641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2388"
             }
         ]
     },
@@ -8069,6 +8696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "495"
             }
         ]
     },
@@ -8111,7 +8742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8120,6 +8751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2441"
             }
         ]
     },
@@ -8171,6 +8806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1098"
             }
         ]
     },
@@ -8213,7 +8852,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8222,6 +8861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "313"
             }
         ]
     },
@@ -8273,6 +8916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "224"
             }
         ]
     },
@@ -8324,6 +8971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1671"
             }
         ]
     },
@@ -8366,7 +9017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8375,6 +9026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1060"
             }
         ]
     },
@@ -8417,7 +9072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8426,6 +9081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "837"
             }
         ]
     },
@@ -8468,7 +9127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8477,6 +9136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2489"
             }
         ]
     },
@@ -8519,7 +9182,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8528,6 +9191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "964"
             }
         ]
     },
@@ -8579,6 +9246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1614"
             }
         ]
     },
@@ -8621,7 +9292,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8630,6 +9301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2451"
             }
         ]
     },
@@ -8672,7 +9347,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8681,6 +9356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "370"
             }
         ]
     },
@@ -8723,7 +9402,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8732,6 +9411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2164"
             }
         ]
     },
@@ -8783,6 +9466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1839"
             }
         ]
     },
@@ -8834,6 +9521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2355"
             }
         ]
     },
@@ -8885,6 +9576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2265"
             }
         ]
     },
@@ -8936,6 +9631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1139"
             }
         ]
     },
@@ -8978,7 +9677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -8987,6 +9686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1514"
             }
         ]
     },
@@ -9029,7 +9732,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9038,6 +9741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2427"
             }
         ]
     },
@@ -9089,6 +9796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1538"
             }
         ]
     },
@@ -9131,7 +9842,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9140,6 +9851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "360"
             }
         ]
     },
@@ -9182,7 +9897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9191,6 +9906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1266"
             }
         ]
     },
@@ -9233,7 +9952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9242,6 +9961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2195"
             }
         ]
     },
@@ -9293,6 +10016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1772"
             }
         ]
     },
@@ -9335,7 +10062,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9344,6 +10071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1268"
             }
         ]
     },
@@ -9395,6 +10126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1571"
             }
         ]
     },
@@ -9437,7 +10172,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9446,6 +10181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "131"
             }
         ]
     },
@@ -9488,7 +10227,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9497,6 +10236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "356"
             }
         ]
     },
@@ -9539,7 +10282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9548,6 +10291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "329"
             }
         ]
     },
@@ -9590,7 +10337,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9599,6 +10346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "929"
             }
         ]
     },
@@ -9650,6 +10401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "875"
             }
         ]
     },
@@ -9701,6 +10456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "649"
             }
         ]
     },
@@ -9752,6 +10511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2364"
             }
         ]
     },
@@ -9803,6 +10566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2329"
             }
         ]
     },
@@ -9854,6 +10621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "769"
             }
         ]
     },
@@ -9905,6 +10676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "986"
             }
         ]
     },
@@ -9947,7 +10722,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -9956,6 +10731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "723"
             }
         ]
     },
@@ -9998,7 +10777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10007,6 +10786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1336"
             }
         ]
     },
@@ -10049,7 +10832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10058,6 +10841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2008"
             }
         ]
     },
@@ -10109,6 +10896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "645"
             }
         ]
     },
@@ -10160,6 +10951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2370"
             }
         ]
     },
@@ -10211,6 +11006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1811"
             }
         ]
     },
@@ -10262,6 +11061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2437"
             }
         ]
     },
@@ -10313,6 +11116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1740"
             }
         ]
     },
@@ -10364,6 +11171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "740"
             }
         ]
     },
@@ -10406,7 +11217,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10415,6 +11226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1592"
             }
         ]
     },
@@ -10466,6 +11281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "315"
             }
         ]
     },
@@ -10517,6 +11336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1490"
             }
         ]
     },
@@ -10559,7 +11382,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10568,6 +11391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "995"
             }
         ]
     },
@@ -10619,6 +11446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "731"
             }
         ]
     },
@@ -10661,7 +11492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10670,6 +11501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "153"
             }
         ]
     },
@@ -10721,6 +11556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1039"
             }
         ]
     },
@@ -10763,7 +11602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10772,6 +11611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "427"
             }
         ]
     },
@@ -10823,6 +11666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "51"
             }
         ]
     },
@@ -10865,7 +11712,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10874,6 +11721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1822"
             }
         ]
     },
@@ -10916,7 +11767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -10925,6 +11776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2157"
             }
         ]
     },
@@ -10976,6 +11831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "317"
             }
         ]
     },
@@ -11018,7 +11877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11027,6 +11886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2435"
             }
         ]
     },
@@ -11078,6 +11941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "669"
             }
         ]
     },
@@ -11120,7 +11987,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11129,6 +11996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2475"
             }
         ]
     },
@@ -11180,6 +12051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1207"
             }
         ]
     },
@@ -11222,7 +12097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11231,6 +12106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "721"
             }
         ]
     },
@@ -11273,7 +12152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11282,6 +12161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1435"
             }
         ]
     },
@@ -11324,7 +12207,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11333,6 +12216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "933"
             }
         ]
     },
@@ -11384,6 +12271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "795"
             }
         ]
     },
@@ -11426,7 +12317,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11435,6 +12326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "331"
             }
         ]
     },
@@ -11477,7 +12372,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11486,6 +12381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "474"
             }
         ]
     },
@@ -11537,6 +12436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2268"
             }
         ]
     },
@@ -11579,7 +12482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11588,6 +12491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1891"
             }
         ]
     },
@@ -11630,7 +12537,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11639,6 +12546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2498"
             }
         ]
     },
@@ -11690,6 +12601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1813"
             }
         ]
     },
@@ -11732,7 +12647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11741,6 +12656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "332"
             }
         ]
     },
@@ -11783,7 +12702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11792,6 +12711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1374"
             }
         ]
     },
@@ -11843,6 +12766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "107"
             }
         ]
     },
@@ -11885,7 +12812,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -11894,6 +12821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "85"
             }
         ]
     },
@@ -11945,6 +12876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1407"
             }
         ]
     },
@@ -11996,6 +12931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2183"
             }
         ]
     },
@@ -12038,7 +12977,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12047,6 +12986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "849"
             }
         ]
     },
@@ -12098,6 +13041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "857"
             }
         ]
     },
@@ -12140,7 +13087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12149,6 +13096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1247"
             }
         ]
     },
@@ -12191,7 +13142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12200,6 +13151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "777"
             }
         ]
     },
@@ -12242,7 +13197,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12251,6 +13206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1191"
             }
         ]
     },
@@ -12293,7 +13252,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12302,6 +13261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1546"
             }
         ]
     },
@@ -12353,6 +13316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "99"
             }
         ]
     },
@@ -12404,6 +13371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "18"
             }
         ]
     },
@@ -12446,7 +13417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12455,6 +13426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1296"
             }
         ]
     },
@@ -12506,6 +13481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "610"
             }
         ]
     },
@@ -12557,6 +13536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "296"
             }
         ]
     },
@@ -12608,6 +13591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1003"
             }
         ]
     },
@@ -12650,7 +13637,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12659,6 +13646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1766"
             }
         ]
     },
@@ -12710,6 +13701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "267"
             }
         ]
     },
@@ -12752,7 +13747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12761,6 +13756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1242"
             }
         ]
     },
@@ -12812,6 +13811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1655"
             }
         ]
     },
@@ -12854,7 +13857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -12863,6 +13866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2196"
             }
         ]
     },
@@ -12914,6 +13921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "982"
             }
         ]
     },
@@ -12965,6 +13976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1203"
             }
         ]
     },
@@ -13016,6 +14031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2376"
             }
         ]
     },
@@ -13067,6 +14086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "236"
             }
         ]
     },
@@ -13118,6 +14141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "460"
             }
         ]
     },
@@ -13160,7 +14187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13169,6 +14196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2053"
             }
         ]
     },
@@ -13220,6 +14251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1348"
             }
         ]
     },
@@ -13271,6 +14306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "848"
             }
         ]
     },
@@ -13313,7 +14352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13322,6 +14361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1478"
             }
         ]
     },
@@ -13364,7 +14407,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13373,6 +14416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "891"
             }
         ]
     },
@@ -13415,7 +14462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13424,6 +14471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "454"
             }
         ]
     },
@@ -13475,6 +14526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2054"
             }
         ]
     },
@@ -13526,6 +14581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1324"
             }
         ]
     },
@@ -13568,7 +14627,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13577,6 +14636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1670"
             }
         ]
     },
@@ -13619,7 +14682,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13628,6 +14691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1431"
             }
         ]
     },
@@ -13679,6 +14746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "926"
             }
         ]
     },
@@ -13721,7 +14792,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13730,6 +14801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "715"
             }
         ]
     },
@@ -13772,7 +14847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13781,6 +14856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2375"
             }
         ]
     },
@@ -13832,6 +14911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1316"
             }
         ]
     },
@@ -13883,6 +14966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2402"
             }
         ]
     },
@@ -13925,7 +15012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -13934,6 +15021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "557"
             }
         ]
     },
@@ -13985,6 +15076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "979"
             }
         ]
     },
@@ -14027,7 +15122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14036,6 +15131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2231"
             }
         ]
     },
@@ -14087,6 +15186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "789"
             }
         ]
     },
@@ -14138,6 +15241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1345"
             }
         ]
     },
@@ -14180,7 +15287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14189,6 +15296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2252"
             }
         ]
     },
@@ -14231,7 +15342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14240,6 +15351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1466"
             }
         ]
     },
@@ -14282,7 +15397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14291,6 +15406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2121"
             }
         ]
     },
@@ -14342,6 +15461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2474"
             }
         ]
     },
@@ -14384,7 +15507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14393,6 +15516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2309"
             }
         ]
     },
@@ -14444,6 +15571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "584"
             }
         ]
     },
@@ -14486,7 +15617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14495,6 +15626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1192"
             }
         ]
     },
@@ -14537,7 +15672,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14546,6 +15681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1697"
             }
         ]
     },
@@ -14588,7 +15727,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14597,6 +15736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "304"
             }
         ]
     },
@@ -14639,7 +15782,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14648,6 +15791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1283"
             }
         ]
     },
@@ -14699,6 +15846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "733"
             }
         ]
     },
@@ -14750,6 +15901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1952"
             }
         ]
     },
@@ -14801,6 +15956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1154"
             }
         ]
     },
@@ -14852,6 +16011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2356"
             }
         ]
     },
@@ -14894,7 +16057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -14903,6 +16066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1526"
             }
         ]
     },
@@ -14954,6 +16121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2275"
             }
         ]
     },
@@ -15005,6 +16176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1797"
             }
         ]
     },
@@ -15056,6 +16231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "588"
             }
         ]
     },
@@ -15098,7 +16277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15107,6 +16286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "89"
             }
         ]
     },
@@ -15158,6 +16341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "772"
             }
         ]
     },
@@ -15200,7 +16387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15209,6 +16396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2016"
             }
         ]
     },
@@ -15251,7 +16442,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15260,6 +16451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1337"
             }
         ]
     },
@@ -15311,6 +16506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "959"
             }
         ]
     },
@@ -15362,6 +16561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "713"
             }
         ]
     },
@@ -15413,6 +16616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "379"
             }
         ]
     },
@@ -15455,7 +16662,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15464,6 +16671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1501"
             }
         ]
     },
@@ -15515,6 +16726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "751"
             }
         ]
     },
@@ -15557,7 +16772,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15566,6 +16781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1916"
             }
         ]
     },
@@ -15608,7 +16827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15617,6 +16836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2012"
             }
         ]
     },
@@ -15668,6 +16891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1452"
             }
         ]
     },
@@ -15710,7 +16937,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15719,6 +16946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1059"
             }
         ]
     },
@@ -15770,6 +17001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "461"
             }
         ]
     },
@@ -15821,6 +17056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1486"
             }
         ]
     },
@@ -15863,7 +17102,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15872,6 +17111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1049"
             }
         ]
     },
@@ -15914,7 +17157,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15923,6 +17166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2472"
             }
         ]
     },
@@ -15965,7 +17212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -15974,6 +17221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1662"
             }
         ]
     },
@@ -16025,6 +17276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1548"
             }
         ]
     },
@@ -16076,6 +17331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "7"
             }
         ]
     },
@@ -16127,6 +17386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "955"
             }
         ]
     },
@@ -16178,6 +17441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "187"
             }
         ]
     },
@@ -16220,7 +17487,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16229,6 +17496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2103"
             }
         ]
     },
@@ -16280,6 +17551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "583"
             }
         ]
     },
@@ -16331,6 +17606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1239"
             }
         ]
     },
@@ -16382,6 +17661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "889"
             }
         ]
     },
@@ -16424,7 +17707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16433,6 +17716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "817"
             }
         ]
     },
@@ -16484,6 +17771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "6"
             }
         ]
     },
@@ -16526,7 +17817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16535,6 +17826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1522"
             }
         ]
     },
@@ -16577,7 +17872,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16586,6 +17881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2397"
             }
         ]
     },
@@ -16628,7 +17927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16637,6 +17936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1650"
             }
         ]
     },
@@ -16688,6 +17991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "631"
             }
         ]
     },
@@ -16739,6 +18046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2458"
             }
         ]
     },
@@ -16790,6 +18101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1602"
             }
         ]
     },
@@ -16832,7 +18147,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16841,6 +18156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1566"
             }
         ]
     },
@@ -16883,7 +18202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -16892,6 +18211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2105"
             }
         ]
     },
@@ -16943,6 +18266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "914"
             }
         ]
     },
@@ -16994,6 +18321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "400"
             }
         ]
     },
@@ -17045,6 +18376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1559"
             }
         ]
     },
@@ -17096,6 +18431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1082"
             }
         ]
     },
@@ -17138,7 +18477,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17147,6 +18486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1210"
             }
         ]
     },
@@ -17198,6 +18541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2162"
             }
         ]
     },
@@ -17249,6 +18596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "630"
             }
         ]
     },
@@ -17300,6 +18651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1800"
             }
         ]
     },
@@ -17351,6 +18706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1947"
             }
         ]
     },
@@ -17402,6 +18761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "207"
             }
         ]
     },
@@ -17444,7 +18807,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17453,6 +18816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1700"
             }
         ]
     },
@@ -17495,7 +18862,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17504,6 +18871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2167"
             }
         ]
     },
@@ -17555,6 +18926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1907"
             }
         ]
     },
@@ -17606,6 +18981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1282"
             }
         ]
     },
@@ -17648,7 +19027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17657,6 +19036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "225"
             }
         ]
     },
@@ -17708,6 +19091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "539"
             }
         ]
     },
@@ -17759,6 +19146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1483"
             }
         ]
     },
@@ -17801,7 +19192,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17810,6 +19201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1864"
             }
         ]
     },
@@ -17861,6 +19256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "967"
             }
         ]
     },
@@ -17903,7 +19302,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17912,6 +19311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2277"
             }
         ]
     },
@@ -17954,7 +19357,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -17963,6 +19366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "174"
             }
         ]
     },
@@ -18014,6 +19421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1025"
             }
         ]
     },
@@ -18065,6 +19476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "206"
             }
         ]
     },
@@ -18116,6 +19531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1391"
             }
         ]
     },
@@ -18158,7 +19577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18167,6 +19586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2149"
             }
         ]
     },
@@ -18209,7 +19632,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18218,6 +19641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2038"
             }
         ]
     },
@@ -18260,7 +19687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18269,6 +19696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1176"
             }
         ]
     },
@@ -18320,6 +19751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "502"
             }
         ]
     },
@@ -18362,7 +19797,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18371,6 +19806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2117"
             }
         ]
     },
@@ -18422,6 +19861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "714"
             }
         ]
     },
@@ -18473,6 +19916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2371"
             }
         ]
     },
@@ -18524,6 +19971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "938"
             }
         ]
     },
@@ -18575,6 +20026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1544"
             }
         ]
     },
@@ -18617,7 +20072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18626,6 +20081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2473"
             }
         ]
     },
@@ -18677,6 +20136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "372"
             }
         ]
     },
@@ -18728,6 +20191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2154"
             }
         ]
     },
@@ -18779,6 +20246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1287"
             }
         ]
     },
@@ -18821,7 +20292,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -18830,6 +20301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1135"
             }
         ]
     },
@@ -18881,6 +20356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "126"
             }
         ]
     },
@@ -18932,6 +20411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1770"
             }
         ]
     },
@@ -18983,6 +20466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1910"
             }
         ]
     },
@@ -19025,7 +20512,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19034,6 +20521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "40"
             }
         ]
     },
@@ -19085,6 +20576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1237"
             }
         ]
     },
@@ -19127,7 +20622,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19136,6 +20631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2400"
             }
         ]
     },
@@ -19187,6 +20686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1488"
             }
         ]
     },
@@ -19238,6 +20741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "887"
             }
         ]
     },
@@ -19280,7 +20787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19289,6 +20796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "230"
             }
         ]
     },
@@ -19331,7 +20842,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19340,6 +20851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1108"
             }
         ]
     },
@@ -19382,7 +20897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19391,6 +20906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2368"
             }
         ]
     },
@@ -19433,7 +20952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19442,6 +20961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2453"
             }
         ]
     },
@@ -19493,6 +21016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1079"
             }
         ]
     },
@@ -19544,6 +21071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "655"
             }
         ]
     },
@@ -19595,6 +21126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "255"
             }
         ]
     },
@@ -19646,6 +21181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1460"
             }
         ]
     },
@@ -19697,6 +21236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1264"
             }
         ]
     },
@@ -19739,7 +21282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19748,6 +21291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "825"
             }
         ]
     },
@@ -19799,6 +21346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1977"
             }
         ]
     },
@@ -19850,6 +21401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "202"
             }
         ]
     },
@@ -19901,6 +21456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "978"
             }
         ]
     },
@@ -19943,7 +21502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -19952,6 +21511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1438"
             }
         ]
     },
@@ -20003,6 +21566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "341"
             }
         ]
     },
@@ -20054,6 +21621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "990"
             }
         ]
     },
@@ -20105,6 +21676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "363"
             }
         ]
     },
@@ -20156,6 +21731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1705"
             }
         ]
     },
@@ -20198,7 +21777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20207,6 +21786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1034"
             }
         ]
     },
@@ -20249,7 +21832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20258,6 +21841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1008"
             }
         ]
     },
@@ -20309,6 +21896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "981"
             }
         ]
     },
@@ -20351,7 +21942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20360,6 +21951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1814"
             }
         ]
     },
@@ -20411,6 +22006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2226"
             }
         ]
     },
@@ -20453,7 +22052,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20462,6 +22061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1933"
             }
         ]
     },
@@ -20513,6 +22116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1308"
             }
         ]
     },
@@ -20555,7 +22162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20564,6 +22171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "897"
             }
         ]
     },
@@ -20615,6 +22226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "272"
             }
         ]
     },
@@ -20666,6 +22281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1887"
             }
         ]
     },
@@ -20708,7 +22327,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20717,6 +22336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1298"
             }
         ]
     },
@@ -20768,6 +22391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1669"
             }
         ]
     },
@@ -20819,6 +22446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1369"
             }
         ]
     },
@@ -20870,6 +22501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "190"
             }
         ]
     },
@@ -20912,7 +22547,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -20921,6 +22556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "244"
             }
         ]
     },
@@ -20972,6 +22611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "913"
             }
         ]
     },
@@ -21023,6 +22666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "338"
             }
         ]
     },
@@ -21074,6 +22721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "619"
             }
         ]
     },
@@ -21116,7 +22767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21125,6 +22776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1552"
             }
         ]
     },
@@ -21176,6 +22831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1515"
             }
         ]
     },
@@ -21218,7 +22877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21227,6 +22886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2354"
             }
         ]
     },
@@ -21278,6 +22941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1181"
             }
         ]
     },
@@ -21320,7 +22987,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21329,6 +22996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1468"
             }
         ]
     },
@@ -21380,6 +23051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "756"
             }
         ]
     },
@@ -21431,6 +23106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "101"
             }
         ]
     },
@@ -21473,7 +23152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21482,6 +23161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1610"
             }
         ]
     },
@@ -21533,6 +23216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "266"
             }
         ]
     },
@@ -21575,7 +23262,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21584,6 +23271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1694"
             }
         ]
     },
@@ -21635,6 +23326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "743"
             }
         ]
     },
@@ -21677,7 +23372,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21686,6 +23381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1752"
             }
         ]
     },
@@ -21728,7 +23427,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21737,6 +23436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2175"
             }
         ]
     },
@@ -21779,7 +23482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -21788,6 +23491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2273"
             }
         ]
     },
@@ -21839,6 +23546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "469"
             }
         ]
     },
@@ -21890,6 +23601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1747"
             }
         ]
     },
@@ -21941,6 +23656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1350"
             }
         ]
     },
@@ -21992,6 +23711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "217"
             }
         ]
     },
@@ -22034,7 +23757,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22043,6 +23766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1600"
             }
         ]
     },
@@ -22094,6 +23821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "961"
             }
         ]
     },
@@ -22145,6 +23876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "647"
             }
         ]
     },
@@ -22187,7 +23922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22196,6 +23931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1314"
             }
         ]
     },
@@ -22238,7 +23977,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22247,6 +23986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "287"
             }
         ]
     },
@@ -22298,6 +24041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1408"
             }
         ]
     },
@@ -22349,6 +24096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2486"
             }
         ]
     },
@@ -22391,7 +24142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22400,6 +24151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1643"
             }
         ]
     },
@@ -22451,6 +24206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "566"
             }
         ]
     },
@@ -22502,6 +24261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1898"
             }
         ]
     },
@@ -22544,7 +24307,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22553,6 +24316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2249"
             }
         ]
     },
@@ -22595,7 +24362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22604,6 +24371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2284"
             }
         ]
     },
@@ -22646,7 +24417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22655,6 +24426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2374"
             }
         ]
     },
@@ -22706,6 +24481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1027"
             }
         ]
     },
@@ -22748,7 +24527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22757,6 +24536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2213"
             }
         ]
     },
@@ -22808,6 +24591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1628"
             }
         ]
     },
@@ -22859,6 +24646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2122"
             }
         ]
     },
@@ -22910,6 +24701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1846"
             }
         ]
     },
@@ -22952,7 +24747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -22961,6 +24756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2163"
             }
         ]
     },
@@ -23003,7 +24802,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23012,6 +24811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1889"
             }
         ]
     },
@@ -23054,7 +24857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23063,6 +24866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "613"
             }
         ]
     },
@@ -23114,6 +24921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "903"
             }
         ]
     },
@@ -23165,6 +24976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "340"
             }
         ]
     },
@@ -23216,6 +25031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1106"
             }
         ]
     },
@@ -23258,7 +25077,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23267,6 +25086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "764"
             }
         ]
     },
@@ -23318,6 +25141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1007"
             }
         ]
     },
@@ -23360,7 +25187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23369,6 +25196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1778"
             }
         ]
     },
@@ -23420,6 +25251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1681"
             }
         ]
     },
@@ -23462,7 +25297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23471,6 +25306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "841"
             }
         ]
     },
@@ -23522,6 +25361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "271"
             }
         ]
     },
@@ -23573,6 +25416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "653"
             }
         ]
     },
@@ -23624,6 +25471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "407"
             }
         ]
     },
@@ -23675,6 +25526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1032"
             }
         ]
     },
@@ -23726,6 +25581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "451"
             }
         ]
     },
@@ -23777,6 +25636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1147"
             }
         ]
     },
@@ -23828,6 +25691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "441"
             }
         ]
     },
@@ -23870,7 +25737,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23879,6 +25746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1718"
             }
         ]
     },
@@ -23921,7 +25792,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -23930,6 +25801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "600"
             }
         ]
     },
@@ -23981,6 +25856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1986"
             }
         ]
     },
@@ -24032,6 +25911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2145"
             }
         ]
     },
@@ -24074,7 +25957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24083,6 +25966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1675"
             }
         ]
     },
@@ -24134,6 +26021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "422"
             }
         ]
     },
@@ -24176,7 +26067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24185,6 +26076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "801"
             }
         ]
     },
@@ -24236,6 +26131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2032"
             }
         ]
     },
@@ -24287,6 +26186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "601"
             }
         ]
     },
@@ -24338,6 +26241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "398"
             }
         ]
     },
@@ -24389,6 +26296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "687"
             }
         ]
     },
@@ -24440,6 +26351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "685"
             }
         ]
     },
@@ -24491,6 +26406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1167"
             }
         ]
     },
@@ -24542,6 +26461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "342"
             }
         ]
     },
@@ -24584,7 +26507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24593,6 +26516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2191"
             }
         ]
     },
@@ -24644,6 +26571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1333"
             }
         ]
     },
@@ -24686,7 +26617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24695,6 +26626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2093"
             }
         ]
     },
@@ -24737,7 +26672,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24746,6 +26681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2002"
             }
         ]
     },
@@ -24797,6 +26736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2459"
             }
         ]
     },
@@ -24848,6 +26791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1186"
             }
         ]
     },
@@ -24890,7 +26837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -24899,6 +26846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2477"
             }
         ]
     },
@@ -24950,6 +26901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1584"
             }
         ]
     },
@@ -25001,6 +26956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "776"
             }
         ]
     },
@@ -25052,6 +27011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1013"
             }
         ]
     },
@@ -25103,6 +27066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2003"
             }
         ]
     },
@@ -25145,7 +27112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25154,6 +27121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2456"
             }
         ]
     },
@@ -25205,6 +27176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "116"
             }
         ]
     },
@@ -25247,7 +27222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25256,6 +27231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1033"
             }
         ]
     },
@@ -25298,7 +27277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25307,6 +27286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1565"
             }
         ]
     },
@@ -25349,7 +27332,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25358,6 +27341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2358"
             }
         ]
     },
@@ -25400,7 +27387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25409,6 +27396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1859"
             }
         ]
     },
@@ -25460,6 +27451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1775"
             }
         ]
     },
@@ -25511,6 +27506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "390"
             }
         ]
     },
@@ -25562,6 +27561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2066"
             }
         ]
     },
@@ -25604,7 +27607,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25613,6 +27616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2365"
             }
         ]
     },
@@ -25664,6 +27671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "22"
             }
         ]
     },
@@ -25715,6 +27726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2346"
             }
         ]
     },
@@ -25766,6 +27781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "419"
             }
         ]
     },
@@ -25808,7 +27827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25817,6 +27836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2465"
             }
         ]
     },
@@ -25868,6 +27891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1184"
             }
         ]
     },
@@ -25910,7 +27937,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -25919,6 +27946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1642"
             }
         ]
     },
@@ -25970,6 +28001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2159"
             }
         ]
     },
@@ -26021,6 +28056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1367"
             }
         ]
     },
@@ -26072,6 +28111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1138"
             }
         ]
     },
@@ -26123,6 +28166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "703"
             }
         ]
     },
@@ -26165,7 +28212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26174,6 +28221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1717"
             }
         ]
     },
@@ -26225,6 +28276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1869"
             }
         ]
     },
@@ -26276,6 +28331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1403"
             }
         ]
     },
@@ -26318,7 +28377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26327,6 +28386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1568"
             }
         ]
     },
@@ -26378,6 +28441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "397"
             }
         ]
     },
@@ -26429,6 +28496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2001"
             }
         ]
     },
@@ -26480,6 +28551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1995"
             }
         ]
     },
@@ -26522,7 +28597,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26531,6 +28606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "443"
             }
         ]
     },
@@ -26573,7 +28652,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26582,6 +28661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1843"
             }
         ]
     },
@@ -26633,6 +28716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "890"
             }
         ]
     },
@@ -26675,7 +28762,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26684,6 +28771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1656"
             }
         ]
     },
@@ -26726,7 +28817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26735,6 +28826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2301"
             }
         ]
     },
@@ -26786,6 +28881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "219"
             }
         ]
     },
@@ -26837,6 +28936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1275"
             }
         ]
     },
@@ -26879,7 +28982,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -26888,6 +28991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2205"
             }
         ]
     },
@@ -26939,6 +29046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2010"
             }
         ]
     },
@@ -26990,6 +29101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "778"
             }
         ]
     },
@@ -27041,6 +29156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "115"
             }
         ]
     },
@@ -27083,7 +29202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27092,6 +29211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2233"
             }
         ]
     },
@@ -27134,7 +29257,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27143,6 +29266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "865"
             }
         ]
     },
@@ -27194,6 +29321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1066"
             }
         ]
     },
@@ -27236,7 +29367,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27245,6 +29376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "83"
             }
         ]
     },
@@ -27287,7 +29422,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27296,6 +29431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1196"
             }
         ]
     },
@@ -27338,7 +29477,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27347,6 +29486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2245"
             }
         ]
     },
@@ -27398,6 +29541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1969"
             }
         ]
     },
@@ -27449,6 +29596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "218"
             }
         ]
     },
@@ -27491,7 +29642,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27500,6 +29651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2220"
             }
         ]
     },
@@ -27542,7 +29697,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27551,6 +29706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1277"
             }
         ]
     },
@@ -27593,7 +29752,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27602,6 +29761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "314"
             }
         ]
     },
@@ -27644,7 +29807,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27653,6 +29816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "439"
             }
         ]
     },
@@ -27704,6 +29871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1651"
             }
         ]
     },
@@ -27746,7 +29917,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27755,6 +29926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "682"
             }
         ]
     },
@@ -27806,6 +29981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1609"
             }
         ]
     },
@@ -27857,6 +30036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "932"
             }
         ]
     },
@@ -27908,6 +30091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "831"
             }
         ]
     },
@@ -27950,7 +30137,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -27959,6 +30146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2068"
             }
         ]
     },
@@ -28010,6 +30201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1842"
             }
         ]
     },
@@ -28052,7 +30247,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28061,6 +30256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "798"
             }
         ]
     },
@@ -28103,7 +30302,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28112,6 +30311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1997"
             }
         ]
     },
@@ -28163,6 +30366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "878"
             }
         ]
     },
@@ -28205,7 +30412,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28214,6 +30421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "819"
             }
         ]
     },
@@ -28265,6 +30476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "29"
             }
         ]
     },
@@ -28316,6 +30531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1647"
             }
         ]
     },
@@ -28358,7 +30577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28367,6 +30586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "194"
             }
         ]
     },
@@ -28409,7 +30632,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28418,6 +30641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "615"
             }
         ]
     },
@@ -28469,6 +30696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "344"
             }
         ]
     },
@@ -28520,6 +30751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1617"
             }
         ]
     },
@@ -28571,6 +30806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2083"
             }
         ]
     },
@@ -28622,6 +30861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "408"
             }
         ]
     },
@@ -28673,6 +30916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "977"
             }
         ]
     },
@@ -28715,7 +30962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28724,6 +30971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2480"
             }
         ]
     },
@@ -28766,7 +31017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28775,6 +31026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "985"
             }
         ]
     },
@@ -28826,6 +31081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1226"
             }
         ]
     },
@@ -28868,7 +31127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -28877,6 +31136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2085"
             }
         ]
     },
@@ -28928,6 +31191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1809"
             }
         ]
     },
@@ -28979,6 +31246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "996"
             }
         ]
     },
@@ -29030,6 +31301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "673"
             }
         ]
     },
@@ -29081,6 +31356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1136"
             }
         ]
     },
@@ -29132,6 +31411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "720"
             }
         ]
     },
@@ -29183,6 +31466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "541"
             }
         ]
     },
@@ -29234,6 +31521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1116"
             }
         ]
     },
@@ -29285,6 +31576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "391"
             }
         ]
     },
@@ -29327,7 +31622,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29336,6 +31631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1428"
             }
         ]
     },
@@ -29378,7 +31677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29387,6 +31686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "683"
             }
         ]
     },
@@ -29438,6 +31741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "782"
             }
         ]
     },
@@ -29480,7 +31787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29489,6 +31796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1505"
             }
         ]
     },
@@ -29540,6 +31851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1244"
             }
         ]
     },
@@ -29582,7 +31897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29591,6 +31906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2344"
             }
         ]
     },
@@ -29633,7 +31952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29642,6 +31961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2161"
             }
         ]
     },
@@ -29693,6 +32016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1180"
             }
         ]
     },
@@ -29744,6 +32071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1688"
             }
         ]
     },
@@ -29795,6 +32126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "638"
             }
         ]
     },
@@ -29846,6 +32181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "12"
             }
         ]
     },
@@ -29897,6 +32236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "833"
             }
         ]
     },
@@ -29939,7 +32282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -29948,6 +32291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "672"
             }
         ]
     },
@@ -29999,6 +32346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "634"
             }
         ]
     },
@@ -30041,7 +32392,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30050,6 +32401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1122"
             }
         ]
     },
@@ -30092,7 +32447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30101,6 +32456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2408"
             }
         ]
     },
@@ -30152,6 +32511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1890"
             }
         ]
     },
@@ -30203,6 +32566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "228"
             }
         ]
     },
@@ -30245,7 +32612,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30254,6 +32621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1690"
             }
         ]
     },
@@ -30296,7 +32667,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30305,6 +32676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2259"
             }
         ]
     },
@@ -30356,6 +32731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "805"
             }
         ]
     },
@@ -30398,7 +32777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30407,6 +32786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "49"
             }
         ]
     },
@@ -30458,6 +32841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "847"
             }
         ]
     },
@@ -30509,6 +32896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2326"
             }
         ]
     },
@@ -30551,7 +32942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30560,6 +32951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1773"
             }
         ]
     },
@@ -30611,6 +33006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "352"
             }
         ]
     },
@@ -30653,7 +33052,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30662,6 +33061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1396"
             }
         ]
     },
@@ -30704,7 +33107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30713,6 +33116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1498"
             }
         ]
     },
@@ -30755,7 +33162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -30764,6 +33171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2423"
             }
         ]
     },
@@ -30815,6 +33226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2049"
             }
         ]
     },
@@ -30866,6 +33281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "173"
             }
         ]
     },
@@ -30917,6 +33336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2314"
             }
         ]
     },
@@ -30968,6 +33391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "161"
             }
         ]
     },
@@ -31019,6 +33446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2208"
             }
         ]
     },
@@ -31061,7 +33492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31070,6 +33501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1711"
             }
         ]
     },
@@ -31121,6 +33556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1972"
             }
         ]
     },
@@ -31163,7 +33602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31172,6 +33611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1090"
             }
         ]
     },
@@ -31214,7 +33657,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31223,6 +33666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2018"
             }
         ]
     },
@@ -31265,7 +33712,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31274,6 +33721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2216"
             }
         ]
     },
@@ -31316,7 +33767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31325,6 +33776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1623"
             }
         ]
     },
@@ -31367,7 +33822,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31376,6 +33831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2057"
             }
         ]
     },
@@ -31418,7 +33877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31427,6 +33886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1733"
             }
         ]
     },
@@ -31469,7 +33932,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31478,6 +33941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "109"
             }
         ]
     },
@@ -31529,6 +33996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "705"
             }
         ]
     },
@@ -31571,7 +34042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31580,6 +34051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2156"
             }
         ]
     },
@@ -31622,7 +34097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31631,6 +34106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "768"
             }
         ]
     },
@@ -31682,6 +34161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1004"
             }
         ]
     },
@@ -31724,7 +34207,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31733,6 +34216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "574"
             }
         ]
     },
@@ -31784,6 +34271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "147"
             }
         ]
     },
@@ -31835,6 +34326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "760"
             }
         ]
     },
@@ -31886,6 +34381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2137"
             }
         ]
     },
@@ -31937,6 +34436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "184"
             }
         ]
     },
@@ -31979,7 +34482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -31988,6 +34491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "387"
             }
         ]
     },
@@ -32039,6 +34546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2058"
             }
         ]
     },
@@ -32090,6 +34601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1712"
             }
         ]
     },
@@ -32141,6 +34656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2056"
             }
         ]
     },
@@ -32192,6 +34711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "215"
             }
         ]
     },
@@ -32243,6 +34766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "882"
             }
         ]
     },
@@ -32294,6 +34821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "472"
             }
         ]
     },
@@ -32336,7 +34867,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -32345,6 +34876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2239"
             }
         ]
     },
@@ -32396,6 +34931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "532"
             }
         ]
     },
@@ -32447,6 +34986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1384"
             }
         ]
     },
@@ -32498,6 +35041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "958"
             }
         ]
     },
@@ -32549,6 +35096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1215"
             }
         ]
     },
@@ -32591,7 +35142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -32600,6 +35151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1393"
             }
         ]
     },
@@ -32651,6 +35206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2256"
             }
         ]
     },
@@ -32702,6 +35261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1899"
             }
         ]
     },
@@ -32753,6 +35316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1070"
             }
         ]
     },
@@ -32795,7 +35362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -32804,6 +35371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "701"
             }
         ]
     },
@@ -32846,7 +35417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -32855,6 +35426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1011"
             }
         ]
     },
@@ -32906,6 +35481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1078"
             }
         ]
     },
@@ -32948,7 +35527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -32957,6 +35536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1379"
             }
         ]
     },
@@ -32999,7 +35582,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33008,6 +35591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1558"
             }
         ]
     },
@@ -33059,6 +35646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "66"
             }
         ]
     },
@@ -33101,7 +35692,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33110,6 +35701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "477"
             }
         ]
     },
@@ -33161,6 +35756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "326"
             }
         ]
     },
@@ -33203,7 +35802,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33212,6 +35811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1928"
             }
         ]
     },
@@ -33263,6 +35866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "486"
             }
         ]
     },
@@ -33305,7 +35912,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33314,6 +35921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "550"
             }
         ]
     },
@@ -33356,7 +35967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33365,6 +35976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2091"
             }
         ]
     },
@@ -33416,6 +36031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "924"
             }
         ]
     },
@@ -33467,6 +36086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1880"
             }
         ]
     },
@@ -33509,7 +36132,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33518,6 +36141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1963"
             }
         ]
     },
@@ -33560,7 +36187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33569,6 +36196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2393"
             }
         ]
     },
@@ -33620,6 +36251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "765"
             }
         ]
     },
@@ -33662,7 +36297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33671,6 +36306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1461"
             }
         ]
     },
@@ -33713,7 +36352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33722,6 +36361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2425"
             }
         ]
     },
@@ -33764,7 +36407,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33773,6 +36416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1860"
             }
         ]
     },
@@ -33824,6 +36471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "120"
             }
         ]
     },
@@ -33875,6 +36526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1687"
             }
         ]
     },
@@ -33917,7 +36572,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -33926,6 +36581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2433"
             }
         ]
     },
@@ -33977,6 +36636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "909"
             }
         ]
     },
@@ -34019,7 +36682,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34028,6 +36691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1553"
             }
         ]
     },
@@ -34079,6 +36746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1560"
             }
         ]
     },
@@ -34130,6 +36801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "907"
             }
         ]
     },
@@ -34172,7 +36847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34181,6 +36856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1951"
             }
         ]
     },
@@ -34232,6 +36911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1966"
             }
         ]
     },
@@ -34274,7 +36957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34283,6 +36966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2463"
             }
         ]
     },
@@ -34334,6 +37021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1134"
             }
         ]
     },
@@ -34376,7 +37067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34385,6 +37076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2072"
             }
         ]
     },
@@ -34427,7 +37122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34436,6 +37131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "609"
             }
         ]
     },
@@ -34478,7 +37177,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34487,6 +37186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1922"
             }
         ]
     },
@@ -34538,6 +37241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1678"
             }
         ]
     },
@@ -34589,6 +37296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "481"
             }
         ]
     },
@@ -34640,6 +37351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2212"
             }
         ]
     },
@@ -34682,7 +37397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34691,6 +37406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1457"
             }
         ]
     },
@@ -34742,6 +37461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2090"
             }
         ]
     },
@@ -34784,7 +37507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34793,6 +37516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "365"
             }
         ]
     },
@@ -34835,7 +37562,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34844,6 +37571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2280"
             }
         ]
     },
@@ -34886,7 +37617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34895,6 +37626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2009"
             }
         ]
     },
@@ -34946,6 +37681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1010"
             }
         ]
     },
@@ -34988,7 +37727,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -34997,6 +37736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1755"
             }
         ]
     },
@@ -35048,6 +37791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1746"
             }
         ]
     },
@@ -35099,6 +37846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1819"
             }
         ]
     },
@@ -35150,6 +37901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "67"
             }
         ]
     },
@@ -35201,6 +37956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "548"
             }
         ]
     },
@@ -35252,6 +38011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1"
             }
         ]
     },
@@ -35294,7 +38057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -35303,6 +38066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2063"
             }
         ]
     },
@@ -35354,6 +38121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "686"
             }
         ]
     },
@@ -35405,6 +38176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1663"
             }
         ]
     },
@@ -35447,7 +38222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -35456,6 +38231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2150"
             }
         ]
     },
@@ -35498,7 +38277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -35507,6 +38286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "901"
             }
         ]
     },
@@ -35558,6 +38341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2025"
             }
         ]
     },
@@ -35609,6 +38396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1944"
             }
         ]
     },
@@ -35651,7 +38442,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -35660,6 +38451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1114"
             }
         ]
     },
@@ -35711,6 +38506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2254"
             }
         ]
     },
@@ -35762,6 +38561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2357"
             }
         ]
     },
@@ -35813,6 +38616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "133"
             }
         ]
     },
@@ -35864,6 +38671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "119"
             }
         ]
     },
@@ -35915,6 +38726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "960"
             }
         ]
     },
@@ -35966,6 +38781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2261"
             }
         ]
     },
@@ -36008,7 +38827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36017,6 +38836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1125"
             }
         ]
     },
@@ -36068,6 +38891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2302"
             }
         ]
     },
@@ -36119,6 +38946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1934"
             }
         ]
     },
@@ -36161,7 +38992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36170,6 +39001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1000"
             }
         ]
     },
@@ -36212,7 +39047,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36221,6 +39056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1058"
             }
         ]
     },
@@ -36272,6 +39111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "302"
             }
         ]
     },
@@ -36323,6 +39166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1218"
             }
         ]
     },
@@ -36365,7 +39212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36374,6 +39221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2347"
             }
         ]
     },
@@ -36425,6 +39276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1227"
             }
         ]
     },
@@ -36467,7 +39322,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36476,6 +39331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "178"
             }
         ]
     },
@@ -36518,7 +39377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36527,6 +39386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2391"
             }
         ]
     },
@@ -36578,6 +39441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1634"
             }
         ]
     },
@@ -36629,6 +39496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "797"
             }
         ]
     },
@@ -36680,6 +39551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "780"
             }
         ]
     },
@@ -36722,7 +39597,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36731,6 +39606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2445"
             }
         ]
     },
@@ -36782,6 +39661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1409"
             }
         ]
     },
@@ -36824,7 +39707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36833,6 +39716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "503"
             }
         ]
     },
@@ -36875,7 +39762,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -36884,6 +39771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2214"
             }
         ]
     },
@@ -36935,6 +39826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "381"
             }
         ]
     },
@@ -36986,6 +39881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "308"
             }
         ]
     },
@@ -37028,7 +39927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37037,6 +39936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1848"
             }
         ]
     },
@@ -37079,7 +39982,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37088,6 +39991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1915"
             }
         ]
     },
@@ -37130,7 +40037,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37139,6 +40046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "741"
             }
         ]
     },
@@ -37181,7 +40092,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37190,6 +40101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "526"
             }
         ]
     },
@@ -37241,6 +40156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "129"
             }
         ]
     },
@@ -37283,7 +40202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37292,6 +40211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2291"
             }
         ]
     },
@@ -37334,7 +40257,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37343,6 +40266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2313"
             }
         ]
     },
@@ -37385,7 +40312,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37394,6 +40321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2450"
             }
         ]
     },
@@ -37445,6 +40376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "491"
             }
         ]
     },
@@ -37496,6 +40431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "417"
             }
         ]
     },
@@ -37547,6 +40486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1689"
             }
         ]
     },
@@ -37589,7 +40532,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37598,6 +40541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2430"
             }
         ]
     },
@@ -37649,6 +40596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "464"
             }
         ]
     },
@@ -37700,6 +40651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "17"
             }
         ]
     },
@@ -37742,7 +40697,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37751,6 +40706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "371"
             }
         ]
     },
@@ -37793,7 +40752,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37802,6 +40761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "944"
             }
         ]
     },
@@ -37853,6 +40816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "467"
             }
         ]
     },
@@ -37895,7 +40862,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -37904,6 +40871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "790"
             }
         ]
     },
@@ -37955,6 +40926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1719"
             }
         ]
     },
@@ -37997,7 +40972,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38006,6 +40981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1064"
             }
         ]
     },
@@ -38057,6 +41036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2184"
             }
         ]
     },
@@ -38108,6 +41091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1872"
             }
         ]
     },
@@ -38150,7 +41137,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38159,6 +41146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "242"
             }
         ]
     },
@@ -38201,7 +41192,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38210,6 +41201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1957"
             }
         ]
     },
@@ -38261,6 +41256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1232"
             }
         ]
     },
@@ -38303,7 +41302,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38312,6 +41311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "425"
             }
         ]
     },
@@ -38363,6 +41366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "838"
             }
         ]
     },
@@ -38405,7 +41412,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38414,6 +41421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2478"
             }
         ]
     },
@@ -38465,6 +41476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1668"
             }
         ]
     },
@@ -38507,7 +41522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38516,6 +41531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "320"
             }
         ]
     },
@@ -38567,6 +41586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2350"
             }
         ]
     },
@@ -38609,7 +41632,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38618,6 +41641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1645"
             }
         ]
     },
@@ -38669,6 +41696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1479"
             }
         ]
     },
@@ -38711,7 +41742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38720,6 +41751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1506"
             }
         ]
     },
@@ -38762,7 +41797,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38771,6 +41806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1238"
             }
         ]
     },
@@ -38813,7 +41852,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38822,6 +41861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2467"
             }
         ]
     },
@@ -38873,6 +41916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1447"
             }
         ]
     },
@@ -38915,7 +41962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -38924,6 +41971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "706"
             }
         ]
     },
@@ -38975,6 +42026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "839"
             }
         ]
     },
@@ -39026,6 +42081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "270"
             }
         ]
     },
@@ -39068,7 +42127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39077,6 +42136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2136"
             }
         ]
     },
@@ -39128,6 +42191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "73"
             }
         ]
     },
@@ -39179,6 +42246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1874"
             }
         ]
     },
@@ -39230,6 +42301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "727"
             }
         ]
     },
@@ -39272,7 +42347,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39281,6 +42356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "13"
             }
         ]
     },
@@ -39332,6 +42411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "679"
             }
         ]
     },
@@ -39374,7 +42457,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39383,6 +42466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "642"
             }
         ]
     },
@@ -39434,6 +42521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "950"
             }
         ]
     },
@@ -39476,7 +42567,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39485,6 +42576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2125"
             }
         ]
     },
@@ -39536,6 +42631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1993"
             }
         ]
     },
@@ -39587,6 +42686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "497"
             }
         ]
     },
@@ -39638,6 +42741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "594"
             }
         ]
     },
@@ -39689,6 +42796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1956"
             }
         ]
     },
@@ -39740,6 +42851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1477"
             }
         ]
     },
@@ -39791,6 +42906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "824"
             }
         ]
     },
@@ -39833,7 +42952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39842,6 +42961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2282"
             }
         ]
     },
@@ -39893,6 +43016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1923"
             }
         ]
     },
@@ -39935,7 +43062,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -39944,6 +43071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2204"
             }
         ]
     },
@@ -39995,6 +43126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1828"
             }
         ]
     },
@@ -40046,6 +43181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2102"
             }
         ]
     },
@@ -40097,6 +43236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1695"
             }
         ]
     },
@@ -40139,7 +43282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40148,6 +43291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2323"
             }
         ]
     },
@@ -40199,6 +43346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "324"
             }
         ]
     },
@@ -40241,7 +43392,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40250,6 +43401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1716"
             }
         ]
     },
@@ -40292,7 +43447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40301,6 +43456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1368"
             }
         ]
     },
@@ -40352,6 +43511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1709"
             }
         ]
     },
@@ -40394,7 +43557,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40403,6 +43566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "448"
             }
         ]
     },
@@ -40454,6 +43621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1960"
             }
         ]
     },
@@ -40496,7 +43667,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40505,6 +43676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1875"
             }
         ]
     },
@@ -40556,6 +43731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "234"
             }
         ]
     },
@@ -40607,6 +43786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1485"
             }
         ]
     },
@@ -40658,6 +43841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "160"
             }
         ]
     },
@@ -40709,6 +43896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "396"
             }
         ]
     },
@@ -40751,7 +43942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40760,6 +43951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "869"
             }
         ]
     },
@@ -40811,6 +44006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "200"
             }
         ]
     },
@@ -40862,6 +44061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "876"
             }
         ]
     },
@@ -40904,7 +44107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -40913,6 +44116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1160"
             }
         ]
     },
@@ -40964,6 +44171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2155"
             }
         ]
     },
@@ -41015,6 +44226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1937"
             }
         ]
     },
@@ -41066,6 +44281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1001"
             }
         ]
     },
@@ -41117,6 +44336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1290"
             }
         ]
     },
@@ -41168,6 +44391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "328"
             }
         ]
     },
@@ -41219,6 +44446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1537"
             }
         ]
     },
@@ -41270,6 +44501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "708"
             }
         ]
     },
@@ -41312,7 +44547,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41321,6 +44556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1808"
             }
         ]
     },
@@ -41363,7 +44602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41372,6 +44611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2322"
             }
         ]
     },
@@ -41423,6 +44666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "167"
             }
         ]
     },
@@ -41474,6 +44721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "444"
             }
         ]
     },
@@ -41516,7 +44767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41525,6 +44776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "906"
             }
         ]
     },
@@ -41567,7 +44822,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41576,6 +44831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2101"
             }
         ]
     },
@@ -41627,6 +44886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "4"
             }
         ]
     },
@@ -41669,7 +44932,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41678,6 +44941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2228"
             }
         ]
     },
@@ -41729,6 +44996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1826"
             }
         ]
     },
@@ -41771,7 +45042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41780,6 +45051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1052"
             }
         ]
     },
@@ -41831,6 +45106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2299"
             }
         ]
     },
@@ -41882,6 +45161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "283"
             }
         ]
     },
@@ -41933,6 +45216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "275"
             }
         ]
     },
@@ -41975,7 +45262,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -41984,6 +45271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2497"
             }
         ]
     },
@@ -42035,6 +45326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "449"
             }
         ]
     },
@@ -42077,7 +45372,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42086,6 +45381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "87"
             }
         ]
     },
@@ -42128,7 +45427,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42137,6 +45436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1520"
             }
         ]
     },
@@ -42179,7 +45482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42188,6 +45491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "212"
             }
         ]
     },
@@ -42239,6 +45546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2092"
             }
         ]
     },
@@ -42290,6 +45601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "248"
             }
         ]
     },
@@ -42332,7 +45647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42341,6 +45656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "641"
             }
         ]
     },
@@ -42392,6 +45711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "593"
             }
         ]
     },
@@ -42443,6 +45766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "680"
             }
         ]
     },
@@ -42494,6 +45821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "183"
             }
         ]
     },
@@ -42545,6 +45876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2324"
             }
         ]
     },
@@ -42587,7 +45922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42596,6 +45931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "767"
             }
         ]
     },
@@ -42647,6 +45986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2222"
             }
         ]
     },
@@ -42698,6 +46041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1248"
             }
         ]
     },
@@ -42749,6 +46096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1679"
             }
         ]
     },
@@ -42791,7 +46142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42800,6 +46151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "752"
             }
         ]
     },
@@ -42851,6 +46206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2077"
             }
         ]
     },
@@ -42902,6 +46261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "844"
             }
         ]
     },
@@ -42944,7 +46307,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -42953,6 +46316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2082"
             }
         ]
     },
@@ -42995,7 +46362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43004,6 +46371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2047"
             }
         ]
     },
@@ -43046,7 +46417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43055,6 +46426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "339"
             }
         ]
     },
@@ -43106,6 +46481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1061"
             }
         ]
     },
@@ -43157,6 +46536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2166"
             }
         ]
     },
@@ -43199,7 +46582,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43208,6 +46591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "237"
             }
         ]
     },
@@ -43259,6 +46646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1938"
             }
         ]
     },
@@ -43310,6 +46701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1830"
             }
         ]
     },
@@ -43361,6 +46756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "953"
             }
         ]
     },
@@ -43412,6 +46811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2064"
             }
         ]
     },
@@ -43454,7 +46857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43463,6 +46866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1900"
             }
         ]
     },
@@ -43505,7 +46912,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43514,6 +46921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "623"
             }
         ]
     },
@@ -43565,6 +46976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1935"
             }
         ]
     },
@@ -43607,7 +47022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43616,6 +47031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2244"
             }
         ]
     },
@@ -43667,6 +47086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "81"
             }
         ]
     },
@@ -43709,7 +47132,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43718,6 +47141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "690"
             }
         ]
     },
@@ -43769,6 +47196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2124"
             }
         ]
     },
@@ -43811,7 +47242,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -43820,6 +47251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1722"
             }
         ]
     },
@@ -43871,6 +47306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "196"
             }
         ]
     },
@@ -43922,6 +47361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "135"
             }
         ]
     },
@@ -43973,6 +47416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "364"
             }
         ]
     },
@@ -44024,6 +47471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2007"
             }
         ]
     },
@@ -44075,6 +47526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1989"
             }
         ]
     },
@@ -44126,6 +47581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2308"
             }
         ]
     },
@@ -44177,6 +47636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2422"
             }
         ]
     },
@@ -44219,7 +47682,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44228,6 +47691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "25"
             }
         ]
     },
@@ -44279,6 +47746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1328"
             }
         ]
     },
@@ -44330,6 +47801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1710"
             }
         ]
     },
@@ -44372,7 +47847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44381,6 +47856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1410"
             }
         ]
     },
@@ -44432,6 +47911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1476"
             }
         ]
     },
@@ -44474,7 +47957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44483,6 +47966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1347"
             }
         ]
     },
@@ -44534,6 +48021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1172"
             }
         ]
     },
@@ -44585,6 +48076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "529"
             }
         ]
     },
@@ -44627,7 +48122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44636,6 +48131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1994"
             }
         ]
     },
@@ -44678,7 +48177,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44687,6 +48186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1727"
             }
         ]
     },
@@ -44738,6 +48241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "611"
             }
         ]
     },
@@ -44780,7 +48287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -44789,6 +48296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1767"
             }
         ]
     },
@@ -44840,6 +48351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "395"
             }
         ]
     },
@@ -44891,6 +48406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "392"
             }
         ]
     },
@@ -44942,6 +48461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1209"
             }
         ]
     },
@@ -44993,6 +48516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1047"
             }
         ]
     },
@@ -45044,6 +48571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1305"
             }
         ]
     },
@@ -45095,6 +48626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2152"
             }
         ]
     },
@@ -45146,6 +48681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "54"
             }
         ]
     },
@@ -45188,7 +48727,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45197,6 +48736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "55"
             }
         ]
     },
@@ -45239,7 +48782,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45248,6 +48791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1547"
             }
         ]
     },
@@ -45299,6 +48846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "885"
             }
         ]
     },
@@ -45350,6 +48901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1288"
             }
         ]
     },
@@ -45392,7 +48947,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45401,6 +48956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "515"
             }
         ]
     },
@@ -45443,7 +49002,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45452,6 +49011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2180"
             }
         ]
     },
@@ -45503,6 +49066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "140"
             }
         ]
     },
@@ -45554,6 +49121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "877"
             }
         ]
     },
@@ -45596,7 +49167,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45605,6 +49176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1057"
             }
         ]
     },
@@ -45647,7 +49222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -45656,6 +49231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2336"
             }
         ]
     },
@@ -45707,6 +49286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1806"
             }
         ]
     },
@@ -45758,6 +49341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1882"
             }
         ]
     },
@@ -45809,6 +49396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "452"
             }
         ]
     },
@@ -45860,6 +49451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1429"
             }
         ]
     },
@@ -45911,6 +49506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "930"
             }
         ]
     },
@@ -45962,6 +49561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1018"
             }
         ]
     },
@@ -46004,7 +49607,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46013,6 +49616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1162"
             }
         ]
     },
@@ -46055,7 +49662,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46064,6 +49671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "492"
             }
         ]
     },
@@ -46106,7 +49717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46115,6 +49726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1626"
             }
         ]
     },
@@ -46166,6 +49781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "223"
             }
         ]
     },
@@ -46208,7 +49827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46217,6 +49836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1241"
             }
         ]
     },
@@ -46259,7 +49882,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46268,6 +49891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1759"
             }
         ]
     },
@@ -46319,6 +49946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "542"
             }
         ]
     },
@@ -46370,6 +50001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2366"
             }
         ]
     },
@@ -46421,6 +50056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1427"
             }
         ]
     },
@@ -46472,6 +50111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1313"
             }
         ]
     },
@@ -46523,6 +50166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1289"
             }
         ]
     },
@@ -46574,6 +50221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "911"
             }
         ]
     },
@@ -46616,7 +50267,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46625,6 +50276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "948"
             }
         ]
     },
@@ -46667,7 +50322,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46676,6 +50331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "702"
             }
         ]
     },
@@ -46727,6 +50386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1918"
             }
         ]
     },
@@ -46778,6 +50441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "624"
             }
         ]
     },
@@ -46820,7 +50487,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46829,6 +50496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1525"
             }
         ]
     },
@@ -46871,7 +50542,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -46880,6 +50551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2414"
             }
         ]
     },
@@ -46931,6 +50606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2271"
             }
         ]
     },
@@ -46982,6 +50661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "997"
             }
         ]
     },
@@ -47024,7 +50707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47033,6 +50716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1157"
             }
         ]
     },
@@ -47084,6 +50771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "447"
             }
         ]
     },
@@ -47126,7 +50817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47135,6 +50826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1563"
             }
         ]
     },
@@ -47177,7 +50872,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47186,6 +50881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2130"
             }
         ]
     },
@@ -47237,6 +50936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "719"
             }
         ]
     },
@@ -47288,6 +50991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "104"
             }
         ]
     },
@@ -47330,7 +51037,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47339,6 +51046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1927"
             }
         ]
     },
@@ -47381,7 +51092,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47390,6 +51101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1295"
             }
         ]
     },
@@ -47432,7 +51147,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47441,6 +51156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2379"
             }
         ]
     },
@@ -47492,6 +51211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2232"
             }
         ]
     },
@@ -47534,7 +51257,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -47543,6 +51266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "946"
             }
         ]
     },
@@ -47594,6 +51321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1794"
             }
         ]
     },
@@ -47645,6 +51376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1156"
             }
         ]
     },
@@ -47696,6 +51431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "204"
             }
         ]
     },
@@ -47747,6 +51486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "632"
             }
         ]
     },
@@ -47798,6 +51541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "667"
             }
         ]
     },
@@ -47849,6 +51596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2394"
             }
         ]
     },
@@ -47900,6 +51651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "788"
             }
         ]
     },
@@ -47951,6 +51706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "345"
             }
         ]
     },
@@ -47993,7 +51752,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48002,6 +51761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "917"
             }
         ]
     },
@@ -48044,7 +51807,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48053,6 +51816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "310"
             }
         ]
     },
@@ -48104,6 +51871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1575"
             }
         ]
     },
@@ -48155,6 +51926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "774"
             }
         ]
     },
@@ -48197,7 +51972,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48206,6 +51981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1315"
             }
         ]
     },
@@ -48257,6 +52036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "257"
             }
         ]
     },
@@ -48308,6 +52091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1555"
             }
         ]
     },
@@ -48350,7 +52137,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48359,6 +52146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2494"
             }
         ]
     },
@@ -48410,6 +52201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2084"
             }
         ]
     },
@@ -48461,6 +52256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "378"
             }
         ]
     },
@@ -48512,6 +52311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "65"
             }
         ]
     },
@@ -48563,6 +52366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1354"
             }
         ]
     },
@@ -48605,7 +52412,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48614,6 +52421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1954"
             }
         ]
     },
@@ -48665,6 +52476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2340"
             }
         ]
     },
@@ -48716,6 +52531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1968"
             }
         ]
     },
@@ -48758,7 +52577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48767,6 +52586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2452"
             }
         ]
     },
@@ -48809,7 +52632,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48818,6 +52641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "787"
             }
         ]
     },
@@ -48869,6 +52696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1462"
             }
         ]
     },
@@ -48911,7 +52742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -48920,6 +52751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1579"
             }
         ]
     },
@@ -48971,6 +52806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1040"
             }
         ]
     },
@@ -49013,7 +52852,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49022,6 +52861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2227"
             }
         ]
     },
@@ -49064,7 +52907,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49073,6 +52916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1731"
             }
         ]
     },
@@ -49124,6 +52971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "973"
             }
         ]
     },
@@ -49166,7 +53017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49175,6 +53026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "143"
             }
         ]
     },
@@ -49217,7 +53072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49226,6 +53081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1573"
             }
         ]
     },
@@ -49277,6 +53136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "177"
             }
         ]
     },
@@ -49328,6 +53191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "154"
             }
         ]
     },
@@ -49379,6 +53246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "56"
             }
         ]
     },
@@ -49430,6 +53301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1950"
             }
         ]
     },
@@ -49481,6 +53356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "301"
             }
         ]
     },
@@ -49532,6 +53411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "298"
             }
         ]
     },
@@ -49583,6 +53466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "59"
             }
         ]
     },
@@ -49634,6 +53521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "418"
             }
         ]
     },
@@ -49685,6 +53576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "69"
             }
         ]
     },
@@ -49727,7 +53622,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49736,6 +53631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "357"
             }
         ]
     },
@@ -49787,6 +53686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1693"
             }
         ]
     },
@@ -49829,7 +53732,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49838,6 +53741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1790"
             }
         ]
     },
@@ -49880,7 +53787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49889,6 +53796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1335"
             }
         ]
     },
@@ -49931,7 +53842,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -49940,6 +53851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1959"
             }
         ]
     },
@@ -49991,6 +53906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1472"
             }
         ]
     },
@@ -50042,6 +53961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1616"
             }
         ]
     },
@@ -50093,6 +54016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2015"
             }
         ]
     },
@@ -50144,6 +54071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "549"
             }
         ]
     },
@@ -50195,6 +54126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1121"
             }
         ]
     },
@@ -50237,7 +54172,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50246,6 +54181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1615"
             }
         ]
     },
@@ -50297,6 +54236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2442"
             }
         ]
     },
@@ -50339,7 +54282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50348,6 +54291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "637"
             }
         ]
     },
@@ -50399,6 +54346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1539"
             }
         ]
     },
@@ -50450,6 +54401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "716"
             }
         ]
     },
@@ -50492,7 +54447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50501,6 +54456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "20"
             }
         ]
     },
@@ -50543,7 +54502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50552,6 +54511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "169"
             }
         ]
     },
@@ -50594,7 +54557,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50603,6 +54566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1179"
             }
         ]
     },
@@ -50654,6 +54621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "383"
             }
         ]
     },
@@ -50705,6 +54676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1246"
             }
         ]
     },
@@ -50747,7 +54722,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -50756,6 +54731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "546"
             }
         ]
     },
@@ -50807,6 +54786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2382"
             }
         ]
     },
@@ -50858,6 +54841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "722"
             }
         ]
     },
@@ -50909,6 +54896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "233"
             }
         ]
     },
@@ -50960,6 +54951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1230"
             }
         ]
     },
@@ -51002,7 +54997,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51011,6 +55006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "179"
             }
         ]
     },
@@ -51062,6 +55061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "393"
             }
         ]
     },
@@ -51104,7 +55107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51113,6 +55116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "321"
             }
         ]
     },
@@ -51164,6 +55171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "358"
             }
         ]
     },
@@ -51215,6 +55226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "208"
             }
         ]
     },
@@ -51257,7 +55272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51266,6 +55281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2197"
             }
         ]
     },
@@ -51308,7 +55327,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51317,6 +55336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "711"
             }
         ]
     },
@@ -51359,7 +55382,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51368,6 +55391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "305"
             }
         ]
     },
@@ -51410,7 +55437,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51419,6 +55446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "651"
             }
         ]
     },
@@ -51470,6 +55501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "113"
             }
         ]
     },
@@ -51521,6 +55556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "416"
             }
         ]
     },
@@ -51572,6 +55611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1418"
             }
         ]
     },
@@ -51623,6 +55666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1386"
             }
         ]
     },
@@ -51674,6 +55721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2217"
             }
         ]
     },
@@ -51725,6 +55776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "635"
             }
         ]
     },
@@ -51776,6 +55831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2411"
             }
         ]
     },
@@ -51827,6 +55886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "922"
             }
         ]
     },
@@ -51878,6 +55941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2443"
             }
         ]
     },
@@ -51920,7 +55987,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51929,6 +55996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1051"
             }
         ]
     },
@@ -51971,7 +56042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -51980,6 +56051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1330"
             }
         ]
     },
@@ -52022,7 +56097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52031,6 +56106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1953"
             }
         ]
     },
@@ -52082,6 +56161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1112"
             }
         ]
     },
@@ -52133,6 +56216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "401"
             }
         ]
     },
@@ -52184,6 +56271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "567"
             }
         ]
     },
@@ -52235,6 +56326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1223"
             }
         ]
     },
@@ -52277,7 +56372,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52286,6 +56381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "309"
             }
         ]
     },
@@ -52337,6 +56436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "862"
             }
         ]
     },
@@ -52388,6 +56491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "42"
             }
         ]
     },
@@ -52439,6 +56546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2362"
             }
         ]
     },
@@ -52481,7 +56592,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52490,6 +56601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "940"
             }
         ]
     },
@@ -52532,7 +56647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52541,6 +56656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1416"
             }
         ]
     },
@@ -52583,7 +56702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52592,6 +56711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1401"
             }
         ]
     },
@@ -52643,6 +56766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2206"
             }
         ]
     },
@@ -52685,7 +56812,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52694,6 +56821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1883"
             }
         ]
     },
@@ -52745,6 +56876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2037"
             }
         ]
     },
@@ -52787,7 +56922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52796,6 +56931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1604"
             }
         ]
     },
@@ -52847,6 +56986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2462"
             }
         ]
     },
@@ -52889,7 +57032,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -52898,6 +57041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2293"
             }
         ]
     },
@@ -52949,6 +57096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1056"
             }
         ]
     },
@@ -52991,7 +57142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53000,6 +57151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2100"
             }
         ]
     },
@@ -53042,7 +57197,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53051,6 +57206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1564"
             }
         ]
     },
@@ -53102,6 +57261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1423"
             }
         ]
     },
@@ -53144,7 +57307,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53153,6 +57316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "895"
             }
         ]
     },
@@ -53195,7 +57362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53204,6 +57371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1087"
             }
         ]
     },
@@ -53246,7 +57417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53255,6 +57426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1990"
             }
         ]
     },
@@ -53297,7 +57472,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53306,6 +57481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "791"
             }
         ]
     },
@@ -53357,6 +57536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1199"
             }
         ]
     },
@@ -53399,7 +57582,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53408,6 +57591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "581"
             }
         ]
     },
@@ -53459,6 +57646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2147"
             }
         ]
     },
@@ -53510,6 +57701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "351"
             }
         ]
     },
@@ -53552,7 +57747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53561,6 +57756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "209"
             }
         ]
     },
@@ -53612,6 +57811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "112"
             }
         ]
     },
@@ -53654,7 +57857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53663,6 +57866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2403"
             }
         ]
     },
@@ -53705,7 +57912,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53714,6 +57921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "93"
             }
         ]
     },
@@ -53756,7 +57967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53765,6 +57976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1724"
             }
         ]
     },
@@ -53807,7 +58022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -53816,6 +58031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1140"
             }
         ]
     },
@@ -53867,6 +58086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "580"
             }
         ]
     },
@@ -53918,6 +58141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2316"
             }
         ]
     },
@@ -53969,6 +58196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "43"
             }
         ]
     },
@@ -54020,6 +58251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "211"
             }
         ]
     },
@@ -54062,7 +58297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54071,6 +58306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2211"
             }
         ]
     },
@@ -54113,7 +58352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54122,6 +58361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1804"
             }
         ]
     },
@@ -54164,7 +58407,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54173,6 +58416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1725"
             }
         ]
     },
@@ -54215,7 +58462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54224,6 +58471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1318"
             }
         ]
     },
@@ -54266,7 +58517,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54275,6 +58526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2251"
             }
         ]
     },
@@ -54317,7 +58572,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54326,6 +58581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1595"
             }
         ]
     },
@@ -54368,7 +58627,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54377,6 +58636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "405"
             }
         ]
     },
@@ -54428,6 +58691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1591"
             }
         ]
     },
@@ -54479,6 +58746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1633"
             }
         ]
     },
@@ -54530,6 +58801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2177"
             }
         ]
     },
@@ -54581,6 +58856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1148"
             }
         ]
     },
@@ -54632,6 +58911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2126"
             }
         ]
     },
@@ -54683,6 +58966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "556"
             }
         ]
     },
@@ -54725,7 +59012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54734,6 +59021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1942"
             }
         ]
     },
@@ -54785,6 +59076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1424"
             }
         ]
     },
@@ -54836,6 +59131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "858"
             }
         ]
     },
@@ -54887,6 +59186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1448"
             }
         ]
     },
@@ -54938,6 +59241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2221"
             }
         ]
     },
@@ -54980,7 +59287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -54989,6 +59296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "810"
             }
         ]
     },
@@ -55031,7 +59342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55040,6 +59351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2418"
             }
         ]
     },
@@ -55082,7 +59397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55091,6 +59406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "644"
             }
         ]
     },
@@ -55142,6 +59461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "879"
             }
         ]
     },
@@ -55193,6 +59516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1667"
             }
         ]
     },
@@ -55235,7 +59562,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55244,6 +59571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2004"
             }
         ]
     },
@@ -55295,6 +59626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2369"
             }
         ]
     },
@@ -55346,6 +59681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "707"
             }
         ]
     },
@@ -55397,6 +59736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "158"
             }
         ]
     },
@@ -55448,6 +59791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1317"
             }
         ]
     },
@@ -55499,6 +59846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "568"
             }
         ]
     },
@@ -55541,7 +59892,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55550,6 +59901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1307"
             }
         ]
     },
@@ -55592,7 +59947,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55601,6 +59956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2349"
             }
         ]
     },
@@ -55652,6 +60011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "494"
             }
         ]
     },
@@ -55694,7 +60057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55703,6 +60066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2065"
             }
         ]
     },
@@ -55745,7 +60112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55754,6 +60121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1696"
             }
         ]
     },
@@ -55796,7 +60167,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55805,6 +60176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2331"
             }
         ]
     },
@@ -55856,6 +60231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "293"
             }
         ]
     },
@@ -55898,7 +60277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55907,6 +60286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1050"
             }
         ]
     },
@@ -55949,7 +60332,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -55958,6 +60341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "830"
             }
         ]
     },
@@ -56009,6 +60396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1854"
             }
         ]
     },
@@ -56060,6 +60451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "520"
             }
         ]
     },
@@ -56111,6 +60506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1361"
             }
         ]
     },
@@ -56162,6 +60561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "19"
             }
         ]
     },
@@ -56213,6 +60616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "14"
             }
         ]
     },
@@ -56255,7 +60662,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56264,6 +60671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1177"
             }
         ]
     },
@@ -56306,7 +60717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56315,6 +60726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1451"
             }
         ]
     },
@@ -56366,6 +60781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1701"
             }
         ]
     },
@@ -56417,6 +60836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2198"
             }
         ]
     },
@@ -56468,6 +60891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2146"
             }
         ]
     },
@@ -56510,7 +60937,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56519,6 +60946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2192"
             }
         ]
     },
@@ -56561,7 +60992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56570,6 +61001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2041"
             }
         ]
     },
@@ -56621,6 +61056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1699"
             }
         ]
     },
@@ -56672,6 +61111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1161"
             }
         ]
     },
@@ -56723,6 +61166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1708"
             }
         ]
     },
@@ -56774,6 +61221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "33"
             }
         ]
     },
@@ -56816,7 +61267,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56825,6 +61276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1349"
             }
         ]
     },
@@ -56876,6 +61331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2060"
             }
         ]
     },
@@ -56918,7 +61377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -56927,6 +61386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "725"
             }
         ]
     },
@@ -56978,6 +61441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "445"
             }
         ]
     },
@@ -57020,7 +61487,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -57029,6 +61496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2182"
             }
         ]
     },
@@ -57080,6 +61551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "432"
             }
         ]
     },
@@ -57131,6 +61606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "753"
             }
         ]
     },
@@ -57182,6 +61661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "916"
             }
         ]
     },
@@ -57233,6 +61716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2061"
             }
         ]
     },
@@ -57284,6 +61771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "710"
             }
         ]
     },
@@ -57335,6 +61826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "893"
             }
         ]
     },
@@ -57386,6 +61881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "661"
             }
         ]
     },
@@ -57428,7 +61927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -57437,6 +61936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "998"
             }
         ]
     },
@@ -57488,6 +61991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "5"
             }
         ]
     },
@@ -57539,6 +62046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1930"
             }
         ]
     },
@@ -57590,6 +62101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "137"
             }
         ]
     },
@@ -57641,6 +62156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "704"
             }
         ]
     },
@@ -57692,6 +62211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "297"
             }
         ]
     },
@@ -57743,6 +62266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2203"
             }
         ]
     },
@@ -57794,6 +62321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "629"
             }
         ]
     },
@@ -57845,6 +62376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2318"
             }
         ]
     },
@@ -57896,6 +62431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2230"
             }
         ]
     },
@@ -57947,6 +62486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "50"
             }
         ]
     },
@@ -57998,6 +62541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "822"
             }
         ]
     },
@@ -58040,7 +62587,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -58049,6 +62596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2104"
             }
         ]
     },
@@ -58100,6 +62651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "905"
             }
         ]
     },
@@ -58151,6 +62706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "403"
             }
         ]
     },
@@ -58193,7 +62752,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -58202,6 +62761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1855"
             }
         ]
     },
@@ -58253,6 +62816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1976"
             }
         ]
     },
@@ -58304,6 +62871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1085"
             }
         ]
     },
@@ -58355,6 +62926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1482"
             }
         ]
     },
@@ -58406,6 +62981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1581"
             }
         ]
     },
@@ -58448,7 +63027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -58457,6 +63036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1550"
             }
         ]
     },
@@ -58499,7 +63082,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -58508,6 +63091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2360"
             }
         ]
     },
@@ -58559,6 +63146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1836"
             }
         ]
     },
@@ -58610,6 +63201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "8"
             }
         ]
     },
@@ -58661,6 +63256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1029"
             }
         ]
     },
@@ -58712,6 +63311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1094"
             }
         ]
     },
@@ -58763,6 +63366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1017"
             }
         ]
     },
@@ -58814,6 +63421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "908"
             }
         ]
     },
@@ -58856,7 +63467,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -58865,6 +63476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "232"
             }
         ]
     },
@@ -58916,6 +63531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "457"
             }
         ]
     },
@@ -58967,6 +63586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "528"
             }
         ]
     },
@@ -59018,6 +63641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1280"
             }
         ]
     },
@@ -59060,7 +63687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59069,6 +63696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "199"
             }
         ]
     },
@@ -59111,7 +63742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59120,6 +63751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1301"
             }
         ]
     },
@@ -59171,6 +63806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1067"
             }
         ]
     },
@@ -59213,7 +63852,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59222,6 +63861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "618"
             }
         ]
     },
@@ -59273,6 +63916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1567"
             }
         ]
     },
@@ -59315,7 +63962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59324,6 +63971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "781"
             }
         ]
     },
@@ -59366,7 +64017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59375,6 +64026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2300"
             }
         ]
     },
@@ -59426,6 +64081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "182"
             }
         ]
     },
@@ -59477,6 +64136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1499"
             }
         ]
     },
@@ -59519,7 +64182,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59528,6 +64191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2108"
             }
         ]
     },
@@ -59570,7 +64237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59579,6 +64246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "695"
             }
         ]
     },
@@ -59621,7 +64292,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59630,6 +64301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1532"
             }
         ]
     },
@@ -59681,6 +64356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1925"
             }
         ]
     },
@@ -59723,7 +64402,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59732,6 +64411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2448"
             }
         ]
     },
@@ -59783,6 +64466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "243"
             }
         ]
     },
@@ -59825,7 +64512,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59834,6 +64521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "98"
             }
         ]
     },
@@ -59885,6 +64576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1208"
             }
         ]
     },
@@ -59927,7 +64622,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59936,6 +64631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2367"
             }
         ]
     },
@@ -59978,7 +64677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -59987,6 +64686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "86"
             }
         ]
     },
@@ -60038,6 +64741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "473"
             }
         ]
     },
@@ -60089,6 +64796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1945"
             }
         ]
     },
@@ -60140,6 +64851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "60"
             }
         ]
     },
@@ -60182,7 +64897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60191,6 +64906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "681"
             }
         ]
     },
@@ -60233,7 +64952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60242,6 +64961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "524"
             }
         ]
     },
@@ -60284,7 +65007,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60293,6 +65016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1528"
             }
         ]
     },
@@ -60335,7 +65062,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60344,6 +65071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1005"
             }
         ]
     },
@@ -60395,6 +65126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "514"
             }
         ]
     },
@@ -60437,7 +65172,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60446,6 +65181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2031"
             }
         ]
     },
@@ -60488,7 +65227,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60497,6 +65236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1967"
             }
         ]
     },
@@ -60539,7 +65282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60548,6 +65291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "330"
             }
         ]
     },
@@ -60590,7 +65337,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60599,6 +65346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1517"
             }
         ]
     },
@@ -60650,6 +65401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "138"
             }
         ]
     },
@@ -60701,6 +65456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1173"
             }
         ]
     },
@@ -60752,6 +65511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1224"
             }
         ]
     },
@@ -60803,6 +65566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1286"
             }
         ]
     },
@@ -60845,7 +65612,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60854,6 +65621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2115"
             }
         ]
     },
@@ -60896,7 +65667,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60905,6 +65676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2469"
             }
         ]
     },
@@ -60947,7 +65722,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -60956,6 +65731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "732"
             }
         ]
     },
@@ -61007,6 +65786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "851"
             }
         ]
     },
@@ -61049,7 +65832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61058,6 +65841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1130"
             }
         ]
     },
@@ -61109,6 +65896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1545"
             }
         ]
     },
@@ -61151,7 +65942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61160,6 +65951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1677"
             }
         ]
     },
@@ -61211,6 +66006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "359"
             }
         ]
     },
@@ -61262,6 +66061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "659"
             }
         ]
     },
@@ -61304,7 +66107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61313,6 +66116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "881"
             }
         ]
     },
@@ -61355,7 +66162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61364,6 +66171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1760"
             }
         ]
     },
@@ -61415,6 +66226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "736"
             }
         ]
     },
@@ -61466,6 +66281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "902"
             }
         ]
     },
@@ -61508,7 +66327,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61517,6 +66336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "674"
             }
         ]
     },
@@ -61568,6 +66391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "662"
             }
         ]
     },
@@ -61619,6 +66446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "71"
             }
         ]
     },
@@ -61670,6 +66501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1527"
             }
         ]
     },
@@ -61712,7 +66547,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61721,6 +66556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "582"
             }
         ]
     },
@@ -61772,6 +66611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "750"
             }
         ]
     },
@@ -61814,7 +66657,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61823,6 +66666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1339"
             }
         ]
     },
@@ -61865,7 +66712,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61874,6 +66721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "488"
             }
         ]
     },
@@ -61916,7 +66767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -61925,6 +66776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "155"
             }
         ]
     },
@@ -61976,6 +66831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1962"
             }
         ]
     },
@@ -62027,6 +66886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1824"
             }
         ]
     },
@@ -62078,6 +66941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "511"
             }
         ]
     },
@@ -62129,6 +66996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2325"
             }
         ]
     },
@@ -62171,7 +67042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62180,6 +67051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1256"
             }
         ]
     },
@@ -62231,6 +67106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1212"
             }
         ]
     },
@@ -62273,7 +67152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62282,6 +67161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "794"
             }
         ]
     },
@@ -62333,6 +67216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "366"
             }
         ]
     },
@@ -62384,6 +67271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1502"
             }
         ]
     },
@@ -62426,7 +67317,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62435,6 +67326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2234"
             }
         ]
     },
@@ -62486,6 +67381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "156"
             }
         ]
     },
@@ -62537,6 +67436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1897"
             }
         ]
     },
@@ -62579,7 +67482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62588,6 +67491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1920"
             }
         ]
     },
@@ -62639,6 +67546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1419"
             }
         ]
     },
@@ -62690,6 +67601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1543"
             }
         ]
     },
@@ -62741,6 +67656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "350"
             }
         ]
     },
@@ -62783,7 +67702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62792,6 +67711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1332"
             }
         ]
     },
@@ -62834,7 +67757,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62843,6 +67766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1221"
             }
         ]
     },
@@ -62894,6 +67821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1344"
             }
         ]
     },
@@ -62936,7 +67867,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62945,6 +67876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2399"
             }
         ]
     },
@@ -62987,7 +67922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -62996,6 +67931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "974"
             }
         ]
     },
@@ -63047,6 +67986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1193"
             }
         ]
     },
@@ -63098,6 +68041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1169"
             }
         ]
     },
@@ -63140,7 +68087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63149,6 +68096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1026"
             }
         ]
     },
@@ -63191,7 +68142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63200,6 +68151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2114"
             }
         ]
     },
@@ -63251,6 +68206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2144"
             }
         ]
     },
@@ -63293,7 +68252,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63302,6 +68261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1771"
             }
         ]
     },
@@ -63353,6 +68316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1222"
             }
         ]
     },
@@ -63395,7 +68362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63404,6 +68371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "648"
             }
         ]
     },
@@ -63446,7 +68417,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63455,6 +68426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2476"
             }
         ]
     },
@@ -63497,7 +68472,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63506,6 +68481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1582"
             }
         ]
     },
@@ -63548,7 +68527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63557,6 +68536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2491"
             }
         ]
     },
@@ -63599,7 +68582,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63608,6 +68591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1023"
             }
         ]
     },
@@ -63650,7 +68637,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63659,6 +68646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1692"
             }
         ]
     },
@@ -63701,7 +68692,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63710,6 +68701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1803"
             }
         ]
     },
@@ -63761,6 +68756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "238"
             }
         ]
     },
@@ -63812,6 +68811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1402"
             }
         ]
     },
@@ -63854,7 +68857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -63863,6 +68866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1999"
             }
         ]
     },
@@ -63914,6 +68921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "816"
             }
         ]
     },
@@ -63965,6 +68976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1870"
             }
         ]
     },
@@ -64016,6 +69031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "245"
             }
         ]
     },
@@ -64067,6 +69086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1076"
             }
         ]
     },
@@ -64118,6 +69141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "586"
             }
         ]
     },
@@ -64169,6 +69196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1043"
             }
         ]
     },
@@ -64211,7 +69242,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -64220,6 +69251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2019"
             }
         ]
     },
@@ -64271,6 +69306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "23"
             }
         ]
     },
@@ -64322,6 +69361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "36"
             }
         ]
     },
@@ -64373,6 +69416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "939"
             }
         ]
     },
@@ -64424,6 +69471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1627"
             }
         ]
     },
@@ -64466,7 +69517,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -64475,6 +69526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2315"
             }
         ]
     },
@@ -64526,6 +69581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "322"
             }
         ]
     },
@@ -64577,6 +69636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1159"
             }
         ]
     },
@@ -64628,6 +69691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1720"
             }
         ]
     },
@@ -64679,6 +69746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1491"
             }
         ]
     },
@@ -64730,6 +69801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1164"
             }
         ]
     },
@@ -64781,6 +69856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1153"
             }
         ]
     },
@@ -64832,6 +69911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "499"
             }
         ]
     },
@@ -64874,7 +69957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -64883,6 +69966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "58"
             }
         ]
     },
@@ -64925,7 +70012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -64934,6 +70021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "570"
             }
         ]
     },
@@ -64976,7 +70067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -64985,6 +70076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "572"
             }
         ]
     },
@@ -65027,7 +70122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -65036,6 +70131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1299"
             }
         ]
     },
@@ -65087,6 +70186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "640"
             }
         ]
     },
@@ -65138,6 +70241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "122"
             }
         ]
     },
@@ -65180,7 +70287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -65189,6 +70296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "614"
             }
         ]
     },
@@ -65240,6 +70351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1436"
             }
         ]
     },
@@ -65282,7 +70397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -65291,6 +70406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1777"
             }
         ]
     },
@@ -65342,6 +70461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "547"
             }
         ]
     },
@@ -65393,6 +70516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "280"
             }
         ]
     },
@@ -65444,6 +70571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1352"
             }
         ]
     },
@@ -65495,6 +70626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "134"
             }
         ]
     },
@@ -65546,6 +70681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "604"
             }
         ]
     },
@@ -65597,6 +70736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1949"
             }
         ]
     },
@@ -65648,6 +70791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "880"
             }
         ]
     },
@@ -65690,7 +70837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -65699,6 +70846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1780"
             }
         ]
     },
@@ -65750,6 +70901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1171"
             }
         ]
     },
@@ -65801,6 +70956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "487"
             }
         ]
     },
@@ -65852,6 +71011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2262"
             }
         ]
     },
@@ -65894,7 +71057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -65903,6 +71066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1982"
             }
         ]
     },
@@ -65954,6 +71121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2199"
             }
         ]
     },
@@ -66005,6 +71176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "543"
             }
         ]
     },
@@ -66047,7 +71222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66056,6 +71231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2487"
             }
         ]
     },
@@ -66107,6 +71286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1300"
             }
         ]
     },
@@ -66158,6 +71341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "694"
             }
         ]
     },
@@ -66209,6 +71396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1653"
             }
         ]
     },
@@ -66260,6 +71451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "898"
             }
         ]
     },
@@ -66311,6 +71506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "295"
             }
         ]
     },
@@ -66353,7 +71552,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66362,6 +71561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1497"
             }
         ]
     },
@@ -66413,6 +71616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1534"
             }
         ]
     },
@@ -66464,6 +71671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2096"
             }
         ]
     },
@@ -66506,7 +71717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66515,6 +71726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1272"
             }
         ]
     },
@@ -66566,6 +71781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1127"
             }
         ]
     },
@@ -66617,6 +71836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1676"
             }
         ]
     },
@@ -66668,6 +71891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "562"
             }
         ]
     },
@@ -66710,7 +71937,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66719,6 +71946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2022"
             }
         ]
     },
@@ -66770,6 +72001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "227"
             }
         ]
     },
@@ -66821,6 +72056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2202"
             }
         ]
     },
@@ -66872,6 +72111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "530"
             }
         ]
     },
@@ -66914,7 +72157,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66923,6 +72166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2036"
             }
         ]
     },
@@ -66965,7 +72212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -66974,6 +72221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1593"
             }
         ]
     },
@@ -67016,7 +72267,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67025,6 +72276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2392"
             }
         ]
     },
@@ -67076,6 +72331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1905"
             }
         ]
     },
@@ -67118,7 +72377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67127,6 +72386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1206"
             }
         ]
     },
@@ -67178,6 +72441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1607"
             }
         ]
     },
@@ -67229,6 +72496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1045"
             }
         ]
     },
@@ -67271,7 +72542,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67280,6 +72551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "861"
             }
         ]
     },
@@ -67331,6 +72606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "804"
             }
         ]
     },
@@ -67382,6 +72661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "992"
             }
         ]
     },
@@ -67424,7 +72707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67433,6 +72716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2030"
             }
         ]
     },
@@ -67484,6 +72771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "64"
             }
         ]
     },
@@ -67526,7 +72817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67535,6 +72826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1371"
             }
         ]
     },
@@ -67577,7 +72872,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67586,6 +72881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "141"
             }
         ]
     },
@@ -67628,7 +72927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67637,6 +72936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1713"
             }
         ]
     },
@@ -67688,6 +72991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1893"
             }
         ]
     },
@@ -67730,7 +73037,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67739,6 +73046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1871"
             }
         ]
     },
@@ -67781,7 +73092,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67790,6 +73101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1400"
             }
         ]
     },
@@ -67841,6 +73156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "442"
             }
         ]
     },
@@ -67892,6 +73211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "455"
             }
         ]
     },
@@ -67943,6 +73266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1492"
             }
         ]
     },
@@ -67985,7 +73312,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -67994,6 +73321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1046"
             }
         ]
     },
@@ -68045,6 +73376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "540"
             }
         ]
     },
@@ -68096,6 +73431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1911"
             }
         ]
     },
@@ -68147,6 +73486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "742"
             }
         ]
     },
@@ -68198,6 +73541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "771"
             }
         ]
     },
@@ -68240,7 +73587,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68249,6 +73596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1909"
             }
         ]
     },
@@ -68291,7 +73642,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68300,6 +73651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "785"
             }
         ]
     },
@@ -68342,7 +73697,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68351,6 +73706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1988"
             }
         ]
     },
@@ -68402,6 +73761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "30"
             }
         ]
     },
@@ -68453,6 +73816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "299"
             }
         ]
     },
@@ -68504,6 +73871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1791"
             }
         ]
     },
@@ -68555,6 +73926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1583"
             }
         ]
     },
@@ -68597,7 +73972,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68606,6 +73981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2398"
             }
         ]
     },
@@ -68648,7 +74027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68657,6 +74036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1973"
             }
         ]
     },
@@ -68708,6 +74091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "818"
             }
         ]
     },
@@ -68759,6 +74146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1077"
             }
         ]
     },
@@ -68810,6 +74201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1500"
             }
         ]
     },
@@ -68852,7 +74247,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68861,6 +74256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1260"
             }
         ]
     },
@@ -68912,6 +74311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "144"
             }
         ]
     },
@@ -68954,7 +74357,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -68963,6 +74366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1795"
             }
         ]
     },
@@ -69014,6 +74421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1815"
             }
         ]
     },
@@ -69056,7 +74467,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69065,6 +74476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1417"
             }
         ]
     },
@@ -69107,7 +74522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69116,6 +74531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "57"
             }
         ]
     },
@@ -69158,7 +74577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69167,6 +74586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1356"
             }
         ]
     },
@@ -69218,6 +74641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1480"
             }
         ]
     },
@@ -69260,7 +74687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69269,6 +74696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1845"
             }
         ]
     },
@@ -69320,6 +74751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "323"
             }
         ]
     },
@@ -69362,7 +74797,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69371,6 +74806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "95"
             }
         ]
     },
@@ -69422,6 +74861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1262"
             }
         ]
     },
@@ -69464,7 +74907,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69473,6 +74916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "993"
             }
         ]
     },
@@ -69524,6 +74971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1360"
             }
         ]
     },
@@ -69575,6 +75026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1166"
             }
         ]
     },
@@ -69617,7 +75072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69626,6 +75081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2410"
             }
         ]
     },
@@ -69677,6 +75136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2250"
             }
         ]
     },
@@ -69728,6 +75191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2000"
             }
         ]
     },
@@ -69770,7 +75237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69779,6 +75246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "111"
             }
         ]
     },
@@ -69830,6 +75301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "431"
             }
         ]
     },
@@ -69881,6 +75356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2210"
             }
         ]
     },
@@ -69932,6 +75411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "784"
             }
         ]
     },
@@ -69974,7 +75457,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -69983,6 +75466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1086"
             }
         ]
     },
@@ -70025,7 +75512,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70034,6 +75521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2499"
             }
         ]
     },
@@ -70076,7 +75567,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70085,6 +75576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2264"
             }
         ]
     },
@@ -70136,6 +75631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1924"
             }
         ]
     },
@@ -70178,7 +75677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70187,6 +75686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1849"
             }
         ]
     },
@@ -70238,6 +75741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1769"
             }
         ]
     },
@@ -70289,6 +75796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "773"
             }
         ]
     },
@@ -70340,6 +75851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1749"
             }
         ]
     },
@@ -70382,7 +75897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70391,6 +75906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2439"
             }
         ]
     },
@@ -70433,7 +75952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70442,6 +75961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1757"
             }
         ]
     },
@@ -70493,6 +76016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "980"
             }
         ]
     },
@@ -70544,6 +76071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1422"
             }
         ]
     },
@@ -70595,6 +76126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "465"
             }
         ]
     },
@@ -70646,6 +76181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2237"
             }
         ]
     },
@@ -70688,7 +76227,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70697,6 +76236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "450"
             }
         ]
     },
@@ -70748,6 +76291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1508"
             }
         ]
     },
@@ -70799,6 +76346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1042"
             }
         ]
     },
@@ -70841,7 +76392,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70850,6 +76401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "675"
             }
         ]
     },
@@ -70892,7 +76447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70901,6 +76456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1840"
             }
         ]
     },
@@ -70943,7 +76502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -70952,6 +76511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "956"
             }
         ]
     },
@@ -71003,6 +76566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1985"
             }
         ]
     },
@@ -71045,7 +76612,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71054,6 +76621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2373"
             }
         ]
     },
@@ -71105,6 +76676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2483"
             }
         ]
     },
@@ -71147,7 +76722,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71156,6 +76731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "971"
             }
         ]
     },
@@ -71198,7 +76777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71207,6 +76786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1359"
             }
         ]
     },
@@ -71249,7 +76832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71258,6 +76841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1831"
             }
         ]
     },
@@ -71300,7 +76887,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71309,6 +76896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "192"
             }
         ]
     },
@@ -71360,6 +76951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1850"
             }
         ]
     },
@@ -71402,7 +76997,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71411,6 +77006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "410"
             }
         ]
     },
@@ -71462,6 +77061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "263"
             }
         ]
     },
@@ -71513,6 +77116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "490"
             }
         ]
     },
@@ -71555,7 +77162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71564,6 +77171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "888"
             }
         ]
     },
@@ -71615,6 +77226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "578"
             }
         ]
     },
@@ -71666,6 +77281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2274"
             }
         ]
     },
@@ -71717,6 +77336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2372"
             }
         ]
     },
@@ -71759,7 +77382,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71768,6 +77391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "688"
             }
         ]
     },
@@ -71810,7 +77437,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71819,6 +77446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1832"
             }
         ]
     },
@@ -71870,6 +77501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "189"
             }
         ]
     },
@@ -71921,6 +77556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1021"
             }
         ]
     },
@@ -71963,7 +77602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -71972,6 +77611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "336"
             }
         ]
     },
@@ -72014,7 +77657,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72023,6 +77666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2128"
             }
         ]
     },
@@ -72074,6 +77721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "972"
             }
         ]
     },
@@ -72125,6 +77776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1414"
             }
         ]
     },
@@ -72167,7 +77822,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72176,6 +77831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "726"
             }
         ]
     },
@@ -72227,6 +77886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "68"
             }
         ]
     },
@@ -72269,7 +77932,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72278,6 +77941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "231"
             }
         ]
     },
@@ -72329,6 +77996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "823"
             }
         ]
     },
@@ -72380,6 +78051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2385"
             }
         ]
     },
@@ -72431,6 +78106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "561"
             }
         ]
     },
@@ -72473,7 +78152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72482,6 +78161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1273"
             }
         ]
     },
@@ -72533,6 +78216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "763"
             }
         ]
     },
@@ -72584,6 +78271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2006"
             }
         ]
     },
@@ -72635,6 +78326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2446"
             }
         ]
     },
@@ -72686,6 +78381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1144"
             }
         ]
     },
@@ -72728,7 +78427,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72737,6 +78436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2460"
             }
         ]
     },
@@ -72788,6 +78491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1188"
             }
         ]
     },
@@ -72839,6 +78546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "850"
             }
         ]
     },
@@ -72890,6 +78601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1228"
             }
         ]
     },
@@ -72932,7 +78647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -72941,6 +78656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2310"
             }
         ]
     },
@@ -72992,6 +78711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1195"
             }
         ]
     },
@@ -73043,6 +78766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1194"
             }
         ]
     },
@@ -73094,6 +78821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "693"
             }
         ]
     },
@@ -73136,7 +78867,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73145,6 +78876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2396"
             }
         ]
     },
@@ -73187,7 +78922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73196,6 +78931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "936"
             }
         ]
     },
@@ -73247,6 +78986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1608"
             }
         ]
     },
@@ -73298,6 +79041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "692"
             }
         ]
     },
@@ -73349,6 +79096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1533"
             }
         ]
     },
@@ -73391,7 +79142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73400,6 +79151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1796"
             }
         ]
     },
@@ -73451,6 +79206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1285"
             }
         ]
     },
@@ -73502,6 +79261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1158"
             }
         ]
     },
@@ -73553,6 +79316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2014"
             }
         ]
     },
@@ -73604,6 +79371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1912"
             }
         ]
     },
@@ -73655,6 +79426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "573"
             }
         ]
     },
@@ -73697,7 +79472,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73706,6 +79481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "793"
             }
         ]
     },
@@ -73748,7 +79527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73757,6 +79536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2095"
             }
         ]
     },
@@ -73808,6 +79591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1074"
             }
         ]
     },
@@ -73850,7 +79637,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -73859,6 +79646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1987"
             }
         ]
     },
@@ -73910,6 +79701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "307"
             }
         ]
     },
@@ -73961,6 +79756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "148"
             }
         ]
     },
@@ -74012,6 +79811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2272"
             }
         ]
     },
@@ -74054,7 +79857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74063,6 +79866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1728"
             }
         ]
     },
@@ -74114,6 +79921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "367"
             }
         ]
     },
@@ -74156,7 +79967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74165,6 +79976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1053"
             }
         ]
     },
@@ -74216,6 +80031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "553"
             }
         ]
     },
@@ -74267,6 +80086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "362"
             }
         ]
     },
@@ -74318,6 +80141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1983"
             }
         ]
     },
@@ -74360,7 +80187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74369,6 +80196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1812"
             }
         ]
     },
@@ -74411,7 +80242,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74420,6 +80251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "571"
             }
         ]
     },
@@ -74462,7 +80297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74471,6 +80306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2158"
             }
         ]
     },
@@ -74522,6 +80361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2109"
             }
         ]
     },
@@ -74573,6 +80416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "867"
             }
         ]
     },
@@ -74615,7 +80462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74624,6 +80471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "626"
             }
         ]
     },
@@ -74675,6 +80526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "385"
             }
         ]
     },
@@ -74726,6 +80581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "677"
             }
         ]
     },
@@ -74768,7 +80627,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74777,6 +80636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2417"
             }
         ]
     },
@@ -74828,6 +80691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1503"
             }
         ]
     },
@@ -74870,7 +80737,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74879,6 +80746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2207"
             }
         ]
     },
@@ -74921,7 +80792,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74930,6 +80801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "802"
             }
         ]
     },
@@ -74972,7 +80847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -74981,6 +80856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1621"
             }
         ]
     },
@@ -75032,6 +80911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "100"
             }
         ]
     },
@@ -75074,7 +80957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -75083,6 +80966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "592"
             }
         ]
     },
@@ -75134,6 +81021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1948"
             }
         ]
     },
@@ -75185,6 +81076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1375"
             }
         ]
     },
@@ -75236,6 +81131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "37"
             }
         ]
     },
@@ -75287,6 +81186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "476"
             }
         ]
     },
@@ -75338,6 +81241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "724"
             }
         ]
     },
@@ -75389,6 +81296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "746"
             }
         ]
     },
@@ -75440,6 +81351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1024"
             }
         ]
     },
@@ -75491,6 +81406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "389"
             }
         ]
     },
@@ -75542,6 +81461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "815"
             }
         ]
     },
@@ -75584,7 +81507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -75593,6 +81516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1980"
             }
         ]
     },
@@ -75635,7 +81562,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -75644,6 +81571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2395"
             }
         ]
     },
@@ -75686,7 +81617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -75695,6 +81626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "117"
             }
         ]
     },
@@ -75746,6 +81681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "168"
             }
         ]
     },
@@ -75797,6 +81736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2260"
             }
         ]
     },
@@ -75848,6 +81791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "747"
             }
         ]
     },
@@ -75899,6 +81846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2189"
             }
         ]
     },
@@ -75941,7 +81892,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -75950,6 +81901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1092"
             }
         ]
     },
@@ -76001,6 +81956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "268"
             }
         ]
     },
@@ -76052,6 +82011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1737"
             }
         ]
     },
@@ -76094,7 +82057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76103,6 +82066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1370"
             }
         ]
     },
@@ -76145,7 +82112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76154,6 +82121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2428"
             }
         ]
     },
@@ -76205,6 +82176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "171"
             }
         ]
     },
@@ -76256,6 +82231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2352"
             }
         ]
     },
@@ -76298,7 +82277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76307,6 +82286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2419"
             }
         ]
     },
@@ -76358,6 +82341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "327"
             }
         ]
     },
@@ -76400,7 +82387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76409,6 +82396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "413"
             }
         ]
     },
@@ -76460,6 +82451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1304"
             }
         ]
     },
@@ -76511,6 +82506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "934"
             }
         ]
     },
@@ -76553,7 +82552,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76562,6 +82561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1518"
             }
         ]
     },
@@ -76613,6 +82616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "636"
             }
         ]
     },
@@ -76664,6 +82671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1580"
             }
         ]
     },
@@ -76706,7 +82717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76715,6 +82726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1585"
             }
         ]
     },
@@ -76757,7 +82772,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76766,6 +82781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2412"
             }
         ]
     },
@@ -76808,7 +82827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76817,6 +82836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2488"
             }
         ]
     },
@@ -76859,7 +82882,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -76868,6 +82891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1449"
             }
         ]
     },
@@ -76919,6 +82946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "325"
             }
         ]
     },
@@ -76970,6 +83001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1115"
             }
         ]
     },
@@ -77021,6 +83056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2135"
             }
         ]
     },
@@ -77063,7 +83102,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77072,6 +83111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1660"
             }
         ]
     },
@@ -77114,7 +83157,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77123,6 +83166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1190"
             }
         ]
     },
@@ -77174,6 +83221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2353"
             }
         ]
     },
@@ -77225,6 +83276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "918"
             }
         ]
     },
@@ -77276,6 +83331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1754"
             }
         ]
     },
@@ -77327,6 +83386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1706"
             }
         ]
     },
@@ -77369,7 +83432,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77378,6 +83441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2380"
             }
         ]
     },
@@ -77429,6 +83496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "424"
             }
         ]
     },
@@ -77471,7 +83542,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77480,6 +83551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "820"
             }
         ]
     },
@@ -77531,6 +83606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1661"
             }
         ]
     },
@@ -77573,7 +83652,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77582,6 +83661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "900"
             }
         ]
     },
@@ -77624,7 +83707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77633,6 +83716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "564"
             }
         ]
     },
@@ -77684,6 +83771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1015"
             }
         ]
     },
@@ -77726,7 +83817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -77735,6 +83826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1873"
             }
         ]
     },
@@ -77786,6 +83881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1578"
             }
         ]
     },
@@ -77837,6 +83936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "256"
             }
         ]
     },
@@ -77888,6 +83991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1355"
             }
         ]
     },
@@ -77939,6 +84046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "989"
             }
         ]
     },
@@ -77990,6 +84101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "10"
             }
         ]
     },
@@ -78032,7 +84147,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -78041,6 +84156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2348"
             }
         ]
     },
@@ -78092,6 +84211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2377"
             }
         ]
     },
@@ -78143,6 +84266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "577"
             }
         ]
     },
@@ -78194,6 +84321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2123"
             }
         ]
     },
@@ -78245,6 +84376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "698"
             }
         ]
     },
@@ -78296,6 +84431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "216"
             }
         ]
     },
@@ -78347,6 +84486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1279"
             }
         ]
     },
@@ -78398,6 +84541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "991"
             }
         ]
     },
@@ -78440,7 +84587,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -78449,6 +84596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2429"
             }
         ]
     },
@@ -78500,6 +84651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "74"
             }
         ]
     },
@@ -78551,6 +84706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1751"
             }
         ]
     },
@@ -78602,6 +84761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "522"
             }
         ]
     },
@@ -78653,6 +84816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1734"
             }
         ]
     },
@@ -78704,6 +84871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1293"
             }
         ]
     },
@@ -78746,7 +84917,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -78755,6 +84926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "438"
             }
         ]
     },
@@ -78806,6 +84981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "617"
             }
         ]
     },
@@ -78848,7 +85027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -78857,6 +85036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "471"
             }
         ]
     },
@@ -78908,6 +85091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "124"
             }
         ]
     },
@@ -78959,6 +85146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2307"
             }
         ]
     },
@@ -79010,6 +85201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2051"
             }
         ]
     },
@@ -79061,6 +85256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2165"
             }
         ]
     },
@@ -79103,7 +85302,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79112,6 +85311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "252"
             }
         ]
     },
@@ -79154,7 +85357,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79163,6 +85366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2484"
             }
         ]
     },
@@ -79205,7 +85412,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79214,6 +85421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2485"
             }
         ]
     },
@@ -79265,6 +85476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "76"
             }
         ]
     },
@@ -79307,7 +85522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79316,6 +85531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2267"
             }
         ]
     },
@@ -79367,6 +85586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2075"
             }
         ]
     },
@@ -79418,6 +85641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "595"
             }
         ]
     },
@@ -79460,7 +85687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79469,6 +85696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2457"
             }
         ]
     },
@@ -79520,6 +85751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "261"
             }
         ]
     },
@@ -79571,6 +85806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1474"
             }
         ]
     },
@@ -79613,7 +85852,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79622,6 +85861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1217"
             }
         ]
     },
@@ -79673,6 +85916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1904"
             }
         ]
     },
@@ -79715,7 +85962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79724,6 +85971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "475"
             }
         ]
     },
@@ -79775,6 +86026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "919"
             }
         ]
     },
@@ -79817,7 +86072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79826,6 +86081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1524"
             }
         ]
     },
@@ -79868,7 +86127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79877,6 +86136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1531"
             }
         ]
     },
@@ -79928,6 +86191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1340"
             }
         ]
     },
@@ -79970,7 +86237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -79979,6 +86246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "27"
             }
         ]
     },
@@ -80021,7 +86292,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80030,6 +86301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2106"
             }
         ]
     },
@@ -80072,7 +86347,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80081,6 +86356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "633"
             }
         ]
     },
@@ -80132,6 +86411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "738"
             }
         ]
     },
@@ -80183,6 +86466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "259"
             }
         ]
     },
@@ -80234,6 +86521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1730"
             }
         ]
     },
@@ -80285,6 +86576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "70"
             }
         ]
     },
@@ -80336,6 +86631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "290"
             }
         ]
     },
@@ -80378,7 +86677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80387,6 +86686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2482"
             }
         ]
     },
@@ -80438,6 +86741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1006"
             }
         ]
     },
@@ -80480,7 +86787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80489,6 +86796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1965"
             }
         ]
     },
@@ -80540,6 +86851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1113"
             }
         ]
     },
@@ -80582,7 +86897,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80591,6 +86906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1698"
             }
         ]
     },
@@ -80642,6 +86961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1155"
             }
         ]
     },
@@ -80693,6 +87016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1165"
             }
         ]
     },
@@ -80744,6 +87071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1635"
             }
         ]
     },
@@ -80795,6 +87126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "883"
             }
         ]
     },
@@ -80846,6 +87181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2042"
             }
         ]
     },
@@ -80897,6 +87236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1454"
             }
         ]
     },
@@ -80939,7 +87282,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -80948,6 +87291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "983"
             }
         ]
     },
@@ -80999,6 +87346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "544"
             }
         ]
     },
@@ -81041,7 +87392,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81050,6 +87401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2317"
             }
         ]
     },
@@ -81101,6 +87456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1735"
             }
         ]
     },
@@ -81152,6 +87511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1707"
             }
         ]
     },
@@ -81194,7 +87557,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81203,6 +87566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1081"
             }
         ]
     },
@@ -81254,6 +87621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1146"
             }
         ]
     },
@@ -81305,6 +87676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2174"
             }
         ]
     },
@@ -81356,6 +87731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1105"
             }
         ]
     },
@@ -81407,6 +87786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "456"
             }
         ]
     },
@@ -81449,7 +87832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81458,6 +87841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1444"
             }
         ]
     },
@@ -81500,7 +87887,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81509,6 +87896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2500"
             }
         ]
     },
@@ -81551,7 +87942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81560,6 +87951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1540"
             }
         ]
     },
@@ -81611,6 +88006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "854"
             }
         ]
     },
@@ -81662,6 +88061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "870"
             }
         ]
     },
@@ -81713,6 +88116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2080"
             }
         ]
     },
@@ -81764,6 +88171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2027"
             }
         ]
     },
@@ -81806,7 +88217,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81815,6 +88226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "127"
             }
         ]
     },
@@ -81857,7 +88272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -81866,6 +88281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "108"
             }
         ]
     },
@@ -81917,6 +88336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1620"
             }
         ]
     },
@@ -81968,6 +88391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "289"
             }
         ]
     },
@@ -82019,6 +88446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2383"
             }
         ]
     },
@@ -82061,7 +88492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -82070,6 +88501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1788"
             }
         ]
     },
@@ -82121,6 +88556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2190"
             }
         ]
     },
@@ -82172,6 +88611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1802"
             }
         ]
     },
@@ -82223,6 +88666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1381"
             }
         ]
     },
@@ -82274,6 +88721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2319"
             }
         ]
     },
@@ -82325,6 +88776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2186"
             }
         ]
     },
@@ -82376,6 +88831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1068"
             }
         ]
     },
@@ -82418,7 +88877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -82427,6 +88886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2305"
             }
         ]
     },
@@ -82478,6 +88941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "79"
             }
         ]
     },
@@ -82529,6 +88996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "388"
             }
         ]
     },
@@ -82571,7 +89042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -82580,6 +89051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2257"
             }
         ]
     },
@@ -82631,6 +89106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2236"
             }
         ]
     },
@@ -82682,6 +89161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "531"
             }
         ]
     },
@@ -82733,6 +89216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2312"
             }
         ]
     },
@@ -82784,6 +89271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1877"
             }
         ]
     },
@@ -82835,6 +89326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2017"
             }
         ]
     },
@@ -82886,6 +89381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "498"
             }
         ]
     },
@@ -82937,6 +89436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "482"
             }
         ]
     },
@@ -82979,7 +89482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -82988,6 +89491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2219"
             }
         ]
     },
@@ -83039,6 +89546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1182"
             }
         ]
     },
@@ -83090,6 +89601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "246"
             }
         ]
     },
@@ -83132,7 +89647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -83141,6 +89656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1964"
             }
         ]
     },
@@ -83192,6 +89711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1629"
             }
         ]
     },
@@ -83234,7 +89757,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -83243,6 +89766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1606"
             }
         ]
     },
@@ -83294,6 +89821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "282"
             }
         ]
     },
@@ -83345,6 +89876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1178"
             }
         ]
     },
@@ -83387,7 +89922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -83396,6 +89931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1823"
             }
         ]
     },
@@ -83447,6 +89986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1420"
             }
         ]
     },
@@ -83498,6 +90041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "201"
             }
         ]
     },
@@ -83549,6 +90096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1341"
             }
         ]
     },
@@ -83600,6 +90151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1594"
             }
         ]
     },
@@ -83651,6 +90206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "576"
             }
         ]
     },
@@ -83702,6 +90261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1765"
             }
         ]
     },
@@ -83753,6 +90316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "988"
             }
         ]
     },
@@ -83804,6 +90371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1470"
             }
         ]
     },
@@ -83855,6 +90426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "399"
             }
         ]
     },
@@ -83897,7 +90472,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -83906,6 +90481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "409"
             }
         ]
     },
@@ -83948,7 +90527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -83957,6 +90536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2140"
             }
         ]
     },
@@ -83999,7 +90582,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84008,6 +90591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "151"
             }
         ]
     },
@@ -84059,6 +90646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "428"
             }
         ]
     },
@@ -84110,6 +90701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1145"
             }
         ]
     },
@@ -84152,7 +90747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84161,6 +90756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1970"
             }
         ]
     },
@@ -84212,6 +90811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2005"
             }
         ]
     },
@@ -84254,7 +90857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84263,6 +90866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "596"
             }
         ]
     },
@@ -84305,7 +90912,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84314,6 +90921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "213"
             }
         ]
     },
@@ -84356,7 +90967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84365,6 +90976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "968"
             }
         ]
     },
@@ -84416,6 +91031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1784"
             }
         ]
     },
@@ -84467,6 +91086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1901"
             }
         ]
     },
@@ -84518,6 +91141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1321"
             }
         ]
     },
@@ -84560,7 +91187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84569,6 +91196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "734"
             }
         ]
     },
@@ -84620,6 +91251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "136"
             }
         ]
     },
@@ -84671,6 +91306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1405"
             }
         ]
     },
@@ -84713,7 +91352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84722,6 +91361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1798"
             }
         ]
     },
@@ -84773,6 +91416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1495"
             }
         ]
     },
@@ -84824,6 +91471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2024"
             }
         ]
     },
@@ -84875,6 +91526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "832"
             }
         ]
     },
@@ -84926,6 +91581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "463"
             }
         ]
     },
@@ -84968,7 +91627,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -84977,6 +91636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2436"
             }
         ]
     },
@@ -85028,6 +91691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "517"
             }
         ]
     },
@@ -85079,6 +91746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "77"
             }
         ]
     },
@@ -85121,7 +91792,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85130,6 +91801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1974"
             }
         ]
     },
@@ -85172,7 +91847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85181,6 +91856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "984"
             }
         ]
     },
@@ -85232,6 +91911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1200"
             }
         ]
     },
@@ -85274,7 +91957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85283,6 +91966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1372"
             }
         ]
     },
@@ -85325,7 +92012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85334,6 +92021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2269"
             }
         ]
     },
@@ -85376,7 +92067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85385,6 +92076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2188"
             }
         ]
     },
@@ -85427,7 +92122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85436,6 +92131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2276"
             }
         ]
     },
@@ -85487,6 +92186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "300"
             }
         ]
     },
@@ -85529,7 +92232,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85538,6 +92241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1073"
             }
         ]
     },
@@ -85580,7 +92287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85589,6 +92296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1649"
             }
         ]
     },
@@ -85631,7 +92342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85640,6 +92351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2298"
             }
         ]
     },
@@ -85691,6 +92406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "658"
             }
         ]
     },
@@ -85742,6 +92461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "689"
             }
         ]
     },
@@ -85793,6 +92516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "612"
             }
         ]
     },
@@ -85844,6 +92571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1975"
             }
         ]
     },
@@ -85895,6 +92626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "663"
             }
         ]
     },
@@ -85937,7 +92672,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -85946,6 +92681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2141"
             }
         ]
     },
@@ -85997,6 +92736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1636"
             }
         ]
     },
@@ -86039,7 +92782,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86048,6 +92791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1603"
             }
         ]
     },
@@ -86090,7 +92837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86099,6 +92846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "284"
             }
         ]
     },
@@ -86150,6 +92901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2139"
             }
         ]
     },
@@ -86192,7 +92947,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86201,6 +92956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "811"
             }
         ]
     },
@@ -86243,7 +93002,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86252,6 +93011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "735"
             }
         ]
     },
@@ -86303,6 +93066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1338"
             }
         ]
     },
@@ -86354,6 +93121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1019"
             }
         ]
     },
@@ -86405,6 +93176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "285"
             }
         ]
     },
@@ -86456,6 +93231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1657"
             }
         ]
     },
@@ -86507,6 +93286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1183"
             }
         ]
     },
@@ -86558,6 +93341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1835"
             }
         ]
     },
@@ -86609,6 +93396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "470"
             }
         ]
     },
@@ -86660,6 +93451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "871"
             }
         ]
     },
@@ -86702,7 +93497,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86711,6 +93506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1111"
             }
         ]
     },
@@ -86762,6 +93561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "185"
             }
         ]
     },
@@ -86813,6 +93616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2406"
             }
         ]
     },
@@ -86864,6 +93671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "221"
             }
         ]
     },
@@ -86906,7 +93717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -86915,6 +93726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2112"
             }
         ]
     },
@@ -86966,6 +93781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1519"
             }
         ]
     },
@@ -87017,6 +93836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "762"
             }
         ]
     },
@@ -87059,7 +93882,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87068,6 +93891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "999"
             }
         ]
     },
@@ -87110,7 +93937,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87119,6 +93946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1253"
             }
         ]
     },
@@ -87161,7 +93992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87170,6 +94001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "176"
             }
         ]
     },
@@ -87221,6 +94056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "729"
             }
         ]
     },
@@ -87263,7 +94102,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87272,6 +94111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1833"
             }
         ]
     },
@@ -87314,7 +94157,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87323,6 +94166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2292"
             }
         ]
     },
@@ -87365,7 +94212,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87374,6 +94221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "222"
             }
         ]
     },
@@ -87425,6 +94276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2200"
             }
         ]
     },
@@ -87476,6 +94331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1376"
             }
         ]
     },
@@ -87518,7 +94377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87527,6 +94386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2119"
             }
         ]
     },
@@ -87578,6 +94441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "625"
             }
         ]
     },
@@ -87620,7 +94487,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87629,6 +94496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1868"
             }
         ]
     },
@@ -87680,6 +94551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1473"
             }
         ]
     },
@@ -87731,6 +94606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "840"
             }
         ]
     },
@@ -87773,7 +94652,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87782,6 +94661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2440"
             }
         ]
     },
@@ -87824,7 +94707,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87833,6 +94716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "874"
             }
         ]
     },
@@ -87875,7 +94762,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87884,6 +94771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1088"
             }
         ]
     },
@@ -87926,7 +94817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -87935,6 +94826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1638"
             }
         ]
     },
@@ -87986,6 +94881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2343"
             }
         ]
     },
@@ -88037,6 +94936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2143"
             }
         ]
     },
@@ -88079,7 +94982,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -88088,6 +94991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1787"
             }
         ]
     },
@@ -88139,6 +95046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1652"
             }
         ]
     },
@@ -88190,6 +95101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1225"
             }
         ]
     },
@@ -88241,6 +95156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1322"
             }
         ]
     },
@@ -88292,6 +95211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1297"
             }
         ]
     },
@@ -88343,6 +95266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "935"
             }
         ]
     },
@@ -88385,7 +95312,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -88394,6 +95321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "827"
             }
         ]
     },
@@ -88436,7 +95367,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -88445,6 +95376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2055"
             }
         ]
     },
@@ -88496,6 +95431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "899"
             }
         ]
     },
@@ -88547,6 +95486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "337"
             }
         ]
     },
@@ -88589,7 +95532,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -88598,6 +95541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1659"
             }
         ]
     },
@@ -88649,6 +95596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "931"
             }
         ]
     },
@@ -88700,6 +95651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2389"
             }
         ]
     },
@@ -88751,6 +95706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1507"
             }
         ]
     },
@@ -88802,6 +95761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "121"
             }
         ]
     },
@@ -88853,6 +95816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "799"
             }
         ]
     },
@@ -88904,6 +95871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "809"
             }
         ]
     },
@@ -88955,6 +95926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "513"
             }
         ]
     },
@@ -88997,7 +95972,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -89006,6 +95981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "915"
             }
         ]
     },
@@ -89057,6 +96036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "354"
             }
         ]
     },
@@ -89108,6 +96091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "319"
             }
         ]
     },
@@ -89159,6 +96146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1202"
             }
         ]
     },
@@ -89210,6 +96201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1063"
             }
         ]
     },
@@ -89252,7 +96247,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -89261,6 +96256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1220"
             }
         ]
     },
@@ -89303,7 +96302,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -89312,6 +96311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "652"
             }
         ]
     },
@@ -89363,6 +96366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "97"
             }
         ]
     },
@@ -89414,6 +96421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "512"
             }
         ]
     },
@@ -89465,6 +96476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "31"
             }
         ]
     },
@@ -89516,6 +96531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "229"
             }
         ]
     },
@@ -89567,6 +96586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "278"
             }
         ]
     },
@@ -89618,6 +96641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "749"
             }
         ]
     },
@@ -89660,7 +96687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -89669,6 +96696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1799"
             }
         ]
     },
@@ -89720,6 +96751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1456"
             }
         ]
     },
@@ -89771,6 +96806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "349"
             }
         ]
     },
@@ -89822,6 +96861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "599"
             }
         ]
     },
@@ -89873,6 +96916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "103"
             }
         ]
     },
@@ -89924,6 +96971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2028"
             }
         ]
     },
@@ -89975,6 +97026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2253"
             }
         ]
     },
@@ -90026,6 +97081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1569"
             }
         ]
     },
@@ -90077,6 +97136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "203"
             }
         ]
     },
@@ -90119,7 +97182,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90128,6 +97191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1062"
             }
         ]
     },
@@ -90170,7 +97237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90179,6 +97246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "41"
             }
         ]
     },
@@ -90221,7 +97292,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90230,6 +97301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1343"
             }
         ]
     },
@@ -90281,6 +97356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1683"
             }
         ]
     },
@@ -90323,7 +97402,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90332,6 +97411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2169"
             }
         ]
     },
@@ -90383,6 +97466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "608"
             }
         ]
     },
@@ -90425,7 +97512,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90434,6 +97521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1847"
             }
         ]
     },
@@ -90485,6 +97576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1516"
             }
         ]
     },
@@ -90536,6 +97631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2110"
             }
         ]
     },
@@ -90587,6 +97686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2288"
             }
         ]
     },
@@ -90638,6 +97741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1913"
             }
         ]
     },
@@ -90689,6 +97796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "253"
             }
         ]
     },
@@ -90740,6 +97851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "181"
             }
         ]
     },
@@ -90791,6 +97906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "114"
             }
         ]
     },
@@ -90842,6 +97961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "84"
             }
         ]
     },
@@ -90893,6 +98016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "281"
             }
         ]
     },
@@ -90944,6 +98071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1267"
             }
         ]
     },
@@ -90986,7 +98117,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -90995,6 +98126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1463"
             }
         ]
     },
@@ -91046,6 +98181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "466"
             }
         ]
     },
@@ -91088,7 +98227,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91097,6 +98236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1884"
             }
         ]
     },
@@ -91148,6 +98291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "288"
             }
         ]
     },
@@ -91190,7 +98337,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91199,6 +98346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1637"
             }
         ]
     },
@@ -91250,6 +98401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1586"
             }
         ]
     },
@@ -91292,7 +98447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91301,6 +98456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2386"
             }
         ]
     },
@@ -91352,6 +98511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1530"
             }
         ]
     },
@@ -91403,6 +98566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "90"
             }
         ]
     },
@@ -91454,6 +98621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1673"
             }
         ]
     },
@@ -91505,6 +98676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "16"
             }
         ]
     },
@@ -91547,7 +98722,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91556,6 +98731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1932"
             }
         ]
     },
@@ -91598,7 +98777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91607,6 +98786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1726"
             }
         ]
     },
@@ -91658,6 +98841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1101"
             }
         ]
     },
@@ -91700,7 +98887,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91709,6 +98896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "38"
             }
         ]
     },
@@ -91760,6 +98951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "835"
             }
         ]
     },
@@ -91811,6 +99006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "828"
             }
         ]
     },
@@ -91862,6 +99061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1411"
             }
         ]
     },
@@ -91913,6 +99116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1715"
             }
         ]
     },
@@ -91955,7 +99162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -91964,6 +99171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1686"
             }
         ]
     },
@@ -92015,6 +99226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "247"
             }
         ]
     },
@@ -92057,7 +99272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92066,6 +99281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1243"
             }
         ]
     },
@@ -92117,6 +99336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "458"
             }
         ]
     },
@@ -92168,6 +99391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2289"
             }
         ]
     },
@@ -92210,7 +99437,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92219,6 +99446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "380"
             }
         ]
     },
@@ -92261,7 +99492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92270,6 +99501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "220"
             }
         ]
     },
@@ -92321,6 +99556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2113"
             }
         ]
     },
@@ -92372,6 +99611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1902"
             }
         ]
     },
@@ -92423,6 +99666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "976"
             }
         ]
     },
@@ -92474,6 +99721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1141"
             }
         ]
     },
@@ -92525,6 +99776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2153"
             }
         ]
     },
@@ -92567,7 +99822,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92576,6 +99831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "863"
             }
         ]
     },
@@ -92627,6 +99886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1281"
             }
         ]
     },
@@ -92669,7 +99932,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92678,6 +99941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1096"
             }
         ]
     },
@@ -92720,7 +99987,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92729,6 +99996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1748"
             }
         ]
     },
@@ -92780,6 +100051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1984"
             }
         ]
     },
@@ -92822,7 +100097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92831,6 +100106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2069"
             }
         ]
     },
@@ -92873,7 +100152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -92882,6 +100161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1940"
             }
         ]
     },
@@ -92933,6 +100216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "536"
             }
         ]
     },
@@ -92984,6 +100271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1458"
             }
         ]
     },
@@ -93035,6 +100326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1561"
             }
         ]
     },
@@ -93086,6 +100381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1929"
             }
         ]
     },
@@ -93137,6 +100436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1446"
             }
         ]
     },
@@ -93188,6 +100491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "643"
             }
         ]
     },
@@ -93230,7 +100537,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93239,6 +100546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2295"
             }
         ]
     },
@@ -93281,7 +100592,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93290,6 +100601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "47"
             }
         ]
     },
@@ -93332,7 +100647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93341,6 +100656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2495"
             }
         ]
     },
@@ -93392,6 +100711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1038"
             }
         ]
     },
@@ -93434,7 +100757,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93443,6 +100766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1453"
             }
         ]
     },
@@ -93485,7 +100812,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93494,6 +100821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "123"
             }
         ]
     },
@@ -93545,6 +100876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1640"
             }
         ]
     },
@@ -93587,7 +100922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93596,6 +100931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "925"
             }
         ]
     },
@@ -93647,6 +100986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "130"
             }
         ]
     },
@@ -93698,6 +101041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "262"
             }
         ]
     },
@@ -93749,6 +101096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1320"
             }
         ]
     },
@@ -93791,7 +101142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93800,6 +101151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1175"
             }
         ]
     },
@@ -93842,7 +101197,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93851,6 +101206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2088"
             }
         ]
     },
@@ -93893,7 +101252,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -93902,6 +101261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1556"
             }
         ]
     },
@@ -93953,6 +101316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "347"
             }
         ]
     },
@@ -93995,7 +101362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94004,6 +101371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "186"
             }
         ]
     },
@@ -94055,6 +101426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2078"
             }
         ]
     },
@@ -94097,7 +101472,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94106,6 +101481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "758"
             }
         ]
     },
@@ -94148,7 +101527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94157,6 +101536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1618"
             }
         ]
     },
@@ -94208,6 +101591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1142"
             }
         ]
     },
@@ -94259,6 +101646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1541"
             }
         ]
     },
@@ -94310,6 +101701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1109"
             }
         ]
     },
@@ -94352,7 +101747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94361,6 +101756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "803"
             }
         ]
     },
@@ -94412,6 +101811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1397"
             }
         ]
     },
@@ -94463,6 +101866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1736"
             }
         ]
     },
@@ -94514,6 +101921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "485"
             }
         ]
     },
@@ -94565,6 +101976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "150"
             }
         ]
     },
@@ -94607,7 +102022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94616,6 +102031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1204"
             }
         ]
     },
@@ -94667,6 +102086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1723"
             }
         ]
     },
@@ -94709,7 +102132,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94718,6 +102141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1031"
             }
         ]
     },
@@ -94769,6 +102196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2059"
             }
         ]
     },
@@ -94820,6 +102251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "660"
             }
         ]
     },
@@ -94862,7 +102297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94871,6 +102306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2426"
             }
         ]
     },
@@ -94913,7 +102352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94922,6 +102361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "579"
             }
         ]
     },
@@ -94964,7 +102407,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -94973,6 +102416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1881"
             }
         ]
     },
@@ -95024,6 +102471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "239"
             }
         ]
     },
@@ -95066,7 +102517,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95075,6 +102526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "779"
             }
         ]
     },
@@ -95126,6 +102581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2238"
             }
         ]
     },
@@ -95177,6 +102636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1946"
             }
         ]
     },
@@ -95228,6 +102691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2247"
             }
         ]
     },
@@ -95279,6 +102746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2345"
             }
         ]
     },
@@ -95330,6 +102801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "987"
             }
         ]
     },
@@ -95372,7 +102847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95381,6 +102856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1576"
             }
         ]
     },
@@ -95432,6 +102911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1741"
             }
         ]
     },
@@ -95474,7 +102957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95483,6 +102966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2359"
             }
         ]
     },
@@ -95534,6 +103021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "430"
             }
         ]
     },
@@ -95585,6 +103076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1838"
             }
         ]
     },
@@ -95636,6 +103131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1863"
             }
         ]
     },
@@ -95687,6 +103186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "195"
             }
         ]
     },
@@ -95729,7 +103232,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95738,6 +103241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "957"
             }
         ]
     },
@@ -95789,6 +103296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "191"
             }
         ]
     },
@@ -95831,7 +103342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95840,6 +103351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2490"
             }
         ]
     },
@@ -95891,6 +103406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "639"
             }
         ]
     },
@@ -95933,7 +103452,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -95942,6 +103461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1783"
             }
         ]
     },
@@ -95993,6 +103516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2132"
             }
         ]
     },
@@ -96044,6 +103571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "646"
             }
         ]
     },
@@ -96095,6 +103626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "506"
             }
         ]
     },
@@ -96146,6 +103681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "434"
             }
         ]
     },
@@ -96197,6 +103736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1672"
             }
         ]
     },
@@ -96248,6 +103791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "145"
             }
         ]
     },
@@ -96290,7 +103837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -96299,6 +103846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1329"
             }
         ]
     },
@@ -96341,7 +103892,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -96350,6 +103901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1981"
             }
         ]
     },
@@ -96401,6 +103956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1415"
             }
         ]
     },
@@ -96452,6 +104011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1750"
             }
         ]
     },
@@ -96503,6 +104066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2390"
             }
         ]
     },
@@ -96545,7 +104112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -96554,6 +104121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2304"
             }
         ]
     },
@@ -96605,6 +104176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "306"
             }
         ]
     },
@@ -96656,6 +104231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2148"
             }
         ]
     },
@@ -96707,6 +104286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2129"
             }
         ]
     },
@@ -96758,6 +104341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "812"
             }
         ]
     },
@@ -96800,7 +104387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -96809,6 +104396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "377"
             }
         ]
     },
@@ -96860,6 +104451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "843"
             }
         ]
     },
@@ -96902,7 +104497,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -96911,6 +104506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1465"
             }
         ]
     },
@@ -96962,6 +104561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1857"
             }
         ]
     },
@@ -97004,7 +104607,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97013,6 +104616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "251"
             }
         ]
     },
@@ -97064,6 +104671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2034"
             }
         ]
     },
@@ -97106,7 +104717,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97115,6 +104726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2384"
             }
         ]
     },
@@ -97157,7 +104772,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97166,6 +104781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2071"
             }
         ]
     },
@@ -97217,6 +104836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2229"
             }
         ]
     },
@@ -97268,6 +104891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1786"
             }
         ]
     },
@@ -97319,6 +104946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "72"
             }
         ]
     },
@@ -97370,6 +105001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1825"
             }
         ]
     },
@@ -97421,6 +105056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "335"
             }
         ]
     },
@@ -97463,7 +105102,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97472,6 +105111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2194"
             }
         ]
     },
@@ -97523,6 +105166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "435"
             }
         ]
     },
@@ -97574,6 +105221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2201"
             }
         ]
     },
@@ -97616,7 +105267,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97625,6 +105276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "748"
             }
         ]
     },
@@ -97676,6 +105331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2311"
             }
         ]
     },
@@ -97718,7 +105377,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97727,6 +105386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1406"
             }
         ]
     },
@@ -97778,6 +105441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2134"
             }
         ]
     },
@@ -97820,7 +105487,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97829,6 +105496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "558"
             }
         ]
     },
@@ -97880,6 +105551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1654"
             }
         ]
     },
@@ -97922,7 +105597,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -97931,6 +105606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "963"
             }
         ]
     },
@@ -97982,6 +105661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1821"
             }
         ]
     },
@@ -98033,6 +105716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "744"
             }
         ]
     },
@@ -98075,7 +105762,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98084,6 +105771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2454"
             }
         ]
     },
@@ -98135,6 +105826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1816"
             }
         ]
     },
@@ -98186,6 +105881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "172"
             }
         ]
     },
@@ -98228,7 +105927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98237,6 +105936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "807"
             }
         ]
     },
@@ -98279,7 +105982,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98288,6 +105991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2179"
             }
         ]
     },
@@ -98339,6 +106046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1107"
             }
         ]
     },
@@ -98390,6 +106101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "384"
             }
         ]
     },
@@ -98441,6 +106156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1311"
             }
         ]
     },
@@ -98483,7 +106202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98492,6 +106211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1270"
             }
         ]
     },
@@ -98543,6 +106266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "24"
             }
         ]
     },
@@ -98594,6 +106321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "860"
             }
         ]
     },
@@ -98636,7 +106367,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98645,6 +106376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "800"
             }
         ]
     },
@@ -98687,7 +106422,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -98696,6 +106431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "856"
             }
         ]
     },
@@ -98747,6 +106486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2035"
             }
         ]
     },
@@ -98798,6 +106541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1072"
             }
         ]
     },
@@ -98849,6 +106596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1587"
             }
         ]
     },
@@ -98900,6 +106651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1353"
             }
         ]
     },
@@ -98951,6 +106706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1388"
             }
         ]
     },
@@ -98993,7 +106752,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99002,6 +106761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "928"
             }
         ]
     },
@@ -99053,6 +106816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "205"
             }
         ]
     },
@@ -99095,7 +106862,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99104,6 +106871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1120"
             }
         ]
     },
@@ -99146,7 +106917,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99155,6 +106926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1250"
             }
         ]
     },
@@ -99206,6 +106981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2023"
             }
         ]
     },
@@ -99257,6 +107036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2278"
             }
         ]
     },
@@ -99308,6 +107091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "699"
             }
         ]
     },
@@ -99359,6 +107146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "691"
             }
         ]
     },
@@ -99401,7 +107192,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99410,6 +107201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "26"
             }
         ]
     },
@@ -99452,7 +107247,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99461,6 +107256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1205"
             }
         ]
     },
@@ -99512,6 +107311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1235"
             }
         ]
     },
@@ -99554,7 +107357,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99563,6 +107366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2420"
             }
         ]
     },
@@ -99614,6 +107421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "423"
             }
         ]
     },
@@ -99656,7 +107467,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99665,6 +107476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "523"
             }
         ]
     },
@@ -99707,7 +107522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99716,6 +107531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1817"
             }
         ]
     },
@@ -99767,6 +107586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1048"
             }
         ]
     },
@@ -99818,6 +107641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "813"
             }
         ]
     },
@@ -99860,7 +107687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99869,6 +107696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2039"
             }
         ]
     },
@@ -99911,7 +107742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -99920,6 +107751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2415"
             }
         ]
     },
@@ -99971,6 +107806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1866"
             }
         ]
     },
@@ -100022,6 +107861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1665"
             }
         ]
     },
@@ -100073,6 +107916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1117"
             }
         ]
     },
@@ -100124,6 +107971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "842"
             }
         ]
     },
@@ -100175,6 +108026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "590"
             }
         ]
     },
@@ -100217,7 +108072,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100226,6 +108081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "555"
             }
         ]
     },
@@ -100277,6 +108136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1523"
             }
         ]
     },
@@ -100319,7 +108182,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100328,6 +108191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "814"
             }
         ]
     },
@@ -100370,7 +108237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100379,6 +108246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2241"
             }
         ]
     },
@@ -100430,6 +108301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1455"
             }
         ]
     },
@@ -100481,6 +108356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1323"
             }
         ]
     },
@@ -100532,6 +108411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "970"
             }
         ]
     },
@@ -100574,7 +108457,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100583,6 +108466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "859"
             }
         ]
     },
@@ -100634,6 +108521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "587"
             }
         ]
     },
@@ -100685,6 +108576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "348"
             }
         ]
     },
@@ -100736,6 +108631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1646"
             }
         ]
     },
@@ -100787,6 +108686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1475"
             }
         ]
     },
@@ -100829,7 +108732,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100838,6 +108741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "525"
             }
         ]
     },
@@ -100880,7 +108787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -100889,6 +108796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1325"
             }
         ]
     },
@@ -100940,6 +108851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1601"
             }
         ]
     },
@@ -100991,6 +108906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "855"
             }
         ]
     },
@@ -101042,6 +108961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2330"
             }
         ]
     },
@@ -101084,7 +109007,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101093,6 +109016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1041"
             }
         ]
     },
@@ -101144,6 +109071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "552"
             }
         ]
     },
@@ -101195,6 +109126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "429"
             }
         ]
     },
@@ -101246,6 +109181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1306"
             }
         ]
     },
@@ -101297,6 +109236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "149"
             }
         ]
     },
@@ -101348,6 +109291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1095"
             }
         ]
     },
@@ -101399,6 +109346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1878"
             }
         ]
     },
@@ -101450,6 +109401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1363"
             }
         ]
     },
@@ -101492,7 +109447,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101501,6 +109456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1577"
             }
         ]
     },
@@ -101543,7 +109502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101552,6 +109511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1214"
             }
         ]
     },
@@ -101603,6 +109566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1570"
             }
         ]
     },
@@ -101645,7 +109612,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101654,6 +109621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1441"
             }
         ]
     },
@@ -101705,6 +109676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1792"
             }
         ]
     },
@@ -101756,6 +109731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "94"
             }
         ]
     },
@@ -101798,7 +109777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101807,6 +109786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2496"
             }
         ]
     },
@@ -101858,6 +109841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "806"
             }
         ]
     },
@@ -101900,7 +109887,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101909,6 +109896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "436"
             }
         ]
     },
@@ -101951,7 +109942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -101960,6 +109951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1781"
             }
         ]
     },
@@ -102011,6 +110006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "353"
             }
         ]
     },
@@ -102062,6 +110061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1631"
             }
         ]
     },
@@ -102113,6 +110116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2258"
             }
         ]
     },
@@ -102164,6 +110171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1641"
             }
         ]
     },
@@ -102215,6 +110226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "670"
             }
         ]
     },
@@ -102257,7 +110272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -102266,6 +110281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1776"
             }
         ]
     },
@@ -102317,6 +110336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1958"
             }
         ]
     },
@@ -102368,6 +110391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "668"
             }
         ]
     },
@@ -102419,6 +110446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1445"
             }
         ]
     },
@@ -102470,6 +110501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1943"
             }
         ]
     },
@@ -102512,7 +110547,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -102521,6 +110556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "757"
             }
         ]
     },
@@ -102563,7 +110602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -102572,6 +110611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2432"
             }
         ]
     },
@@ -102623,6 +110666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "346"
             }
         ]
     },
@@ -102674,6 +110721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "333"
             }
         ]
     },
@@ -102725,6 +110776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1834"
             }
         ]
     },
@@ -102776,6 +110831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "969"
             }
         ]
     },
@@ -102827,6 +110886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2283"
             }
         ]
     },
@@ -102878,6 +110941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "718"
             }
         ]
     },
@@ -102920,7 +110987,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -102929,6 +110996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2081"
             }
         ]
     },
@@ -102980,6 +111051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "446"
             }
         ]
     },
@@ -103031,6 +111106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1229"
             }
         ]
     },
@@ -103082,6 +111161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "947"
             }
         ]
     },
@@ -103133,6 +111216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1126"
             }
         ]
     },
@@ -103184,6 +111271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1961"
             }
         ]
     },
@@ -103235,6 +111326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1089"
             }
         ]
     },
@@ -103286,6 +111381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1278"
             }
         ]
     },
@@ -103337,6 +111436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "606"
             }
         ]
     },
@@ -103379,7 +111482,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103388,6 +111491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1936"
             }
         ]
     },
@@ -103439,6 +111546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2160"
             }
         ]
     },
@@ -103490,6 +111601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "139"
             }
         ]
     },
@@ -103541,6 +111656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "516"
             }
         ]
     },
@@ -103583,7 +111702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103592,6 +111711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1036"
             }
         ]
     },
@@ -103643,6 +111766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "311"
             }
         ]
     },
@@ -103694,6 +111821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1216"
             }
         ]
     },
@@ -103745,6 +111876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2455"
             }
         ]
     },
@@ -103787,7 +111922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103796,6 +111931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1858"
             }
         ]
     },
@@ -103838,7 +111977,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103847,6 +111986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2209"
             }
         ]
     },
@@ -103889,7 +112032,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103898,6 +112041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2466"
             }
         ]
     },
@@ -103940,7 +112087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -103949,6 +112096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "53"
             }
         ]
     },
@@ -104000,6 +112151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "303"
             }
         ]
     },
@@ -104051,6 +112206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "478"
             }
         ]
     },
@@ -104102,6 +112261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1302"
             }
         ]
     },
@@ -104144,7 +112307,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104153,6 +112316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1714"
             }
         ]
     },
@@ -104195,7 +112362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104204,6 +112371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1071"
             }
         ]
     },
@@ -104255,6 +112426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1437"
             }
         ]
     },
@@ -104306,6 +112481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "240"
             }
         ]
     },
@@ -104357,6 +112536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2438"
             }
         ]
     },
@@ -104408,6 +112591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "334"
             }
         ]
     },
@@ -104450,7 +112637,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104459,6 +112646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2449"
             }
         ]
     },
@@ -104510,6 +112701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1201"
             }
         ]
     },
@@ -104561,6 +112756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2"
             }
         ]
     },
@@ -104603,7 +112802,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104612,6 +112811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1219"
             }
         ]
     },
@@ -104654,7 +112857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104663,6 +112866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1118"
             }
         ]
     },
@@ -104714,6 +112921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "927"
             }
         ]
     },
@@ -104765,6 +112976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2079"
             }
         ]
     },
@@ -104807,7 +113022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104816,6 +113031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "235"
             }
         ]
     },
@@ -104858,7 +113077,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104867,6 +113086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2223"
             }
         ]
     },
@@ -104918,6 +113141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1331"
             }
         ]
     },
@@ -104960,7 +113187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -104969,6 +113196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1189"
             }
         ]
     },
@@ -105020,6 +113251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "264"
             }
         ]
     },
@@ -105071,6 +113306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1829"
             }
         ]
     },
@@ -105122,6 +113361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2116"
             }
         ]
     },
@@ -105164,7 +113407,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105173,6 +113416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2409"
             }
         ]
     },
@@ -105215,7 +113462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105224,6 +113471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "480"
             }
         ]
     },
@@ -105275,6 +113526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1551"
             }
         ]
     },
@@ -105326,6 +113581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "868"
             }
         ]
     },
@@ -105377,6 +113636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1493"
             }
         ]
     },
@@ -105419,7 +113682,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105428,6 +113691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "426"
             }
         ]
     },
@@ -105479,6 +113746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "52"
             }
         ]
     },
@@ -105530,6 +113801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1691"
             }
         ]
     },
@@ -105572,7 +113847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105581,6 +113856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1471"
             }
         ]
     },
@@ -105632,6 +113911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "745"
             }
         ]
     },
@@ -105674,7 +113957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105683,6 +113966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1387"
             }
         ]
     },
@@ -105725,7 +114012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105734,6 +114021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "826"
             }
         ]
     },
@@ -105776,7 +114067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105785,6 +114076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2287"
             }
         ]
     },
@@ -105827,7 +114122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105836,6 +114131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1251"
             }
         ]
     },
@@ -105887,6 +114186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1732"
             }
         ]
     },
@@ -105938,6 +114241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "621"
             }
         ]
     },
@@ -105980,7 +114287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -105989,6 +114296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2492"
             }
         ]
     },
@@ -106040,6 +114351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2118"
             }
         ]
     },
@@ -106082,7 +114397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106091,6 +114406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1020"
             }
         ]
     },
@@ -106142,6 +114461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2029"
             }
         ]
     },
@@ -106193,6 +114516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1529"
             }
         ]
     },
@@ -106244,6 +114571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1509"
             }
         ]
     },
@@ -106295,6 +114626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "102"
             }
         ]
     },
@@ -106346,6 +114681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "214"
             }
         ]
     },
@@ -106397,6 +114736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2168"
             }
         ]
     },
@@ -106439,7 +114782,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106448,6 +114791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1257"
             }
         ]
     },
@@ -106499,6 +114846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "286"
             }
         ]
     },
@@ -106541,7 +114892,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106550,6 +114901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "616"
             }
         ]
     },
@@ -106601,6 +114956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "654"
             }
         ]
     },
@@ -106643,7 +115002,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106652,6 +115011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1002"
             }
         ]
     },
@@ -106694,7 +115057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106703,6 +115066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1852"
             }
         ]
     },
@@ -106754,6 +115121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "163"
             }
         ]
     },
@@ -106805,6 +115176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1611"
             }
         ]
     },
@@ -106847,7 +115222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106856,6 +115231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "509"
             }
         ]
     },
@@ -106907,6 +115286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1358"
             }
         ]
     },
@@ -106949,7 +115332,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -106958,6 +115341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1459"
             }
         ]
     },
@@ -107009,6 +115396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1596"
             }
         ]
     },
@@ -107060,6 +115451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1886"
             }
         ]
     },
@@ -107111,6 +115506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1236"
             }
         ]
     },
@@ -107162,6 +115561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1762"
             }
         ]
     },
@@ -107213,6 +115616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1137"
             }
         ]
     },
@@ -107264,6 +115671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "697"
             }
         ]
     },
@@ -107315,6 +115726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2294"
             }
         ]
     },
@@ -107366,6 +115781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "180"
             }
         ]
     },
@@ -107417,6 +115836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1721"
             }
         ]
     },
@@ -107468,6 +115891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "61"
             }
         ]
     },
@@ -107519,6 +115946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1979"
             }
         ]
     },
@@ -107561,7 +115992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -107570,6 +116001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "943"
             }
         ]
     },
@@ -107621,6 +116056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2255"
             }
         ]
     },
@@ -107672,6 +116111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2138"
             }
         ]
     },
@@ -107723,6 +116166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "132"
             }
         ]
     },
@@ -107774,6 +116221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "892"
             }
         ]
     },
@@ -107825,6 +116276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "559"
             }
         ]
     },
@@ -107867,7 +116322,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -107876,6 +116331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "605"
             }
         ]
     },
@@ -107927,6 +116386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "493"
             }
         ]
     },
@@ -107978,6 +116441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1012"
             }
         ]
     },
@@ -108029,6 +116496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2266"
             }
         ]
     },
@@ -108071,7 +116542,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108080,6 +116551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2290"
             }
         ]
     },
@@ -108131,6 +116606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "82"
             }
         ]
     },
@@ -108173,7 +116652,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108182,6 +116661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1099"
             }
         ]
     },
@@ -108233,6 +116716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "852"
             }
         ]
     },
@@ -108284,6 +116771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "210"
             }
         ]
     },
@@ -108326,7 +116817,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108335,6 +116826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1768"
             }
         ]
     },
@@ -108386,6 +116881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "739"
             }
         ]
     },
@@ -108437,6 +116936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "966"
             }
         ]
     },
@@ -108488,6 +116991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "78"
             }
         ]
     },
@@ -108539,6 +117046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1362"
             }
         ]
     },
@@ -108581,7 +117092,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108590,6 +117101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2187"
             }
         ]
     },
@@ -108641,6 +117156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "518"
             }
         ]
     },
@@ -108683,7 +117202,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108692,6 +117211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1357"
             }
         ]
     },
@@ -108734,7 +117257,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -108743,6 +117266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2286"
             }
         ]
     },
@@ -108794,6 +117321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2011"
             }
         ]
     },
@@ -108845,6 +117376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "294"
             }
         ]
     },
@@ -108896,6 +117431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2243"
             }
         ]
     },
@@ -108947,6 +117486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "496"
             }
         ]
     },
@@ -108998,6 +117541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1425"
             }
         ]
     },
@@ -109049,6 +117596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "402"
             }
         ]
     },
@@ -109100,6 +117651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "433"
             }
         ]
     },
@@ -109151,6 +117706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1327"
             }
         ]
     },
@@ -109202,6 +117761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "563"
             }
         ]
     },
@@ -109253,6 +117816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1100"
             }
         ]
     },
@@ -109295,7 +117862,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -109304,6 +117871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1037"
             }
         ]
     },
@@ -109355,6 +117926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1630"
             }
         ]
     },
@@ -109406,6 +117981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1820"
             }
         ]
     },
@@ -109457,6 +118036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2099"
             }
         ]
     },
@@ -109499,7 +118082,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -109508,6 +118091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "386"
             }
         ]
     },
@@ -109559,6 +118146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1292"
             }
         ]
     },
@@ -109610,6 +118201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "873"
             }
         ]
     },
@@ -109652,7 +118247,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -109661,6 +118256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1590"
             }
         ]
     },
@@ -109712,6 +118311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "775"
             }
         ]
     },
@@ -109763,6 +118366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1895"
             }
         ]
     },
@@ -109814,6 +118421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1274"
             }
         ]
     },
@@ -109865,6 +118476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "258"
             }
         ]
     },
@@ -109907,7 +118522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -109916,6 +118531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1774"
             }
         ]
     },
@@ -109958,7 +118577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -109967,6 +118586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1389"
             }
         ]
     },
@@ -110018,6 +118641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "650"
             }
         ]
     },
@@ -110060,7 +118687,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110069,6 +118696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1398"
             }
         ]
     },
@@ -110120,6 +118751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1521"
             }
         ]
     },
@@ -110162,7 +118797,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110171,6 +118806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1198"
             }
         ]
     },
@@ -110222,6 +118861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "783"
             }
         ]
     },
@@ -110273,6 +118916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1504"
             }
         ]
     },
@@ -110315,7 +118962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110324,6 +118971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "376"
             }
         ]
     },
@@ -110366,7 +119017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110375,6 +119026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1562"
             }
         ]
     },
@@ -110426,6 +119081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "3"
             }
         ]
     },
@@ -110468,7 +119127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110477,6 +119136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "368"
             }
         ]
     },
@@ -110519,7 +119182,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110528,6 +119191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1430"
             }
         ]
     },
@@ -110570,7 +119237,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110579,6 +119246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2306"
             }
         ]
     },
@@ -110630,6 +119301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "414"
             }
         ]
     },
@@ -110681,6 +119356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "717"
             }
         ]
     },
@@ -110732,6 +119411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1931"
             }
         ]
     },
@@ -110783,6 +119466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "277"
             }
         ]
     },
@@ -110834,6 +119521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2178"
             }
         ]
     },
@@ -110876,7 +119567,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110885,6 +119576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "412"
             }
         ]
     },
@@ -110936,6 +119631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1805"
             }
         ]
     },
@@ -110978,7 +119677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -110987,6 +119686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1536"
             }
         ]
     },
@@ -111038,6 +119741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "585"
             }
         ]
     },
@@ -111089,6 +119796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1249"
             }
         ]
     },
@@ -111140,6 +119851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "142"
             }
         ]
     },
@@ -111191,6 +119906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1978"
             }
         ]
     },
@@ -111242,6 +119961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "343"
             }
         ]
     },
@@ -111293,6 +120016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1664"
             }
         ]
     },
@@ -111335,7 +120062,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111344,6 +120071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "620"
             }
         ]
     },
@@ -111395,6 +120126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1133"
             }
         ]
     },
@@ -111437,7 +120172,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111446,6 +120181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "951"
             }
         ]
     },
@@ -111488,7 +120227,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111497,6 +120236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1666"
             }
         ]
     },
@@ -111548,6 +120291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "34"
             }
         ]
     },
@@ -111590,7 +120337,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111599,6 +120346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1542"
             }
         ]
     },
@@ -111650,6 +120401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1892"
             }
         ]
     },
@@ -111701,6 +120456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1326"
             }
         ]
     },
@@ -111743,7 +120502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111752,6 +120511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "510"
             }
         ]
     },
@@ -111803,6 +120566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2339"
             }
         ]
     },
@@ -111854,6 +120621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "312"
             }
         ]
     },
@@ -111896,7 +120667,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -111905,6 +120676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1779"
             }
         ]
     },
@@ -111956,6 +120731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1319"
             }
         ]
     },
@@ -112007,6 +120786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1255"
             }
         ]
     },
@@ -112049,7 +120832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112058,6 +120841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1908"
             }
         ]
     },
@@ -112109,6 +120896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2361"
             }
         ]
     },
@@ -112160,6 +120951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2097"
             }
         ]
     },
@@ -112202,7 +120997,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112211,6 +121006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1648"
             }
         ]
     },
@@ -112262,6 +121061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1639"
             }
         ]
     },
@@ -112304,7 +121107,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112313,6 +121116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2413"
             }
         ]
     },
@@ -112355,7 +121162,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112364,6 +121171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "666"
             }
         ]
     },
@@ -112406,7 +121217,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112415,6 +121226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1123"
             }
         ]
     },
@@ -112457,7 +121272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112466,6 +121281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "198"
             }
         ]
     },
@@ -112508,7 +121327,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112517,6 +121336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2127"
             }
         ]
     },
@@ -112568,6 +121391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1738"
             }
         ]
     },
@@ -112619,6 +121446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2401"
             }
         ]
     },
@@ -112670,6 +121501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1557"
             }
         ]
     },
@@ -112721,6 +121556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "468"
             }
         ]
     },
@@ -112763,7 +121602,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112772,6 +121611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "9"
             }
         ]
     },
@@ -112814,7 +121657,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112823,6 +121666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "375"
             }
         ]
     },
@@ -112874,6 +121721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2341"
             }
         ]
     },
@@ -112916,7 +121767,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -112925,6 +121776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1991"
             }
         ]
     },
@@ -112976,6 +121831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2062"
             }
         ]
     },
@@ -113018,7 +121877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113027,6 +121886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "712"
             }
         ]
     },
@@ -113078,6 +121941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "657"
             }
         ]
     },
@@ -113129,6 +121996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2111"
             }
         ]
     },
@@ -113171,7 +122042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113180,6 +122051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1030"
             }
         ]
     },
@@ -113222,7 +122097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113231,6 +122106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "975"
             }
         ]
     },
@@ -113282,6 +122161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "254"
             }
         ]
     },
@@ -113324,7 +122207,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113333,6 +122216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "162"
             }
         ]
     },
@@ -113384,6 +122271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1404"
             }
         ]
     },
@@ -113435,6 +122326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2333"
             }
         ]
     },
@@ -113477,7 +122372,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113486,6 +122381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "80"
             }
         ]
     },
@@ -113528,7 +122427,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113537,6 +122436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2328"
             }
         ]
     },
@@ -113588,6 +122491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1998"
             }
         ]
     },
@@ -113630,7 +122537,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113639,6 +122546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1083"
             }
         ]
     },
@@ -113681,7 +122592,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113690,6 +122601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1016"
             }
         ]
     },
@@ -113732,7 +122647,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113741,6 +122656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "589"
             }
         ]
     },
@@ -113783,7 +122702,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113792,6 +122711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2171"
             }
         ]
     },
@@ -113843,6 +122766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "521"
             }
         ]
     },
@@ -113885,7 +122812,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -113894,6 +122821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1682"
             }
         ]
     },
@@ -113945,6 +122876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "994"
             }
         ]
     },
@@ -113996,6 +122931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1624"
             }
         ]
     },
@@ -114047,6 +122986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "602"
             }
         ]
     },
@@ -114098,6 +123041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1213"
             }
         ]
     },
@@ -114140,7 +123087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114149,6 +123096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1837"
             }
         ]
     },
@@ -114200,6 +123151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2279"
             }
         ]
     },
@@ -114242,7 +123197,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114251,6 +123206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2240"
             }
         ]
     },
@@ -114302,6 +123261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2387"
             }
         ]
     },
@@ -114344,7 +123307,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114353,6 +123316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1044"
             }
         ]
     },
@@ -114404,6 +123371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "489"
             }
         ]
     },
@@ -114455,6 +123426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1245"
             }
         ]
     },
@@ -114506,6 +123481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "508"
             }
         ]
     },
@@ -114548,7 +123527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114557,6 +123536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1484"
             }
         ]
     },
@@ -114608,6 +123591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1861"
             }
         ]
     },
@@ -114659,6 +123646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1259"
             }
         ]
     },
@@ -114710,6 +123701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1753"
             }
         ]
     },
@@ -114752,7 +123747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114761,6 +123756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2444"
             }
         ]
     },
@@ -114803,7 +123802,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114812,6 +123811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2040"
             }
         ]
     },
@@ -114854,7 +123857,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114863,6 +123866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2046"
             }
         ]
     },
@@ -114914,6 +123921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1291"
             }
         ]
     },
@@ -114956,7 +123967,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -114965,6 +123976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1888"
             }
         ]
     },
@@ -115007,7 +124022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115016,6 +124031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2089"
             }
         ]
     },
@@ -115067,6 +124086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "382"
             }
         ]
     },
@@ -115118,6 +124141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1702"
             }
         ]
     },
@@ -115160,7 +124187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115169,6 +124196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "565"
             }
         ]
     },
@@ -115220,6 +124251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1110"
             }
         ]
     },
@@ -115262,7 +124297,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115271,6 +124306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1442"
             }
         ]
     },
@@ -115313,7 +124352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115322,6 +124361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2052"
             }
         ]
     },
@@ -115373,6 +124416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1801"
             }
         ]
     },
@@ -115424,6 +124471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "152"
             }
         ]
     },
@@ -115475,6 +124526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "665"
             }
         ]
     },
@@ -115526,6 +124581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1622"
             }
         ]
     },
@@ -115577,6 +124636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1131"
             }
         ]
     },
@@ -115628,6 +124691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1129"
             }
         ]
     },
@@ -115679,6 +124746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1439"
             }
         ]
     },
@@ -115730,6 +124801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "483"
             }
         ]
     },
@@ -115781,6 +124856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2285"
             }
         ]
     },
@@ -115823,7 +124902,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115832,6 +124911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2020"
             }
         ]
     },
@@ -115883,6 +124966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1756"
             }
         ]
     },
@@ -115925,7 +125012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115934,6 +125021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "260"
             }
         ]
     },
@@ -115976,7 +125067,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -115985,6 +125076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2086"
             }
         ]
     },
@@ -116027,7 +125122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116036,6 +125131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1612"
             }
         ]
     },
@@ -116078,7 +125177,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116087,6 +125186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "437"
             }
         ]
     },
@@ -116129,7 +125232,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116138,6 +125241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1080"
             }
         ]
     },
@@ -116180,7 +125287,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116189,6 +125296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2176"
             }
         ]
     },
@@ -116240,6 +125351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "166"
             }
         ]
     },
@@ -116282,7 +125397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116291,6 +125406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "551"
             }
         ]
     },
@@ -116342,6 +125461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1598"
             }
         ]
     },
@@ -116384,7 +125507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116393,6 +125516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "846"
             }
         ]
     },
@@ -116435,7 +125562,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116444,6 +125571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1022"
             }
         ]
     },
@@ -116495,6 +125626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1351"
             }
         ]
     },
@@ -116546,6 +125681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "159"
             }
         ]
     },
@@ -116597,6 +125736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1252"
             }
         ]
     },
@@ -116648,6 +125791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "318"
             }
         ]
     },
@@ -116690,7 +125837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116699,6 +125846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1879"
             }
         ]
     },
@@ -116750,6 +125901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1271"
             }
         ]
     },
@@ -116801,6 +125956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "945"
             }
         ]
     },
@@ -116852,6 +126011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "75"
             }
         ]
     },
@@ -116903,6 +126066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "554"
             }
         ]
     },
@@ -116945,7 +126112,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -116954,6 +126121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2296"
             }
         ]
     },
@@ -117005,6 +126176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1856"
             }
         ]
     },
@@ -117056,6 +126231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "279"
             }
         ]
     },
@@ -117107,6 +126286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1554"
             }
         ]
     },
@@ -117158,6 +126341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1151"
             }
         ]
     },
@@ -117209,6 +126396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "597"
             }
         ]
     },
@@ -117251,7 +126442,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -117260,6 +126451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "175"
             }
         ]
     },
@@ -117302,7 +126497,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -117311,6 +126506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "505"
             }
         ]
     },
@@ -117353,7 +126552,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -117362,6 +126561,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "92"
             }
         ]
     },
@@ -117413,6 +126616,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1782"
             }
         ]
     },
@@ -117464,6 +126671,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1294"
             }
         ]
     },
@@ -117515,6 +126726,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1685"
             }
         ]
     },
@@ -117566,6 +126781,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "671"
             }
         ]
     },
@@ -117608,7 +126827,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -117617,6 +126836,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2431"
             }
         ]
     },
@@ -117668,6 +126891,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1385"
             }
         ]
     },
@@ -117719,6 +126946,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1867"
             }
         ]
     },
@@ -117761,7 +126992,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -117770,6 +127001,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1028"
             }
         ]
     },
@@ -117821,6 +127056,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2321"
             }
         ]
     },
@@ -117872,6 +127111,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "146"
             }
         ]
     },
@@ -117923,6 +127166,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1132"
             }
         ]
     },
@@ -117974,6 +127221,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1588"
             }
         ]
     },
@@ -118016,7 +127267,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118025,6 +127276,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1572"
             }
         ]
     },
@@ -118076,6 +127331,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "754"
             }
         ]
     },
@@ -118127,6 +127386,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "28"
             }
         ]
     },
@@ -118178,6 +127441,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "952"
             }
         ]
     },
@@ -118229,6 +127496,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "373"
             }
         ]
     },
@@ -118271,7 +127542,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118280,6 +127551,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2320"
             }
         ]
     },
@@ -118331,6 +127606,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1399"
             }
         ]
     },
@@ -118373,7 +127652,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118382,6 +127661,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "728"
             }
         ]
     },
@@ -118433,6 +127716,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2297"
             }
         ]
     },
@@ -118484,6 +127771,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "170"
             }
         ]
     },
@@ -118535,6 +127826,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "462"
             }
         ]
     },
@@ -118577,7 +127872,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118586,6 +127881,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1104"
             }
         ]
     },
@@ -118628,7 +127927,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118637,6 +127936,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1996"
             }
         ]
     },
@@ -118688,6 +127991,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1150"
             }
         ]
     },
@@ -118739,6 +128046,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1535"
             }
         ]
     },
@@ -118790,6 +128101,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1511"
             }
         ]
     },
@@ -118832,7 +128147,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -118841,6 +128156,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1383"
             }
         ]
     },
@@ -118892,6 +128211,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2281"
             }
         ]
     },
@@ -118943,6 +128266,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "845"
             }
         ]
     },
@@ -118994,6 +128321,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "808"
             }
         ]
     },
@@ -119036,7 +128367,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119045,6 +128376,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "560"
             }
         ]
     },
@@ -119087,7 +128422,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119096,6 +128431,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "664"
             }
         ]
     },
@@ -119147,6 +128486,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "965"
             }
         ]
     },
@@ -119198,6 +128541,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1234"
             }
         ]
     },
@@ -119249,6 +128596,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "188"
             }
         ]
     },
@@ -119300,6 +128651,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2076"
             }
         ]
     },
@@ -119351,6 +128706,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "411"
             }
         ]
     },
@@ -119402,6 +128761,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1065"
             }
         ]
     },
@@ -119444,7 +128807,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119453,6 +128816,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1745"
             }
         ]
     },
@@ -119504,6 +128871,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "193"
             }
         ]
     },
@@ -119555,6 +128926,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "110"
             }
         ]
     },
@@ -119597,7 +128972,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119606,6 +128981,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1084"
             }
         ]
     },
@@ -119648,7 +129027,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119657,6 +129036,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "770"
             }
         ]
     },
@@ -119699,7 +129082,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119708,6 +129091,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1818"
             }
         ]
     },
@@ -119750,7 +129137,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -119759,6 +129146,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2447"
             }
         ]
     },
@@ -119810,6 +129201,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1035"
             }
         ]
     },
@@ -119861,6 +129256,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1674"
             }
         ]
     },
@@ -119912,6 +129311,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2067"
             }
         ]
     },
@@ -119963,6 +129366,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2087"
             }
         ]
     },
@@ -120014,6 +129421,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2351"
             }
         ]
     },
@@ -120065,6 +129476,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2133"
             }
         ]
     },
@@ -120107,7 +129522,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120116,6 +129531,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2407"
             }
         ]
     },
@@ -120158,7 +129577,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120167,6 +129586,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2173"
             }
         ]
     },
@@ -120209,7 +129632,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120218,6 +129641,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1862"
             }
         ]
     },
@@ -120269,6 +129696,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "507"
             }
         ]
     },
@@ -120311,7 +129742,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120320,6 +129751,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1055"
             }
         ]
     },
@@ -120371,6 +129806,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "607"
             }
         ]
     },
@@ -120422,6 +129861,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1487"
             }
         ]
     },
@@ -120473,6 +129916,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "420"
             }
         ]
     },
@@ -120515,7 +129962,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120524,6 +129971,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1704"
             }
         ]
     },
@@ -120566,7 +130017,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120575,6 +130026,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "355"
             }
         ]
     },
@@ -120626,6 +130081,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1513"
             }
         ]
     },
@@ -120668,7 +130127,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120677,6 +130136,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2335"
             }
         ]
     },
@@ -120728,6 +130191,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "709"
             }
         ]
     },
@@ -120779,6 +130246,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2050"
             }
         ]
     },
@@ -120830,6 +130301,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1284"
             }
         ]
     },
@@ -120872,7 +130347,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -120881,6 +130356,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1742"
             }
         ]
     },
@@ -120932,6 +130411,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "737"
             }
         ]
     },
@@ -120983,6 +130466,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1364"
             }
         ]
     },
@@ -121025,7 +130512,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121034,6 +130521,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "696"
             }
         ]
     },
@@ -121076,7 +130567,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121085,6 +130576,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2416"
             }
         ]
     },
@@ -121127,7 +130622,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121136,6 +130631,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1310"
             }
         ]
     },
@@ -121178,7 +130677,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121187,6 +130686,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2013"
             }
         ]
     },
@@ -121238,6 +130741,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1265"
             }
         ]
     },
@@ -121280,7 +130787,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121289,6 +130796,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2303"
             }
         ]
     },
@@ -121340,6 +130851,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "921"
             }
         ]
     },
@@ -121391,6 +130906,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "241"
             }
         ]
     },
@@ -121433,7 +130952,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121442,6 +130961,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1992"
             }
         ]
     },
@@ -121484,7 +131007,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121493,6 +131016,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2461"
             }
         ]
     },
@@ -121535,7 +131062,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121544,6 +131071,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1896"
             }
         ]
     },
@@ -121595,6 +131126,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "165"
             }
         ]
     },
@@ -121637,7 +131172,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121646,6 +131181,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1211"
             }
         ]
     },
@@ -121697,6 +131236,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1914"
             }
         ]
     },
@@ -121748,6 +131291,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "872"
             }
         ]
     },
@@ -121799,6 +131346,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1597"
             }
         ]
     },
@@ -121850,6 +131401,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1119"
             }
         ]
     },
@@ -121901,6 +131456,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "46"
             }
         ]
     },
@@ -121943,7 +131502,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -121952,6 +131511,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "394"
             }
         ]
     },
@@ -122003,6 +131566,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "603"
             }
         ]
     },
@@ -122054,6 +131621,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1103"
             }
         ]
     },
@@ -122096,7 +131667,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122105,6 +131676,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1971"
             }
         ]
     },
@@ -122156,6 +131731,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1377"
             }
         ]
     },
@@ -122198,7 +131777,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122207,6 +131786,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1632"
             }
         ]
     },
@@ -122249,7 +131832,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122258,6 +131841,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2479"
             }
         ]
     },
@@ -122309,6 +131896,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1810"
             }
         ]
     },
@@ -122351,7 +131942,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122360,6 +131951,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "479"
             }
         ]
     },
@@ -122402,7 +131997,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122411,6 +132006,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "730"
             }
         ]
     },
@@ -122453,7 +132052,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122462,6 +132061,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1152"
             }
         ]
     },
@@ -122513,6 +132116,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1378"
             }
         ]
     },
@@ -122564,6 +132171,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "88"
             }
         ]
     },
@@ -122615,6 +132226,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2048"
             }
         ]
     },
@@ -122657,7 +132272,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122666,6 +132281,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1684"
             }
         ]
     },
@@ -122717,6 +132336,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2235"
             }
         ]
     },
@@ -122759,7 +132382,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122768,6 +132391,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1440"
             }
         ]
     },
@@ -122810,7 +132437,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122819,6 +132446,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2493"
             }
         ]
     },
@@ -122861,7 +132492,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122870,6 +132501,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2142"
             }
         ]
     },
@@ -122912,7 +132547,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -122921,6 +132556,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1510"
             }
         ]
     },
@@ -122972,6 +132611,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1955"
             }
         ]
     },
@@ -123023,6 +132666,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "500"
             }
         ]
     },
@@ -123074,6 +132721,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "766"
             }
         ]
     },
@@ -123125,6 +132776,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "656"
             }
         ]
     },
@@ -123176,6 +132831,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "291"
             }
         ]
     },
@@ -123218,7 +132877,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123227,6 +132886,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "39"
             }
         ]
     },
@@ -123269,7 +132932,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123278,6 +132941,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "684"
             }
         ]
     },
@@ -123329,6 +132996,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "484"
             }
         ]
     },
@@ -123371,7 +133042,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123380,6 +133051,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1143"
             }
         ]
     },
@@ -123422,7 +133097,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123431,6 +133106,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "796"
             }
         ]
     },
@@ -123473,7 +133152,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123482,6 +133161,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1494"
             }
         ]
     },
@@ -123533,6 +133216,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1433"
             }
         ]
     },
@@ -123575,7 +133262,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123584,6 +133271,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "459"
             }
         ]
     },
@@ -123626,7 +133317,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -123635,6 +133326,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1346"
             }
         ]
     },
@@ -123686,6 +133381,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1097"
             }
         ]
     },
@@ -123737,6 +133436,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "537"
             }
         ]
     },
@@ -123788,6 +133491,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1054"
             }
         ]
     },
@@ -123839,6 +133546,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1496"
             }
         ]
     },
@@ -123890,6 +133601,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2033"
             }
         ]
     },
@@ -123941,6 +133656,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "63"
             }
         ]
     },
@@ -123992,6 +133711,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1894"
             }
         ]
     },
@@ -124034,7 +133757,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124043,6 +133766,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "937"
             }
         ]
     },
@@ -124085,7 +133812,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124094,6 +133821,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1481"
             }
         ]
     },
@@ -124136,7 +133867,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124145,6 +133876,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2107"
             }
         ]
     },
@@ -124187,7 +133922,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124196,6 +133931,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2021"
             }
         ]
     },
@@ -124247,6 +133986,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1276"
             }
         ]
     },
@@ -124289,7 +134032,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124298,6 +134041,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1680"
             }
         ]
     },
@@ -124340,7 +134087,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124349,6 +134096,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1434"
             }
         ]
     },
@@ -124391,7 +134142,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124400,6 +134151,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1168"
             }
         ]
     },
@@ -124451,6 +134206,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1619"
             }
         ]
     },
@@ -124502,6 +134261,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1917"
             }
         ]
     },
@@ -124553,6 +134316,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2026"
             }
         ]
     },
@@ -124595,7 +134362,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124604,6 +134371,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1342"
             }
         ]
     },
@@ -124655,6 +134426,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1231"
             }
         ]
     },
@@ -124706,6 +134481,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2246"
             }
         ]
     },
@@ -124748,7 +134527,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124757,6 +134536,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1467"
             }
         ]
     },
@@ -124808,6 +134591,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "533"
             }
         ]
     },
@@ -124859,6 +134646,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1394"
             }
         ]
     },
@@ -124901,7 +134692,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124910,6 +134701,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "11"
             }
         ]
     },
@@ -124952,7 +134747,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -124961,6 +134756,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1785"
             }
         ]
     },
@@ -125012,6 +134811,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1187"
             }
         ]
     },
@@ -125063,6 +134866,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "622"
             }
         ]
     },
@@ -125114,6 +134921,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2172"
             }
         ]
     },
@@ -125165,6 +134976,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "501"
             }
         ]
     },
@@ -125207,7 +135022,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125216,6 +135031,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2404"
             }
         ]
     },
@@ -125258,7 +135077,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125267,6 +135086,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "962"
             }
         ]
     },
@@ -125318,6 +135141,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "406"
             }
         ]
     },
@@ -125360,7 +135187,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125369,6 +135196,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "864"
             }
         ]
     },
@@ -125411,7 +135242,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125420,6 +135251,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1549"
             }
         ]
     },
@@ -125471,6 +135306,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1919"
             }
         ]
     },
@@ -125513,7 +135352,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125522,6 +135361,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1413"
             }
         ]
     },
@@ -125573,6 +135416,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "545"
             }
         ]
     },
@@ -125615,7 +135462,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125624,6 +135471,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "106"
             }
         ]
     },
@@ -125666,7 +135517,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125675,6 +135526,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1069"
             }
         ]
     },
@@ -125717,7 +135572,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125726,6 +135581,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2332"
             }
         ]
     },
@@ -125777,6 +135636,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2218"
             }
         ]
     },
@@ -125819,7 +135682,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125828,6 +135691,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "276"
             }
         ]
     },
@@ -125870,7 +135737,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125879,6 +135746,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2464"
             }
         ]
     },
@@ -125921,7 +135792,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125930,6 +135801,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2327"
             }
         ]
     },
@@ -125972,7 +135847,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -125981,6 +135856,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "853"
             }
         ]
     },
@@ -126032,6 +135911,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "912"
             }
         ]
     },
@@ -126074,7 +135957,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126083,6 +135966,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1703"
             }
         ]
     },
@@ -126125,7 +136012,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126134,6 +136021,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1644"
             }
         ]
     },
@@ -126185,6 +136076,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "792"
             }
         ]
     },
@@ -126227,7 +136122,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126236,6 +136131,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "923"
             }
         ]
     },
@@ -126278,7 +136177,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126287,6 +136186,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1366"
             }
         ]
     },
@@ -126329,7 +136232,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126338,6 +136241,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1827"
             }
         ]
     },
@@ -126389,6 +136296,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2405"
             }
         ]
     },
@@ -126431,7 +136342,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126440,6 +136351,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2074"
             }
         ]
     },
@@ -126482,7 +136397,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126491,6 +136406,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2470"
             }
         ]
     },
@@ -126542,6 +136461,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1009"
             }
         ]
     },
@@ -126584,7 +136507,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126593,6 +136516,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "519"
             }
         ]
     },
@@ -126635,7 +136562,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126644,6 +136571,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2044"
             }
         ]
     },
@@ -126686,7 +136617,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126695,6 +136626,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2120"
             }
         ]
     },
@@ -126746,6 +136681,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1489"
             }
         ]
     },
@@ -126797,6 +136736,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1512"
             }
         ]
     },
@@ -126848,6 +136791,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1421"
             }
         ]
     },
@@ -126890,7 +136837,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -126899,6 +136846,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "834"
             }
         ]
     },
@@ -126950,6 +136901,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "896"
             }
         ]
     },
@@ -127001,6 +136956,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1807"
             }
         ]
     },
@@ -127052,6 +137011,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "954"
             }
         ]
     },
@@ -127094,7 +137057,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127103,6 +137066,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1240"
             }
         ]
     },
@@ -127154,6 +137121,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1233"
             }
         ]
     },
@@ -127196,7 +137167,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127205,6 +137176,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2242"
             }
         ]
     },
@@ -127247,7 +137222,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127256,6 +137231,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Grin"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "527"
             }
         ]
     },
@@ -127298,7 +137277,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127307,6 +137286,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1309"
             }
         ]
     },
@@ -127358,6 +137341,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Resting"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "164"
             }
         ]
     },
@@ -127400,7 +137387,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127409,6 +137396,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1124"
             }
         ]
     },
@@ -127451,7 +137442,7 @@ const metadata = {
             },
             {
                 "trait_type": "Shoes",
-                "value": "Boots"
+                "value": "None"
             },
             {
                 "trait_type": "Accessory",
@@ -127460,6 +137451,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Default"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "2338"
             }
         ]
     },
@@ -127511,6 +137506,10 @@ const metadata = {
             {
                 "trait_type": "Mouth",
                 "value": "Bloodied"
+            },
+            {
+                "trait_type": "Rarity",
+                "value": "1197"
             }
         ]
     }
