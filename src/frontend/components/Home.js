@@ -93,7 +93,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
         throw new Error('Metadata not found for the current token ID or image link is missing');
       }
       const txOptions = {
-        value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
+        value: whitelistActive ? ethers.utils.parseEther("450") : ethers.utils.parseEther("540"),
         gasLimit: 600000
       };
       const tx = whitelistActive
