@@ -357,6 +357,19 @@
 				"internalType": "address",
 				"name": "to",
 				"type": "address"
+			}
+		],
+		"name": "airdropMint",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
 			},
 			{
 				"internalType": "uint256",
@@ -513,6 +526,19 @@
 			}
 		],
 		"name": "setMintPrice",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "newSupply",
+				"type": "uint256"
+			}
+		],
+		"name": "setTotalSupply",
 		"outputs": [],
 		"stateMutability": "nonpayable",
 		"type": "function"

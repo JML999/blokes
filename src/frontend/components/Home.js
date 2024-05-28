@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
 import './Home.css';
-import pinkBackground from './Renders/Pink_Background_Large.png';
+import pinkBackground from './Renders/Purple_Background.png';
 
 const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => {
   const [mintStatus, setMintStatus] = useState('');
@@ -115,7 +115,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       <div className="content">
         <h1 className="title">blokes</h1>
         <div className="sub-title">
-          {totalSupply !== null ? `${totalSupply} / 1400 minted` : '1400 Diggers'}
+          {totalSupply !== null ? `${totalSupply} / 2000 minted` : '2000 Diggers'}
         </div>
         <div className="price-info">
           {whitelistActive ? 'Whitelist Mint: ' : ''} {mintPrice} TOPIA
