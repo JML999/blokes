@@ -12,7 +12,8 @@ const BASE_URL = 'https://hychain.calderaexplorer.xyz/api/v2';
 app.use(cors());
 app.use(express.json());
 
-const metadata = {
+// Split metadata into sections
+const metadata1_500 = {
     "1": {
         "name": "Bloke #1",
         "description": "A unique set of diggers.",
@@ -25512,7 +25513,10 @@ const metadata = {
                 "value": "Bloodied"
             }
         ]
-    },
+    }
+  };
+  
+  const metadata501_1000 = {
     "501": {
         "name": "Bloke #501",
         "description": "A unique set of diggers.",
@@ -51012,7 +51016,10 @@ const metadata = {
                 "value": "Resting"
             }
         ]
-    },
+    }
+  };
+  
+  const metadata1001_1500 = {
     "1001": {
         "name": "Bloke #1001",
         "description": "A unique set of diggers.",
@@ -76461,7 +76468,10 @@ const metadata = {
                 "value": "Grin"
             }
         ]
-    },
+    }
+  };
+  
+  const metadata1501_2000 = {
     "1500": {
         "name": "Bloke #1500",
         "description": "A unique set of diggers.",
@@ -102035,10 +102045,28 @@ router.get('/metadata/:id', async (req, res) => {
     console.log(`Received request for metadata ID: ${id}`);
     try {
         const totalSupply = await fetchTokenDetails("0xf900e4154cbbc56603c7b2b25681be8803b6722b");
+        if (totalSupply === null) {
+            res.status(500).send('Error fetching total supply');
+            return;
+        }
         if (id <= totalSupply) {
             console.log(`Serving metadata for ID: ${id}`);
-            const item = metadata[id];
-            res.json(item);
+            let item;
+            if (id <= 500) {
+                item = metadata1_500[id];
+            } else if (id <= 1000) {
+                item = metadata501_1000[id];
+            } else if (id <= 1500) {
+                item = metadata1001_1500[id];
+            } else {
+                item = metadata1501_2000[id];
+            }
+
+            if (item) {
+                res.json(item);
+            } else {
+                res.status(404).send('Metadata not found');
+            }
         } else {
             console.log(`Metadata not found for ID: ${id}`);
             res.json({
@@ -102047,7 +102075,7 @@ router.get('/metadata/:id', async (req, res) => {
             });
         }
     } catch (error) {
-        console.error(`Error fetching total supply: ${error}`);
+        console.error(`Error handling metadata request for ID ${id}:`, error);
         res.status(500).send('Internal Server Error');
     }
 });
