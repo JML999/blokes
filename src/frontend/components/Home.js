@@ -94,7 +94,7 @@ const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => 
       }
       const txOptions = {
         value: whitelistActive ? ethers.utils.parseEther("0.001") : ethers.utils.parseEther("0.002"),
-        gasLimit: 15000000
+        gasLimit: 1500000
       };
       const tx = whitelistActive
         ? await blokes.whitelistMint(account, txOptions)
