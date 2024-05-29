@@ -25536,7 +25536,8 @@ router.get('/metadata/:id', async (req, res) => {
     const id = parseInt(req.params.id, 10);
     console.log(`Received request for metadata ID: ${id}`);
     try {
-        const totalSupply = await fetchTokenDetails("0xf900e4154cbbc56603c7b2b25681be8803b6722b");
+      //  const totalSupply = await fetchTokenDetails("0xf900e4154cbbc56603c7b2b25681be8803b6722b");
+        const totalSupply = 500;
         if (totalSupply === null) {
             res.status(500).send('Error fetching total supply');
             return;
