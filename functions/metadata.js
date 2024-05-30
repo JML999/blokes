@@ -4912,7 +4912,7 @@ const metadata = {
     "97": {
         "name": "Bloke #97",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/NdB0yJUfZrcGGhQMA1Lv28VhApPWh8zvR0TMMrQxREM",
+        "image": "https://arweave.net/FwTsqT4QqYVYaQE0zuU5_-_ubTRcN8MYpwLwuAuKHDA",
         "attributes": [
             {
                 "trait_type": "Body",
@@ -4963,7 +4963,7 @@ const metadata = {
     "98": {
         "name": "Bloke #98",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/E5yODSkRa-LpVnXVivVHseM856fsjrwLfmq4ItIJGoA",
+        "image": "https://v2.akord.com/vaults/active/7f12036b-3c71-418c-bcc5-4c20b6d17102/gallery#82f3bcd4-84e1-4f22-8e96-12cb294001b9",
         "attributes": [
             {
                 "trait_type": "Body",

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Button } from 'react-bootstrap';
 import { ethers } from 'ethers';
 import './Home.css';
-import pinkBackground from './Renders/Pink_Background.png';
+import pinkBackground from './Renders/Pink_Background_Small.png';
 
 const Home = ({ web3Handler, account, disconnectHandler, provider, blokes }) => {
   const [mintStatus, setMintStatus] = useState('');
