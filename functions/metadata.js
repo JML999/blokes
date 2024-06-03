@@ -5371,7 +5371,7 @@ const metadata = {
     "106": {
         "name": "Bloke #106",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/UqRehVJxciYnOZb9N2U-8rZb2D_4a8-Ko7t-7TXf5Qs",
+        "image": "https://arweave.net/CYrDzHvyhJhAx8c8vGzBGY6mBSFAd-U9xgldj4azT5I",
         "attributes": [
             {
                 "trait_type": "Body",
@@ -5422,7 +5422,7 @@ const metadata = {
     "107": {
         "name": "Bloke #107",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/PZJOJo0IFQYFlOoAi_tC7TtCLYVAa5EiW0x1aDg9S6I",
+        "image": "https://arweave.net/CWkNTYUFsTmGJxRrxx5zXGjvBW4HQJbuTIuCtJCB154",
         "attributes": [
             {
                 "trait_type": "Body",
@@ -5473,7 +5473,7 @@ const metadata = {
     "108": {
         "name": "Bloke #108",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/NhubZSqzyMqErpM0SAzPvgohTEDL4RdUmsLz3LTKAyI",
+        "image": "https://arweave.net/ozdduR_CMTxEO-8SqTdJxfVflE22F6Ejxrc7McoQvRA",
         "attributes": [
             {
                 "trait_type": "Body",
@@ -5524,7 +5524,7 @@ const metadata = {
     "109": {
         "name": "Bloke #109",
         "description": "A unique set of diggers.",
-        "image": "https://arweave.net/-dWFl9mCK-JFiSgdBUqrNXKHMFIFof7eRKHdvJy8FFg",
+        "image": "https://arweave.net/oJv0j1mTDgUfvgoB009qiR8vDct2wnpJU9TQV3O90DY",
         "attributes": [
             {
                 "trait_type": "Body",
